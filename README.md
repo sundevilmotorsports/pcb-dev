@@ -9,6 +9,6 @@ Various PCB projects for Data Acquisition. Includes:
 ## Installation Instructions
 1. Get the project.
 ```bash
-$ git clone --recursive
+$ git clone --recursive git@github.com:sundevilmotorsports/pcb-dev.git
 ```
 2. Add `SDM.pretty`, `SDM_kicad` as libraries in KiCad.
