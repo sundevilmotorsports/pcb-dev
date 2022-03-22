@@ -1,0 +1,14 @@
+# Sun Devil Motorsports Data Acquisition PCB Repository
+## About
+Various PCB projects for DAQ purposes. Includes:
+- SDM-22 Main Board
+- SDM-22 Wheel Board
+## Installation Requirements
+- KiCad 6
+- `SDM.pretty` and `SDM_kicad` (included in `contrib` folder)
+## Installation Instructions
+1. Get the project.
+```bash
+$ git clone --recursive
+```
+2. Add `SDM.pretty`, `SDM_kicad` as libraries in KiCad.
