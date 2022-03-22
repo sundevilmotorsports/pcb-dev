@@ -1,6 +1,6 @@
 # Sun Devil Motorsports Data Acquisition PCB Repository
 ## About
-Various PCB projects for DAQ purposes. Includes:
+Various PCB projects for Data Acquisition. Includes:
 - SDM-22 Main Board
 - SDM-22 Wheel Board
 ## Installation Requirements
