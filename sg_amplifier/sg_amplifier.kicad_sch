@@ -6,7 +6,7 @@
 
   (title_block
     (title "SDM Strain Gauge Amplifier Board")
-    (date "2023-01-16")
+    (date "2023-01-19")
     (rev "v1")
   )
 
@@ -997,7 +997,7 @@
     (property "Value" "8.2k" (id 1) (at 119.38 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 118.11 116.84 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 118.11 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.11 116.84 0)
@@ -1032,7 +1032,7 @@
     (property "Value" "10uF" (id 1) (at 106.68 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 113.03 109.22 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 113.03 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 113.03 109.22 0)
@@ -1047,7 +1047,7 @@
     (uuid 0c190228-fb75-417b-89f0-c5aabd31736a)
     (property "Reference" "R1" (id 0) (at 120.65 106.68 0))
     (property "Value" "20k" (id 1) (at 120.65 109.22 0))
-    (property "Footprint" "" (id 2) (at 118.11 109.22 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 118.11 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.11 109.22 0)
@@ -1082,7 +1082,7 @@
     (property "Value" "0.1uF" (id 1) (at 134.62 111.76 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 132.08 109.22 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 132.08 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 109.22 0)
@@ -1285,7 +1285,7 @@
     (uuid d90a6f22-5a92-4e01-95bf-770444ae3df0)
     (property "Reference" "C2" (id 0) (at 116.8463 80.01 90))
     (property "Value" "10uF" (id 1) (at 116.8463 82.55 90))
-    (property "Footprint" "" (id 2) (at 116.84 86.36 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 116.84 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 116.84 86.36 0)
@@ -1360,13 +1360,13 @@
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
     (path "/081fe3a1-d85a-474a-8df9-2d30a993ff44"
-      (reference "C1") (unit 1) (value "10uF") (footprint "")
+      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d90a6f22-5a92-4e01-95bf-770444ae3df0"
-      (reference "C2") (unit 1) (value "10uF") (footprint "")
+      (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/0fcd6cd9-1121-45eb-a6ba-8382c434eb4a"
-      (reference "C3") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e4620d5b-120a-4d8b-b3a4-c2c41c580970"
       (reference "J1") (unit 1) (value "Strain Gauge") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
@@ -1378,10 +1378,10 @@
       (reference "Q1") (unit 1) (value "MMBT4403") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/0c190228-fb75-417b-89f0-c5aabd31736a"
-      (reference "R1") (unit 1) (value "20k") (footprint "")
+      (reference "R1") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/058a377d-cf2b-4741-b950-29064298e457"
-      (reference "R2") (unit 1) (value "8.2k") (footprint "")
+      (reference "R2") (unit 1) (value "8.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/968910cb-8493-4d96-b69c-7b05d58ff684"
       (reference "R3") (unit 1) (value "350") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
