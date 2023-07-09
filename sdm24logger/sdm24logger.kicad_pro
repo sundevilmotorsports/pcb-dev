@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -53,11 +53,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.3,
-          "via_gap": 0.5,
-          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -116,11 +111,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
@@ -128,8 +123,8 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -177,22 +172,12 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.3,
-        0.5
+        0.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -420,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sdm24wheel.kicad_pro",
+    "filename": "sdm24logger.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -497,8 +482,28 @@
   },
   "sheets": [
     [
-      "58bd889d-28e2-49da-85df-8e04b7f08117",
+      "89b3ea44-cadd-4bd5-8c60-f45fe49f0b09",
       ""
+    ],
+    [
+      "b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d",
+      "Power Regulator"
+    ],
+    [
+      "db921206-a0d1-4e77-a65e-6b92dd64533c",
+      "NEO-M9N"
+    ],
+    [
+      "755989b5-01b1-4d90-aab7-caeafb9cb82b",
+      "Onboard Storage"
+    ],
+    [
+      "59940fcc-6be4-408b-9fa6-d482b93aafa8",
+      "CAN Transceivers"
+    ],
+    [
+      "e6b82d5a-a4b4-4a83-879c-bca1ef14abb7",
+      "Connectors"
     ]
   ],
   "text_variables": {}
