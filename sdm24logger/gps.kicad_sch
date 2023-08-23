@@ -6,7 +6,7 @@
 
   (title_block
     (title "SDM-24 Data Logger")
-    (date "2023-06-11")
+    (date "2023-07-30")
     (rev "v1")
     (company "Sun Devil Motorsports")
     (comment 1 "GPS and antenna circuitry")
@@ -803,6 +803,10 @@
     (uuid ee0993e6-ce1b-4416-b4f2-157038b8dedd)
   )
 
+  (text "NEO-M9N GPS Module" (at 102.87 41.91 0)
+    (effects (font (size 5.12 5.12) bold) (justify left bottom))
+    (uuid 3f1e32dd-b0bd-4f40-ab9f-c3f68d56fc0b)
+  )
   (text "need resistor?" (at 82.55 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 952f6a87-7512-4c84-ae37-e9e19f8e837b)
@@ -824,7 +828,7 @@
     (effects (font (size 0.65 0.65)) (justify left bottom))
     (uuid 9065a9d4-2e1e-419a-a1ec-54364847f585)
   )
-  (label "RF_SMA" (at 184.15 72.39 0) (fields_autoplaced)
+  (label "RF_UFL" (at 184.15 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ae5bd7bc-bd0f-433c-87bf-a1eba5e2bf3f)
   )
@@ -1306,7 +1310,7 @@
     (property "Reference" "AE1" (at 201.93 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SMA" (at 201.93 63.5 0)
+    (property "Value" "UFL" (at 201.93 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 198.12 59.69 0)
