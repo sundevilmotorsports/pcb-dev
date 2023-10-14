@@ -569,7 +569,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tstamp 0f6d2860-e893-47a4-9e7b-7493ef24c815)
-    (at 192.75 79.5)
+    (at 189.15 88.9 180)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -578,7 +578,7 @@
     (property "ki_keywords" "diode TVS thyrector")
     (path "/e6b82d5a-a4b4-4a83-879c-bca1ef14abb7/96f04fdc-f7c0-429e-9644-76943829faff")
     (attr smd)
-    (fp_text reference "D6" (at -0.127 -1.905) (layer "F.SilkS")
+    (fp_text reference "D6" (at 0 1.8) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e06f0071-1677-43b6-8d68-ecb48fc7a3ac)
     )
@@ -626,9 +626,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4fce25b6-0ad0-4fac-85dc-082449f8a481))
     (fp_line (start 1.4 0.9) (end -1.4 0.9)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c4b9b70d-3a50-4960-bb71-8fc675324ddf))
-    (pad "1" smd roundrect (at -1.4 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273)
+    (pad "1" smd roundrect (at -1.4 0 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273)
       (net 2 "GND") (pinfunction "A1") (pintype "passive") (tstamp bada8bf9-07dd-4dd7-b42b-780437a98f9d))
-    (pad "2" smd roundrect (at 1.4 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273)
+    (pad "2" smd roundrect (at 1.4 0 180) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273)
       (net 18 "/Connectors/ECU_CAN-") (pinfunction "A2") (pintype "passive") (tstamp f9199fbc-dd3f-452b-83f6-02e2037eb3a4))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
       (offset (xyz 0 0 0))
@@ -1704,7 +1704,7 @@
 
   (footprint "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm" (layer "F.Cu")
     (tstamp 4c869347-6882-427f-9e3f-7cce7b616520)
-    (at 183.75 120.75 180)
+    (at 184 120.75 180)
     (descr "Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)")
     (tags "Shielded Inductors Bourns SMD SRP7028A")
     (property "Sheetfile" "power.kicad_sch")
@@ -1857,7 +1857,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm" (layer "F.Cu")
     (tstamp 54584ce9-4b2a-4bd8-941f-6bee76d1e3c8)
-    (at 180 129)
+    (at 175.15 140.1)
     (descr "SMD rectangular pad as test Point, square 1.5mm side length")
     (tags "test point SMD pad rectangle square")
     (property "Sheetfile" "power.kicad_sch")
@@ -2075,7 +2075,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 608de4d8-d057-4c88-be8f-dcb7295e8eaf)
-    (at 188.525 90 -90)
+    (at 187.675 92.4 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -2371,7 +2371,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tstamp 6b2e3f24-5cf9-471b-9b09-feb752185259)
-    (at 192.75 75.525)
+    (at 179.35 88.9)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -2441,7 +2441,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm" (layer "F.Cu")
     (tstamp 7252fb17-840c-4404-8fab-638c495194a9)
-    (at 190.75 121)
+    (at 190 120.4)
     (descr "SMD rectangular pad as test Point, square 1.5mm side length")
     (tags "test point SMD pad rectangle square")
     (property "Sheetfile" "power.kicad_sch")
@@ -2484,7 +2484,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 73862313-964a-481d-a7c4-a37977d7fa8a)
-    (at 178.75 112.25 90)
+    (at 178.95 113.8 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "power.kicad_sch")
@@ -2525,9 +2525,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 198c3e73-3b2f-46d6-a4cf-db697209617d))
     (fp_line (start 0.8 0.4) (end -0.8 0.4)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b08815db-945b-4a22-a23f-7f0ea36f9e03))
-    (pad "1" smd roundrect (at -0.775 0 90) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.775 0 270) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "VCC") (pintype "passive") (tstamp 59942700-48f1-44a7-b801-246fc258ade9))
-    (pad "2" smd roundrect (at 0.775 0 90) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.775 0 270) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 33a1b464-1632-46ac-95f9-f985187a261f))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2592,7 +2592,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tstamp 7699979d-6b18-44f5-80dc-714beff5e640)
-    (at 184.25 96 90)
+    (at 183.4 98.4 90)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -2800,7 +2800,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 7ab2c1c2-ff4a-455c-af44-6a06e74695a0)
-    (at 184.75 111.5 -90)
+    (at 184.8 111.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "power.kicad_sch")
@@ -2854,7 +2854,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 7ca71a08-cd15-4c2d-a770-4f60b83c9b18)
-    (at 190.5 131.5)
+    (at 185.65 142.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "power.kicad_sch")
@@ -2978,7 +2978,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp 8e29f282-f236-4aff-807e-e0dd756ffe1e)
-    (at 176.5 111.5 90)
+    (at 176.75 114.5 -90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "power.kicad_sch")
@@ -3019,9 +3019,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 66968dc9-23fd-41dc-887a-eec819ed11fd))
     (fp_line (start 1.6 0.8) (end -1.6 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f1cdae1d-8d9e-48ab-9a87-e3e12012e1cd))
-    (pad "1" smd roundrect (at -1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.475 0 270) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 8 "VCC") (pintype "passive") (tstamp c8af508e-5093-475f-b333-f2ed8172ca8d))
-    (pad "2" smd roundrect (at 1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.475 0 270) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 2 "GND") (pintype "passive") (tstamp a7c1267a-4afe-4e6d-8496-59bb7fb48edf))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3032,7 +3032,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 91030148-cf2d-46f9-9ec1-cce8c36c4730)
-    (at 183.75 109.5)
+    (at 184 109.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "power.kicad_sch")
@@ -3248,7 +3248,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp a92899c3-a766-4e29-b9a9-d2a2439a14af)
-    (at 184.25 100.5 180)
+    (at 183.4 102.9 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -3373,7 +3373,7 @@
 
   (footprint "Library:SOT-5X3" (layer "F.Cu")
     (tstamp adf27f85-7d5b-4a3a-9a72-0682f372a2c8)
-    (at 184.72 128.76)
+    (at 179.87 139.86)
     (property "Sheetfile" "power.kicad_sch")
     (property "Sheetname" "Power Regulator")
     (path "/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d/798ceb4c-624c-4e65-9271-7d8af3e7662c")
@@ -3419,7 +3419,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp aefd4fbe-ebdb-43c7-9552-2654c1a714b4)
-    (at 183.5 111.5 90)
+    (at 183.5 111.8 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "power.kicad_sch")
@@ -3573,7 +3573,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp b655bc18-a297-492c-922b-58705d9bfc2e)
-    (at 184.25 102 180)
+    (at 183.4 104.4 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -3747,7 +3747,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp c5af2295-5731-4747-b944-f641242e3a24)
-    (at 188.75 128)
+    (at 183.9 139.1)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "power.kicad_sch")
@@ -4182,7 +4182,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (layer "F.Cu")
     (tstamp ec872d97-207b-4154-9958-9cb149052266)
-    (at 173 131 -90)
+    (at 168.15 142.1 -90)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (property "Sheetfile" "power.kicad_sch")
