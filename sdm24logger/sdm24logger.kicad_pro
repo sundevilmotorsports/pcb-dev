@@ -173,6 +173,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.5
       ],
@@ -180,6 +181,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.25
         },
         {
           "diameter": 0.7,
@@ -437,7 +446,26 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/Connectors/DAQ_CAN+": "rgb(255, 0, 255)",
+      "/Connectors/DAQ_CAN-": "rgb(255, 0, 255)",
+      "/Connectors/ECU_CAN+": "rgb(0, 255, 255)",
+      "/Connectors/ECU_CAN-": "rgb(0, 255, 255)",
+      "/I2C2_SCL": "rgb(0, 132, 0)",
+      "/I2C2_SDA": "rgb(0, 132, 0)",
+      "/SDMMC1_CLK": "rgb(0, 132, 132)",
+      "/SDMMC1_CMD": "rgb(0, 132, 132)",
+      "/SDMMC1_D0": "rgb(0, 132, 132)",
+      "/SDMMC1_D1": "rgb(0, 132, 132)",
+      "/SDMMC1_D2": "rgb(0, 132, 132)",
+      "/SDMMC1_D3": "rgb(0, 132, 132)",
+      "Net-(J2-CLK)": "rgb(0, 132, 132)",
+      "Net-(J2-CMD)": "rgb(0, 132, 132)",
+      "Net-(J2-DAT0)": "rgb(0, 132, 132)",
+      "Net-(J2-DAT1)": "rgb(0, 132, 132)",
+      "Net-(J2-DAT2)": "rgb(0, 132, 132)",
+      "Net-(J2-DAT3{slash}CD)": "rgb(0, 132, 132)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
