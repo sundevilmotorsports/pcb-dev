@@ -3809,7 +3809,7 @@
   (symbol (lib_id "Device:R_Small") (at 156.21 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b56a0be-6f5e-4716-abbc-2742b510a4dc)
-    (property "Reference" "R7" (at 158.75 99.695 0)
+    (property "Reference" "R4" (at 158.75 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.7k" (at 158.75 102.235 0)
@@ -3826,7 +3826,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3860,7 +3860,7 @@
   (symbol (lib_id "Device:R_Small") (at 95.25 58.42 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 386b09ec-7f87-41c0-99ee-c8a9b1e16b50)
-    (property "Reference" "R5" (at 100.33 57.15 0)
+    (property "Reference" "R3" (at 100.33 57.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 100.33 59.69 0)
@@ -3877,7 +3877,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3937,10 +3937,10 @@
   (symbol (lib_id "Library:MIC37100-3.3WS") (at 35.56 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c974702-4409-4549-9255-a992d38e616b)
-    (property "Reference" "U3" (at 35.56 41.91 0)
+    (property "Reference" "U3" (at 35.56 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "MIC37100-3.3WS" (at 35.56 44.45 0)
+    (property "Value" "MIC37100-3.3WS" (at 35.56 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 35.56 36.83 0)
@@ -3964,7 +3964,7 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f6bb5db-ea24-4bbe-89c3-f275dfaa0241)
-    (property "Reference" "R8" (at 167.64 99.695 0)
+    (property "Reference" "R6" (at 167.64 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.7k" (at 167.64 102.235 0)
@@ -3981,7 +3981,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4115,7 +4115,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.04 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5834cac4-e619-4597-99bb-6f642662399e)
-    (property "Reference" "R9" (at 195.58 102.235 0)
+    (property "Reference" "R7" (at 195.58 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 195.58 104.775 0)
@@ -4132,7 +4132,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R9") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4350,7 +4350,7 @@
   (symbol (lib_id "power:+3.3V") (at 170.18 17.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6af17846-bdc8-4b32-9629-56312905682a)
-    (property "Reference" "#PWR020" (at 170.18 21.59 0)
+    (property "Reference" "#PWR019" (at 170.18 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 170.18 13.97 0)
@@ -4366,7 +4366,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4511,7 +4511,7 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74cafdec-0008-4804-8326-7cf0cd58718d)
-    (property "Reference" "R6" (at 166.37 76.2 90)
+    (property "Reference" "R5" (at 166.37 76.2 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220" (at 166.37 78.74 90)
@@ -4528,7 +4528,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4537,7 +4537,7 @@
   (symbol (lib_id "power:GND") (at 173.99 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7560cb3b-965c-4786-82e1-b6286749ce54)
-    (property "Reference" "#PWR023" (at 173.99 157.48 0)
+    (property "Reference" "#PWR022" (at 173.99 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 154.94 0)
@@ -4553,7 +4553,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4590,7 +4590,7 @@
   (symbol (lib_id "Device:R_Small") (at 52.07 116.84 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79bcc9c1-359f-46f0-8388-12c31c98cec6)
-    (property "Reference" "R2" (at 54.61 115.57 0)
+    (property "Reference" "R1" (at 54.61 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220" (at 54.61 118.11 0)
@@ -4607,7 +4607,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4904,7 +4904,7 @@
   (symbol (lib_id "power:GND") (at 170.18 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a50bdd8d-623c-4284-924b-ff9abe6ead6b)
-    (property "Reference" "#PWR021" (at 170.18 35.56 0)
+    (property "Reference" "#PWR020" (at 170.18 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 33.02 0)
@@ -4920,7 +4920,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4929,7 +4929,7 @@
   (symbol (lib_id "power:+3.3V") (at 179.07 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a851b8f3-43e2-4aac-a409-40f4deda9044)
-    (property "Reference" "#PWR019" (at 179.07 82.55 0)
+    (property "Reference" "#PWR023" (at 179.07 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 179.07 74.93 0)
@@ -4945,7 +4945,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5108,7 +5108,7 @@
   (symbol (lib_id "power:+3.3V") (at 172.72 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd3288a5-4116-4002-bf61-f5442059e861)
-    (property "Reference" "#PWR022" (at 172.72 139.7 0)
+    (property "Reference" "#PWR021" (at 172.72 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 172.72 132.08 0)
@@ -5124,7 +5124,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5262,10 +5262,10 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F405RGTx") (at 127 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c409787e-9d35-44bc-80bc-d5c4fbd10cb2)
-    (property "Reference" "U1" (at 131.4959 125.73 0)
+    (property "Reference" "U1" (at 131.7341 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STM32F405RGT6" (at 131.4959 128.27 0)
+    (property "Value" "STM32F405RGT6" (at 131.7341 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm" (at 111.76 123.19 0)
@@ -5433,7 +5433,7 @@
   (symbol (lib_id "Device:R_Small") (at 224.79 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db185d95-5f3b-4f2d-bb7d-2fc10af1503e)
-    (property "Reference" "R10" (at 227.33 83.185 0)
+    (property "Reference" "R8" (at 227.33 83.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120" (at 227.33 85.725 0)
@@ -5450,7 +5450,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5560,7 +5560,7 @@
   (symbol (lib_id "Device:R_Small") (at 63.5 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed61e601-0008-44d1-96f2-958369de37c0)
-    (property "Reference" "R3" (at 66.04 57.785 0)
+    (property "Reference" "R2" (at 66.04 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220" (at 66.04 60.325 0)
@@ -5577,7 +5577,7 @@
     (instances
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
