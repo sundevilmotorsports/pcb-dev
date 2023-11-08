@@ -6,7 +6,7 @@
 
   (title_block
     (title "SDM-24 Data Logger")
-    (date "2023-10-25")
+    (date "2023-11-07")
     (rev "v1")
     (company "Sun Devil Motorsports")
     (comment 1 "System and onboard power regulators")
@@ -1325,7 +1325,7 @@
   (symbol (lib_id "power:+5V") (at 181.61 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1368d3c4-64af-49ca-8026-b0bce0704e89)
-    (property "Reference" "#PWR019" (at 181.61 57.15 0)
+    (property "Reference" "#PWR023" (at 181.61 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 181.61 49.53 0)
@@ -1341,7 +1341,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1350,7 +1350,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c11586b-bd76-4418-878a-0da039f27621)
-    (property "Reference" "R3" (at 64.77 40.64 90)
+    (property "Reference" "R6" (at 64.77 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 64.77 43.18 90)
@@ -1367,7 +1367,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R3") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1376,7 +1376,7 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40df27ca-d3c1-4c81-862e-a1259607ff17)
-    (property "Reference" "C25" (at 223.52 66.6813 0)
+    (property "Reference" "C26" (at 223.52 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 223.52 69.2213 0)
@@ -1393,7 +1393,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C25") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1428,7 +1428,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4501ba9d-ed0f-4629-827a-142dfd59ec76)
-    (property "Reference" "R9" (at 208.28 62.23 0)
+    (property "Reference" "R12" (at 208.28 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 208.28 64.77 0)
@@ -1445,7 +1445,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R9") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1454,7 +1454,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45fca0f9-8ab9-4f6f-b70d-2ca8cedcab6f)
-    (property "Reference" "C20" (at 109.22 65.4113 0)
+    (property "Reference" "C21" (at 109.22 65.4113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 109.22 67.9513 0)
@@ -1471,7 +1471,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C20") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1480,7 +1480,7 @@
   (symbol (lib_id "power:GND") (at 142.24 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a87676f-c7ce-4419-9be1-edb1ebf0570b)
-    (property "Reference" "#PWR017" (at 142.24 58.42 0)
+    (property "Reference" "#PWR021" (at 142.24 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 55.88 0)
@@ -1496,7 +1496,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1530,7 +1530,7 @@
   (symbol (lib_id "Device:C_Small") (at 247.65 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58be861f-b78f-4308-997a-a2b37e9ef16c)
-    (property "Reference" "C26" (at 250.19 66.6813 0)
+    (property "Reference" "C27" (at 250.19 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 250.19 69.2213 0)
@@ -1547,7 +1547,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C26") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1581,7 +1581,7 @@
   (symbol (lib_id "power:VCC") (at 15.24 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bd907d2-867c-4707-aecd-4daa39a80937)
-    (property "Reference" "#PWR014" (at 15.24 44.45 0)
+    (property "Reference" "#PWR018" (at 15.24 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 15.24 36.83 0)
@@ -1597,7 +1597,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1606,7 +1606,7 @@
   (symbol (lib_id "power:GND") (at 127 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 744a62e7-7830-4ca2-8e9d-1003ef21dcf0)
-    (property "Reference" "#PWR016" (at 127 87.63 0)
+    (property "Reference" "#PWR020" (at 127 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 85.09 0)
@@ -1622,7 +1622,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1663,7 +1663,7 @@
   (symbol (lib_id "power:GND") (at 53.34 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f5bdae4-a265-4a91-99f9-9c2d7d1c2fb3)
-    (property "Reference" "#PWR015" (at 53.34 82.55 0)
+    (property "Reference" "#PWR019" (at 53.34 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 80.01 0)
@@ -1679,7 +1679,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1688,7 +1688,7 @@
   (symbol (lib_id "Device:R_Small") (at 95.25 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90cd123c-fecc-4d8b-ada8-ef8b4ad03dfb)
-    (property "Reference" "R5" (at 97.79 69.215 0)
+    (property "Reference" "R8" (at 97.79 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 97.79 71.755 0)
@@ -1705,7 +1705,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1714,7 +1714,7 @@
   (symbol (lib_id "Device:C_Small") (at 115.57 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9827550a-fe2c-4b7f-b9b6-1abd42e58fa8)
-    (property "Reference" "C21" (at 118.11 65.4113 0)
+    (property "Reference" "C22" (at 118.11 65.4113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 118.11 67.9513 0)
@@ -1731,7 +1731,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C21") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1740,7 +1740,7 @@
   (symbol (lib_id "Device:R_Small") (at 184.15 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99535778-0d2d-43d9-8e31-680236372734)
-    (property "Reference" "R8" (at 187.96 60.96 0)
+    (property "Reference" "R11" (at 187.96 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 187.96 63.5 0)
@@ -1757,7 +1757,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1766,7 +1766,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.28 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99d56897-0f91-46f4-b7df-dc7347138812)
-    (property "Reference" "C19" (at 81.2863 49.53 90)
+    (property "Reference" "C20" (at 81.2863 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 81.2863 52.07 90)
@@ -1783,7 +1783,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C19") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1792,13 +1792,13 @@
   (symbol (lib_id "Device:LED") (at 204.47 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c121e82-a157-422d-a6fc-169eb7409ba5)
-    (property "Reference" "D1" (at 208.28 74.6125 90)
+    (property "Reference" "D2" (at 208.28 74.6125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 208.28 77.1525 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 204.47 73.66 0)
+    (property "Footprint" "Library:SSF-LXH100LID" (at 204.47 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 73.66 0)
@@ -1809,7 +1809,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1818,7 +1818,7 @@
   (symbol (lib_id "power:VBUS") (at 151.13 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aad66b7c-7de3-414e-8e6a-4665ea618b33)
-    (property "Reference" "#PWR018" (at 151.13 44.45 0)
+    (property "Reference" "#PWR022" (at 151.13 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 151.13 36.83 0)
@@ -1834,7 +1834,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1843,7 +1843,7 @@
   (symbol (lib_id "Device:R_Small") (at 95.25 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b75fd674-82e9-4539-b338-f48222e61161)
-    (property "Reference" "R4" (at 97.79 61.595 0)
+    (property "Reference" "R7" (at 97.79 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74.1k" (at 97.79 64.135 0)
@@ -1860,7 +1860,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R4") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1869,7 +1869,7 @@
   (symbol (lib_id "power:GND") (at 233.68 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0d57390-3478-4648-9a8a-fe9f26ca3665)
-    (property "Reference" "#PWR021" (at 233.68 80.01 0)
+    (property "Reference" "#PWR024" (at 233.68 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 77.47 0)
@@ -1885,7 +1885,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1894,7 +1894,7 @@
   (symbol (lib_id "Device:C_Small") (at 43.18 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc487250-2fd8-4948-92a7-563f245035f8)
-    (property "Reference" "C18" (at 45.72 64.1413 0)
+    (property "Reference" "C19" (at 45.72 64.1413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 45.72 66.6813 0)
@@ -1911,7 +1911,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C18") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1920,7 +1920,7 @@
   (symbol (lib_id "Device:R_Small") (at 153.67 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d01e7c71-43f0-4187-8410-d88c25d66ee0)
-    (property "Reference" "R7" (at 154.94 72.39 0)
+    (property "Reference" "R10" (at 154.94 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 154.94 74.93 0)
@@ -1937,7 +1937,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R7") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1978,7 +1978,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dabe5028-3447-4c50-8cae-75d38df43e9e)
-    (property "Reference" "C17" (at 36.83 64.1413 0)
+    (property "Reference" "C18" (at 36.83 64.1413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 36.83 66.6813 0)
@@ -1995,7 +1995,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C17") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2004,7 +2004,7 @@
   (symbol (lib_id "Device:C_Small") (at 142.24 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd8f9c83-925c-4888-8ad7-35254be53451)
-    (property "Reference" "C23" (at 144.78 47.6313 0)
+    (property "Reference" "C24" (at 144.78 47.6313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 144.78 50.1713 0)
@@ -2021,7 +2021,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C23") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -2030,7 +2030,7 @@
   (symbol (lib_id "Device:C_Small") (at 133.35 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e859d9a9-0ad7-4bf7-801e-2ee014f7d3c4)
-    (property "Reference" "C22" (at 135.89 65.4113 0)
+    (property "Reference" "C23" (at 135.89 65.4113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 135.89 67.9513 0)
@@ -2047,7 +2047,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C22") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -2081,7 +2081,7 @@
   (symbol (lib_id "power:+3.3V") (at 250.19 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f936884e-25e0-44f3-8680-0be77edec36e)
-    (property "Reference" "#PWR022" (at 250.19 59.69 0)
+    (property "Reference" "#PWR025" (at 250.19 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 250.19 52.07 0)
@@ -2097,7 +2097,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
   (symbol (lib_id "Device:C_Small") (at 15.24 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f97b7421-f679-4dd2-aebc-8dc27e3c2442)
-    (property "Reference" "C16" (at 17.78 64.1413 0)
+    (property "Reference" "C17" (at 17.78 64.1413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 17.78 66.6813 0)
@@ -2123,7 +2123,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C16") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2132,7 +2132,7 @@
   (symbol (lib_id "Device:C_Small") (at 194.31 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc204d6d-83ab-4a4b-b976-7427e62a0e6c)
-    (property "Reference" "C24" (at 196.85 65.4113 0)
+    (property "Reference" "C25" (at 196.85 65.4113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 196.85 67.9513 0)
@@ -2149,7 +2149,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2158,7 +2158,7 @@
   (symbol (lib_id "Device:R_Small") (at 147.32 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc85c105-823d-40a1-b566-aa7efa186ead)
-    (property "Reference" "R6" (at 147.32 71.12 90)
+    (property "Reference" "R9" (at 147.32 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 147.32 68.58 90)
@@ -2175,7 +2175,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
