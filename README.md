@@ -1,6 +1,6 @@
 # Sun Devil Motorsports Data Acquisition PCB Repository
-## TODO
-- [ ] update aero board for DRS (2 buttons, 2 servo outputs)
+## TODO (Josh)
+- remove optocoupler from data logger
 ## About
 Various PCB projects for Data Acquisition. Includes:
 - SDM-22 Main Board
