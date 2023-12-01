@@ -6,7 +6,7 @@
 
   (title_block
     (title "SDM-24 Data Logger")
-    (date "2023-11-12")
+    (date "2023-11-30")
     (rev "v3")
     (company "Sun Devil Motorsports")
     (comment 1 "STM32H7 microcontroller circuitry")
@@ -2091,6 +2091,7 @@
   (no_connect (at 176.53 195.58) (uuid 502db396-676b-411a-bbd7-dbbbe6525c45))
   (no_connect (at 176.53 86.36) (uuid 562530af-36da-4926-ab2b-2f2e1fb14673))
   (no_connect (at 176.53 160.02) (uuid 57369283-925a-4086-80c3-7218ccf3d57b))
+  (no_connect (at 36.83 224.79) (uuid 601f4348-1c87-41fd-8e17-ca820901fc04))
   (no_connect (at 176.53 132.08) (uuid 6c56fa34-1c66-432e-a2d5-f6ff3a10c842))
   (no_connect (at 176.53 91.44) (uuid 75146ea5-fa3f-4534-840c-d2a70a133468))
   (no_connect (at 176.53 172.72) (uuid 85311c73-aebe-4535-a22e-6d22eb6fea6f))
@@ -2207,10 +2208,6 @@
   (wire (pts (xy 48.26 119.38) (xy 50.8 119.38))
     (stroke (width 0) (type default))
     (uuid 2743bfa5-e66f-405f-8ec8-0b2d0bf72deb)
-  )
-  (wire (pts (xy 36.83 222.25) (xy 36.83 224.79))
-    (stroke (width 0) (type default))
-    (uuid 2bac57d3-51a2-4195-a9dc-afb455adcab0)
   )
   (wire (pts (xy 176.53 99.06) (xy 180.34 99.06))
     (stroke (width 0) (type default))
@@ -4309,31 +4306,6 @@
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09"
           (reference "R6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 36.83 222.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ddc11077-7236-4b48-88c6-dc2038d35d57)
-    (property "Reference" "#PWR01" (at 36.83 226.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 36.83 217.17 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 36.83 222.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 36.83 222.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d48b8940-7c53-4a5c-9604-a2089d18cda7))
-    (instances
-      (project "sdm24logger"
-        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09"
-          (reference "#PWR01") (unit 1)
         )
       )
     )
