@@ -963,6 +963,9 @@
   (junction (at 109.22 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 33822108-0bb2-430a-adec-b7b2d2d1d391)
   )
+  (junction (at 251.46 85.09) (diameter 0) (color 0 0 0 0)
+    (uuid 34be551d-3666-4f6c-b045-1cb31175738c)
+  )
   (junction (at 96.52 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 3a2634de-4b9f-416b-8fdc-392596102fdd)
   )
@@ -1410,6 +1413,10 @@
   (wire (pts (xy 63.5 144.78) (xy 73.66 144.78))
     (stroke (width 0) (type default))
     (uuid 64a9206c-f383-430d-aa1d-bbdbcda74d9e)
+  )
+  (wire (pts (xy 251.46 85.09) (xy 255.27 85.09))
+    (stroke (width 0) (type default))
+    (uuid 64bdd07b-c667-404b-80c5-6633c0e3de2f)
   )
   (wire (pts (xy 44.45 100.33) (xy 54.61 100.33))
     (stroke (width 0) (type default))
@@ -2042,7 +2049,7 @@
   (symbol (lib_id "power:+5V") (at 209.55 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1368d3c4-64af-49ca-8026-b0bce0704e89)
-    (property "Reference" "#PWR031" (at 209.55 85.09 0)
+    (property "Reference" "#PWR033" (at 209.55 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 209.55 77.47 0)
@@ -2058,7 +2065,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2115,6 +2122,31 @@
         )
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
           (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 80.01 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 250a151f-8edd-4b64-8d39-1ef13b87048a)
+    (property "Reference" "#PWR071" (at 80.01 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 80.01 125.73 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 80.01 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 80.01 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 152b4298-3677-4734-b0ab-77adde57fe19))
+    (instances
+      (project "sdm24logger"
+        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -2255,7 +2287,7 @@
   (symbol (lib_id "Device:R_Small") (at 218.44 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4501ba9d-ed0f-4629-827a-142dfd59ec76)
-    (property "Reference" "R14" (at 214.63 87.63 0)
+    (property "Reference" "R17" (at 214.63 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 214.63 90.17 0)
@@ -2272,7 +2304,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R14") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2332,7 +2364,7 @@
   (symbol (lib_id "power:GND") (at 152.4 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a87676f-c7ce-4419-9be1-edb1ebf0570b)
-    (property "Reference" "#PWR033" (at 152.4 85.09 0)
+    (property "Reference" "#PWR031" (at 152.4 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 82.55 0)
@@ -2348,7 +2380,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2513,7 +2545,7 @@
   (symbol (lib_id "power:GND") (at 218.44 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 744a62e7-7830-4ca2-8e9d-1003ef21dcf0)
-    (property "Reference" "#PWR032" (at 218.44 114.3 0)
+    (property "Reference" "#PWR034" (at 218.44 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 111.76 0)
@@ -2529,7 +2561,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2729,7 +2761,7 @@
   (symbol (lib_id "Device:R_Small") (at 194.31 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99535778-0d2d-43d9-8e31-680236372734)
-    (property "Reference" "R17" (at 198.12 87.63 0)
+    (property "Reference" "R16" (at 198.12 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 198.12 90.17 0)
@@ -2746,7 +2778,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2858,7 +2890,7 @@
   (symbol (lib_id "power:VBUS") (at 161.29 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aad66b7c-7de3-414e-8e6a-4665ea618b33)
-    (property "Reference" "#PWR034" (at 161.29 71.12 0)
+    (property "Reference" "#PWR032" (at 161.29 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 161.29 63.5 0)
@@ -2874,7 +2906,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2989,31 +3021,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 80.01 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bc3a6c0b-162e-4f31-a184-ce5e01c0fff3)
-    (property "Reference" "#PWR028" (at 80.01 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 80.01 125.73 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 80.01 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 80.01 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f7a8e947-832c-4916-9cf6-ea049ef06e34))
-    (instances
-      (project "sdm24logger"
-        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "#PWR028") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 234.95 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0d57390-3478-4648-9a8a-fe9f26ca3665)
@@ -3103,7 +3110,7 @@
   (symbol (lib_id "Device:R_Small") (at 163.83 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d01e7c71-43f0-4187-8410-d88c25d66ee0)
-    (property "Reference" "R16" (at 165.1 99.06 0)
+    (property "Reference" "R15" (at 165.1 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 165.1 101.6 0)
@@ -3120,7 +3127,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3204,6 +3211,31 @@
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
           (reference "C20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint_Small") (at 255.27 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid daf459c0-1ca4-438f-afaa-033ded65e6db)
+    (property "Reference" "TP5" (at 256.54 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "3.3" (at 256.54 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 260.35 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 260.35 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 71ed2e40-5726-4931-a3e5-ff7a9f325b75))
+    (instances
+      (project "sdm24logger"
+        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -3514,7 +3546,7 @@
   (symbol (lib_id "Device:R_Small") (at 157.48 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc85c105-823d-40a1-b566-aa7efa186ead)
-    (property "Reference" "R15" (at 157.48 97.79 90)
+    (property "Reference" "R14" (at 157.48 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 157.48 95.25 90)
@@ -3531,7 +3563,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/b047e2b3-5d2f-4ec2-abbf-5dccb1cb7c6d"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
