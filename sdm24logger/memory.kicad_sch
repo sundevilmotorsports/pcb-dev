@@ -6,7 +6,7 @@
 
   (title_block
     (title "SDM-24 Data Logger")
-    (date "2023-11-30")
+    (date "2023-12-03")
     (rev "v3")
     (company "Sun Devil Motorsports")
     (comment 1 "SD card and EEPROM circuitry")
@@ -826,7 +826,7 @@
   (symbol (lib_id "Device:C_Small") (at 160.02 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ce52fd0-e669-4dca-8c76-77a262d36def)
-    (property "Reference" "C37" (at 162.56 113.6713 0)
+    (property "Reference" "C39" (at 162.56 113.6713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 162.56 116.2113 0)
@@ -843,7 +843,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/755989b5-01b1-4d90-aab7-caeafb9cb82b"
-          (reference "C37") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )

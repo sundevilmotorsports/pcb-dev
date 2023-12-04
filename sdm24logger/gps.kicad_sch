@@ -6,7 +6,7 @@
 
   (title_block
     (title "SDM-24 Data Logger")
-    (date "2023-11-30")
+    (date "2023-12-03")
     (rev "v3")
     (company "Sun Devil Motorsports")
     (comment 1 "GPS and antenna circuitry")
@@ -764,10 +764,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9477345c-5a3f-4aa2-a5b3-fe12f92ba81e)
   )
-  (text "TODO double check pull up value" (at 88.9 119.38 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ebbf1a0d-1856-42f6-91b2-88d0abd01bfb)
-  )
 
   (label "RF_VCC" (at 142.24 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -843,7 +839,7 @@
   (symbol (lib_id "Device:C_Small") (at 198.12 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14303381-3a37-4715-8199-bc7eaa041853)
-    (property "Reference" "C36" (at 200.66 88.2713 0)
+    (property "Reference" "C38" (at 200.66 88.2713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 200.66 90.8113 0)
@@ -860,7 +856,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/db921206-a0d1-4e77-a65e-6b92dd64533c"
-          (reference "C36") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -895,7 +891,7 @@
   (symbol (lib_id "Device:R_Small") (at 105.41 110.49 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 151dedfb-e52b-4e28-a855-308f153f17f1)
-    (property "Reference" "R18" (at 105.41 115.57 90)
+    (property "Reference" "R17" (at 105.41 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 105.41 113.03 90)
@@ -912,7 +908,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/db921206-a0d1-4e77-a65e-6b92dd64533c"
-          (reference "R18") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -921,7 +917,7 @@
   (symbol (lib_id "Device:C_Small") (at 115.57 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15dd600f-e9a0-420b-b67d-47b0de22351d)
-    (property "Reference" "C35" (at 113.03 66.6813 0)
+    (property "Reference" "C37" (at 113.03 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 113.03 69.2213 0)
@@ -938,7 +934,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/db921206-a0d1-4e77-a65e-6b92dd64533c"
-          (reference "C35") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -997,7 +993,7 @@
   (symbol (lib_id "Device:R_Small") (at 190.5 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54fda517-8acd-4296-a49a-9fdc38e8bb48)
-    (property "Reference" "R20" (at 190.5 80.01 90)
+    (property "Reference" "R19" (at 190.5 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 190.5 82.55 90)
@@ -1014,7 +1010,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/db921206-a0d1-4e77-a65e-6b92dd64533c"
-          (reference "R20") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1048,7 +1044,7 @@
   (symbol (lib_id "Device:R_Small") (at 185.42 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61c8dcc5-ae74-45e2-971f-804f8012a640)
-    (property "Reference" "R19" (at 187.96 103.505 0)
+    (property "Reference" "R18" (at 187.96 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 187.96 106.045 0)
@@ -1065,7 +1061,7 @@
     (instances
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09/db921206-a0d1-4e77-a65e-6b92dd64533c"
-          (reference "R19") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
