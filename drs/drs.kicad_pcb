@@ -9,6 +9,7 @@
     (title "DRS Control Board")
     (date "2023-11-21")
     (rev "v1")
+    (comment 1 "Front Copper")
   )
 
   (layers
@@ -59,8 +60,8 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
-      (plot_on_all_layers_selection 0x0000000_00000000)
+      (layerselection 0x0000000_7fffffff)
+      (plot_on_all_layers_selection 0x0001020_00000000)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -86,11 +87,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk true)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "fab/")
+      (outputdirectory "assembly/")
     )
   )
 
