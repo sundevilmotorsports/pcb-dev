@@ -2525,7 +2525,7 @@
   (symbol (lib_id "power:+3.3V") (at 146.05 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 193f36e0-d379-43a0-bf3e-b79fcee381a5)
-    (property "Reference" "#PWR015" (at 146.05 83.82 0)
+    (property "Reference" "#PWR016" (at 146.05 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 146.05 76.2 0)
@@ -2541,7 +2541,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2575,7 +2575,7 @@
   (symbol (lib_id "power:GND") (at 55.88 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24284354-2ac9-45ae-a5d3-9f5c550cd75b)
-    (property "Reference" "#PWR08" (at 55.88 99.06 0)
+    (property "Reference" "#PWR05" (at 55.88 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 96.52 0)
@@ -2591,7 +2591,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2684,7 +2684,7 @@
   (symbol (lib_id "Device:C_Small") (at 176.53 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b95c161-4606-4c9f-a550-6f9e4349742f)
-    (property "Reference" "C7" (at 179.07 83.8263 0)
+    (property "Reference" "C12" (at 179.07 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 179.07 86.3663 0)
@@ -2701,7 +2701,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C7") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2710,7 +2710,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.88 29.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d5bfb2e-e577-4561-8eaf-3eb1c3f76a9d)
-    (property "Reference" "C9" (at 180.34 27.9463 0)
+    (property "Reference" "C13" (at 180.34 27.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 180.34 30.4863 0)
@@ -2727,7 +2727,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C9") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2736,7 +2736,7 @@
   (symbol (lib_id "power:GND") (at 123.19 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 303e7013-0df0-45d4-970a-ae3a36874251)
-    (property "Reference" "#PWR014" (at 123.19 97.79 0)
+    (property "Reference" "#PWR015" (at 123.19 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 95.25 0)
@@ -2752,7 +2752,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2761,7 +2761,7 @@
   (symbol (lib_id "power:GND") (at 176.53 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31167290-2d8d-4b84-8db0-d01da9706f2d)
-    (property "Reference" "#PWR017" (at 176.53 96.52 0)
+    (property "Reference" "#PWR019" (at 176.53 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 93.98 0)
@@ -2777,7 +2777,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2815,7 +2815,7 @@
   (symbol (lib_id "Device:R_Small") (at 209.55 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34bb5d52-57d4-4cc4-8325-d6294a4739f7)
-    (property "Reference" "R5" (at 212.09 80.01 0)
+    (property "Reference" "R9" (at 212.09 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 212.09 82.55 0)
@@ -2832,7 +2832,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R5") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2841,7 +2841,7 @@
   (symbol (lib_id "power:GND") (at 210.82 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34bfda32-23d2-483d-925c-32281744a729)
-    (property "Reference" "#PWR018" (at 210.82 128.27 0)
+    (property "Reference" "#PWR022" (at 210.82 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 125.73 0)
@@ -2857,7 +2857,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2866,7 +2866,7 @@
   (symbol (lib_id "power:GND") (at 146.05 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34f2c810-826a-4de9-b99d-3e32358977bb)
-    (property "Reference" "#PWR016" (at 146.05 140.97 0)
+    (property "Reference" "#PWR017" (at 146.05 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 138.43 0)
@@ -2882,7 +2882,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2891,7 +2891,7 @@
   (symbol (lib_id "power:GND") (at 167.64 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b2f38f0-b67b-4e66-a8c9-597c35b4a7df)
-    (property "Reference" "#PWR023" (at 167.64 41.91 0)
+    (property "Reference" "#PWR018" (at 167.64 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 39.37 0)
@@ -2907,7 +2907,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2960,7 +2960,7 @@
   (symbol (lib_id "power:GND") (at 102.87 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4439d459-347a-423b-91cb-18839ec5fbc6)
-    (property "Reference" "#PWR022" (at 102.87 48.26 0)
+    (property "Reference" "#PWR012" (at 102.87 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 45.72 0)
@@ -2976,7 +2976,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2985,7 +2985,7 @@
   (symbol (lib_id "power:+3.3V") (at 66.04 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45b2e724-bef3-449c-b87c-d94dfba97c93)
-    (property "Reference" "#PWR05" (at 66.04 138.43 0)
+    (property "Reference" "#PWR06" (at 66.04 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 66.04 130.81 0)
@@ -3001,7 +3001,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3010,7 +3010,7 @@
   (symbol (lib_id "power:GND") (at 30.48 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48caf6ec-ae47-47d6-a117-7a00fd3694a3)
-    (property "Reference" "#PWR02" (at 30.48 59.69 0)
+    (property "Reference" "#PWR01" (at 30.48 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 57.15 0)
@@ -3026,7 +3026,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3035,7 +3035,7 @@
   (symbol (lib_id "Library:MIC37100-x.x") (at 55.88 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 501d80b5-88e1-4cf0-99c9-357cdbe5ae8f)
-    (property "Reference" "U3" (at 58.42 74.93 0)
+    (property "Reference" "U5" (at 58.42 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIC37100-3.3" (at 63.5 77.47 0)
@@ -3053,7 +3053,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3092,7 +3092,7 @@
   (symbol (lib_id "power:GND") (at 204.47 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 512a4623-90e2-453c-b603-afc2bb1c8ee7)
-    (property "Reference" "#PWR019" (at 204.47 72.39 0)
+    (property "Reference" "#PWR021" (at 204.47 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 69.85 0)
@@ -3108,7 +3108,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3117,7 +3117,7 @@
   (symbol (lib_id "power:GND") (at 180.34 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a44e4f5-94e9-4672-93cc-c509145e5d65)
-    (property "Reference" "#PWR024" (at 180.34 119.38 0)
+    (property "Reference" "#PWR020" (at 180.34 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 116.84 0)
@@ -3133,7 +3133,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3142,7 +3142,7 @@
   (symbol (lib_id "power:+3.3V") (at 71.12 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a724081-0f0f-4ed2-bfd2-0352482a45e1)
-    (property "Reference" "#PWR07" (at 71.12 111.76 0)
+    (property "Reference" "#PWR010" (at 71.12 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 71.12 104.14 0)
@@ -3158,7 +3158,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3167,7 +3167,7 @@
   (symbol (lib_id "power:+BATT") (at 41.91 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c60ddd4-e1e6-4a3c-af74-b01d05b96755)
-    (property "Reference" "#PWR04" (at 41.91 67.31 0)
+    (property "Reference" "#PWR03" (at 41.91 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 41.91 59.69 0)
@@ -3183,7 +3183,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3192,7 +3192,7 @@
   (symbol (lib_id "power:GND") (at 67.31 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71492cdd-2838-41da-aca4-521b8fee9843)
-    (property "Reference" "#PWR010" (at 67.31 69.85 0)
+    (property "Reference" "#PWR08" (at 67.31 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 67.31 0)
@@ -3208,7 +3208,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3217,13 +3217,13 @@
   (symbol (lib_id "Device:R_Small") (at 153.67 43.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736b7b4d-64ae-4f8f-88a9-1d99a05ddae9)
-    (property "Reference" "R9" (at 157.48 41.91 0)
+    (property "Reference" "R5" (at 157.48 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 157.48 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 153.67 43.18 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 153.67 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 43.18 0)
@@ -3234,7 +3234,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R9") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3243,7 +3243,7 @@
   (symbol (lib_id "power:GND") (at 66.04 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73a04cda-1ab5-4620-8e33-8d1c145930aa)
-    (property "Reference" "#PWR06" (at 66.04 166.37 0)
+    (property "Reference" "#PWR07" (at 66.04 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 163.83 0)
@@ -3259,7 +3259,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3268,7 +3268,7 @@
   (symbol (lib_id "Device:LED_Small") (at 229.87 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78513ae8-0c3e-4592-ae73-5cdb9b7f7cf4)
-    (property "Reference" "D2" (at 232.41 57.0865 90)
+    (property "Reference" "D3" (at 232.41 57.0865 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TSAL6100" (at 232.41 59.6265 90)
@@ -3285,7 +3285,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3294,7 +3294,7 @@
   (symbol (lib_id "power:+3.3V") (at 229.87 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 789d3a48-6cf5-4961-a156-9c76f332762d)
-    (property "Reference" "#PWR020" (at 229.87 57.15 0)
+    (property "Reference" "#PWR023" (at 229.87 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 229.87 48.26 0)
@@ -3310,7 +3310,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3319,7 +3319,7 @@
   (symbol (lib_id "Device:LED_Small") (at 180.34 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79d45d72-a223-46b7-a9b0-d8b2da7c1d96)
-    (property "Reference" "D3" (at 182.88 98.9965 90)
+    (property "Reference" "D1" (at 182.88 98.9965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 182.88 101.5365 90)
@@ -3336,7 +3336,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3345,7 +3345,7 @@
   (symbol (lib_id "74xGxx:SN74LVC1G14DBV") (at 99.06 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bae7857-ea87-4cab-9a18-5ceff47303df)
-    (property "Reference" "U5" (at 110.49 45.72 0)
+    (property "Reference" "U3" (at 110.49 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LVC1G14DBV" (at 110.49 48.26 0)
@@ -3365,7 +3365,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3458,7 +3458,7 @@
   (symbol (lib_id "power:GND") (at 229.87 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 879d8f9b-3105-4f03-bd75-6235a4175932)
-    (property "Reference" "#PWR021" (at 229.87 95.25 0)
+    (property "Reference" "#PWR024" (at 229.87 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 92.71 0)
@@ -3474,7 +3474,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3507,7 +3507,7 @@
   (symbol (lib_id "Device:C_Small") (at 45.72 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fe6c575-4bf7-4fc6-a7b7-41534e99a1d0)
-    (property "Reference" "C8" (at 43.18 85.0963 0)
+    (property "Reference" "C1" (at 43.18 85.0963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 43.18 87.6363 0)
@@ -3524,7 +3524,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C8") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3533,7 +3533,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90daeef8-7027-4dfb-b5a5-8978076c913c)
-    (property "Reference" "C4" (at 125.73 85.0963 0)
+    (property "Reference" "C6" (at 125.73 85.0963 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 125.73 87.6363 0)
@@ -3550,7 +3550,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3559,13 +3559,13 @@
   (symbol (lib_id "Device:C_Small") (at 149.86 59.69 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93bf89d1-fcfc-4f1f-8313-b31729ac200b)
-    (property "Reference" "C12" (at 152.4 59.69 0)
+    (property "Reference" "C8" (at 152.4 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "50uF" (at 152.4 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 149.86 59.69 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 149.86 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 59.69 0)
@@ -3576,7 +3576,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C12") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3609,7 +3609,7 @@
   (symbol (lib_id "power:GND") (at 71.12 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9758bdb4-b30f-4fc8-8f38-ad09e87da266)
-    (property "Reference" "#PWR011" (at 71.12 49.53 0)
+    (property "Reference" "#PWR09" (at 71.12 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 46.99 0)
@@ -3625,7 +3625,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3634,7 +3634,7 @@
   (symbol (lib_id "Device:C_Small") (at 133.35 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c786ffd-7c68-46cc-9db1-45bd96221f5a)
-    (property "Reference" "C5" (at 135.89 85.0963 0)
+    (property "Reference" "C7" (at 135.89 85.0963 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 135.89 87.6363 0)
@@ -3651,7 +3651,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3660,7 +3660,7 @@
   (symbol (lib_id "Device:C_Small") (at 71.12 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d837ddd-803a-4352-beb2-9865ac73a80c)
-    (property "Reference" "C1" (at 73.66 38.1063 0)
+    (property "Reference" "C2" (at 73.66 38.1063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 73.66 40.6463 0)
@@ -3677,7 +3677,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3686,7 +3686,7 @@
   (symbol (lib_id "Device:C_Small") (at 102.87 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a311117c-91e9-4157-bfdf-539cba25ec06)
-    (property "Reference" "C13" (at 105.41 36.8363 0)
+    (property "Reference" "C4" (at 105.41 36.8363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 105.41 39.3763 0)
@@ -3703,7 +3703,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C13") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3712,7 +3712,7 @@
   (symbol (lib_id "power:GND") (at 114.3 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8f8b5c9-032b-4804-a0bb-66106aa54b84)
-    (property "Reference" "#PWR09" (at 114.3 72.39 0)
+    (property "Reference" "#PWR014" (at 114.3 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 69.85 0)
@@ -3728,7 +3728,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3737,7 +3737,7 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b07c7f72-b095-4b89-b218-0040dc713db0)
-    (property "Reference" "C10" (at 160.02 27.9463 0)
+    (property "Reference" "C9" (at 160.02 27.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 160.02 30.4863 0)
@@ -3754,7 +3754,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3763,7 +3763,7 @@
   (symbol (lib_id "Device:C_Small") (at 102.87 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b22d79ce-ffe6-462c-95d3-60144fd9c0e1)
-    (property "Reference" "C3" (at 100.33 100.3236 0)
+    (property "Reference" "C5" (at 100.33 100.3236 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 100.33 102.8636 0)
@@ -3780,7 +3780,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3789,7 +3789,7 @@
   (symbol (lib_id "Device:R_Small") (at 229.87 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b27e2eaa-6892-419b-9dc5-9ca07e7cda1f)
-    (property "Reference" "R8" (at 232.41 64.77 0)
+    (property "Reference" "R11" (at 232.41 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "25R / 250mW" (at 232.41 67.31 0)
@@ -3806,7 +3806,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3815,13 +3815,13 @@
   (symbol (lib_id "Device:R_Small") (at 153.67 52.07 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcbdc35e-d045-459d-843a-a7421c14ba59)
-    (property "Reference" "R10" (at 157.48 50.8 0)
+    (property "Reference" "R6" (at 157.48 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 157.48 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 153.67 52.07 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 153.67 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 52.07 0)
@@ -3832,7 +3832,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R10") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3841,7 +3841,7 @@
   (symbol (lib_id "power:GND") (at 44.45 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c25aeaf6-158c-4060-b25b-19b028b63b4a)
-    (property "Reference" "#PWR01" (at 44.45 132.08 0)
+    (property "Reference" "#PWR04" (at 44.45 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 129.54 0)
@@ -3857,7 +3857,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3866,7 +3866,7 @@
   (symbol (lib_id "Device:R_Small") (at 180.34 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d02f5107-b3b8-4fdd-ac7a-e265a6369259)
-    (property "Reference" "R11" (at 182.88 106.68 0)
+    (property "Reference" "R7" (at 182.88 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 182.88 109.22 0)
@@ -3883,7 +3883,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3892,7 +3892,7 @@
   (symbol (lib_id "Device:LED_Small") (at 204.47 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2607370-81b0-405e-bf57-696c4b2e652c)
-    (property "Reference" "D1" (at 207.01 52.0065 90)
+    (property "Reference" "D2" (at 207.01 52.0065 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 207.01 54.5465 90)
@@ -3909,7 +3909,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3918,7 +3918,7 @@
   (symbol (lib_id "power:+3.3V") (at 74.93 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d88ac273-7632-49ba-841a-6225fe598be7)
-    (property "Reference" "#PWR012" (at 74.93 82.55 0)
+    (property "Reference" "#PWR011" (at 74.93 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 74.93 73.66 0)
@@ -3934,7 +3934,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3943,7 +3943,7 @@
   (symbol (lib_id "Device:C_Small") (at 74.93 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daba21da-7761-4f93-bf6c-cd30d4fac8cc)
-    (property "Reference" "C2" (at 77.47 85.0963 0)
+    (property "Reference" "C3" (at 77.47 85.0963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 77.47 87.6363 0)
@@ -3960,7 +3960,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3995,7 +3995,7 @@
   (symbol (lib_id "power:GND") (at 40.64 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e26db020-3673-4c6f-a184-a8be1730d84d)
-    (property "Reference" "#PWR03" (at 40.64 77.47 0)
+    (property "Reference" "#PWR02" (at 40.64 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 74.93 0)
@@ -4011,7 +4011,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4020,7 +4020,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6a908a8-65d2-48ea-943e-ba1b1a6a9139)
-    (property "Reference" "R7" (at 207.01 59.69 0)
+    (property "Reference" "R8" (at 207.01 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 207.01 62.23 0)
@@ -4037,7 +4037,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4046,7 +4046,7 @@
   (symbol (lib_id "Device:R_Small") (at 213.36 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea38bc2c-f764-4654-b5b4-99274c3d0781)
-    (property "Reference" "R6" (at 213.36 71.12 90)
+    (property "Reference" "R10" (at 213.36 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 213.36 73.66 90)
@@ -4063,7 +4063,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4104,7 +4104,7 @@
     (property "Value" "10k" (at 91.44 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 87.63 39.37 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 87.63 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 39.37 0)
@@ -4149,7 +4149,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd57c340-0511-41a2-903d-a523e9f88e1b)
-    (property "Reference" "C6" (at 167.64 83.8263 0)
+    (property "Reference" "C10" (at 167.64 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 167.64 86.3663 0)
@@ -4166,7 +4166,7 @@
     (instances
       (project "lapbeacon"
         (path "/9cb056d0-5d79-4388-8f6a-52111a1b50c8"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
