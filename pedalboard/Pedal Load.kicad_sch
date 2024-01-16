@@ -1733,7 +1733,7 @@
   (symbol (lib_id "power:+3.3V") (at 114.3 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03d8ade8-8dec-459c-ac6c-5f26791dd68c)
-    (property "Reference" "#PWR013" (at 114.3 124.46 0)
+    (property "Reference" "#PWR010" (at 114.3 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 114.3 115.57 0)
@@ -1747,9 +1747,9 @@
     )
     (pin "1" (uuid 07973b25-b3c5-4e6a-aece-ee029fcb690c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1758,7 +1758,7 @@
   (symbol (lib_id "power:+5V") (at 93.98 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0608df7a-971b-4d56-b537-89ba35864ea8)
-    (property "Reference" "#PWR022" (at 93.98 62.23 0)
+    (property "Reference" "#PWR06" (at 93.98 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 93.98 53.34 0)
@@ -1772,9 +1772,9 @@
     )
     (pin "1" (uuid cb3afc8f-4326-47a0-be28-e895f6eb8a8f))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1783,7 +1783,7 @@
   (symbol (lib_id "Device:R") (at 228.6 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09cce45e-5661-42f2-ae3e-34b4baefbee9)
-    (property "Reference" "R2" (at 231.14 104.14 0)
+    (property "Reference" "R4" (at 231.14 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120" (at 231.14 106.68 0)
@@ -1798,9 +1798,9 @@
     (pin "1" (uuid 3372c5c5-61f2-4bfe-8538-d91791caeab2))
     (pin "2" (uuid 2ad6ff77-99be-4f36-b620-018d81d4d239))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1809,7 +1809,7 @@
   (symbol (lib_id "Device:C") (at 209.55 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a7e34d0-a26a-46fb-97a6-59706bb9bcb4)
-    (property "Reference" "C2" (at 213.36 77.47 0)
+    (property "Reference" "C6" (at 213.36 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 213.36 80.01 0)
@@ -1824,9 +1824,9 @@
     (pin "1" (uuid ab06d0c9-42cc-45c5-a935-f3eb747ebb46))
     (pin "2" (uuid 36cd6a7e-6f9f-4f84-b38e-0630200d5f09))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1854,7 +1854,7 @@
     (pin "5" (uuid 21e6a997-d033-4774-8688-c169edab3354))
     (pin "6" (uuid 7907accc-30bb-4c4c-a633-58ec1968f7e3))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "J3") (unit 1)
         )
@@ -1865,7 +1865,7 @@
   (symbol (lib_id "power:GND") (at 166.37 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14dc1286-ec1c-4124-90fd-2d090b080a6a)
-    (property "Reference" "#PWR027" (at 166.37 71.12 0)
+    (property "Reference" "#PWR013" (at 166.37 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 69.85 0)
@@ -1879,9 +1879,9 @@
     )
     (pin "1" (uuid c8c1fcee-957b-4bfa-86ca-bdc02853de85))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1890,7 +1890,7 @@
   (symbol (lib_id "power:GND") (at 34.29 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17bcac4a-da2e-4a3a-8996-4edcce995305)
-    (property "Reference" "#PWR017" (at 34.29 130.81 0)
+    (property "Reference" "#PWR02" (at 34.29 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 129.54 0)
@@ -1904,9 +1904,9 @@
     )
     (pin "1" (uuid a7c73b9d-886f-4f1d-82d3-c3ec6707273c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1915,7 +1915,7 @@
   (symbol (lib_id "power:GND") (at 245.11 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 185e0e89-d228-4e61-8186-16bfe65457a6)
-    (property "Reference" "#PWR04" (at 245.11 147.32 0)
+    (property "Reference" "#PWR029" (at 245.11 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 146.05 0)
@@ -1929,9 +1929,9 @@
     )
     (pin "1" (uuid 7bda5fe6-4a40-4cd3-83ac-b06b9c03957c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1940,7 +1940,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 241.3 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18cc3214-70e9-4706-a2b4-d33f0b0a9df2)
-    (property "Reference" "J1" (at 240.665 82.55 0)
+    (property "Reference" "J4" (at 240.665 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Pin" (at 240.665 85.09 0)
@@ -1957,9 +1957,9 @@
     (pin "3" (uuid 0231655f-3490-4c06-8b7c-2773c5fdede3))
     (pin "4" (uuid d982622b-e926-4dc3-8608-043308bbc50a))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "J1") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
   (symbol (lib_id "power:GND") (at 185.42 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 191af59c-0957-4db7-a2a0-3e7eaee0b8ab)
-    (property "Reference" "#PWR016" (at 185.42 149.86 0)
+    (property "Reference" "#PWR017" (at 185.42 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 148.59 0)
@@ -1982,9 +1982,9 @@
     )
     (pin "1" (uuid 62bfcfa1-8da7-4758-b3a0-9ddb55f84557))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1993,7 +1993,7 @@
   (symbol (lib_id "power:GND") (at 208.28 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e605c74-0ade-40fe-af7b-83808abcbad8)
-    (property "Reference" "#PWR07" (at 208.28 88.9 0)
+    (property "Reference" "#PWR024" (at 208.28 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 87.63 0)
@@ -2007,9 +2007,9 @@
     )
     (pin "1" (uuid 5cfb00aa-13f2-4656-836b-83d0ba6ec4ab))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2018,7 +2018,7 @@
   (symbol (lib_id "power:GND") (at 119.38 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b438312-0ba5-4550-87c6-2cee4c7e30a5)
-    (property "Reference" "#PWR012" (at 119.38 129.54 0)
+    (property "Reference" "#PWR011" (at 119.38 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 128.27 0)
@@ -2032,9 +2032,9 @@
     )
     (pin "1" (uuid ad00ab0e-ed0c-4ceb-8bf9-b4e212b81965))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2044,7 +2044,7 @@
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e69c804-6ccd-4c51-9be3-842591235eac)
     (property "Reference" "U3" (at 211.7441 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD230" (at 211.7441 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2064,7 +2064,7 @@
     (pin "7" (uuid 5c257670-54a7-4fb6-b883-6cfc0d6ce242))
     (pin "8" (uuid 6f10e880-babe-4197-b518-605117cdb45f))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "U3") (unit 1)
         )
@@ -2090,7 +2090,7 @@
     (pin "1" (uuid dbfb9718-42fc-425b-9186-b4cdd9427979))
     (pin "2" (uuid 5ab820ca-cf68-4798-a6c1-f3f357dae2a4))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "JP1") (unit 1)
         )
@@ -2101,7 +2101,7 @@
   (symbol (lib_id "power:+3.3V") (at 187.96 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3467754e-312b-4a29-a898-8c7b0ea84d43)
-    (property "Reference" "#PWR011" (at 187.96 138.43 0)
+    (property "Reference" "#PWR019" (at 187.96 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 187.96 129.54 0)
@@ -2115,9 +2115,9 @@
     )
     (pin "1" (uuid e009939b-9228-497c-bcc1-dab349e1378c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2126,7 +2126,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 21.59 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d0893b5-82bb-46f5-af71-d232ff1f9afc)
-    (property "Reference" "J2" (at 22.225 95.25 0)
+    (property "Reference" "J1" (at 22.225 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Pin" (at 21.59 97.79 0)
@@ -2143,9 +2143,9 @@
     (pin "3" (uuid 5a7999fa-88e6-4c26-9beb-617ca4d8db79))
     (pin "4" (uuid 6da77e39-2c27-4b9e-aaa0-df8e9273486a))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2183,7 +2183,7 @@
     (pin "8" (uuid b810fdd2-4bcb-471b-9518-5f40065c5124))
     (pin "9" (uuid b9c94657-ad41-4477-abe7-d4f486f6e191))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "U1") (unit 1)
         )
@@ -2194,7 +2194,7 @@
   (symbol (lib_id "Device:R") (at 180.34 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e1bbf3f-b099-4b3c-9144-01cb473e05ad)
-    (property "Reference" "R3" (at 182.88 57.15 0)
+    (property "Reference" "R1" (at 182.88 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 182.88 59.69 0)
@@ -2209,9 +2209,9 @@
     (pin "1" (uuid 2946772d-98d1-4754-b799-39106192f9d5))
     (pin "2" (uuid 17250ec1-9b1e-4f53-ae6e-1fcd08fea2ac))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2220,7 +2220,7 @@
   (symbol (lib_id "Device:C") (at 99.06 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42fe56b9-c64d-483f-ad50-f35173d30f47)
-    (property "Reference" "C4" (at 102.87 67.31 0)
+    (property "Reference" "C3" (at 102.87 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 102.87 69.85 0)
@@ -2235,9 +2235,9 @@
     (pin "1" (uuid 3c7c3064-453c-4016-a221-e3638c33a354))
     (pin "2" (uuid 779a4e90-e4f0-4d77-9c8e-7fa8a20e2023))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2246,7 +2246,7 @@
   (symbol (lib_id "Device:C") (at 111.76 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45fae319-d448-4b64-95fe-4005b3d8b072)
-    (property "Reference" "C3" (at 115.57 67.31 0)
+    (property "Reference" "C4" (at 115.57 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 115.57 69.85 0)
@@ -2261,9 +2261,9 @@
     (pin "1" (uuid 36ea3dcb-c86c-4612-b3fb-1526fbd11b00))
     (pin "2" (uuid 6b3a012a-1d61-4d7a-962a-18b15f104ad8))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2286,7 +2286,7 @@
     )
     (pin "1" (uuid 90ad5d4b-97a6-47d4-bb20-a56c5978a9a2))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "#PWR015") (unit 1)
         )
@@ -2311,7 +2311,7 @@
     )
     (pin "1" (uuid 414def2a-4a57-4fa1-b407-797d4a15bab0))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "#PWR030") (unit 1)
         )
@@ -2322,11 +2322,11 @@
   (symbol (lib_id "Teensy:Teensy4.0") (at 149.86 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dd039ce-cb0e-4d89-99a3-4b595a9a55e0)
-    (property "Reference" "U4" (at 149.86 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "U2" (at 149.86 74.93 0)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Teensy4.0" (at 149.86 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Teensy:Teensy40" (at 139.7 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2389,9 +2389,9 @@
     (pin "3" (uuid 81de1934-f371-43b9-89e9-597e13f348fe))
     (pin "4" (uuid eaf77d1c-544e-4993-a70b-3a79df44f298))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2400,7 +2400,7 @@
   (symbol (lib_id "power:GND") (at 198.12 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f2f4668-032c-4af4-986b-d8c12a85395f)
-    (property "Reference" "#PWR05" (at 198.12 88.9 0)
+    (property "Reference" "#PWR020" (at 198.12 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 87.63 0)
@@ -2414,9 +2414,9 @@
     )
     (pin "1" (uuid b150cf9b-51e1-4215-a61d-9eebe9be9b19))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2425,7 +2425,7 @@
   (symbol (lib_id "Device:C") (at 78.74 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60e33822-b345-436f-bee0-101fcba9cdee)
-    (property "Reference" "C6" (at 82.55 67.31 0)
+    (property "Reference" "C2" (at 82.55 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 82.55 69.85 0)
@@ -2440,9 +2440,9 @@
     (pin "1" (uuid 3ce4bf6c-b168-4e29-9137-4b1c6c71bf8e))
     (pin "2" (uuid 1f1627fb-83c9-439e-bceb-31c61a9ad664))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2451,7 +2451,7 @@
   (symbol (lib_id "power:VCC") (at 99.06 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 654f6124-2ab5-433d-a206-b4b32e3e524e)
-    (property "Reference" "#PWR029" (at 99.06 62.23 0)
+    (property "Reference" "#PWR07" (at 99.06 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 99.06 53.34 0)
@@ -2465,9 +2465,9 @@
     )
     (pin "1" (uuid d9b9a474-8615-4f06-ab7f-96a791588776))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2476,7 +2476,7 @@
   (symbol (lib_id "power:GND") (at 223.52 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6df48b06-89f5-4676-9d4f-12da016ced25)
-    (property "Reference" "#PWR09" (at 223.52 96.52 0)
+    (property "Reference" "#PWR027" (at 223.52 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 95.25 0)
@@ -2490,9 +2490,9 @@
     )
     (pin "1" (uuid 083df759-4625-40e4-b403-9e84e5385ca4))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2501,7 +2501,7 @@
   (symbol (lib_id "Device:C") (at 66.04 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 712a5b49-47e7-4412-acb7-bce2dbac336d)
-    (property "Reference" "C5" (at 62.23 67.31 0)
+    (property "Reference" "C1" (at 62.23 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 62.23 69.85 0)
@@ -2516,9 +2516,9 @@
     (pin "1" (uuid 7508a766-dafd-46f4-a4f4-8550391a2873))
     (pin "2" (uuid 1710fe66-04df-4ab7-96a7-f8b23768bc3a))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "C5") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2527,7 +2527,7 @@
   (symbol (lib_id "Device:D_TVS_Dual_AAC") (at 243.84 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 730aa1c0-6315-456b-ba96-2a86113339be)
-    (property "Reference" "D3" (at 243.84 127 0)
+    (property "Reference" "D1" (at 243.84 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_TVS_Dual_AAC" (at 243.84 129.54 0)
@@ -2543,9 +2543,9 @@
     (pin "2" (uuid a2354b2b-5297-4aac-b53e-059d5a9c6ed0))
     (pin "3" (uuid 8267b007-9c1e-4b0c-8f85-263114b9e9ca))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2554,7 +2554,7 @@
   (symbol (lib_id "power:VCC") (at 184.15 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a69355f-ce7f-4e60-aebf-cb0c25a1ec28)
-    (property "Reference" "#PWR010" (at 184.15 143.51 0)
+    (property "Reference" "#PWR016" (at 184.15 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 184.15 134.62 0)
@@ -2568,9 +2568,9 @@
     )
     (pin "1" (uuid 301873c1-165a-428d-932c-89b3c48b2e13))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2579,7 +2579,7 @@
   (symbol (lib_id "power:GND") (at 114.3 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a752824-0da9-457d-9340-df3280633eaa)
-    (property "Reference" "#PWR014" (at 114.3 88.9 0)
+    (property "Reference" "#PWR09" (at 114.3 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 87.63 0)
@@ -2593,9 +2593,9 @@
     )
     (pin "1" (uuid 1644c55c-e4f0-46e9-86d0-0073d15b4dc6))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2604,7 +2604,7 @@
   (symbol (lib_id "Device:R") (at 199.39 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b1c6968-75ab-4065-a8c9-b7f05d50e27f)
-    (property "Reference" "R1" (at 201.93 118.11 0)
+    (property "Reference" "R3" (at 201.93 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 201.93 120.65 0)
@@ -2619,9 +2619,9 @@
     (pin "1" (uuid 775857a6-10d3-45a6-a723-d667e3576bb0))
     (pin "2" (uuid 48485022-56c6-42d8-a3d8-a3e90b4354fb))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2630,7 +2630,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 154.94 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b96b46a-9bcc-445a-9bd1-0baf2e058efd)
-    (property "Reference" "J4" (at 155.575 52.07 0)
+    (property "Reference" "J2" (at 155.575 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 155.575 54.61 0)
@@ -2646,9 +2646,9 @@
     (pin "2" (uuid 288f6649-44b0-47eb-adde-72540d9e5c66))
     (pin "3" (uuid bd549204-8747-4147-9fad-288f746d3d98))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2657,7 +2657,7 @@
   (symbol (lib_id "power:+3.3V") (at 82.55 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 964de06e-37a7-47e9-8070-8f72b01257a7)
-    (property "Reference" "#PWR020" (at 82.55 62.23 0)
+    (property "Reference" "#PWR05" (at 82.55 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 82.55 53.34 0)
@@ -2671,9 +2671,9 @@
     )
     (pin "1" (uuid 14636a6e-a9c0-46c2-a40c-f560fb7a335c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2682,7 +2682,7 @@
   (symbol (lib_id "Device:C") (at 195.58 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97327096-c2d9-4f1f-9a33-6d08bb594f46)
-    (property "Reference" "C1" (at 199.39 77.47 0)
+    (property "Reference" "C5" (at 199.39 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 199.39 80.01 0)
@@ -2697,9 +2697,9 @@
     (pin "1" (uuid 35ffa41f-8337-4678-8676-75102444f102))
     (pin "2" (uuid 1ae7b1e2-e5d4-41b8-9141-6042b5388581))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "power:VCC") (at 166.37 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0f30257-15d7-42a9-acf6-34f7b6cc8efd)
-    (property "Reference" "#PWR025" (at 166.37 64.77 0)
+    (property "Reference" "#PWR012" (at 166.37 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 166.37 55.88 0)
@@ -2722,9 +2722,9 @@
     )
     (pin "1" (uuid 60f299ce-f5e8-4bbc-9ac7-c371459e88c5))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2733,7 +2733,7 @@
   (symbol (lib_id "power:GND") (at 180.34 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1528be1-4d8e-4539-9d89-d6e6fa668ecb)
-    (property "Reference" "#PWR024" (at 180.34 78.74 0)
+    (property "Reference" "#PWR014" (at 180.34 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 77.47 0)
@@ -2747,9 +2747,9 @@
     )
     (pin "1" (uuid 958b9cf5-ef0b-4839-a174-8b18946c294c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2758,7 +2758,7 @@
   (symbol (lib_id "power:+3.3V") (at 204.47 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a28f88e1-7757-4f62-a1e4-74a37315bb5d)
-    (property "Reference" "#PWR08" (at 204.47 74.93 0)
+    (property "Reference" "#PWR022" (at 204.47 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 204.47 66.04 0)
@@ -2772,9 +2772,9 @@
     )
     (pin "1" (uuid 1043687b-1f38-42f9-9f46-051324888438))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2783,7 +2783,7 @@
   (symbol (lib_id "power:+3.3V") (at 205.74 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a82dd91e-8d2a-4fe6-9bf0-e2e71dccb81d)
-    (property "Reference" "#PWR01" (at 205.74 99.06 0)
+    (property "Reference" "#PWR023" (at 205.74 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 205.74 90.17 0)
@@ -2797,9 +2797,9 @@
     )
     (pin "1" (uuid e7e0c603-fa24-4c2c-86c8-a73d4d43cfe8))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2808,7 +2808,7 @@
   (symbol (lib_id "Device:R") (at 180.34 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4a633dd-0659-49c4-9a23-f9af75fa3ff2)
-    (property "Reference" "R4" (at 182.88 67.31 0)
+    (property "Reference" "R2" (at 182.88 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 182.88 69.85 0)
@@ -2823,9 +2823,9 @@
     (pin "1" (uuid f515705e-cfc6-4c42-89cd-4dfeeb3449a0))
     (pin "2" (uuid bc2cfb77-d9f5-4714-807b-6c03e68e35a3))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2848,7 +2848,7 @@
     )
     (pin "1" (uuid 8042e7c6-b9f1-4fa5-be77-a32b206edaaa))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
           (reference "#PWR028") (unit 1)
         )
@@ -2859,7 +2859,7 @@
   (symbol (lib_id "power:GND") (at 209.55 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf073c34-13a5-4e82-b68b-3178d87e1cdb)
-    (property "Reference" "#PWR02" (at 209.55 128.27 0)
+    (property "Reference" "#PWR025" (at 209.55 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 127 0)
@@ -2873,9 +2873,9 @@
     )
     (pin "1" (uuid 8063c595-28bc-4f39-80b3-fb99bcad2abc))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2884,7 +2884,7 @@
   (symbol (lib_id "power:+3.3V") (at 186.69 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf215a1e-54aa-4cae-bf51-4fdf02340541)
-    (property "Reference" "#PWR026" (at 186.69 97.79 0)
+    (property "Reference" "#PWR018" (at 186.69 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 186.69 88.9 0)
@@ -2898,9 +2898,9 @@
     )
     (pin "1" (uuid b3c3ad56-81a3-4849-b9ab-768516932446))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2909,7 +2909,7 @@
   (symbol (lib_id "power:GND") (at 111.76 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d05bd39b-dbf8-41f9-a519-2cc595182107)
-    (property "Reference" "#PWR021" (at 111.76 82.55 0)
+    (property "Reference" "#PWR08" (at 111.76 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 81.28 0)
@@ -2923,9 +2923,9 @@
     )
     (pin "1" (uuid 9d8e041e-cf50-4119-b155-78c252d86654))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2934,7 +2934,7 @@
   (symbol (lib_id "power:+5VA") (at 30.48 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4cc962a-81df-436f-a4dd-9eaa67cd327a)
-    (property "Reference" "#PWR019" (at 30.48 104.14 0)
+    (property "Reference" "#PWR01" (at 30.48 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 30.48 95.25 0)
@@ -2948,9 +2948,9 @@
     )
     (pin "1" (uuid 77ee9236-c38b-4c69-8ab5-61a67f5b18ab))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2959,7 +2959,7 @@
   (symbol (lib_id "power:GND") (at 66.04 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e246281e-d05a-48b7-ad27-d9e56cdbb831)
-    (property "Reference" "#PWR023" (at 66.04 82.55 0)
+    (property "Reference" "#PWR04" (at 66.04 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 81.28 0)
@@ -2973,9 +2973,9 @@
     )
     (pin "1" (uuid 1e9bc5cc-facd-456b-8753-0c63ad2f2c1c))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2984,7 +2984,7 @@
   (symbol (lib_id "power:GND") (at 199.39 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea09cc1d-b3df-4ef7-81bb-5c622f87b635)
-    (property "Reference" "#PWR03" (at 199.39 129.54 0)
+    (property "Reference" "#PWR021" (at 199.39 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 128.27 0)
@@ -2998,9 +2998,9 @@
     )
     (pin "1" (uuid a68be10e-3687-46c5-a4bf-25bd1499aaee))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3009,7 +3009,7 @@
   (symbol (lib_id "power:VCC") (at 223.52 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee784148-dfeb-4f25-8be4-f2ef31afb1d6)
-    (property "Reference" "#PWR06" (at 223.52 90.17 0)
+    (property "Reference" "#PWR026" (at 223.52 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 223.52 81.28 0)
@@ -3023,9 +3023,9 @@
     )
     (pin "1" (uuid 02d813a7-bdc8-4915-8604-46ed4b8f4313))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3034,7 +3034,7 @@
   (symbol (lib_id "power:+5VA") (at 55.88 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffc65bd0-74c1-4298-adfd-4d65d06d5fe4)
-    (property "Reference" "#PWR018" (at 55.88 116.84 0)
+    (property "Reference" "#PWR03" (at 55.88 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 55.88 107.95 0)
@@ -3048,9 +3048,9 @@
     )
     (pin "1" (uuid aaf2bab3-bbf5-4a2d-9aa1-28ec5b1dbe5b))
     (instances
-      (project "Pedal Load "
+      (project "Pedal Load"
         (path "/9570b4fa-01e8-4d14-8864-a5cb6732ab60"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
