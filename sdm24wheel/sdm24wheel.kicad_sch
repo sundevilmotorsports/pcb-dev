@@ -6,8 +6,8 @@
 
   (title_block
     (title "SDM-24 Wheel Board")
-    (date "2023-11-03")
-    (rev "v1")
+    (date "2024-01-16")
+    (rev "v1.1")
     (company "Sun Devil Motorsports")
   )
 
@@ -2241,7 +2241,6 @@
   (no_connect (at 144.78 46.99) (uuid 14e3e7f5-86a0-4c95-98f8-749c2b6137eb))
   (no_connect (at 144.78 118.11) (uuid 18dd9dea-5cd8-464e-8a6b-36fd5c6905fe))
   (no_connect (at 144.78 82.55) (uuid 20cd9def-ed2b-4da8-aef6-dd21fc3e5f75))
-  (no_connect (at 226.06 132.08) (uuid 23a94406-5447-4959-bc7b-6ad4959e39ba))
   (no_connect (at 109.22 69.85) (uuid 2af46843-7da7-4185-bc9a-ae1ed72605d3))
   (no_connect (at 109.22 85.09) (uuid 2f82c5e7-da4e-404c-909b-5bdac583345a))
   (no_connect (at 144.78 92.71) (uuid 3478c7b6-de28-48c9-b000-c5619ddc2be4))
@@ -2507,6 +2506,10 @@
   (wire (pts (xy 93.98 102.87) (xy 93.98 107.95))
     (stroke (width 0) (type default))
     (uuid 3ff7b991-b4bf-488a-8a1b-7a9319185104)
+  )
+  (wire (pts (xy 226.06 129.54) (xy 226.06 132.08))
+    (stroke (width 0) (type default))
+    (uuid 424610ad-ec24-433b-9c74-385fe5c0a6b2)
   )
   (wire (pts (xy 53.34 41.91) (xy 53.34 45.72))
     (stroke (width 0) (type default))
@@ -5549,6 +5552,31 @@
       (project "sdm24wheel"
         (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 226.06 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e332060e-9da1-42b8-beac-be8db3623ce7)
+    (property "Reference" "#PWR027" (at 226.06 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 226.06 125.73 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dc5c1993-1670-4d89-8986-492263445057))
+    (instances
+      (project "sdm24wheel"
+        (path "/58bd889d-28e2-49da-85df-8e04b7f08117"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
