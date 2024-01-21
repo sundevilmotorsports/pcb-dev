@@ -44,6 +44,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -4946,6 +4959,21 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
+    (model "${KIPRJMOD}/models/CIRCUIT BOARD,TEENSY 4.10.STEP"
+      (offset (xyz 0 0 10))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
+      (offset (xyz 29.25 8 9.75))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 90))
+    )
+    (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
+      (offset (xyz 29.25 -7.5 9.75))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 90))
+    )
   )
 
   (gr_arc (start 171 59) (mid 173.828427 60.171573) (end 175 63)
@@ -4964,9 +4992,6 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b79241e2-d755-4273-a43d-9baf8ebfc438))
   (gr_arc (start 107 133) (mid 104.171573 131.828427) (end 103 129)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ee573ab6-768c-434f-9586-bb0fda86485b))
-  (gr_text "JLCJLCJLCJLC" (at 172.4 85.2 90) (layer "F.SilkS") (tstamp 0e9e9aa0-af78-4935-83bf-e51ee6b98a5e)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
-  )
   (gr_text "CANL" (at 150 75) (layer "F.SilkS") (tstamp 18784954-c1ac-477b-ae44-905c193b17d3)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -4977,9 +5002,6 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "USR" (at 168.4 65.2 90) (layer "F.SilkS" knockout) (tstamp 2b03820d-e168-4b95-90af-9a783f22851e)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
-  )
-  (gr_text "{dblquote}Plz no pop tarts in the pcb toaster{dblquote}\n-Mason Murphy" (at 173 121 90) (layer "F.SilkS") (tstamp 45acea4b-8fab-441f-b124-6382e6dfe6ed)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "Sun Devil Motorsports\nTelemetry Transmitter v1" (at 113.5 63.7) (layer "F.SilkS") (tstamp 76fd4a59-bff6-4b1c-bafd-eda6bce0d3de)
