@@ -3871,30 +3871,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7780d066-d3a3-4931-b22f-da0ec603979d)
-    (property "Reference" "H2" (at 33.02 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3" (at 33.02 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 30.48 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 30.48 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "sdm24logger"
-        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "MCU_ST_STM32H7:STM32H723VGTx") (at 151.13 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79899778-f51e-4645-af9e-19222d352441)
@@ -4142,54 +4118,6 @@
       (project "sdm24logger"
         (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09"
           (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 38.1 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a27777f6-9a63-4183-b0ef-d9c87cc6c6a4)
-    (property "Reference" "H3" (at 40.64 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3" (at 40.64 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 38.1 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 38.1 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "sdm24logger"
-        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a922de5e-1460-4126-bd4d-2ad0fc68fd53)
-    (property "Reference" "H1" (at 33.02 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3" (at 33.02 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 30.48 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 30.48 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "sdm24logger"
-        (path "/89b3ea44-cadd-4bd5-8c60-f45fe49f0b09"
-          (reference "H1") (unit 1)
         )
       )
     )
