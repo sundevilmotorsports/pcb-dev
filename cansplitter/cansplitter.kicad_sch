@@ -6,7 +6,7 @@
 
   (title_block
     (title "CAN Splitter")
-    (date "2023-09-16")
+    (date "2024-04-05")
     (rev "v1")
     (company "Sun Devil Motorsports")
   )
@@ -778,6 +778,32 @@
     (uuid fbc8ad7a-d73d-46b2-8678-6c387b084fd4)
   )
 
+  (rectangle (start 83.82 101.6) (end 116.84 135.89)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 00f68940-2507-406c-b615-f161737e1723)
+  )
+  (rectangle (start 208.28 72.39) (end 243.84 124.46)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 14f9848b-a261-4203-ac86-53d5f2e2c06d)
+  )
+  (rectangle (start 184.15 72.39) (end 208.28 124.46)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 98d4a8ef-6d9e-4e37-96e0-e77dab3d42ec)
+  )
+  (rectangle (start 60.96 101.6) (end 83.82 135.89)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid c157620d-73c4-4b59-9c79-43afbd355c5e)
+  )
+
+  (text "PCB pin 1  Connector pin 6\nPCB pin 2  Connector pin 5\nPCB pin 3  Connector pin 4\nPCB pin 4  Connector pin 3\nPCB pin 5  Connector pin 2\nPCB pin 6  Connector pin 1\nPCB pin 7  Connector pin 12\nPCB pin 8  Connector pin 11\nPCB pin 9  Connector pin 10\nPCB pin 10 Connector pin 9\nPCB pin 11 Connector pin 8\nPCB pin 12 Connector pin 7"
+    (at 185.42 121.92 0)
+    (effects (font (size 2.56 2.56)) (justify left bottom))
+    (uuid 00a7d036-ca53-4b47-b7fb-e83fee50ab18)
+  )
   (text "Harness Side" (at 86.36 64.77 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid af924d97-70cb-4325-ae41-0d3e7865794c)
@@ -789,6 +815,11 @@
   (text "CAN Splitter" (at 105.41 44.45 0)
     (effects (font (size 5.12 5.12) (thickness 0.508) bold) (justify left bottom))
     (uuid cd30e4f6-ece0-4b00-ac54-b44e08a6eaed)
+  )
+  (text "PCB pin 1 Connector pin 4\nPCB pin 2 Connector pin 3\nPCB pin 3 Connector pin 2\nPCB pin 4 Connector pin 1\nPCB pin 5 Connector pin 8\nPCB pin 6 Connector pin 7\nPCB pin 7 Connector pin 6\nPCB pin 8 Connector pin 5"
+    (at 62.23 134.62 0)
+    (effects (font (size 2.56 2.56)) (justify left bottom))
+    (uuid cdc88642-3b23-4519-9029-41fbed82924b)
   )
 
   (label "CANH" (at 113.03 91.44 0) (fields_autoplaced)
