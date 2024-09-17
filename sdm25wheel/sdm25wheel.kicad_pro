@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.95,
+          "height": 1.95,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sdm24wheel.kicad_pro",
+    "filename": "sdm25wheel.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -487,7 +487,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/5V WSPD": "5V WSPD"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -498,7 +500,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "sdm24wheel.step",
+      "step": "sdm25wheel.step",
       "svg": "",
       "vrml": ""
     },
