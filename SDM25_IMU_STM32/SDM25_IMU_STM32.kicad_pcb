@@ -4827,6 +4827,16 @@
 			(pintype "power_in")
 			(uuid "620db26e-1d13-4a8d-9822-7fbb42056306")
 		)
+		(pad "33" smd roundrect
+			(at 5.675 3.75 270)
+			(size 1.55 0.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 19 "/CRX")
+			(pinfunction "PB13")
+			(pintype "bidirectional")
+			(uuid "9413a51a-d411-4404-a171-c105d62f2104")
+		)
 		(pad "34" smd roundrect
 			(at 5.675 3.25 270)
 			(size 1.55 0.3)
@@ -4836,16 +4846,6 @@
 			(pinfunction "PB13")
 			(pintype "bidirectional")
 			(uuid "bb7098fe-aa48-4e71-8df2-b09897bd6e36")
-		)
-		(pad "34" smd roundrect
-			(at 5.675 3.75 270)
-			(size 1.55 0.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 18 "/CTX")
-			(pinfunction "PB13")
-			(pintype "bidirectional")
-			(uuid "9413a51a-d411-4404-a171-c105d62f2104")
 		)
 		(pad "35" smd roundrect
 			(at 5.675 2.75 270)
@@ -17926,7 +17926,6 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
-			(island)
 			(pts
 				(xy 107.898054 98.642937) (xy 107.912534 98.64138) (xy 107.931378 98.650811) (xy 107.951882 98.655657)
 				(xy 107.961992 98.666134) (xy 107.975015 98.672653) (xy 107.985767 98.690775) (xy 108.000397 98.705936)
@@ -18232,7 +18231,6 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
-			(island)
 			(pts
 				(xy 100.052127 84.978) (xy 100.136046 84.977999) (xy 100.203083 84.997683) (xy 100.248839 85.050486)
 				(xy 100.259867 85.09536) (xy 100.259999 85.097822) (xy 100.264183 85.136748) (xy 100.264183 85.163252)
