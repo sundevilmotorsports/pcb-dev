@@ -453,7 +453,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOD3716X135N"
+		(property "Footprint" "SDM_MiscFootprint:SOD3716X135N"
 			(at 11.43 -97.46 0)
 			(effects
 				(font
@@ -535,7 +535,7 @@
 		(symbol "MBR0540T1G_1_1"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 5.08 0)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -547,7 +547,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1.27) (xy 5.08 -1.27)
+					(xy 1.524 -1.524) (xy 1.524 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -559,7 +559,31 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 0) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 5.08 0)
+					(xy 2.54 2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -571,7 +595,31 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 0) (xy 10.16 0)
+					(xy 2.54 -2.54) (xy 1.524 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 1.524) (xy 3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 0)
 				)
 				(stroke
 					(width 0.254)
@@ -582,7 +630,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 0)
+				(at 0 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -600,7 +648,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
