@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "SDM26 Datalogger")
-		(rev "3.11")
+		(rev "3.12")
 		(company "Sun Devil Motorsports")
 	)
 	(lib_symbols
@@ -10636,7 +10636,7 @@
 	)
 	(text "Power Regulation"
 		(exclude_from_sim no)
-		(at 256.794 17.018 0)
+		(at 311.15 18.288 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10736,7 +10736,7 @@
 	)
 	(text "Power Monitor"
 		(exclude_from_sim no)
-		(at 308.61 18.796 0)
+		(at 258.064 17.272 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11324,6 +11324,12 @@
 		(uuid "66c04178-983d-438f-9bf2-a70c1ce250ea")
 	)
 	(junction
+		(at 397.51 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66ee4c2f-383c-4be8-88ed-004430357718")
+	)
+	(junction
 		(at 325.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11718,6 +11724,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d97ea64d-ccf4-4fd6-b19d-c9cad615f327")
+	)
+	(junction
+		(at 401.32 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da586d4c-8f32-4112-bb5d-b2d50db67ad8")
 	)
 	(junction
 		(at 384.81 68.58)
@@ -12174,16 +12186,6 @@
 			(type default)
 		)
 		(uuid "03d2a426-7c82-4561-b3be-79324dca78e5")
-	)
-	(wire
-		(pts
-			(xy 406.4 185.42) (xy 401.32 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a0ec27-edc3-4880-9af6-717f0779cd71")
 	)
 	(wire
 		(pts
@@ -12824,6 +12826,16 @@
 			(type default)
 		)
 		(uuid "1fe34af9-afa4-4df5-b296-783b0325e12d")
+	)
+	(wire
+		(pts
+			(xy 401.32 185.42) (xy 406.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204ebfa7-b992-4764-a295-aea1465f4f6a")
 	)
 	(wire
 		(pts
@@ -13634,6 +13646,16 @@
 			(type default)
 		)
 		(uuid "44f35798-74a5-45e9-8e67-e403d7de9d0f")
+	)
+	(wire
+		(pts
+			(xy 397.51 186.69) (xy 397.51 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45048670-4c01-453f-bc37-260e36340f85")
 	)
 	(wire
 		(pts
@@ -14767,6 +14789,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 185.42) (xy 401.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c14fee-2a7e-4d32-8df8-f50f20e84004")
+	)
+	(wire
+		(pts
 			(xy 144.78 208.28) (xy 144.78 207.01)
 		)
 		(stroke
@@ -15027,7 +15059,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 161.29) (xy 251.46 161.29)
+			(xy 250.19 161.29) (xy 254 161.29)
 		)
 		(stroke
 			(width 0)
@@ -16084,6 +16116,16 @@
 			(type default)
 		)
 		(uuid "9f9e2e59-7dfd-406b-adc2-120d067a333c")
+	)
+	(wire
+		(pts
+			(xy 401.32 186.69) (xy 401.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9ff96d-0a44-4f22-8188-5b67a76ae0d0")
 	)
 	(wire
 		(pts
@@ -17447,7 +17489,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 185.42) (xy 396.24 185.42)
+			(xy 363.22 185.42) (xy 397.51 185.42)
 		)
 		(stroke
 			(width 0)
@@ -17917,7 +17959,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 161.29) (xy 251.46 165.1)
+			(xy 254 161.29) (xy 254 170.18)
 		)
 		(stroke
 			(width 0)
@@ -18187,6 +18229,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 191.77) (xy 397.51 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d13bd0-ba57-443a-8f75-d84995ca9998")
+	)
+	(wire
+		(pts
 			(xy 30.48 269.24) (xy 39.37 269.24)
 		)
 		(stroke
@@ -18344,6 +18396,16 @@
 			(type default)
 		)
 		(uuid "f70cafa8-3f90-4476-89e5-1275977d0853")
+	)
+	(wire
+		(pts
+			(xy 401.32 191.77) (xy 401.32 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a8b6df-dc55-49d0-b9a3-8361255ffe5f")
 	)
 	(wire
 		(pts
@@ -19175,16 +19237,6 @@
 		)
 		(uuid "836a6fd2-0821-4918-8bdd-01063f49b67f")
 	)
-	(label "GNSS_LDO"
-		(at 406.4 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "841bed8a-6c4f-44fa-8000-00cef402cadb")
-	)
 	(label "AIN5"
 		(at 210.82 171.45 0)
 		(effects
@@ -19416,7 +19468,7 @@
 		(uuid "b81df866-96bc-42cb-9de0-d13e3e3ba3e4")
 	)
 	(label "ADC_DOUT"
-		(at 251.46 165.1 180)
+		(at 254 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19775,7 +19827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0332dee9-891c-4e55-826e-6ecea5787159")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 182.88 175.26 0)
 			(effects
 				(font
@@ -19825,7 +19877,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -19840,7 +19892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03dda6dd-1b7f-416a-8f88-106fa65f99a0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 367.03 182.88 0)
 			(effects
 				(font
@@ -19890,7 +19942,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -19974,7 +20026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b98fc50-668a-49e9-9b35-86f473656157")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 303.53 125.73 0)
 			(effects
 				(font
@@ -20024,7 +20076,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20365,7 +20417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef7d2a2-2ef0-473a-bf2f-5f83564b95c8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 208.28 133.35 0)
 			(effects
 				(font
@@ -20415,7 +20467,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -20685,7 +20737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129c049b-4e54-4219-93b8-eeaf85e83e63")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -20735,7 +20787,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -20957,7 +21009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15dd600f-e9a0-420b-b67d-47b0de22351d")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 278.13 200.0187 0)
 			(effects
 				(font
@@ -21011,7 +21063,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -21026,7 +21078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18a3ef76-6bd6-4165-8a5f-0605aee83a73")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR076"
 			(at 44.45 217.17 0)
 			(effects
 				(font
@@ -21076,7 +21128,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR070")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -21158,7 +21210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1adb68e9-34dd-4520-b86c-9535ee0ae757")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 30.48 127 0)
 			(effects
 				(font
@@ -21208,7 +21260,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21695,7 +21747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e0f441f-644b-4338-b553-18020f7550b5")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR011"
 			(at 290.83 54.61 0)
 			(effects
 				(font
@@ -21745,7 +21797,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR077")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -21828,7 +21880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c53a51-d499-4665-bb5e-bba89ceac7c2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 234.95 132.08 0)
 			(effects
 				(font
@@ -21878,7 +21930,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22134,7 +22186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "283f2751-578a-4a23-9a0a-15433c0256bf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 318.77 140.97 0)
 			(effects
 				(font
@@ -22184,7 +22236,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -22268,7 +22320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b0f7de4-d46c-42a1-a95c-2cfe76ffde66")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 208.28 147.32 0)
 			(effects
 				(font
@@ -22318,7 +22370,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -22729,7 +22781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd9dd5f-997b-4c19-b28c-818dac749e8b")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR014"
 			(at 27.94 58.42 0)
 			(effects
 				(font
@@ -22779,7 +22831,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR079")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -22862,7 +22914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e7ecc49-4d4d-48e4-9441-f5a8dfee132f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR071"
 			(at 177.8 200.66 0)
 			(effects
 				(font
@@ -22912,7 +22964,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR066")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -22995,7 +23047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31469d03-81eb-47fb-bcbc-afea30fcb1ee")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 375.92 66.04 0)
 			(effects
 				(font
@@ -23045,7 +23097,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -23060,7 +23112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32d7ff79-fc3f-4b11-b573-30426acc0a4e")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 146.558 209.296 0)
 			(effects
 				(font
@@ -23114,7 +23166,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -23198,7 +23250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "349c79fa-0341-4087-9b5a-b35265fedb52")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 182.88 152.4 0)
 			(effects
 				(font
@@ -23248,7 +23300,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -23532,7 +23584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c69fdf-4e60-497c-a6bd-d9d870e21104")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 144.78 175.26 0)
 			(effects
 				(font
@@ -23582,7 +23634,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -24052,7 +24104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ce8e891-1bb7-4a2f-9874-9ae3c8bf32d8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 201.93 107.95 0)
 			(effects
 				(font
@@ -24102,7 +24154,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -24235,6 +24287,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 397.51 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40354dc6-c90b-4772-86af-4238b9c12c05")
+		(property "Reference" "#PWR066"
+			(at 397.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 397.51 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6fbc2c-a96d-4267-b4e8-2dfa795caa61")
+		)
+		(instances
+			(project "SDM26LoggerV3.1"
+				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 182.88 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24243,7 +24361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40bf81e9-d15c-433d-a9ae-4a72158bf5c7")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 182.88 196.85 0)
 			(effects
 				(font
@@ -24293,7 +24411,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -24308,7 +24426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ebf52b-3681-4b91-bcb7-c456c88d7a81")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 184.658 209.296 0)
 			(effects
 				(font
@@ -24362,7 +24480,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -24511,7 +24629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43fe3a5f-babd-47dc-9045-bd1ae25cce41")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 275.59 177.8 0)
 			(effects
 				(font
@@ -24561,7 +24679,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -24715,7 +24833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4745180b-8c01-4b81-ad8d-41ecb734c4d9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 113.03 119.38 0)
 			(effects
 				(font
@@ -24765,7 +24883,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -25104,7 +25222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d27d437-743c-4973-b6b5-62c2f68f9b2d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -25154,7 +25272,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -25236,7 +25354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e21fab3-4267-4310-9435-0e323fde797b")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 26.162 48.26 0)
 			(effects
 				(font
@@ -25290,7 +25408,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -25306,7 +25424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f6c6d3a-49e1-4d20-8d7f-709c59f9f34c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 360.68 109.22 0)
 			(effects
 				(font
@@ -25356,7 +25474,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -25524,7 +25642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52be2438-31ab-4c0e-841a-dd81c4a5ae17")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -25574,7 +25692,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -25591,7 +25709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5767bafe-a2df-4359-873c-415f46fe1fd1")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 139.7 177.8 0)
 			(effects
 				(font
@@ -25641,7 +25759,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -25656,7 +25774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "583f1e56-c514-454d-b225-eaf046ab3f96")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 25.4 95.25 0)
 			(effects
 				(font
@@ -25706,7 +25824,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -26042,7 +26160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610aa300-aa1d-4c24-b83d-0cda20b381bc")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 177.8 133.35 0)
 			(effects
 				(font
@@ -26092,7 +26210,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -26167,7 +26285,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 398.78 185.42 270)
+		(at 401.32 189.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26175,7 +26293,7 @@
 		(dnp no)
 		(uuid "64db3835-d551-4a24-aef9-68b9cda3bdce")
 		(property "Reference" "R33"
-			(at 398.78 187.452 90)
+			(at 404.114 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26183,7 +26301,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 399.288 188.976 90)
+			(at 404.622 189.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26191,7 +26309,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 398.78 185.42 0)
+			(at 401.32 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26200,7 +26318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 398.78 185.42 0)
+			(at 401.32 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26209,7 +26327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 398.78 185.42 0)
+			(at 401.32 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26224,7 +26342,7 @@
 			(uuid "89120a48-a5e8-40e4-b6af-30699a2054ec")
 		)
 		(instances
-			(project "SDM26LoggerV3.0"
+			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "R33")
 					(unit 1)
@@ -26241,7 +26359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65188e4d-b078-4084-beff-5ec3d5a95d64")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 375.92 142.24 0)
 			(effects
 				(font
@@ -26291,7 +26409,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -26694,7 +26812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c47d883-c81d-4eea-8178-c385572bd4ff")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR081"
 			(at 41.91 283.21 0)
 			(effects
 				(font
@@ -26744,7 +26862,7 @@
 		(instances
 			(project "SDM26LoggerV2"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR075")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -26759,7 +26877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fe4ed2b-45e4-48cf-8636-679c9448b04e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 233.68 190.5 0)
 			(effects
 				(font
@@ -26809,7 +26927,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -26824,7 +26942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "722a7477-ea22-4fca-abc0-933d17d385ff")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR077"
 			(at 77.47 217.17 0)
 			(effects
 				(font
@@ -26874,7 +26992,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -26974,7 +27092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bf47ec-c4b3-4eec-9999-d1f444bb77e2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -27024,7 +27142,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -27242,7 +27360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SOT96P237X111-3N"
+		(property "Value" "MMBT2222LT1G"
 			(at 234.696 34.798 0)
 			(effects
 				(font
@@ -27333,7 +27451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b814d5-080e-4502-bd3a-b903d0a95751")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR075"
 			(at 394.97 212.09 0)
 			(effects
 				(font
@@ -27383,7 +27501,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR069")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -27391,7 +27509,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 389.89 193.04 90)
+		(at 389.89 193.04 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27400,7 +27518,7 @@
 		(dnp no)
 		(uuid "77c0a9b3-cb14-48a9-9398-9c2bc7569059")
 		(property "Reference" "R34"
-			(at 389.8625 191.008 90)
+			(at 389.9175 195.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27408,7 +27526,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 389.8625 189.23 90)
+			(at 389.9175 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27750,7 +27868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803b267f-93cc-4946-9c5c-590bec21ecaf")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 236.22 87.63 0)
 			(effects
 				(font
@@ -27800,7 +27918,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -27886,7 +28004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822de358-3dc3-4930-af7d-34f474ae371f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 267.97 68.58 0)
 			(effects
 				(font
@@ -27936,7 +28054,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -27951,7 +28069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "826cf841-163d-461d-9979-107b6963b8ba")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR072"
 			(at 374.65 203.2 0)
 			(effects
 				(font
@@ -28001,7 +28119,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR067")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -28087,7 +28205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8339f574-294d-41e5-a58a-787a5a0b1ed3")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 144.78 196.85 0)
 			(effects
 				(font
@@ -28137,7 +28255,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -28152,7 +28270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8394f455-1a21-4d9a-b5ab-6149af8ed000")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR069"
 			(at 63.5 201.93 0)
 			(effects
 				(font
@@ -28202,7 +28320,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -28218,7 +28336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a2dc84-0445-409c-bd26-f69ead1110ad")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 60.96 154.94 0)
 			(effects
 				(font
@@ -28268,7 +28386,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -28350,7 +28468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88890650-d49f-4d5e-b244-f7b35e612fad")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 392.43 179.07 0)
 			(effects
 				(font
@@ -28400,7 +28518,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -28415,7 +28533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89395a34-e098-4056-8b0d-f09fe9d98a4b")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 47.498 48.26 0)
 			(effects
 				(font
@@ -28469,7 +28587,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -28551,7 +28669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bf70498-e475-4f12-b488-bb63d13adc98")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 248.92 147.32 0)
 			(effects
 				(font
@@ -28601,7 +28719,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -28616,7 +28734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c8c6b9e-623b-4671-81c7-dd40e5aef189")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 346.71 135.89 0)
 			(effects
 				(font
@@ -28666,7 +28784,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -28746,7 +28864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8efb7e3e-0ad1-4f32-9a15-7702926eb967")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 299.72 171.45 0)
 			(effects
 				(font
@@ -28796,7 +28914,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -28882,7 +29000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93172069-ac50-4aaf-a70c-82c2958f3cbd")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 389.89 120.65 0)
 			(effects
 				(font
@@ -28932,7 +29050,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -28947,7 +29065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9372c284-784b-4fa6-b648-70547205ed78")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -28997,7 +29115,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -29012,7 +29130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93af74fb-b1e9-41ca-bc12-1767dfc100e4")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 392.43 186.69 0)
 			(effects
 				(font
@@ -29062,7 +29180,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -29077,7 +29195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9499631c-dcc9-4a1e-8299-b798e10b8006")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -29127,7 +29245,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -29212,7 +29330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96ee3a89-b283-431d-a5a9-7f8feab58754")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 355.6 120.65 0)
 			(effects
 				(font
@@ -29262,7 +29380,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -29618,7 +29736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c4e7ac8-51a7-45c1-9511-0bdb199839db")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 280.67 101.6 0)
 			(effects
 				(font
@@ -29668,7 +29786,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -29684,7 +29802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c5f06aa-041d-4903-9609-b08968b12b72")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -29734,7 +29852,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -29750,7 +29868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cc08bf9-2a21-4333-a714-297ea9096f2a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 318.77 113.03 0)
 			(effects
 				(font
@@ -29800,7 +29918,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -30008,7 +30126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4a2e79b-6326-4b67-8f38-bbaa5b66c749")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR074"
 			(at 299.72 212.09 0)
 			(effects
 				(font
@@ -30058,7 +30176,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR080")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -30073,7 +30191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a56a2f11-e671-4d33-9315-70a8ad609c87")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 149.86 62.23 0)
 			(effects
 				(font
@@ -30123,7 +30241,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -30332,6 +30450,72 @@
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 401.32 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb5e522-da12-4f46-b9e4-2a23a9d95565")
+		(property "Reference" "#PWR067"
+			(at 401.32 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 401.32 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 401.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74d7fcb6-983e-4766-8356-a8220c1b99ba")
+		)
+		(instances
+			(project ""
+				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -30690,7 +30874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70399e2-92ac-473b-828c-13384d36a05c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 275.59 198.12 0)
 			(effects
 				(font
@@ -30740,7 +30924,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -30962,7 +31146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9e7fe0f-c097-488a-8627-f16955b36436")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 268.478 48.514 90)
 			(effects
 				(font
@@ -31016,7 +31200,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -31763,7 +31947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c960081a-0f32-4031-bcc6-700ffb7200b0")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR070"
 			(at 139.7 200.66 0)
 			(effects
 				(font
@@ -31813,7 +31997,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR065")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -31829,7 +32013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb9f722f-0455-4980-b3e7-c88b76d58538")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 110.49 135.89 0)
 			(effects
 				(font
@@ -31879,7 +32063,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -32085,7 +32269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfd4188a-c1fa-49bb-a4fa-f8b9f62a6e48")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 72.39 125.73 0)
 			(effects
 				(font
@@ -32135,7 +32319,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -32151,7 +32335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d004512b-a357-40dc-bd52-dc41918bb9f0")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR078"
 			(at 83.82 217.17 0)
 			(effects
 				(font
@@ -32201,7 +32385,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR072")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -32449,7 +32633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e899ea-580a-4d07-8d9f-ac6760dee7f6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 139.7 133.35 0)
 			(effects
 				(font
@@ -32499,7 +32683,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -32700,7 +32884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d884d297-1083-4ddb-9b8d-10cb28439334")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 177.8 177.8 0)
 			(effects
 				(font
@@ -32750,7 +32934,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -32766,7 +32950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9552fa1-f30c-434d-b34e-3e495ad69298")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR053"
 			(at 367.03 166.37 0)
 			(effects
 				(font
@@ -32816,7 +33000,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -32887,6 +33071,76 @@
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 397.51 189.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9fe4d67-499c-4494-9ddd-9985e0a2bfac")
+		(property "Reference" "C39"
+			(at 394.97 188.6013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 394.97 191.1413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 397.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "601da06c-95b9-446f-96d8-431ee5a011a0")
+		)
+		(pin "2"
+			(uuid "0a59bdbf-2476-4cff-9885-628edfd2e92d")
+		)
+		(instances
+			(project "SDM26LoggerV3.1"
+				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -32971,7 +33225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc31c48f-786e-4581-b535-9c2c0422d47b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR080"
 			(at 182.88 219.71 0)
 			(effects
 				(font
@@ -33021,7 +33275,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR074")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -33174,7 +33428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc91b79-06f6-433b-84a2-64772b62476c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -33224,7 +33478,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -33240,7 +33494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deac9966-668c-45aa-994c-d8e7eca2e362")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR073"
 			(at 275.59 208.28 0)
 			(effects
 				(font
@@ -33290,7 +33544,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR068")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -33370,7 +33624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumex/SSF-LXH100LID-01?qs=C88QikXmxo6L7xvMs1ej%252BA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Lumex/SSF-LXH100LGD-01?qs=Ma3pWdXK8s8VBFrsMlBOuw%3D%3D"
 			(at 619.05 76.2 0)
 			(effects
 				(font
@@ -33491,7 +33745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3313026-97c2-4fa9-be72-0f6a72544ab9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR079"
 			(at 144.78 219.71 0)
 			(effects
 				(font
@@ -33541,7 +33795,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR073")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -33955,7 +34209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SOT96P237X111-3N"
+		(property "Value" "MMBT2222LT1G"
 			(at 234.696 26.162 0)
 			(effects
 				(font
@@ -34643,7 +34897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2474306-c5e0-4d14-9473-6ac546b589c9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 144.78 152.4 0)
 			(effects
 				(font
@@ -34693,7 +34947,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -35081,7 +35335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f936884e-25e0-44f3-8680-0be77edec36e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 389.89 96.52 0)
 			(effects
 				(font
@@ -35131,7 +35385,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -35147,7 +35401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95bd5c5-662b-4bef-a4a7-0afc3e8c5fe2")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR015"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -35197,7 +35451,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR078")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -35213,7 +35467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fae7c3e2-a94e-409f-ad3d-8ee962da4483")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 177.8 156.21 0)
 			(effects
 				(font
@@ -35263,7 +35517,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -35279,7 +35533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc204d6d-83ab-4a4b-b976-7427e62a0e6c")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 368.3 43.1863 0)
 			(effects
 				(font
@@ -35333,7 +35587,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -35415,7 +35669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fde92451-6f39-432a-94b9-3251b244d6c8")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR082"
 			(at 78.74 283.21 0)
 			(effects
 				(font
@@ -35465,7 +35719,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR076")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)

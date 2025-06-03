@@ -441,7 +441,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|889000|1193800|f274733d-ed84-44d0-8b1e-7a459a58ce28|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|622300|241300|ee44f7b4-6e1f-478d-9edd-2fd46d07aa70|00000000-0000-0000-0000-000000000000|/15312c49-b4c2-4ebd-b09f-182f121f9437|/15312c49-b4c2-4ebd-b09f-182f121f9437|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -833,6 +842,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
           "show": false
         }
       ],
