@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SDM26 Datalogger")
-		(rev "3.12")
+		(date "2025-06-06")
+		(rev "3.2")
 		(company "Sun Devil Motorsports")
 	)
 	(lib_symbols
@@ -7001,15 +7002,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM_MOSFET_N-CHANNEL:MMBT2222LT1G"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "SDM_OPTOCOUPLERS:TLP175A_TPL,E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 16.51 7.62 0)
+			(property "Reference" "IC"
+				(at 4.064 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7017,8 +7015,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "MMBT2222LT1G"
-				(at 16.51 5.08 0)
+			(property "Value" "TLP175A_TPL,E"
+				(at 4.064 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7026,18 +7024,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT96P237X111-3N"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF"
-				(at 16.51 -194.92 0)
+			(property "Footprint" "SDM_MiscFootprint:TLP266J"
+				(at 19.05 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7046,7 +7034,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pb-Free Packages are Available; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
+			(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET Output Optocouplers Trigger LED Current 1mA85dC3750 Vrms"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7055,8 +7053,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.11"
-				(at 16.51 -394.92 0)
+			(property "Height" "2"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7065,8 +7063,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "863-MMBT2222LT1G"
-				(at 16.51 -494.92 0)
+			(property "Mouser Part Number" "757-TLP175A(TPLE"
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7075,8 +7073,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MMBT2222LT1G?qs=HVbQlW5zcXXDmyyswaLspw%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP175ATPLE?qs=HVbQlW5zcXXp9ILK7hvmMw%3D%3D"
+				(at 19.05 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7085,8 +7083,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 16.51 -694.92 0)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 19.05 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7095,8 +7093,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "MMBT2222LT1G"
-				(at 16.51 -794.92 0)
+			(property "Manufacturer_Part_Number" "TLP175A(TPL,E"
+				(at 19.05 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7105,13 +7103,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBT2222LT1G_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.81 0)
-					)
+			(symbol "TLP175A_TPL,E_0_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end 12.7 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 4.445 2.54) (xy 4.445 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7120,10 +7129,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0.508) (xy 3.81 -0.762)
+						(xy 3.81 -0.635) (xy 5.08 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7132,10 +7141,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 2.032) (xy 4.572 1.016)
+						(xy 4.445 -0.635) (xy 3.81 0.635) (xy 5.08 0.635) (xy 4.445 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7144,22 +7153,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 0) (xy 5.588 0.508) (xy 5.588 -0.508) (xy 4.572 0)
+						(xy 5.715 0.508) (xy 6.985 0.508) (xy 6.604 0.381) (xy 6.604 0.635) (xy 6.985 0.508)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 -0.508) (xy 4.572 0.508)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7168,10 +7165,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 -2.032) (xy 4.572 -1.016)
+						(xy 5.715 -0.508) (xy 6.985 -0.508) (xy 6.604 -0.635) (xy 6.604 -0.381) (xy 6.985 -0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7180,10 +7177,178 @@
 				)
 				(polyline
 					(pts
-						(xy 4.699 -1.524) (xy 6.35 -1.524)
+						(xy 8.636 2.159) (xy 8.636 0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 -0.635) (xy 8.636 -2.159)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 2.286) (xy 9.144 2.032) (xy 9.144 2.032)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 1.524) (xy 9.144 1.27) (xy 9.144 1.27)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 0.762) (xy 9.144 0.508) (xy 9.144 0.508)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -0.508) (xy 9.144 -0.762)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -1.27) (xy 9.144 -1.524) (xy 9.144 -1.524)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -2.032) (xy 9.144 -2.286) (xy 9.144 -2.286)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 2.159) (xy 10.414 2.159) (xy 10.414 2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 1.397) (xy 10.414 1.397) (xy 10.414 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -0.635) (xy 10.414 -0.635) (xy 10.414 0.635) (xy 9.271 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -1.397) (xy 10.414 -1.397) (xy 10.414 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.271 -2.159) (xy 10.414 -2.159) (xy 10.414 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 1.397) (xy 9.906 1.524) (xy 9.906 1.27) (xy 9.398 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 -1.397) (xy 9.906 -1.27) (xy 9.906 -1.524) (xy 9.398 -1.397)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7191,10 +7356,10 @@
 					)
 				)
 				(circle
-					(center 5.08 0)
-					(radius 2.54)
+					(center 10.414 0.635)
+					(radius 0.127)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7203,10 +7368,32 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 1.524) (xy 4.572 1.524)
+						(xy 10.414 0) (xy 11.43 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 -0.635)
+					(radius 0.127)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7215,10 +7402,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 1.524) (xy 6.35 3.302)
+						(xy 11.049 1.651) (xy 11.811 1.651)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7227,10 +7414,21 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 4.572 0)
+						(xy 11.049 -1.651) (xy 11.811 -1.651)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -7239,20 +7437,68 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 6.35 -3.302)
+						(xy 11.43 1.651) (xy 11.049 0.889) (xy 11.811 0.889) (xy 11.43 1.651)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(circle
+					(center 11.43 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -1.651) (xy 11.049 -0.889) (xy 11.811 -0.889) (xy 11.43 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.54) (xy 11.43 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TLP175A_TPL,E_1_1"
 				(pin passive line
-					(at 0 0 0)
+					(at 0 2.54 0)
 					(length 2.54)
-					(name "G"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7268,9 +7514,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 5.08 270)
+					(at 0 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7286,16 +7532,34 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -5.08 90)
+					(at 15.24 2.54 180)
 					(length 2.54)
-					(name "S"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11336,6 +11600,12 @@
 		(uuid "3f93b920-276c-4c2b-b377-fbfa58fbe314")
 	)
 	(junction
+		(at 69.85 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ff050e6-2743-4b0e-a812-40bbb587dae4")
+	)
+	(junction
 		(at 44.45 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11396,12 +11666,6 @@
 		(uuid "4f7ae4af-23cb-4969-9360-1a71177e678d")
 	)
 	(junction
-		(at 53.34 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54f7394e-dd51-4bb3-98e5-59c600c715c2")
-	)
-	(junction
 		(at 144.78 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11412,12 +11676,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "556efb34-b990-4b53-8991-87f1f4f87b91")
-	)
-	(junction
-		(at 53.34 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a5342b7-f77e-4612-bffa-1920ed8eb22b")
 	)
 	(junction
 		(at 78.74 259.08)
@@ -11648,10 +11906,10 @@
 		(uuid "90101039-2e4d-41d9-8e40-866c96d9a752")
 	)
 	(junction
-		(at 62.23 116.84)
+		(at 69.85 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "94b14e13-2227-4359-bad0-7c5f4ea75e00")
+		(uuid "9c8da149-d944-41f3-9bd3-dfb5e75b75bd")
 	)
 	(junction
 		(at 113.03 68.58)
@@ -12303,6 +12561,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020059cd-029e-447c-bfad-47bd2b98bea1")
+	)
+	(wire
+		(pts
 			(xy 367.03 161.29) (xy 367.03 160.02)
 		)
 		(stroke
@@ -12310,6 +12578,16 @@
 			(type default)
 		)
 		(uuid "029a06ff-d1e1-41ff-98fa-9f78a29a5011")
+	)
+	(wire
+		(pts
+			(xy 69.85 113.03) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d3f860-aeea-44c2-9dfc-c344048e6361")
 	)
 	(wire
 		(pts
@@ -12500,16 +12778,6 @@
 			(type default)
 		)
 		(uuid "0b02b228-96db-4512-b1ca-3d9bc20bcc96")
-	)
-	(wire
-		(pts
-			(xy 62.23 116.84) (xy 74.93 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b49502e-f467-4e4b-97b6-6c60c0b3ab60")
 	)
 	(wire
 		(pts
@@ -13013,16 +13281,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 116.84) (xy 62.23 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2375aa8c-40f2-48a8-bfd3-64b47acff45f")
-	)
-	(wire
-		(pts
 			(xy 375.92 134.62) (xy 363.22 134.62)
 		)
 		(stroke
@@ -13090,16 +13348,6 @@
 			(type default)
 		)
 		(uuid "25c68662-68e3-4215-9a0a-fd96952eedaf")
-	)
-	(wire
-		(pts
-			(xy 62.23 123.19) (xy 62.23 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "263ec6ba-9ea1-469f-9ee7-ce018c12510e")
 	)
 	(wire
 		(pts
@@ -13513,7 +13761,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 104.14) (xy 53.34 104.14)
+			(xy 40.64 104.14) (xy 69.85 104.14)
 		)
 		(stroke
 			(width 0)
@@ -13923,16 +14171,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 121.92) (xy 53.34 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a09c27f-bd64-4d57-9da4-d3513b03bec5")
-	)
-	(wire
-		(pts
 			(xy 303.53 111.76) (xy 303.53 110.49)
 		)
 		(stroke
@@ -14030,16 +14268,6 @@
 			(type default)
 		)
 		(uuid "4e6b4d92-1fc3-445b-887b-b393c02dba62")
-	)
-	(wire
-		(pts
-			(xy 53.34 104.14) (xy 76.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e6fcca9-6985-43b8-9c4b-54adf65c437e")
 	)
 	(wire
 		(pts
@@ -14433,6 +14661,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 113.03) (xy 43.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c34d60a-4454-4ffe-9fb2-c8683b107794")
+	)
+	(wire
+		(pts
 			(xy 260.35 55.88) (xy 260.35 60.96)
 		)
 		(stroke
@@ -14550,6 +14788,16 @@
 			(type default)
 		)
 		(uuid "60d1aeb5-7c1d-48a9-b062-ab514058bd7e")
+	)
+	(wire
+		(pts
+			(xy 69.85 105.41) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61265518-45b0-4433-bc9a-406c9f9acbff")
 	)
 	(wire
 		(pts
@@ -14753,16 +15001,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 53.34 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aaec6e4-d1fb-40a8-8426-b83e88dad120")
-	)
-	(wire
-		(pts
 			(xy 139.7 162.56) (xy 144.78 162.56)
 		)
 		(stroke
@@ -14903,7 +15141,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 128.27) (xy 53.34 128.27)
+			(xy 21.59 128.27) (xy 69.85 128.27)
 		)
 		(stroke
 			(width 0)
@@ -15180,6 +15418,16 @@
 			(type default)
 		)
 		(uuid "7987bbc4-71f7-4564-938d-d629bc0d725a")
+	)
+	(wire
+		(pts
+			(xy 69.85 128.27) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d1fb93-f9f9-4da1-8534-148e34da4e61")
 	)
 	(wire
 		(pts
@@ -16203,16 +16451,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 104.14) (xy 53.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3baac8-d366-4c85-8bb3-7ed2f826c09d")
-	)
-	(wire
-		(pts
 			(xy 299.72 198.12) (xy 306.07 198.12)
 		)
 		(stroke
@@ -16513,16 +16751,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 116.84) (xy 62.23 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a96ef7af-8ced-4670-a4b3-2f5ec79703d4")
-	)
-	(wire
-		(pts
 			(xy 373.38 78.74) (xy 373.38 80.01)
 		)
 		(stroke
@@ -16620,6 +16848,16 @@
 			(type default)
 		)
 		(uuid "ab3c6df0-75cd-43ae-881e-d0dc27e1355b")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 69.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab49885e-4a50-42e2-b7f8-eae801eab71f")
 	)
 	(wire
 		(pts
@@ -16783,6 +17021,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 104.14) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28e8980-d184-4659-87ee-e9711867e085")
+	)
+	(wire
+		(pts
 			(xy 162.56 207.01) (xy 171.45 207.01)
 		)
 		(stroke
@@ -16940,6 +17188,16 @@
 			(type default)
 		)
 		(uuid "b7ec23ee-e66c-421e-b917-9329e2e3476f")
+	)
+	(wire
+		(pts
+			(xy 44.45 118.11) (xy 44.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b902b527-a2ad-4f93-9370-79ee4cdbeb5d")
 	)
 	(wire
 		(pts
@@ -17153,6 +17411,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 118.11) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e368ce-d870-4c0f-988f-ff58c4667795")
+	)
+	(wire
+		(pts
 			(xy 293.37 22.86) (xy 293.37 24.13)
 		)
 		(stroke
@@ -17340,6 +17608,16 @@
 			(type default)
 		)
 		(uuid "ca2d2982-2619-4623-98be-0d32bf8b3b57")
+	)
+	(wire
+		(pts
+			(xy 53.34 118.11) (xy 44.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caddc476-5e81-40c3-8dcb-8783ab9ad362")
 	)
 	(wire
 		(pts
@@ -18250,16 +18528,6 @@
 			(type default)
 		)
 		(uuid "ee27d905-5dfd-4108-8c43-31005329b0dc")
-	)
-	(wire
-		(pts
-			(xy 53.34 128.27) (xy 76.2 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeabc3f2-533f-4b0e-9a5e-99d2d4d83da3")
 	)
 	(wire
 		(pts
@@ -19682,12 +19950,12 @@
 		(uuid "d1c2666c-4750-45ab-b26c-7366794b232c")
 	)
 	(label "CAN_TERM"
-		(at 74.93 116.84 180)
+		(at 43.18 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d20c0e4a-22a4-46b1-9a42-ad7c748ffb71")
 	)
@@ -20160,7 +20428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b98fc50-668a-49e9-9b35-86f473656157")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 303.53 125.73 0)
 			(effects
 				(font
@@ -20210,7 +20478,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20483,7 +20751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ee85cdc-638a-41a0-b513-44088761fcbf")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 358.14 130.81 90)
 			(effects
 				(font
@@ -20535,7 +20803,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -20794,72 +21062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10baa963-e5c5-4ed8-9025-52c3453ccd11")
-		(property "Reference" "#PWR037"
-			(at 62.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b429b265-ecce-4b6d-9861-7f7ed69b2fd0")
-		)
-		(instances
-			(project ""
-				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 173.99 139.7 90)
 		(unit 1)
@@ -20868,7 +21070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "127a5e41-c2c2-42a7-bc91-ccd5de526358")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 173.99 143.51 90)
 			(effects
 				(font
@@ -20920,7 +21122,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -21141,7 +21343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "151dedfb-e52b-4e28-a855-308f153f17f1")
-		(property "Reference" "R36"
+		(property "Reference" "R35"
 			(at 368.3 198.628 90)
 			(effects
 				(font
@@ -21193,7 +21395,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -21264,131 +21466,6 @@
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MOSFET_N-CHANNEL:MMBT2222LT1G")
-		(at 59.69 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17b37795-37d6-4455-b149-7770944ba2d0")
-		(property "Reference" "Q3"
-			(at 50.8 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222LT1G"
-			(at 50.8 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT96P237X111-3N"
-			(at 43.18 21.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF"
-			(at 43.18 -78.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pb-Free Packages are Available; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
-			(at 59.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.11"
-			(at 43.18 -278.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-MMBT2222LT1G"
-			(at 43.18 -378.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MMBT2222LT1G?qs=HVbQlW5zcXXDmyyswaLspw%3D%3D"
-			(at 43.18 -478.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 43.18 -578.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMBT2222LT1G"
-			(at 43.18 -678.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "532bb9fc-7812-4f9c-8e32-a6fc9e8ecb9b")
-		)
-		(pin "1"
-			(uuid "57e94a14-cdc0-4503-b604-4290ae0d5d45")
-		)
-		(pin "2"
-			(uuid "1131c8a3-120f-42fa-893b-64214d21695e")
-		)
-		(instances
-			(project ""
-				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21468,7 +21545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19b6866f-abc1-4bc3-bceb-7f370ad98f5f")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 135.89 210.82 90)
 			(effects
 				(font
@@ -21520,7 +21597,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -21535,7 +21612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1adb68e9-34dd-4520-b86c-9535ee0ae757")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 30.48 127 0)
 			(effects
 				(font
@@ -21585,7 +21662,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -23304,7 +23381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30060a02-3737-4b8d-9f92-14ddd7b8c099")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 135.89 187.96 90)
 			(effects
 				(font
@@ -23356,7 +23433,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -23507,7 +23584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "331f8de6-7971-42ad-a0ae-2feb39eccfcb")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 113.538 122.174 0)
 			(effects
 				(font
@@ -23559,7 +23636,7 @@
 		(instances
 			(project "SDM26LoggerV2"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -24204,7 +24281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39d21fc8-943f-48fc-bf44-e104a93a1d26")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 364.49 129.54 0)
 			(effects
 				(font
@@ -24258,7 +24335,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -25220,7 +25297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aba615d-cbe7-47ca-a438-3b956bf4262c")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 173.99 166.37 90)
 			(effects
 				(font
@@ -25272,7 +25349,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -25487,7 +25564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d73a514-9907-40df-b1b4-348a7e09754e")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 211.836 142.494 0)
 			(effects
 				(font
@@ -25539,7 +25616,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -25842,7 +25919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52be2438-31ab-4c0e-841a-dd81c4a5ae17")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 367.03 87.63 0)
 			(effects
 				(font
@@ -25892,7 +25969,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -26165,76 +26242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 62.23 120.65 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ce50d8c-c34a-4467-9801-bed1bf7b3258")
-		(property "Reference" "R17"
-			(at 63.5 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 63.5 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c01b976-4152-4bc2-a981-5444184b515c")
-		)
-		(pin "2"
-			(uuid "fe81ccb6-6a58-436c-a0e0-9b5d6cdbaf17")
-		)
-		(instances
-			(project "SDM26LoggerV3.2"
-				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SDM_GNSS:NEO-F9P-15B")
 		(at 306.07 170.18 0)
 		(unit 1)
@@ -26244,7 +26251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1367a0-f56b-4df2-ae5d-5cb2109d90e1")
-		(property "Reference" "IC6"
+		(property "Reference" "IC7"
 			(at 330.2 162.56 0)
 			(effects
 				(font
@@ -26414,7 +26421,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "IC6")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -26495,7 +26502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "645ac189-f1f0-4e2c-bcdd-bfc8a3c8da7b")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 135.89 143.51 90)
 			(effects
 				(font
@@ -26547,7 +26554,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -26562,7 +26569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64db3835-d551-4a24-aef9-68b9cda3bdce")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 404.114 188.214 0)
 			(effects
 				(font
@@ -26614,7 +26621,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -26694,7 +26701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "667a3b22-11ea-431c-b120-cb9859d2b33f")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 372.11 182.372 90)
 			(effects
 				(font
@@ -26746,7 +26753,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -27362,7 +27369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bf47ec-c4b3-4eec-9999-d1f444bb77e2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -27412,7 +27419,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -27427,7 +27434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74423ae5-1652-4e62-a707-67c7efc8dd26")
-		(property "Reference" "IC5"
+		(property "Reference" "IC6"
 			(at 387.858 154.686 0)
 			(effects
 				(font
@@ -27537,7 +27544,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "IC5")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -27553,7 +27560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b3af1e-245b-4535-904c-08c7d4c6ac5e")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 292.1 170.18 90)
 			(effects
 				(font
@@ -27605,7 +27612,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -27787,7 +27794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77c0a9b3-cb14-48a9-9398-9c2bc7569059")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 389.9175 195.072 90)
 			(effects
 				(font
@@ -27839,7 +27846,7 @@
 		(instances
 			(project "SDM26LoggerV3.1"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -27921,7 +27928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d27d741-d56d-4473-8cec-2cbaaa1a3419")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 135.89 166.37 90)
 			(effects
 				(font
@@ -27973,7 +27980,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -28671,7 +28678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8437aa19-aa3c-4615-a278-f9ef1fafceda")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 389.89 130.81 90)
 			(effects
 				(font
@@ -28723,7 +28730,7 @@
 		(instances
 			(project "SDM26Logger"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -28872,7 +28879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ac302d9-c39c-45cd-b38c-b5d84e07db82")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 173.99 210.82 90)
 			(effects
 				(font
@@ -28924,7 +28931,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -29592,6 +29599,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SDM_OPTOCOUPLERS:TLP175A_TPL,E")
+		(at 53.34 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95bb55f5-9057-4733-a715-df996056d4cb")
+		(property "Reference" "IC5"
+			(at 60.706 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP175A_TPL,E"
+			(at 60.706 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:TLP266J"
+			(at 72.39 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A"
+			(at 72.39 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET Output Optocouplers Trigger LED Current 1mA85dC3750 Vrms"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 72.39 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TLP175A(TPLE"
+			(at 72.39 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP175ATPLE?qs=HVbQlW5zcXXp9ILK7hvmMw%3D%3D"
+			(at 72.39 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 72.39 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLP175A(TPL,E"
+			(at 72.39 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b24374d2-7175-48f1-8678-a50ff4896e41")
+		)
+		(pin "3"
+			(uuid "11c83755-a3e3-4e0f-852f-66e09a2a4fc0")
+		)
+		(pin "4"
+			(uuid "a3e8d0db-cf75-4af1-9652-4c37641d313e")
+		)
+		(pin "6"
+			(uuid "9d769dc6-2ca6-4d65-8c94-e56922db6cc6")
+		)
+		(instances
+			(project ""
+				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 355.6 114.3 0)
 		(unit 1)
@@ -30072,7 +30204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c5f06aa-041d-4903-9609-b08968b12b72")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -30122,7 +30254,7 @@
 		(instances
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -31339,7 +31471,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 53.34 107.95 0)
+		(at 69.85 107.95 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31348,7 +31480,7 @@
 		(dnp no)
 		(uuid "b9d1f447-20d5-4c61-b586-ec5d2d54a41a")
 		(property "Reference" "R14"
-			(at 54.61 106.934 0)
+			(at 71.12 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31357,7 +31489,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 54.61 108.712 0)
+			(at 71.12 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31366,7 +31498,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 107.95 0)
+			(at 69.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31375,7 +31507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 107.95 0)
+			(at 69.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31384,7 +31516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 107.95 0)
+			(at 69.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31399,7 +31531,7 @@
 			(uuid "46c55a3a-33a6-4076-94fc-5e4ecfc860ad")
 		)
 		(instances
-			(project "SDM26LoggerV2"
+			(project "SDM26LoggerV3.2"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "R14")
 					(unit 1)
@@ -31742,7 +31874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c221f4c9-4655-49f0-b39e-5900423be68e")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 212.09 147.32 90)
 			(effects
 				(font
@@ -31794,7 +31926,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -32665,6 +32797,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0525045-9a83-4625-9a41-77bc79c93ee3")
+		(property "Reference" "#PWR034"
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b53c9d-2c0f-41f6-935e-ef54b0372c51")
+		)
+		(instances
+			(project ""
+				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 173.99 184.15 90)
 		(unit 1)
@@ -32673,7 +32871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30c3648-2630-4459-aebd-c2c34e9d25be")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 173.99 187.96 90)
 			(effects
 				(font
@@ -32725,7 +32923,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -34503,7 +34701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea769205-d8c3-4caf-9d4c-8141f11cd6de")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 241.3 157.48 90)
 			(effects
 				(font
@@ -34555,7 +34753,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -34570,7 +34768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaf8e0a8-a4e6-412d-baa1-91bbcf690564")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 212.09 157.48 90)
 			(effects
 				(font
@@ -34622,7 +34820,7 @@
 		(instances
 			(project "SDM26LoggerV3.0"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
