@@ -8,6 +8,7 @@
 	(property "Reference" "VR**"
 		(at -2.5 -7 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "460caf81-ad71-4545-8c58-ab2ac5049db8")
 		(effects
 			(font
@@ -52,47 +53,18 @@
 			)
 		)
 	)
+	(property "Measure" "Measure"
+		(at -2.54 -6 0)
+		(layer "F.SilkS")
+		(uuid "6b0fdb26-bc4e-4a95-a90d-e6fb0364ae8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
 	(attr through_hole exclude_from_pos_files)
-	(fp_line
-		(start -7.305 -4.75)
-		(end -7.305 4.78)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5b3f614c-d247-4495-a5bd-021fa314d652")
-	)
-	(fp_line
-		(start -7.305 4.78)
-		(end 2.225 4.78)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "eabe3911-cdce-4e6a-bf12-449b0e073e5a")
-	)
-	(fp_line
-		(start 2.225 -4.75)
-		(end -7.305 -4.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "72a4b776-797b-4f99-b791-60d18a5c721d")
-	)
-	(fp_line
-		(start 2.225 4.78)
-		(end 2.225 -4.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1f9e7d09-6d22-40ee-8b08-3e6582c89657")
-	)
 	(fp_line
 		(start 2.9 0)
 		(end 2.9 0)
@@ -236,11 +208,51 @@
 		(layer "Dwgs.User")
 		(uuid "e2a69310-dc50-462f-9672-9b98be0837dd")
 	)
+	(fp_line
+		(start -7.305 -4.75)
+		(end -7.305 4.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b3f614c-d247-4495-a5bd-021fa314d652")
+	)
+	(fp_line
+		(start -7.305 4.78)
+		(end 2.225 4.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eabe3911-cdce-4e6a-bf12-449b0e073e5a")
+	)
+	(fp_line
+		(start 2.225 -4.75)
+		(end -7.305 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72a4b776-797b-4f99-b791-60d18a5c721d")
+	)
+	(fp_line
+		(start 2.225 4.78)
+		(end 2.225 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f9e7d09-6d22-40ee-8b08-3e6582c89657")
+	)
 	(pad "1" thru_hole circle
 		(at 0 0 90)
 		(size 1.303 1.303)
 		(drill 0.76)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2f415557-b8d6-4549-8ed0-54a654945dcc")
 	)
@@ -248,7 +260,7 @@
 		(at -2.54 -2.54 90)
 		(size 1.303 1.303)
 		(drill 0.76)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0f782a8a-83f8-4a03-b34e-c005871a2cc9")
 	)
@@ -256,7 +268,7 @@
 		(at -5.08 0 90)
 		(size 1.303 1.303)
 		(drill 0.76)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "14dd28a5-0d7e-4643-80a4-be2e3bb08e74")
 	)
