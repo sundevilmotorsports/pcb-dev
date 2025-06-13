@@ -178,7 +178,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 11.43 5.08 0)
+			(at 0 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,7 +187,7 @@
 			)
 		)
 		(property "Value" "BAT54XV2T1G"
-			(at 11.43 2.54 0)
+			(at 0 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +195,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SODFL1608X70N"
+		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
 			(at 11.43 -97.46 0)
 			(effects
 				(font
@@ -277,7 +277,7 @@
 		(symbol "BAT54XV2T1G_1_1"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 5.08 0)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -289,7 +289,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1.27) (xy 5.08 -1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -301,7 +301,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 0) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 5.08 0)
+					(xy 2.54 0) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -312,7 +312,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 0)
+				(at 0 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -330,7 +330,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects

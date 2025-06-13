@@ -3,6 +3,9 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "3386P-1-103TLF"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -141,7 +144,7 @@
 			)
 		)
 		(symbol "3386P-1-103TLF_1_1"
-			(pin passive line
+			(pin power_in line
 				(at 0 0 0)
 				(length 1.27)
 				(name "CW"
@@ -159,7 +162,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 3.81 -3.81 90)
 				(length 1.27)
 				(name "Wiper"
@@ -177,7 +180,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 7.62 0 180)
 				(length 1.27)
 				(name "CCW"
