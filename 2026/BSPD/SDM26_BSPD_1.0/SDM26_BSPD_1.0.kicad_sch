@@ -4637,7 +4637,7 @@
 	)
 	(text "Discharging Time\nR = 100 Ohm\nC = 0.001 F\nT = R*C = 0.001s\nI_max = 5V/100 Ohm = 50mA = 0.25W"
 		(exclude_from_sim no)
-		(at 132.588 118.618 0)
+		(at 129.794 117.856 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4718,7 +4718,7 @@
 	)
 	(text "Charging Time\nR = 10,000 Ohm\nC = 0.001 F\nT = R*C = 0.1s"
 		(exclude_from_sim no)
-		(at 147.32 105.918 0)
+		(at 150.368 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5087,12 +5087,6 @@
 		(uuid "bf63e4a4-310f-4607-9886-1e9b509c2a7b")
 	)
 	(junction
-		(at 267.97 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf9bb2f7-29a6-411a-99af-2b2548459794")
-	)
-	(junction
 		(at 43.18 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5163,6 +5157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef98015a-c0d4-43d8-9a95-35cb4707c880")
+	)
+	(junction
+		(at 264.16 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd83b9e7-bb59-4fb9-a0d8-9a7a2936756f")
 	)
 	(no_connect
 		(at 170.18 100.33)
@@ -5660,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 76.2) (xy 267.97 76.2)
+			(xy 242.57 76.2) (xy 264.16 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5720,7 +5720,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 76.2) (xy 267.97 81.28)
+			(xy 264.16 76.2) (xy 264.16 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7357,6 +7357,16 @@
 			(type default)
 		)
 		(uuid "b3176394-457c-4309-9b81-756b414871df")
+	)
+	(wire
+		(pts
+			(xy 264.16 76.2) (xy 267.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36ead1c-1802-4759-a589-711d94c3c667")
 	)
 	(wire
 		(pts
@@ -9454,7 +9464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 81.28 0)
+		(at 264.16 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9463,7 +9473,7 @@
 		(fields_autoplaced yes)
 		(uuid "10cad286-7046-463b-a77a-ce45c73ce310")
 		(property "Reference" "#PWR022"
-			(at 267.97 87.63 0)
+			(at 264.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 86.36 0)
+			(at 264.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 81.28 0)
+			(at 264.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 81.28 0)
+			(at 264.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 81.28 0)
+			(at 264.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,75 +9523,6 @@
 			(project ""
 				(path "/ad873eed-3dd0-44d0-aab1-78ac8a7fc95a"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13fd9632-4850-4c09-bc01-c4d5007eb45b")
-		(property "Reference" "C1"
-			(at 20.574 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 20.574 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 27.94 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "122f466f-be1d-4457-b98e-23d01946b31f")
-		)
-		(pin "2"
-			(uuid "f3b732c1-05fe-4cc0-9e26-326a161dcac5")
-		)
-		(instances
-			(project "SDM26_BSPD_1.0"
-				(path "/ad873eed-3dd0-44d0-aab1-78ac8a7fc95a"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9797,7 +9738,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 104.394 46.228 0)
 			(effects
 				(font
@@ -13021,7 +12962,7 @@
 		(dnp no)
 		(uuid "7117f5c4-ce84-4905-b122-d7daa302680a")
 		(property "Reference" "D6"
-			(at 220.472 151.892 90)
+			(at 219.964 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +12971,7 @@
 			)
 		)
 		(property "Value" "BAT54XV2T1G"
-			(at 210.82 153.67 90)
+			(at 210.312 151.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13676,7 +13617,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 75.184 79.248 0)
 			(effects
 				(font
@@ -15372,7 +15313,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 165.354 81.788 0)
 			(effects
 				(font
@@ -16951,6 +16892,76 @@
 			(project "SDM26_BSPD_1.0"
 				(path "/ad873eed-3dd0-44d0-aab1-78ac8a7fc95a"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 27.94 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a05acc-e4a0-43b5-968f-bc55bd0640f9")
+		(property "Reference" "C1"
+			(at 30.48 41.9035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 30.48 44.4435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19307682-6952-43db-ae1f-328ab47325fb")
+		)
+		(pin "2"
+			(uuid "12dde152-b223-42c6-b181-c9b0fd5e446e")
+		)
+		(instances
+			(project "SDM26_BSPD_1.0"
+				(path "/ad873eed-3dd0-44d0-aab1-78ac8a7fc95a"
+					(reference "C1")
 					(unit 1)
 				)
 			)
