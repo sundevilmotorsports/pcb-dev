@@ -2,15 +2,12 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ECX-.327-CDX-2096"
-		(pin_names
-			(hide yes)
-		)
+	(symbol "ABM3B-8.000MHZ-10-1-U-T"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at 8.89 6.35 0)
+			(at 16.51 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,8 +15,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "ECX-.327-CDX-2096"
-			(at 8.89 3.81 0)
+		(property "Value" "ABM3B-8.000MHZ-10-1-U-T"
+			(at 16.51 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,18 +24,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "ECX327CDX2096"
-			(at 8.89 -96.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-.327-CDX-2096.pdf"
-			(at 8.89 -196.19 0)
+		(property "Footprint" "SDM_MiscFootprint:ABM3B"
+			(at 16.51 -93.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,17 +34,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Crystals CRYSTAL 32.768 kHZ 12.5 PF SMD, ESR 50K Ohms, +/-5ppm Tolerance -40 C +85 C, 3.2 x 1.5 uw Max +/- 3 ppm 1st Year Aging Max"
-			(at 2.54 -7.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 8.89 -396.19 0)
+		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
+			(at 16.51 -193.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,8 +44,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "520-X-.327-CDX2096"
-			(at 8.89 -496.19 0)
+		(property "Description" "8 MHz +/-10ppm Crystal 10pF 200 Ohms 4-SMD, No Lead"
+			(at -12.7 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 16.51 -393.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,8 +63,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECX-.327-CDX-2096?qs=zW32dvEIR3t11RcE3dxOsQ%3D%3D"
-			(at 8.89 -596.19 0)
+		(property "Mouser Part Number" "815-ABM3B8MHZ101UT"
+			(at 16.51 -493.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,8 +73,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ECS"
-			(at 8.89 -696.19 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-8.000MHZ-10-1-U-T?qs=axzvp2Rdp5%252B1td01iPkwcw%3D%3D"
+			(at 16.51 -593.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,8 +83,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ECX-.327-CDX-2096"
-			(at 8.89 -796.19 0)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 16.51 -693.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,34 +93,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "ECX-.327-CDX-2096_1_1"
-			(polyline
-				(pts
-					(xy 3.048 2.54) (xy 3.048 -2.54)
+		(property "Manufacturer_Part_Number" "ABM3B-8.000MHZ-10-1-U-T"
+			(at 16.51 -793.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
+				(justify left top)
+				(hide yes)
 			)
-			(polyline
-				(pts
-					(xy 3.048 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
+		)
+		(symbol "ABM3B-8.000MHZ-10-1-U-T_1_1"
 			(rectangle
-				(start 4.064 3.556)
-				(end 6.096 -3.556)
+				(start -7.62 3.81)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -142,34 +115,28 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 7.112 2.54) (xy 7.112 -2.54)
+			(pin passive line
+				(at -12.7 1.27 0)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.112 0) (xy 7.62 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 2.54)
-				(name "1"
+				(at -12.7 -1.27 0)
+				(length 5.08)
+				(name "XTAL_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -185,9 +152,27 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "2"
+				(at 12.7 1.27 180)
+				(length 5.08)
+				(name "XTAL_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -1.27 180)
+				(length 5.08)
+				(name "GND_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -248,7 +233,7 @@
 			)
 		)
 		(property "Description" "Crystals 02.15.4 & Sub-GHz RF transceivers for ISM frequency + G3 PLC"
-			(at 0 0 0)
+			(at 13.208 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
