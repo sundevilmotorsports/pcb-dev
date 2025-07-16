@@ -8976,6 +8976,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 52.07) (xy 314.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fb299f-c655-4786-8fb1-1bf0cf94967d")
+	)
+	(wire
+		(pts
 			(xy 265.43 207.01) (xy 280.67 207.01)
 		)
 		(stroke
@@ -9036,6 +9046,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 66.04) (xy 314.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb702da-d281-44f0-a24d-475b8344411d")
+	)
+	(wire
+		(pts
 			(xy 87.63 138.43) (xy 67.31 138.43)
 		)
 		(stroke
@@ -9073,6 +9093,16 @@
 			(type default)
 		)
 		(uuid "10f8cb1a-0af1-4f7a-8fdc-b3daf5ecc719")
+	)
+	(wire
+		(pts
+			(xy 314.96 52.07) (xy 339.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130db82e-c21b-40a1-b5ea-b556b0919348")
 	)
 	(wire
 		(pts
@@ -11366,16 +11396,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 52.07) (xy 339.09 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea1ae2c-3e47-406d-8b54-49481d4244c0")
-	)
-	(wire
-		(pts
 			(xy 336.55 54.61) (xy 339.09 54.61)
 		)
 		(stroke
@@ -12046,6 +12066,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 58.42) (xy 314.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6d3802-af1a-47a4-8ad2-111cfd0d173b")
+	)
+	(wire
+		(pts
 			(xy 132.08 53.34) (xy 132.08 49.53)
 		)
 		(stroke
@@ -12615,7 +12645,7 @@
 		(uuid "c8570a75-f917-4a6a-94c4-1e31cb75e114")
 	)
 	(label "SDMMC1_CD"
-		(at 323.85 52.07 0)
+		(at 314.96 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14871,6 +14901,136 @@
 		)
 	)
 	(symbol
+		(lib_id "SDM_LED:150060RS75000")
+		(at 314.96 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c5effef-8430-40ff-98ee-54c41aee5082")
+		(property "Reference" "LED3"
+			(at 317.5 60.3249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 317.5 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
+			(at 408.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 508.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 318.008 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Measure" "SD Card Check"
+			(at 317.5 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Height" "0.8"
+			(at 708.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 808.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 908.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 1008.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 1108.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3661f4c2-4b31-496b-81df-3a7dd0e35e33")
+		)
+		(pin "2"
+			(uuid "2d37b2c8-1783-49b4-9dc9-74350724bc58")
+		)
+		(instances
+			(project "NondimensionalTractionControl_V1.0"
+				(path "/13fb873f-6aca-416c-abda-8d9aa81148f8"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 173.99 69.85 0)
 		(unit 1)
@@ -15331,6 +15491,71 @@
 			(project ""
 				(path "/13fb873f-6aca-416c-abda-8d9aa81148f8"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b28b467-af5f-4b8d-8a3a-2fe12d311d0d")
+		(property "Reference" "#PWR057"
+			(at 314.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3151d5b-06c3-49e0-a1f7-30f8baf67c83")
+		)
+		(instances
+			(project ""
+				(path "/13fb873f-6aca-416c-abda-8d9aa81148f8"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16262,6 +16487,74 @@
 			(project ""
 				(path "/13fb873f-6aca-416c-abda-8d9aa81148f8"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 314.96 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fb3ebe8-7077-47a1-ba77-b713553689da")
+		(property "Reference" "R13"
+			(at 317.5 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 318.008 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 314.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af7efea5-38ee-4071-98cf-b52a4f106c68")
+		)
+		(pin "2"
+			(uuid "adc44792-5ccd-4591-bb7b-8d2ad7fbfcd1")
+		)
+		(instances
+			(project "NondimensionalTractionControl_V1.0"
+				(path "/13fb873f-6aca-416c-abda-8d9aa81148f8"
+					(reference "R13")
 					(unit 1)
 				)
 			)
