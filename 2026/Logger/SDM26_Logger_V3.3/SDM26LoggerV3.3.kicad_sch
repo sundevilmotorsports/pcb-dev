@@ -12105,6 +12105,12 @@
 		(uuid "6357ef71-7f28-4690-a570-7ef95f5d737e")
 	)
 	(junction
+		(at 62.23 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6486e26c-69d2-491f-bd1a-2b037fe3393a")
+	)
+	(junction
 		(at 290.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13674,6 +13680,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8b4d75-6d38-4b6c-b0e5-988c2bab9927")
+	)
+	(wire
+		(pts
 			(xy 63.5 166.37) (xy 63.5 170.18)
 		)
 		(stroke
@@ -13884,7 +13900,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 35.56) (xy 299.72 35.56)
+			(xy 288.29 35.56) (xy 290.83 35.56)
 		)
 		(stroke
 			(width 0)
@@ -14494,7 +14510,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 30.48) (xy 73.66 30.48)
+			(xy 60.96 30.48) (xy 62.23 30.48)
 		)
 		(stroke
 			(width 0)
@@ -15641,6 +15657,16 @@
 			(type default)
 		)
 		(uuid "6cfd0fcd-10dc-4229-8dee-256ee4c4239d")
+	)
+	(wire
+		(pts
+			(xy 62.23 27.94) (xy 62.23 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1b6193-4aa0-41f6-bcbb-39dd7fd61bfd")
 	)
 	(wire
 		(pts
@@ -16854,7 +16880,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 33.02) (xy 299.72 33.02)
+			(xy 288.29 33.02) (xy 290.83 33.02)
 		)
 		(stroke
 			(width 0)
@@ -18244,16 +18270,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 29.21) (xy 62.23 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a8f474-8e32-47eb-8535-e8b5171b8398")
-	)
-	(wire
-		(pts
 			(xy 38.1 274.32) (xy 46.99 274.32)
 		)
 		(stroke
@@ -19334,6 +19350,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 31.75) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee543445-2332-44fb-9ff8-a132853c2bee")
+	)
+	(wire
+		(pts
 			(xy 354.33 40.64) (xy 355.6 40.64)
 		)
 		(stroke
@@ -19481,6 +19507,16 @@
 			(type default)
 		)
 		(uuid "f355001b-a2a6-461c-8e0a-6874c624c3d3")
+	)
+	(wire
+		(pts
+			(xy 62.23 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35aa72a-3139-4362-8867-f3844dddac43")
 	)
 	(wire
 		(pts
@@ -20423,12 +20459,12 @@
 		(uuid "709e2fd4-7b7a-4311-b8e5-dd2a1e96f013")
 	)
 	(label "I2C1_SDA"
-		(at 299.72 35.56 180)
+		(at 290.83 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7820fd66-0c3d-4e68-bb2e-a580a388b00c")
 	)
@@ -20943,12 +20979,12 @@
 		(uuid "e1506956-87cc-48f9-8df7-5c25cf75738e")
 	)
 	(label "I2C1_SCL"
-		(at 299.72 33.02 180)
+		(at 290.83 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e15d8790-e707-40a4-ae45-741b73df1e30")
 	)
@@ -23774,7 +23810,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 62.23 26.67 0)
+		(at 58.42 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23782,25 +23818,25 @@
 		(dnp no)
 		(uuid "2a441b87-55c8-41e7-b019-6a932d2db8df")
 		(property "Reference" "C1"
-			(at 53.34 23.876 0)
+			(at 55.118 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 53.34 26.416 0)
+			(at 55.118 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 62.23 26.67 0)
+			(at 58.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23809,7 +23845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 26.67 0)
+			(at 58.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23818,7 +23854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 26.67 0)
+			(at 58.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27433,6 +27469,71 @@
 			(project ""
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d960255-534e-45f9-a569-623bd6834745")
+		(property "Reference" "#PWR089"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63854d3d-75ef-4bb5-a2a8-e4607b26f3da")
+		)
+		(instances
+			(project "SDM26LoggerV3.3"
+				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -31405,7 +31506,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 62.23 24.13 0)
+		(at 62.23 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31414,7 +31515,7 @@
 		(fields_autoplaced yes)
 		(uuid "992d9b04-1ab5-490c-b179-d9292809ab25")
 		(property "Reference" "#PWR02"
-			(at 62.23 27.94 0)
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31423,7 +31524,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 62.23 19.05 0)
+			(at 62.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31431,7 +31532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31440,7 +31541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31449,7 +31550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 62.23 24.13 0)
+			(at 62.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31461,7 +31562,7 @@
 			(uuid "ee44f7b4-6e1f-478d-9edd-2fd46d07aa70")
 		)
 		(instances
-			(project ""
+			(project "SDM26LoggerV3.3"
 				(path "/15312c49-b4c2-4ebd-b09f-182f121f9437"
 					(reference "#PWR02")
 					(unit 1)
