@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,116 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|117225000|121300000|295b7038-075e-4ffe-8a96-5798d33fdbc1|1bc5ee0c-013a-4b82-bd1f-b8021abc87de",
+          ""
+        ],
+        [
+          "clearance|117225000|121800000|295b7038-075e-4ffe-8a96-5798d33fdbc1|24b18071-5f00-4fa4-804c-0b7a12c6d97a",
+          ""
+        ],
+        [
+          "clearance|117225000|122800000|295b7038-075e-4ffe-8a96-5798d33fdbc1|1956deb0-9fe5-404d-a709-e03421e3443e",
+          ""
+        ],
+        [
+          "clearance|117225000|123300000|295b7038-075e-4ffe-8a96-5798d33fdbc1|c90ea868-0459-4961-9ca1-ecd160714a8e",
+          ""
+        ],
+        [
+          "clearance|117225000|123800000|295b7038-075e-4ffe-8a96-5798d33fdbc1|8836f04b-ee98-4940-ba16-43495dfc7971",
+          ""
+        ],
+        [
+          "clearance|117225000|124300000|295b7038-075e-4ffe-8a96-5798d33fdbc1|bf7f4088-ebcd-4c40-8d52-71cabe114421",
+          ""
+        ],
+        [
+          "clearance|117250000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|6eff8c38-e417-4fbc-b1e0-cd5072385677",
+          ""
+        ],
+        [
+          "clearance|117250000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|d4c44934-f4fa-4f66-b2b5-594cbcaa4fae",
+          ""
+        ],
+        [
+          "clearance|117750000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|b0daf345-ecb6-46aa-8416-7af50d534725",
+          ""
+        ],
+        [
+          "clearance|117750000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|e67eb9f8-4dae-48a9-abb9-44c5dd8899c7",
+          ""
+        ],
+        [
+          "clearance|118250000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|b6936fcd-241b-475f-841f-cf5347e852bc",
+          ""
+        ],
+        [
+          "clearance|118250000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|0805be61-f89e-43cc-88ac-92686c48d256",
+          ""
+        ],
+        [
+          "clearance|118750000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|10651fc8-4ef8-4dce-821d-478c135bae90",
+          ""
+        ],
+        [
+          "clearance|118750000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|58b6a99d-1000-469c-9f1e-cf122383bc5c",
+          ""
+        ],
+        [
+          "clearance|119250000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|35982788-196c-4c1f-8957-ef63440bf1a5",
+          ""
+        ],
+        [
+          "clearance|119250000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|3b989ceb-c675-4824-8db0-f00bb2127788",
+          ""
+        ],
+        [
+          "clearance|119750000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|024bbc29-02eb-45f7-abc3-e29479e65cd2",
+          ""
+        ],
+        [
+          "clearance|119750000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|99244739-64b8-46e1-9cc3-ba5fc6f05eea",
+          ""
+        ],
+        [
+          "clearance|120250000|120975000|295b7038-075e-4ffe-8a96-5798d33fdbc1|c3192169-7014-4e88-913e-7b63aaa4b6ed",
+          ""
+        ],
+        [
+          "clearance|120250000|124325000|295b7038-075e-4ffe-8a96-5798d33fdbc1|bef7dbca-29b7-4b18-a014-721369b1dddb",
+          ""
+        ],
+        [
+          "clearance|120575000|121000000|295b7038-075e-4ffe-8a96-5798d33fdbc1|36247581-f3c0-4a4a-b1af-9d0118f5dc27",
+          ""
+        ],
+        [
+          "clearance|120575000|121500000|295b7038-075e-4ffe-8a96-5798d33fdbc1|9eeb853b-ce76-4179-a9fc-e852f3d97b40",
+          ""
+        ],
+        [
+          "clearance|120575000|122000000|295b7038-075e-4ffe-8a96-5798d33fdbc1|70aa809d-b46d-4e99-bc96-7e33fa2c664e",
+          ""
+        ],
+        [
+          "clearance|120575000|122500000|295b7038-075e-4ffe-8a96-5798d33fdbc1|6ae16da0-688e-49d3-aa23-288c40717d5b",
+          ""
+        ],
+        [
+          "clearance|120575000|123000000|295b7038-075e-4ffe-8a96-5798d33fdbc1|5090bd75-7986-4419-99cd-cdaea628d985",
+          ""
+        ],
+        [
+          "clearance|120575000|123500000|295b7038-075e-4ffe-8a96-5798d33fdbc1|f51c37a4-3d97-404e-b23e-e6ee657e43ff",
+          ""
+        ],
+        [
+          "clearance|120575000|124000000|295b7038-075e-4ffe-8a96-5798d33fdbc1|0fc714cd-93ac-4658-9f22-ab6930466454",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -504,7 +613,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../PCB_Exports/SDM26_TimingGates_V1.0.step",
       "svg": "",
       "vrml": ""
     },
