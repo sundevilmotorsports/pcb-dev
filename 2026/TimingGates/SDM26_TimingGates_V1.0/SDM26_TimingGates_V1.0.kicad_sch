@@ -4860,12 +4860,6 @@
 		(uuid "8806254a-69be-4c73-bbf9-766d704fda83")
 	)
 	(junction
-		(at 64.77 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e8257b9-7e69-4a61-a0a5-2e89b5e825f8")
-	)
-	(junction
 		(at 85.09 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4906,6 +4900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdf07fcd-f0ad-4eb0-83d3-5c1ff2ead144")
+	)
+	(junction
+		(at 63.5 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cec09317-5300-444b-88cb-32e99a290dd1")
 	)
 	(junction
 		(at 156.21 53.34)
@@ -5249,16 +5249,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 129.54) (xy 64.77 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15772968-06d6-4e2f-960e-07c8744ae388")
-	)
-	(wire
-		(pts
 			(xy 48.26 33.02) (xy 48.26 27.94)
 		)
 		(stroke
@@ -5449,7 +5439,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 129.54) (xy 62.23 129.54)
+			(xy 63.5 129.54) (xy 64.77 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5759,7 +5749,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 129.54) (xy 64.77 130.81)
+			(xy 63.5 129.54) (xy 63.5 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6129,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 127) (xy 62.23 127)
+			(xy 64.77 127) (xy 62.23 127)
 		)
 		(stroke
 			(width 0)
@@ -6356,6 +6346,16 @@
 			(type default)
 		)
 		(uuid "e237d9d6-e3b1-48d5-a2e6-9dce3e5bd949")
+	)
+	(wire
+		(pts
+			(xy 63.5 129.54) (xy 62.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69112ce-60ee-4fcc-9cf1-a43fe8602b23")
 	)
 	(wire
 		(pts
@@ -7016,71 +7016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 125.73 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "165258dc-4f8c-4203-b58b-d9bf43f736b3")
-		(property "Reference" "#PWR017"
-			(at 125.73 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 125.73 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2da7cdb0-a2a2-4157-a812-018176e5d695")
-		)
-		(instances
-			(project "SDM26_TimingGates_V1.0"
-				(path "/c9a77d9c-480b-4be9-ba08-59e40f43df27"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 35.56 86.36 270)
 		(unit 1)
@@ -7149,7 +7084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 130.81 0)
+		(at 63.5 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7158,7 +7093,7 @@
 		(fields_autoplaced yes)
 		(uuid "1af468ae-0ac7-4045-b1f6-de3e07ea3713")
 		(property "Reference" "#PWR020"
-			(at 64.77 137.16 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 135.89 0)
+			(at 63.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 130.81 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 130.81 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 130.81 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +7873,7 @@
 	(symbol
 		(lib_name "BAT-HLD-001-THM_1")
 		(lib_id "SDM_BATTERY:BAT-HLD-001-THM")
-		(at 67.31 129.54 0)
+		(at 64.77 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7947,7 +7882,7 @@
 		(fields_autoplaced yes)
 		(uuid "5386ab07-5ec6-49af-abd0-a02c3e03603d")
 		(property "Reference" "H3"
-			(at 76.2 126.8729 0)
+			(at 73.66 126.8729 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +7891,7 @@
 			)
 		)
 		(property "Value" "BAT-HLD-001-THM"
-			(at 76.2 129.4129 0)
+			(at 73.66 129.4129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7900,7 @@
 			)
 		)
 		(property "Footprint" "SDM_MiscFootprint:BATHLD001THM"
-			(at 83.82 224.46 0)
+			(at 81.28 224.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7975,7 +7910,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FBAT-HLD-001-THM%7FB%7Fpdf%7FEnglish%7FENG_DS_BAT-HLD-001-THM_B.pdf%7FBAT-HLD-001-THM"
-			(at 83.82 324.46 0)
+			(at 81.28 324.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +7920,7 @@
 			)
 		)
 		(property "Description" "Battery Holders, CR2032, 1 Position, Horizontal, Nickel, PCB Mount Alignment, Power, -40  257 F [-40  125 C]"
-			(at 67.31 129.54 0)
+			(at 64.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7929,7 @@
 			)
 		)
 		(property "Height" "4.3"
-			(at 83.82 524.46 0)
+			(at 81.28 524.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +7939,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 83.82 624.46 0)
+			(at 81.28 624.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +7949,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/BAT-HLD-001-THM?qs=ulEaXIWI0c%2Fo%2FE735Joafg%3D%3D"
-			(at 83.82 724.46 0)
+			(at 81.28 724.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +7959,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 83.82 824.46 0)
+			(at 81.28 824.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +7969,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BAT-HLD-001-THM"
-			(at 83.82 924.46 0)
+			(at 81.28 924.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,6 +8894,71 @@
 			(project "SDM26_TimingGates_V1.0"
 				(path "/c9a77d9c-480b-4be9-ba08-59e40f43df27"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 125.73 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6be9560-41b2-4d69-bd66-f90e656f77b0")
+		(property "Reference" "#PWR017"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 125.73 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dba1b26-d6a4-4d70-84bc-812571cdacd7")
+		)
+		(instances
+			(project ""
+				(path "/c9a77d9c-480b-4be9-ba08-59e40f43df27"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
