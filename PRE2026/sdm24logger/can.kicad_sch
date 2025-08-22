@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20231120)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(uuid "08ca3bd6-b50c-4706-bf3c-b47cf3712167")
 	(paper "USLetter")
 	(title_block
@@ -13,13 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -89,10 +85,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -101,10 +97,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -150,13 +146,10 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "Device:D_TVS_Dual_AAC"
 			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -229,18 +222,6 @@
 			(symbol "D_TVS_Dual_AAC_0_1"
 				(polyline
 					(pts
-						(xy -6.35 1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -6.35 -1.27) (xy -6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -6.35 0) (xy 6.35 0)
 					)
 					(stroke
@@ -263,20 +244,21 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+						(xy -6.35 1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -6.35 -1.27) (xy -6.35 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -298,6 +280,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
 			(symbol "D_TVS_Dual_AAC_1_1"
 				(pin passive line
@@ -311,24 +304,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -354,17 +329,30 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -482,7 +470,6 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "Interface_CAN_LIN:SN65HVD230"
 			(pin_names
@@ -586,6 +573,42 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -622,53 +645,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -5.08 0)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "Rs"
+					(name "CANL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -694,17 +681,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "CANL"
+					(name "Rs"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -713,13 +700,10 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Open"
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -810,9 +794,9 @@
 			)
 			(symbol "Jumper_2_Open_0_1"
 				(arc
-					(start -1.524 1.27)
+					(start 1.524 1.27)
 					(mid 0 1.778)
-					(end 1.524 1.27)
+					(end -1.524 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -860,7 +844,6 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
@@ -938,7 +921,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -950,7 +933,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -964,8 +947,7 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0)
-					(hide yes)
+					(length 0) hide
 					(name "+3.3V"
 						(effects
 							(font
@@ -982,7 +964,6 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1062,8 +1043,7 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(hide yes)
+					(length 0) hide
 					(name "GND"
 						(effects
 							(font
@@ -1080,47 +1060,7 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
-	)
-	(text "DAQ Bus"
-		(exclude_from_sim no)
-		(at 41.91 132.08 0)
-		(effects
-			(font
-				(size 5.12 5.12)
-				(thickness 0.51)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a2f1dbb-9472-4710-83db-f74a93537728")
-	)
-	(text "ECU Bus"
-		(exclude_from_sim no)
-		(at 36.83 68.58 0)
-		(effects
-			(font
-				(size 5.12 5.12)
-				(thickness 0.51)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d14ced8-ab07-41af-92cc-c619b74a28ba")
-	)
-	(text "CAN Transceivers"
-		(exclude_from_sim no)
-		(at 99.06 43.18 0)
-		(effects
-			(font
-				(size 5.12 5.12)
-				(thickness 0.51)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "99a305c7-bd59-4c66-b7e5-3208810140a7")
 	)
 	(junction
 		(at 171.45 115.57)
@@ -1926,6 +1866,45 @@
 		)
 		(uuid "ffced9a3-5e2e-4289-ba8d-ff85c76f8d43")
 	)
+	(text "DAQ Bus"
+		(exclude_from_sim no)
+		(at 41.91 132.08 0)
+		(effects
+			(font
+				(size 5.12 5.12)
+				(thickness 0.51)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a2f1dbb-9472-4710-83db-f74a93537728")
+	)
+	(text "ECU Bus"
+		(exclude_from_sim no)
+		(at 36.83 68.58 0)
+		(effects
+			(font
+				(size 5.12 5.12)
+				(thickness 0.51)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d14ced8-ab07-41af-92cc-c619b74a28ba")
+	)
+	(text "CAN Transceivers"
+		(exclude_from_sim no)
+		(at 99.06 43.18 0)
+		(effects
+			(font
+				(size 5.12 5.12)
+				(thickness 0.51)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "99a305c7-bd59-4c66-b7e5-3208810140a7")
+	)
 	(global_label "ECU_CAN+"
 		(shape input)
 		(at 83.82 57.15 180)
@@ -2017,6 +1996,7 @@
 	(hierarchical_label "DAQ_CTX"
 		(shape input)
 		(at 163.83 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2028,6 +2008,7 @@
 	(hierarchical_label "DAQ_CRX"
 		(shape input)
 		(at 163.83 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2039,6 +2020,7 @@
 	(hierarchical_label "ECU_CTX"
 		(shape input)
 		(at 163.83 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2050,6 +2032,7 @@
 	(hierarchical_label "ECU_CRX"
 		(shape input)
 		(at 163.83 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
