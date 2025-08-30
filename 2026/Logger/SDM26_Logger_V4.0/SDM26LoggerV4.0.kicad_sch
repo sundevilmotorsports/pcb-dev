@@ -12637,6 +12637,10 @@
 		(uuid "fed204c5-47b7-4f7b-9661-7d586c135ceb")
 	)
 	(no_connect
+		(at 106.68 27.94)
+		(uuid "01893713-def3-45f0-b7bf-df956e3433c5")
+	)
+	(no_connect
 		(at 106.68 48.26)
 		(uuid "03bd50b4-c429-4f1b-b37e-71fdf73b1a74")
 	)
@@ -12767,6 +12771,10 @@
 	(no_connect
 		(at 46.99 269.24)
 		(uuid "a04d3f14-74ee-4d88-9476-d2ee5afe3897")
+	)
+	(no_connect
+		(at 66.04 184.15)
+		(uuid "a209aed7-3ecb-4011-b653-6a952c213306")
 	)
 	(no_connect
 		(at 218.44 50.8)
@@ -13753,16 +13761,6 @@
 			(type default)
 		)
 		(uuid "253a6286-b7c1-4231-ad73-0fceec67ecba")
-	)
-	(wire
-		(pts
-			(xy 106.68 27.94) (xy 116.84 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25819bf5-59ea-4326-9ef8-735d1b4910aa")
 	)
 	(wire
 		(pts
@@ -16426,16 +16424,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 186.69) (xy 62.23 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a4252a-a0ac-4325-b7f4-3febfec3a0fa")
-	)
-	(wire
-		(pts
 			(xy 320.04 93.98) (xy 330.2 93.98)
 		)
 		(stroke
@@ -16773,16 +16761,6 @@
 			(type default)
 		)
 		(uuid "8f11f228-8a0b-4b20-8552-be7cbc89a193")
-	)
-	(wire
-		(pts
-			(xy 55.88 186.69) (xy 62.23 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f25ba97-eff1-494f-995f-83d1a53f1195")
 	)
 	(wire
 		(pts
@@ -19666,16 +19644,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 184.15) (xy 66.04 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b89303-733b-40d6-97c0-912b5cdefb8e")
-	)
-	(wire
-		(pts
 			(xy 198.12 242.57) (xy 199.898 242.57)
 		)
 		(stroke
@@ -20264,6 +20232,16 @@
 		)
 		(uuid "37fd1d21-8f52-44d3-86aa-73509e95823e")
 	)
+	(label "UART2_TX"
+		(at 289.56 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f8a33a5-4b35-4ce3-9362-db5eb83281dc")
+	)
 	(label "EFUSE IN"
 		(at 126.238 252.73 0)
 		(effects
@@ -20313,16 +20291,6 @@
 			(justify right bottom)
 		)
 		(uuid "45ecd681-2356-495d-93c7-c562348ef1e5")
-	)
-	(label "SD_CD"
-		(at 116.84 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46ca3e4d-7c1b-4c5d-a093-2bcd432d5579")
 	)
 	(label "UART1_D+"
 		(at 62.23 66.04 0)
@@ -20543,16 +20511,6 @@
 			(justify left bottom)
 		)
 		(uuid "693362c9-056d-4476-abc5-5f59879dca3a")
-	)
-	(label "SD_CD"
-		(at 55.88 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69eaf622-6919-40cb-950c-2ccae3161eec")
 	)
 	(label "AIN2"
 		(at 151.13 184.15 180)
@@ -20824,16 +20782,6 @@
 		)
 		(uuid "a1b9f274-3e74-4b9a-a588-ead70bcbfea9")
 	)
-	(label "UART2_RX"
-		(at 289.56 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a25c3ac1-3feb-4bd9-b026-45180744615f")
-	)
 	(label "CHIP_PU"
 		(at 243.84 16.51 180)
 		(effects
@@ -20944,6 +20892,16 @@
 		)
 		(uuid "bad6a12b-e9eb-47ff-830e-604d6c34d5b7")
 	)
+	(label "UART2_RX"
+		(at 289.56 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbd70d7c-7cba-4156-8ce8-ea9c161cf23c")
+	)
 	(label "AIN6_EXT"
 		(at 162.56 184.15 0)
 		(effects
@@ -20963,16 +20921,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2f9e489-76f8-4ca8-89d6-afb57b0c7991")
-	)
-	(label "UART2_TX"
-		(at 289.56 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c41aee31-d776-4cbf-997c-196f03b8826b")
 	)
 	(label "CAN_RTX"
 		(at 62.23 55.88 0)
@@ -30820,7 +30768,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 58.166 92.71 90)
 			(effects
 				(font
@@ -38305,7 +38253,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 58.42 84.582 90)
 			(effects
 				(font
@@ -38740,7 +38688,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100nF"
 			(at 190.246 80.772 0)
 			(effects
 				(font
