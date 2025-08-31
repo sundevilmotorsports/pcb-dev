@@ -4896,7 +4896,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SDM_MiscFootprint:ISM330DHCXTR"
+			(property "Footprint" "SDM_MiscFootprint:LSM6DS3USTR"
 				(at 31.75 -87.3 0)
 				(effects
 					(font
@@ -7631,8 +7631,8 @@
 		(uuid "af16f188-4a55-4ef0-8eec-04e67607be83")
 	)
 	(no_connect
-		(at 49.53 91.44)
-		(uuid "b5b93be1-c676-42fd-aeac-ef55cea6748c")
+		(at 82.55 33.02)
+		(uuid "b62adc4b-6413-4126-9a5e-4214e51699ed")
 	)
 	(no_connect
 		(at 82.55 53.34)
@@ -7975,6 +7975,16 @@
 			(type default)
 		)
 		(uuid "19711964-35a6-4325-8d15-96760dc38f81")
+	)
+	(wire
+		(pts
+			(xy 39.37 91.44) (xy 49.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf75952-428a-42f4-8078-50f7fdbe5322")
 	)
 	(wire
 		(pts
@@ -9788,16 +9798,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 92.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8cc4a32-caeb-48c8-a7e5-46e7435f9a9e")
-	)
-	(wire
-		(pts
 			(xy 259.08 139.7) (xy 257.81 139.7)
 		)
 		(stroke
@@ -10496,6 +10496,16 @@
 		)
 		(uuid "9a3bdc14-9ce6-42f5-83ed-26113a2b3aa5")
 	)
+	(label "USER_LED"
+		(at 39.37 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b64c171-0600-40fe-990b-3e068516de56")
+	)
 	(label "GPIO0"
 		(at 288.29 53.34 180)
 		(effects
@@ -10605,16 +10615,6 @@
 			(justify right bottom)
 		)
 		(uuid "f9314d93-02cc-468e-b580-db58a06f91e0")
-	)
-	(label "USER_LED"
-		(at 92.71 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa3f8cd3-1e87-42d5-a4d0-59cd40b0b1a7")
 	)
 	(label "CAN_CTX"
 		(at 39.37 43.18 0)
@@ -16485,7 +16485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SDM_MiscFootprint:ISM330DHCXTR"
+		(property "Footprint" "SDM_MiscFootprint:LSM6DS3USTR"
 			(at 158.75 149.53 0)
 			(effects
 				(font

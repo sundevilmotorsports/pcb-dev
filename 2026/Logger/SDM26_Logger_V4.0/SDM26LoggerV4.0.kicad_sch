@@ -12773,10 +12773,6 @@
 		(uuid "a04d3f14-74ee-4d88-9476-d2ee5afe3897")
 	)
 	(no_connect
-		(at 66.04 184.15)
-		(uuid "a209aed7-3ecb-4011-b653-6a952c213306")
-	)
-	(no_connect
 		(at 218.44 50.8)
 		(uuid "acf65627-6fe0-4c58-b2b7-bd49c63e43d5")
 	)
@@ -14894,6 +14890,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 184.15) (xy 66.04 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ffbb8b-6b52-44a1-9efb-cc386c601f4d")
+	)
+	(wire
+		(pts
 			(xy 358.14 200.66) (xy 365.76 200.66)
 		)
 		(stroke
@@ -16064,6 +16070,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 185.42) (xy 62.23 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae601bf-78a4-4b92-ace4-96ba09616ae0")
+	)
+	(wire
+		(pts
 			(xy 260.35 50.8) (xy 260.35 55.88)
 		)
 		(stroke
@@ -16331,6 +16347,16 @@
 			(type default)
 		)
 		(uuid "833849c9-f1e5-439d-b1b4-f26389d903b1")
+	)
+	(wire
+		(pts
+			(xy 62.23 185.42) (xy 62.23 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8341ed4e-ae9d-42ac-902f-f238b3d7af6c")
 	)
 	(wire
 		(pts
@@ -20242,7 +20268,7 @@
 		)
 		(uuid "3f8a33a5-4b35-4ce3-9362-db5eb83281dc")
 	)
-	(label "EFUSE IN"
+	(label "EFUSE_IN"
 		(at 126.238 252.73 0)
 		(effects
 			(font
@@ -20772,7 +20798,7 @@
 		)
 		(uuid "9d812477-83fc-463b-9d2f-ccdd12f01ba7")
 	)
-	(label "EFUSE OUT"
+	(label "EFUSE_OUT"
 		(at 195.58 252.73 180)
 		(effects
 			(font
@@ -20841,6 +20867,16 @@
 			(justify right bottom)
 		)
 		(uuid "aa8319f4-e5f5-4bbd-ab8b-f20ea0b87593")
+	)
+	(label "SD_CD"
+		(at 55.88 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac3545b2-65f7-474f-b44b-3889809a4a39")
 	)
 	(label "BIAS_T"
 		(at 378.46 180.34 0)
