@@ -5813,6 +5813,16 @@
 		)
 		(uuid "cf59ece9-6d8b-4771-8299-27e10eab8000")
 	)
+	(text "DO NOT USE THIS PIN!!!\n<--"
+		(exclude_from_sim no)
+		(at 87.376 26.924 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "d6b2f58a-1f01-4663-b97b-0e89fac4b57b")
+	)
 	(text "Max current calculation\n12 * historic input current = 5 *  output current + c\nc = losses due to heat, can essentialy be ignored\n2025 max constant current = 400mA\n12 * 0.4 = 5 * oc\noc = 1.042A\nThe lowest max rated current is TPS2116DRL @ 2.5A.\nLowest Max rated current = LMC = 2.5A.\nEfuze Max current = EMC.\nMax constent current = MCC = 1.042.\nMCC < EMC <= LMC"
 		(exclude_from_sim no)
 		(at 241.808 65.024 0)
@@ -6211,6 +6221,18 @@
 		(uuid "fdd803f7-8dad-4153-8835-896331c9cb6a")
 	)
 	(no_connect
+		(at 49.53 88.9)
+		(uuid "0178f682-eb24-4c87-bbd0-fecd4b1794ac")
+	)
+	(no_connect
+		(at 49.53 86.36)
+		(uuid "0a3d425b-47e5-456f-915a-ce6906224861")
+	)
+	(no_connect
+		(at 49.53 76.2)
+		(uuid "0da93ffc-a8ac-4ce4-b66c-bc1336371030")
+	)
+	(no_connect
 		(at 82.55 60.96)
 		(uuid "0e6931cd-7775-4ff8-bb36-6caeb74b6376")
 	)
@@ -6219,12 +6241,28 @@
 		(uuid "19e85e89-56c6-4170-8c31-b6bdff42222f")
 	)
 	(no_connect
+		(at 49.53 45.72)
+		(uuid "22a98aa0-7d91-4576-b132-5e943e16c4ce")
+	)
+	(no_connect
 		(at 119.38 77.47)
 		(uuid "292f1b38-60fc-4a3d-b400-586a56f20d5f")
 	)
 	(no_connect
+		(at 49.53 60.96)
+		(uuid "2aff4bb2-2421-49b4-87a6-ed07efb1f5e7")
+	)
+	(no_connect
 		(at 82.55 50.8)
 		(uuid "36818d8d-43ca-4d03-b165-c714fe2b9f73")
+	)
+	(no_connect
+		(at 49.53 71.12)
+		(uuid "3ae6812d-cc3a-4297-a85f-4812c7d65d89")
+	)
+	(no_connect
+		(at 49.53 68.58)
+		(uuid "3e11a627-6241-4ff2-9286-6e05a1bd8f11")
 	)
 	(no_connect
 		(at 200.66 88.9)
@@ -6247,6 +6285,14 @@
 		(uuid "5bde5e58-61ae-45da-b760-2776f8a5f1ba")
 	)
 	(no_connect
+		(at 49.53 66.04)
+		(uuid "670aac9d-b401-4c39-a286-c196a59fd295")
+	)
+	(no_connect
+		(at 49.53 81.28)
+		(uuid "69ca3510-1244-4f6e-8933-5a89b651739a")
+	)
+	(no_connect
 		(at 331.47 36.83)
 		(uuid "6b454e53-b2cb-4eba-9b55-19a9fd103aa9")
 	)
@@ -6255,8 +6301,16 @@
 		(uuid "6f909987-0254-43eb-a35e-e3e101c4eee0")
 	)
 	(no_connect
+		(at 49.53 43.18)
+		(uuid "776c010b-91be-4247-8eca-7c17a2e92a05")
+	)
+	(no_connect
 		(at 218.44 72.39)
 		(uuid "7d3e03c7-8674-4757-b662-d77e7920a2f4")
+	)
+	(no_connect
+		(at 49.53 38.1)
+		(uuid "7d85ac42-1dd9-4142-8a90-996ec7572fb3")
 	)
 	(no_connect
 		(at 129.54 72.39)
@@ -6271,8 +6325,20 @@
 		(uuid "84906a5c-4ffb-4d28-bc62-2b796bca26c5")
 	)
 	(no_connect
+		(at 49.53 35.56)
+		(uuid "9467cf77-7a41-43f3-bc96-ba5477d8b237")
+	)
+	(no_connect
+		(at 49.53 48.26)
+		(uuid "9a9c087f-a336-423b-b781-c1cb1b303d0b")
+	)
+	(no_connect
 		(at 218.44 67.31)
 		(uuid "a15e8465-2b5c-4d78-b54c-91fbc3e9233c")
+	)
+	(no_connect
+		(at 49.53 58.42)
+		(uuid "a24ff15b-ddef-43a2-8053-66ac5947a662")
 	)
 	(no_connect
 		(at 195.58 88.9)
@@ -6291,6 +6357,14 @@
 		(uuid "c431345c-0bd3-4c3b-8b14-0f93d8127a93")
 	)
 	(no_connect
+		(at 49.53 78.74)
+		(uuid "ca8325d5-2128-4f22-ae30-f144487c8fd1")
+	)
+	(no_connect
+		(at 49.53 63.5)
+		(uuid "ccb4f8f6-6e9f-495b-b284-6781f2d5c059")
+	)
+	(no_connect
 		(at 82.55 48.26)
 		(uuid "ccfcf809-c881-4489-bf72-b9d0c67a11a5")
 	)
@@ -6307,12 +6381,20 @@
 		(uuid "d3c1fdee-9e5c-482f-95e9-eb2caa55e341")
 	)
 	(no_connect
+		(at 49.53 40.64)
+		(uuid "d8fdd4ac-c498-4de8-ab61-52c255b6c18c")
+	)
+	(no_connect
 		(at 175.26 59.69)
 		(uuid "df8f34e3-a76d-45a5-a0f1-c1288ff46819")
 	)
 	(no_connect
 		(at 82.55 45.72)
 		(uuid "df9b91ae-7188-49a2-86ca-0c06519aec76")
+	)
+	(no_connect
+		(at 49.53 73.66)
+		(uuid "e1eb155c-e771-449f-bda6-3508ee022aa4")
 	)
 	(no_connect
 		(at 218.44 74.93)
@@ -10209,7 +10291,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c835453-dc12-49b5-a1f6-5e27cf70336b")
 		(property "Reference" "IC1"
 			(at 66.04 20.32 0)
