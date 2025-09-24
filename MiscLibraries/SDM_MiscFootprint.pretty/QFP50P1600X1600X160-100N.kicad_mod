@@ -6,7 +6,7 @@
 	(descr "RA8875")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 -9.9 0)
 		(layer "F.SilkS")
 		(uuid "a74ccadf-6aad-4806-b1f9-eaee7a4422f2")
 		(effects
@@ -53,46 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -6.65 -6.65)
-		(end 6.65 -6.65)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f8e62a2e-3b0f-4313-8186-890bad085554")
-	)
-	(fp_line
-		(start -6.65 6.65)
-		(end -6.65 -6.65)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "318470a6-60a2-43f7-aa0e-e49da231bd5a")
-	)
-	(fp_line
-		(start 6.65 -6.65)
-		(end 6.65 6.65)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5f56597d-f167-466f-a996-51772e1e4692")
-	)
-	(fp_line
-		(start 6.65 6.65)
-		(end -6.65 6.65)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "86f461d8-e11a-4f6b-afe7-6177dc7d1a86")
-	)
 	(fp_circle
 		(center -8.225 -6.75)
 		(end -8.225 -6.625)
@@ -103,6 +63,46 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "2e215abe-99d6-43a5-8aec-e9bf55504cdf")
+	)
+	(fp_line
+		(start -6.65 -6.65)
+		(end 6.65 -6.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f8e62a2e-3b0f-4313-8186-890bad085554")
+	)
+	(fp_line
+		(start -6.65 6.65)
+		(end -6.65 -6.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "318470a6-60a2-43f7-aa0e-e49da231bd5a")
+	)
+	(fp_line
+		(start 6.65 -6.65)
+		(end 6.65 6.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5f56597d-f167-466f-a996-51772e1e4692")
+	)
+	(fp_line
+		(start 6.65 6.65)
+		(end -6.65 6.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "86f461d8-e11a-4f6b-afe7-6177dc7d1a86")
 	)
 	(fp_line
 		(start -8.725 -8.725)
