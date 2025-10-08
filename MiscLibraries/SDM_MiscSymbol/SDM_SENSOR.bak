@@ -473,19 +473,27 @@
 		)
 		(symbol "MAX9924UAUB+_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 27.94 -12.7)
+				(start 0 0)
+				(end 17.78 -19.05)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
+			(text "MAX9924\n"
+				(at 8.382 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -2.54 0)
+				(length 2.54)
 				(name "IN+"
 					(effects
 						(font
@@ -501,9 +509,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
+			(pin bidirectional line
+				(at -2.54 -6.35 0)
+				(length 2.54)
 				(name "IN-"
 					(effects
 						(font
@@ -520,8 +528,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 5.08)
+				(at -2.54 -10.16 0)
+				(length 2.54)
 				(name "N.C."
 					(effects
 						(font
@@ -537,9 +545,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -7.62 0)
-				(length 5.08)
+			(pin bidirectional line
+				(at -2.54 -13.97 0)
+				(length 2.54)
 				(name "BIAS"
 					(effects
 						(font
@@ -555,9 +563,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -10.16 0)
-				(length 5.08)
+			(pin bidirectional line
+				(at -2.54 -17.78 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -573,10 +581,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 0 180)
-				(length 5.08)
-				(name "VCC"
+			(pin bidirectional line
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "Vcc"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -591,9 +599,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -2.54 180)
-				(length 5.08)
+			(pin bidirectional line
+				(at 20.32 -6.35 180)
+				(length 2.54)
 				(name "INT_THRS"
 					(effects
 						(font
@@ -609,9 +617,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -5.08 180)
-				(length 5.08)
+			(pin bidirectional line
+				(at 20.32 -10.16 180)
+				(length 2.54)
 				(name "EXT"
 					(effects
 						(font
@@ -627,9 +635,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -7.62 180)
-				(length 5.08)
+			(pin bidirectional line
+				(at 20.32 -13.97 180)
+				(length 2.54)
 				(name "COUT"
 					(effects
 						(font
@@ -645,9 +653,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -10.16 180)
-				(length 5.08)
+			(pin bidirectional line
+				(at 20.32 -17.78 180)
+				(length 2.54)
 				(name "ZERO_EN"
 					(effects
 						(font
@@ -656,6 +664,194 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MLX90640ESF-BAB-000-SP"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 21.59 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "MLX90640ESF-BAB-000-SP"
+			(at 21.59 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "MLX90640ESFBAB000SP"
+			(at 21.59 -87.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf"
+			(at 21.59 -187.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Board Mount Temperature Sensors 32X24 thermal array sensor, 3Volt, 60deg total FOV"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 21.59 -387.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "482-MLX90640ESFBABSP"
+			(at 21.59 -487.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Melexis/MLX90640ESF-BAB-000-SP?qs=y6ZabgHbY%252BwqHrvRZCHRaw%3D%3D"
+			(at 21.59 -587.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Melexis"
+			(at 21.59 -687.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MLX90640ESF-BAB-000-SP"
+			(at 21.59 -787.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "MLX90640ESF-BAB-000-SP_1_1"
+			(rectangle
+				(start 5.08 3.81)
+				(end 15.24 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 2.54 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
