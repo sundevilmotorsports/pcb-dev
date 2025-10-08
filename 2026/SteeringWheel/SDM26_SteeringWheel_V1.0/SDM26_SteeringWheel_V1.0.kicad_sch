@@ -12590,6 +12590,428 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SDM_USD:EMIF06-MSD02N16"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 16.51 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EMIF06-MSD02N16"
+				(at 16.51 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM_MiscFootprint:UQFN-17-3.5x1.2mm"
+				(at 36.83 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/a7/86/d3/98/2c/7f/4b/d2/CD00217829.pdf/files/CD00217829.pdf/jcr:content/translations/en.CD00217829.pdf"
+				(at 36.83 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "6-Line EMI filter&ESD for SD card uQFN16 STMicroelectronics EMIF06-MSD02N16, EMI Filter & ESD Protector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0"
+				(at 36.83 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-EMIF06-MSD02N16"
+				(at 36.83 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/EMIF06-MSD02N16?qs=1CGoW%2F3pMwpSqVuN8kmN4Q%3D%3D"
+				(at 36.83 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 36.83 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EMIF06-MSD02N16"
+				(at 36.83 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EMIF06-MSD02N16_1_1"
+				(rectangle
+					(start 2.54 1.27)
+					(end 30.48 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "WP/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "RDAT3_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "DAT2_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "DAT3_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "CMD_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "CLK_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "DAT0_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "DAT1_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 3.81 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -22.86 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -2.54 180)
+					(length 2.54)
+					(name "RDATA_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -5.08 180)
+					(length 2.54)
+					(name "DAT2_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -7.62 180)
+					(length 2.54)
+					(name "DAT3_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -10.16 180)
+					(length 2.54)
+					(name "CMD_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -12.7 180)
+					(length 2.54)
+					(name "CLK_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -15.24 180)
+					(length 2.54)
+					(name "DAT0_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -17.78 180)
+					(length 2.54)
+					(name "DAT1_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SDM_VARIABLE_RESISTOR:P091N-2QC20BR10K"
 			(pin_names
 				(hide yes)
@@ -13705,374 +14127,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lib:ST_EMIF06-MSD02N16"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ST_EMIF06-MSD02N16"
-				(at -5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Library:UQFN-17-3.5x1.2mm"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -10.16 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ST_EMIF06-MSD02N16_1_1"
-				(rectangle
-					(start -13.97 -5.08)
-					(end 13.97 -26.67)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -16.51 -6.35 0)
-					(length 2.54)
-					(name "WP/CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -8.89 0)
-					(length 2.54)
-					(name "RDAT3_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -11.43 0)
-					(length 2.54)
-					(name "DAT2_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -13.97 0)
-					(length 2.54)
-					(name "DAT3_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -16.51 0)
-					(length 2.54)
-					(name "CMD_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -19.05 0)
-					(length 2.54)
-					(name "CLK_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -21.59 0)
-					(length 2.54)
-					(name "DAT0_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -24.13 0)
-					(length 2.54)
-					(name "DAT1_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -29.21 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -8.89 180)
-					(length 2.54)
-					(name "RDATA_VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -11.43 180)
-					(length 2.54)
-					(name "DAT2_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -13.97 180)
-					(length 2.54)
-					(name "DAT3_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -16.51 180)
-					(length 2.54)
-					(name "CMD_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -19.05 180)
-					(length 2.54)
-					(name "CLK_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -21.59 180)
-					(length 2.54)
-					(name "DAT0_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -24.13 180)
-					(length 2.54)
-					(name "DAT1_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -14936,8 +14990,8 @@
 		)
 	)
 	(rectangle
-		(start 306.07 193.04)
-		(end 454.66 261.62)
+		(start 306.07 194.31)
+		(end 454.66 262.89)
 		(stroke
 			(width 1.016)
 			(type solid)
@@ -15303,7 +15357,7 @@
 	)
 	(text "uSD Card"
 		(exclude_from_sim no)
-		(at 347.98 200.66 0)
+		(at 347.98 201.93 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -15621,7 +15675,7 @@
 		(uuid "55956196-86d9-4105-8c04-e1fbb29ecec6")
 	)
 	(junction
-		(at 396.24 241.3)
+		(at 396.24 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56fbc254-d87b-4de2-83a0-805d4b366179")
@@ -15651,7 +15705,7 @@
 		(uuid "6176169c-a26a-4e5c-bcba-2b4c3397c5fe")
 	)
 	(junction
-		(at 396.24 250.19)
+		(at 396.24 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "651107d5-ee86-4f7a-87f3-ac64b94a29c2")
@@ -15999,7 +16053,7 @@
 		(uuid "afe548c5-852a-4dee-affc-016690bbb655")
 	)
 	(junction
-		(at 396.24 243.84)
+		(at 396.24 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3ea6d5d-6efe-44f0-9357-7cd0410113b1")
@@ -16149,7 +16203,7 @@
 		(uuid "dc006679-85e0-42ad-8990-447aa8b30ea0")
 	)
 	(junction
-		(at 393.7 214.63)
+		(at 393.7 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de490554-e86a-4605-b70b-817fe5c2b7df")
@@ -16209,7 +16263,7 @@
 		(uuid "ee3fabaa-1096-4d4b-8d36-5e2f574166d6")
 	)
 	(junction
-		(at 393.7 222.25)
+		(at 393.7 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe8c8ae-b0ff-421c-8264-5d6b5f18eb20")
@@ -16299,11 +16353,11 @@
 		(uuid "0c7c3f9e-f0e7-428b-8660-cad3eb441326")
 	)
 	(no_connect
-		(at 398.78 220.98)
+		(at 398.78 222.25)
 		(uuid "1a8cfd28-342e-48ef-bf1f-0027b825ac47")
 	)
 	(no_connect
-		(at 359.41 227.33)
+		(at 359.41 228.6)
 		(uuid "1d8db6c9-993b-43d9-9031-3600dfff51cc")
 	)
 	(no_connect
@@ -16323,7 +16377,7 @@
 		(uuid "2517f04a-dd6e-4009-a7f6-47a07cd71f8a")
 	)
 	(no_connect
-		(at 398.78 238.76)
+		(at 398.78 240.03)
 		(uuid "253a6971-9475-4286-8fe0-90774b293e2b")
 	)
 	(no_connect
@@ -16367,7 +16421,7 @@
 		(uuid "41beb4a3-6308-4be3-8197-88f799efd19f")
 	)
 	(no_connect
-		(at 359.41 237.49)
+		(at 359.41 238.76)
 		(uuid "43066da8-487e-48c0-8b8f-1539d49e1338")
 	)
 	(no_connect
@@ -16447,11 +16501,11 @@
 		(uuid "8bb4ceff-a6fd-414e-b2ce-37792cf3c7c8")
 	)
 	(no_connect
-		(at 392.43 227.33)
+		(at 392.43 228.6)
 		(uuid "8d2f0a80-f9e9-4f59-8dae-dcb5c0fffcda")
 	)
 	(no_connect
-		(at 359.41 222.25)
+		(at 359.41 223.52)
 		(uuid "8db9fba5-8bdf-41c3-b50d-a5b344ffd5bb")
 	)
 	(no_connect
@@ -16491,7 +16545,7 @@
 		(uuid "ae8d5d3b-1d4a-499f-9684-a64512c563ab")
 	)
 	(no_connect
-		(at 359.41 219.71)
+		(at 359.41 220.98)
 		(uuid "b0efe13f-28d8-4f65-8481-09c81f07764e")
 	)
 	(no_connect
@@ -16523,7 +16577,11 @@
 		(uuid "df0eee0b-5273-43b3-92fd-1c67abcbfdc6")
 	)
 	(no_connect
-		(at 392.43 237.49)
+		(at 39.37 345.44)
+		(uuid "eda8a627-7946-4f97-92b3-d47caba17240")
+	)
+	(no_connect
+		(at 392.43 238.76)
 		(uuid "f022bae9-ad30-4408-b011-a422aabb7e5f")
 	)
 	(no_connect
@@ -16610,7 +16668,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 234.95) (xy 316.23 234.95)
+			(xy 321.31 236.22) (xy 316.23 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -16710,7 +16768,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 214.63) (xy 393.7 208.28)
+			(xy 393.7 215.9) (xy 393.7 209.55)
 		)
 		(stroke
 			(width 0)
@@ -16920,7 +16978,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 223.52) (xy 331.47 223.52)
+			(xy 344.17 224.79) (xy 331.47 224.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -17170,7 +17228,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 229.87) (xy 394.97 226.06)
+			(xy 394.97 231.14) (xy 394.97 227.33)
 		)
 		(stroke
 			(width 0)
@@ -17500,7 +17558,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 215.9) (xy 375.92 214.63)
+			(xy 375.92 217.17) (xy 375.92 215.9)
 		)
 		(stroke
 			(width 0)
@@ -17530,7 +17588,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 223.52) (xy 331.47 224.79)
+			(xy 331.47 224.79) (xy 331.47 226.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -17790,7 +17848,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 243.84) (xy 444.5 243.84)
+			(xy 441.96 245.11) (xy 444.5 245.11)
 		)
 		(stroke
 			(width 0)
@@ -17900,7 +17958,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 233.68) (xy 396.24 233.68)
+			(xy 398.78 234.95) (xy 396.24 234.95)
 		)
 		(stroke
 			(width 0)
@@ -18170,7 +18228,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 250.19) (xy 444.5 250.19)
+			(xy 396.24 251.46) (xy 444.5 251.46)
 		)
 		(stroke
 			(width 0)
@@ -18220,7 +18278,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 232.41) (xy 396.24 232.41)
+			(xy 392.43 233.68) (xy 396.24 233.68)
 		)
 		(stroke
 			(width 0)
@@ -18760,7 +18818,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 250.19) (xy 396.24 250.19)
+			(xy 375.92 251.46) (xy 396.24 251.46)
 		)
 		(stroke
 			(width 0)
@@ -18800,7 +18858,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 214.63) (xy 393.7 214.63)
+			(xy 375.92 215.9) (xy 393.7 215.9)
 		)
 		(stroke
 			(width 0)
@@ -18820,7 +18878,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 243.84) (xy 398.78 243.84)
+			(xy 396.24 245.11) (xy 398.78 245.11)
 		)
 		(stroke
 			(width 0)
@@ -19010,7 +19068,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 243.84) (xy 444.5 250.19)
+			(xy 444.5 245.11) (xy 444.5 251.46)
 		)
 		(stroke
 			(width 0)
@@ -19410,7 +19468,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 234.95) (xy 359.41 234.95)
+			(xy 350.52 236.22) (xy 359.41 236.22)
 		)
 		(stroke
 			(width 0)
@@ -19430,7 +19488,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 234.95) (xy 341.63 234.95)
+			(xy 350.52 236.22) (xy 341.63 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -19500,7 +19558,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 233.68) (xy 396.24 241.3)
+			(xy 396.24 234.95) (xy 396.24 242.57)
 		)
 		(stroke
 			(width 0)
@@ -19640,7 +19698,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 232.41) (xy 359.41 232.41)
+			(xy 350.52 233.68) (xy 359.41 233.68)
 		)
 		(stroke
 			(width 0)
@@ -19680,7 +19738,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 224.79) (xy 394.97 224.79)
+			(xy 392.43 226.06) (xy 394.97 226.06)
 		)
 		(stroke
 			(width 0)
@@ -19690,7 +19748,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 250.19) (xy 396.24 252.73)
+			(xy 396.24 251.46) (xy 396.24 254)
 		)
 		(stroke
 			(width 0)
@@ -19750,7 +19808,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 223.52) (xy 398.78 223.52)
+			(xy 394.97 224.79) (xy 398.78 224.79)
 		)
 		(stroke
 			(width 0)
@@ -20050,7 +20108,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 241.3) (xy 398.78 241.3)
+			(xy 396.24 242.57) (xy 398.78 242.57)
 		)
 		(stroke
 			(width 0)
@@ -20770,7 +20828,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 229.87) (xy 394.97 229.87)
+			(xy 392.43 231.14) (xy 394.97 231.14)
 		)
 		(stroke
 			(width 0)
@@ -21060,7 +21118,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 236.22) (xy 398.78 236.22)
+			(xy 394.97 237.49) (xy 398.78 237.49)
 		)
 		(stroke
 			(width 0)
@@ -21370,7 +21428,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 242.57) (xy 373.38 250.19)
+			(xy 375.92 243.84) (xy 375.92 251.46)
 		)
 		(stroke
 			(width 0)
@@ -21520,7 +21578,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 243.84) (xy 396.24 250.19)
+			(xy 396.24 245.11) (xy 396.24 251.46)
 		)
 		(stroke
 			(width 0)
@@ -21710,7 +21768,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 228.6) (xy 398.78 228.6)
+			(xy 393.7 229.87) (xy 398.78 229.87)
 		)
 		(stroke
 			(width 0)
@@ -21790,7 +21848,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 228.6) (xy 393.7 222.25)
+			(xy 393.7 229.87) (xy 393.7 223.52)
 		)
 		(stroke
 			(width 0)
@@ -21830,7 +21888,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 231.14) (xy 398.78 231.14)
+			(xy 396.24 232.41) (xy 398.78 232.41)
 		)
 		(stroke
 			(width 0)
@@ -21990,7 +22048,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 224.79) (xy 359.41 224.79)
+			(xy 350.52 226.06) (xy 359.41 226.06)
 		)
 		(stroke
 			(width 0)
@@ -22330,7 +22388,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 234.95) (xy 394.97 234.95)
+			(xy 392.43 236.22) (xy 394.97 236.22)
 		)
 		(stroke
 			(width 0)
@@ -22660,17 +22718,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 345.44) (xy 48.26 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caab905f-54f8-484d-a03c-92ceef6ce27e")
-	)
-	(wire
-		(pts
-			(xy 350.52 229.87) (xy 359.41 229.87)
+			(xy 350.52 231.14) (xy 359.41 231.14)
 		)
 		(stroke
 			(width 0)
@@ -22730,7 +22778,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 234.95) (xy 394.97 236.22)
+			(xy 394.97 236.22) (xy 394.97 237.49)
 		)
 		(stroke
 			(width 0)
@@ -22910,7 +22958,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 222.25) (xy 393.7 214.63)
+			(xy 393.7 223.52) (xy 393.7 215.9)
 		)
 		(stroke
 			(width 0)
@@ -23110,7 +23158,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 232.41) (xy 396.24 231.14)
+			(xy 396.24 233.68) (xy 396.24 232.41)
 		)
 		(stroke
 			(width 0)
@@ -23410,7 +23458,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 226.06) (xy 398.78 226.06)
+			(xy 394.97 227.33) (xy 398.78 227.33)
 		)
 		(stroke
 			(width 0)
@@ -23690,7 +23738,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 224.79) (xy 394.97 223.52)
+			(xy 394.97 226.06) (xy 394.97 224.79)
 		)
 		(stroke
 			(width 0)
@@ -23850,7 +23898,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 241.3) (xy 396.24 243.84)
+			(xy 396.24 242.57) (xy 396.24 245.11)
 		)
 		(stroke
 			(width 0)
@@ -23870,7 +23918,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 222.25) (xy 393.7 222.25)
+			(xy 392.43 223.52) (xy 393.7 223.52)
 		)
 		(stroke
 			(width 0)
@@ -24259,7 +24307,7 @@
 		(uuid "ffc5d34a-2d22-4a80-b8d0-653b80fdecf4")
 	)
 	(label "SD_CS"
-		(at 344.17 223.52 180)
+		(at 344.17 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24489,7 +24537,7 @@
 		(uuid "2e5123e4-48ae-4326-8b31-d31fb84b6b66")
 	)
 	(label "SD_CS"
-		(at 350.52 224.79 0)
+		(at 350.52 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24669,7 +24717,7 @@
 		(uuid "4568318d-ffa3-4200-a809-9a376966279e")
 	)
 	(label "MISO"
-		(at 316.23 234.95 0)
+		(at 316.23 236.22 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -24888,16 +24936,6 @@
 		)
 		(uuid "6daeacdf-36cd-4eb1-bda7-ec73187d8f9f")
 	)
-	(label "R2"
-		(at 271.78 251.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f9540c8-5f07-48a5-ad37-4143e691f9a1")
-	)
 	(label "DISP_CS"
 		(at 90.17 340.36 0)
 		(effects
@@ -24968,18 +25006,8 @@
 		)
 		(uuid "7c20fabd-4c75-40bf-a64d-415c0bef131e")
 	)
-	(label "DISP_EN"
-		(at 48.26 345.44 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "826fcbe9-59c1-46dc-aa0b-3bd5c3fd8885")
-	)
 	(label "SPI_CLK"
-		(at 350.52 232.41 0)
+		(at 350.52 233.68 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -25119,7 +25147,7 @@
 		(uuid "92cd873c-e469-4efc-834b-0a3fbb5fc51d")
 	)
 	(label "SD_MISO"
-		(at 350.52 234.95 0)
+		(at 350.52 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25569,7 +25597,7 @@
 		(uuid "dd0c245c-2a30-4eb5-b3d9-cdc6388e1b45")
 	)
 	(label "MOSI"
-		(at 350.52 229.87 0)
+		(at 350.52 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29074,7 +29102,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 396.24 252.73 0)
+		(at 396.24 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29082,7 +29110,7 @@
 		(dnp no)
 		(uuid "2d307f3b-4f5a-40e0-8f00-185f3207caa9")
 		(property "Reference" "#PWR096"
-			(at 396.24 259.08 0)
+			(at 396.24 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29091,7 +29119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 396.24 256.54 0)
+			(at 396.24 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29099,7 +29127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 396.24 252.73 0)
+			(at 396.24 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29108,7 +29136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 396.24 252.73 0)
+			(at 396.24 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29117,7 +29145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 396.24 252.73 0)
+			(at 396.24 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29473,7 +29501,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 393.7 208.28 0)
+		(at 393.7 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29482,7 +29510,7 @@
 		(fields_autoplaced yes)
 		(uuid "32ee8a4e-09ba-480c-ab87-75c0e75328d4")
 		(property "Reference" "#PWR020"
-			(at 393.7 212.09 0)
+			(at 393.7 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29491,7 +29519,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 393.7 204.47 0)
+			(at 393.7 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29499,7 +29527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 393.7 208.28 0)
+			(at 393.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29508,7 +29536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 393.7 208.28 0)
+			(at 393.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29517,7 +29545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 393.7 208.28 0)
+			(at 393.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31278,7 +31306,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det2")
-		(at 421.64 231.14 0)
+		(at 421.64 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31287,7 +31315,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e23afa5-a335-4a3a-a345-be2efca96ef8")
 		(property "Reference" "J7"
-			(at 422.275 210.82 0)
+			(at 422.275 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31295,7 +31323,7 @@
 			)
 		)
 		(property "Value" "Molex_1040310811"
-			(at 422.275 213.36 0)
+			(at 422.275 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31303,7 +31331,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
-			(at 473.71 213.36 0)
+			(at 473.71 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31312,7 +31340,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
-			(at 424.18 228.6 0)
+			(at 424.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31321,7 +31349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 421.64 231.14 0)
+			(at 421.64 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31635,7 +31663,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 325.12 224.79 0)
+		(at 325.12 226.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31644,7 +31672,7 @@
 		(dnp no)
 		(uuid "544f5b33-b3c6-4ae8-a544-42591bad610e")
 		(property "Reference" "#PWR0108"
-			(at 325.12 228.6 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31653,7 +31681,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 325.12 221.488 0)
+			(at 325.12 222.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31661,7 +31689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 224.79 0)
+			(at 325.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31670,7 +31698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 224.79 0)
+			(at 325.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31679,7 +31707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 325.12 224.79 0)
+			(at 325.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33357,7 +33385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 245.11 0)
+		(at 325.12 246.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33366,7 +33394,7 @@
 		(dnp no)
 		(uuid "6479efab-ee0f-4c4b-8529-0b4aa3529770")
 		(property "Reference" "#PWR0109"
-			(at 325.12 251.46 0)
+			(at 325.12 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33375,7 +33403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 250.19 0)
+			(at 325.12 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33383,7 +33411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 245.11 0)
+			(at 325.12 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33392,7 +33420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 245.11 0)
+			(at 325.12 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33401,7 +33429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 245.11 0)
+			(at 325.12 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38136,7 +38164,7 @@
 	)
 	(symbol
 		(lib_id "SDM_LOGIC:SN74AHC1G125DBVR")
-		(at 331.47 241.3 0)
+		(at 331.47 242.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38145,7 +38173,7 @@
 		(dnp no)
 		(uuid "97655f76-7dc8-4a9e-ba8e-b5a4abe17c8a")
 		(property "Reference" "IC9"
-			(at 341.376 241.046 0)
+			(at 341.376 242.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38153,7 +38181,7 @@
 			)
 		)
 		(property "Value" "SN74AHC1G125DBVR"
-			(at 341.376 243.586 0)
+			(at 341.376 244.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38161,7 +38189,7 @@
 			)
 		)
 		(property "Footprint" "SDM_MiscFootprint:SOT95P280X145-5L"
-			(at 309.88 336.22 0)
+			(at 309.88 337.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38171,7 +38199,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ahc1g125.pdf"
-			(at 309.88 436.22 0)
+			(at 309.88 437.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38181,7 +38209,7 @@
 			)
 		)
 		(property "Description" "Single Bus Buffer Gate with 3-State Output"
-			(at 331.47 241.3 0)
+			(at 331.47 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38190,7 +38218,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 309.88 636.22 0)
+			(at 309.88 637.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38200,7 +38228,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74AHC1G125DBVR"
-			(at 309.88 736.22 0)
+			(at 309.88 737.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38210,7 +38238,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G125DBVR?qs=8k%2FZSzWMuCO%252B2kH7zLbRLw%3D%3D"
-			(at 309.88 836.22 0)
+			(at 309.88 837.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38220,7 +38248,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 309.88 936.22 0)
+			(at 309.88 937.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38230,7 +38258,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74AHC1G125DBVR"
-			(at 309.88 1036.22 0)
+			(at 309.88 1037.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40624,8 +40652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lib:ST_EMIF06-MSD02N16")
-		(at 375.92 213.36 0)
+		(lib_id "SDM_USD:EMIF06-MSD02N16")
+		(at 359.41 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40633,7 +40661,7 @@
 		(dnp no)
 		(uuid "bf50cfe0-1392-4b3a-bc7a-e1b7e6fa0850")
 		(property "Reference" "U10"
-			(at 374.65 208.28 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40642,7 +40670,7 @@
 			)
 		)
 		(property "Value" "EMIF06-MSD02N16"
-			(at 365.76 210.82 0)
+			(at 349.25 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40650,8 +40678,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SDM_MiscFootprint:UQFN-17-3.5x1.2mm_copy"
-			(at 375.92 213.36 0)
+		(property "Footprint" "SDM_MiscFootprint:UQFN-17-3.5x1.2mm"
+			(at 396.24 315.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/a7/86/d3/98/2c/7f/4b/d2/CD00217829.pdf/files/CD00217829.pdf/jcr:content/translations/en.CD00217829.pdf"
+			(at 396.24 415.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6-Line EMI filter&ESD for SD card uQFN16 STMicroelectronics EMIF06-MSD02N16, EMI Filter & ESD Protector"
+			(at 359.41 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40659,21 +40707,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 375.92 213.36 0)
+		(property "Height" "0"
+			(at 396.24 615.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 375.92 213.36 0)
+		(property "Mouser Part Number" "511-EMIF06-MSD02N16"
+			(at 396.24 715.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/EMIF06-MSD02N16?qs=1CGoW%2F3pMwpSqVuN8kmN4Q%3D%3D"
+			(at 396.24 815.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 396.24 915.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EMIF06-MSD02N16"
+			(at 396.24 1015.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
