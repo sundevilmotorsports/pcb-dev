@@ -10605,12 +10605,6 @@
 		(uuid "66a47199-fe7a-43e9-8a6c-e7f3dbfa7a35")
 	)
 	(junction
-		(at 41.91 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68d0bc1f-fdd2-46d7-8e41-0f2c75b88433")
-	)
-	(junction
 		(at 87.63 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11571,16 +11565,6 @@
 			(type default)
 		)
 		(uuid "184b7cda-9f31-42d3-bb16-266f1bbdad7b")
-	)
-	(wire
-		(pts
-			(xy 48.26 140.97) (xy 55.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1982c983-5769-4de1-bad4-da9bf845ce43")
 	)
 	(wire
 		(pts
@@ -13014,7 +12998,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 140.97) (xy 41.91 146.05)
+			(xy 41.91 139.7) (xy 41.91 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13314,16 +13298,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 139.7) (xy 41.91 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870626b5-8424-4702-97f9-d8cad364c9ed")
-	)
-	(wire
-		(pts
 			(xy 363.22 121.92) (xy 354.33 121.92)
 		)
 		(stroke
@@ -13544,16 +13518,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 140.97) (xy 55.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b80ac7-a2f6-4c96-aef1-e20fce0ed058")
-	)
-	(wire
-		(pts
 			(xy 189.23 190.5) (xy 189.23 191.77)
 		)
 		(stroke
@@ -13561,16 +13525,6 @@
 			(type default)
 		)
 		(uuid "9d3272d4-0288-422c-b30a-c1efa28a2249")
-	)
-	(wire
-		(pts
-			(xy 41.91 140.97) (xy 43.18 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dbe9b86-5370-477d-840f-f443e749d8e6")
 	)
 	(wire
 		(pts
@@ -16660,72 +16614,6 @@
 			(project "SDM26_Wheelboard_V1.2"
 				(path "/a1e80598-4578-4684-9081-81af38982fbd"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2969db4d-3abd-4b19-876c-280936f44c3b")
-		(property "Reference" "#PWR047"
-			(at 55.88 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a290993f-fc94-45da-ab4f-720ebc2340ce")
-		)
-		(instances
-			(project "SDM26_Wheelboard_V1.2"
-				(path "/a1e80598-4578-4684-9081-81af38982fbd"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -21254,75 +21142,6 @@
 			(project "SDM26_Wheelboard_V1.2"
 				(path "/a1e80598-4578-4684-9081-81af38982fbd"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "949a9025-90fa-4461-aa29-8ba840bc3ce3")
-		(property "Reference" "C18"
-			(at 48.768 136.398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 48.768 138.176 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fd28337-4768-41ef-aed9-1641d332c97c")
-		)
-		(pin "2"
-			(uuid "f53dffee-cab1-45a0-9e45-f8e2404c2984")
-		)
-		(instances
-			(project "SDM26_Wheelboard_V1.2"
-				(path "/a1e80598-4578-4684-9081-81af38982fbd"
-					(reference "C18")
 					(unit 1)
 				)
 			)
