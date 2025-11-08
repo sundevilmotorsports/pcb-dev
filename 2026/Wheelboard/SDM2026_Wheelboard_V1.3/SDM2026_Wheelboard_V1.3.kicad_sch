@@ -930,113 +930,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -9684,16 +9577,8 @@
 		(uuid "a24c350f-b84d-4036-aff7-a48d166353d0")
 	)
 	(no_connect
-		(at 228.6 44.45)
-		(uuid "a5d9bcc4-4981-4570-bbae-faf7ba9a9f85")
-	)
-	(no_connect
 		(at 125.73 167.64)
 		(uuid "a69ff03c-b06c-4ed7-974a-805d0da29020")
-	)
-	(no_connect
-		(at 228.6 41.91)
-		(uuid "bc5d2c98-e9df-412f-b65f-3aa1746efc8b")
 	)
 	(no_connect
 		(at 261.62 34.29)
@@ -9710,6 +9595,10 @@
 	(no_connect
 		(at 26.67 170.18)
 		(uuid "da26be79-90e9-4297-b97c-b2bcca37d55c")
+	)
+	(no_connect
+		(at 229.87 92.71)
+		(uuid "e122aff7-eaf0-48c9-9ea5-c2c409883e99")
 	)
 	(no_connect
 		(at 107.95 181.61)
@@ -9736,12 +9625,20 @@
 		(uuid "f74dc1a4-c865-4034-9974-99bffe5fa3b9")
 	)
 	(no_connect
+		(at 228.6 95.25)
+		(uuid "f7947f9a-47ad-4ffa-bebf-4f857c20d2af")
+	)
+	(no_connect
 		(at 228.6 52.07)
 		(uuid "f8530b61-d22f-4e40-b4ce-755761a43453")
 	)
 	(no_connect
 		(at 110.49 142.24)
 		(uuid "f8f06d3f-5aed-416b-9a3b-5d87baa0b444")
+	)
+	(no_connect
+		(at 228.6 92.71)
+		(uuid "fba6fd60-de1c-4460-8b82-b2460ceab09b")
 	)
 	(wire
 		(pts
@@ -10392,6 +10289,26 @@
 			(type default)
 		)
 		(uuid "314e9950-6bc1-4a8b-96eb-8c1f2900af76")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cc252c-2e34-4696-ae10-6aaa2941d82f")
+	)
+	(wire
+		(pts
+			(xy 209.55 95.25) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32897a55-e242-4005-b6e1-097e619c8da6")
 	)
 	(wire
 		(pts
@@ -11435,16 +11352,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 95.25) (xy 228.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b4ce79-4c4d-48de-806b-b7a527b6a0fd")
-	)
-	(wire
-		(pts
 			(xy 261.62 59.69) (xy 271.78 59.69)
 		)
 		(stroke
@@ -11812,16 +11719,6 @@
 			(type default)
 		)
 		(uuid "97d8236c-1283-4b01-8871-f0edd205ecaa")
-	)
-	(wire
-		(pts
-			(xy 209.55 92.71) (xy 228.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999f2ccb-a041-4c18-8d63-3b51878bb73b")
 	)
 	(wire
 		(pts
@@ -13313,6 +13210,16 @@
 		)
 		(uuid "5ee831df-b35b-42ad-845a-571b4c2670cf")
 	)
+	(label "I2C1_SCL"
+		(at 228.6 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65427d5a-1d84-479b-a5c6-1fcdddb2af06")
+	)
 	(label "CAN2-"
 		(at 158.75 205.74 0)
 		(effects
@@ -13452,6 +13359,16 @@
 			(justify left bottom)
 		)
 		(uuid "986d832d-7373-4bf4-bf85-045ebf7230a7")
+	)
+	(label "I2C1_SDA"
+		(at 228.6 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dbfb0b0-8874-4a41-bbb0-3944897f3958")
 	)
 	(label "CAN1_TERM"
 		(at 215.9 54.61 0)
@@ -15487,7 +15404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M3"
+		(property "Value" "M2"
 			(at 361.95 168.91 0)
 			(effects
 				(font
@@ -15747,7 +15664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M3"
+		(property "Value" "M2"
 			(at 351.79 168.91 0)
 			(effects
 				(font
@@ -19887,70 +19804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 368.3 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b624f82c-fdaa-459b-8293-d981c40d3845")
-		(property "Reference" "H3"
-			(at 370.84 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 370.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 368.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SDM2026_Wheelboard_V1.3"
-				(path "/181bec86-b8da-4d38-900d-135d73efc041"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 205.74 134.62 0)
 		(unit 1)
@@ -22114,72 +21967,6 @@
 			(project "SDM2026_Wheelboard_V1.3"
 				(path "/181bec86-b8da-4d38-900d-135d73efc041"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de29cb67-975b-4f4d-bb79-560406c70509")
-		(property "Reference" "TP1"
-			(at 67.818 51.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V_ST"
-			(at 67.818 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c84046d9-0e99-4b8f-b6a0-5e53f4a5cadb")
-		)
-		(instances
-			(project "SDM2026_Wheelboard_V1.3"
-				(path "/181bec86-b8da-4d38-900d-135d73efc041"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
