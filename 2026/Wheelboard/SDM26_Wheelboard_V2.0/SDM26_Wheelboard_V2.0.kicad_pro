@@ -37,14 +37,14 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 0.9
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
-        "silk_line_width": 0.05,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.5,
-        "silk_text_size_v": 0.5,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|141780000|85064402|13b60f10-fa2b-4041-a05f-aac6945dc131|df0b1a43-f777-4fab-827b-8d0047cc425c",
+          ""
+        ],
+        [
+          "courtyards_overlap|143525000|91570802|df0b1a43-f777-4fab-827b-8d0047cc425c|fa2ed32b-ad14-48c4-adbc-f524aa75d583",
+          ""
+        ],
+        [
+          "courtyards_overlap|145187328|89805000|d84d98b5-83c2-4f18-9943-d6326e369a74|df0b1a43-f777-4fab-827b-8d0047cc425c",
+          ""
+        ],
+        [
+          "courtyards_overlap|149775000|87575000|58cb2ac7-409e-474e-bd12-edae7d380b45|63f84879-27f2-4ac6-8ee1-3149217576e2",
+          ""
+        ],
+        [
+          "courtyards_overlap|164695000|102856817|6083b4d4-f728-4d4a-afa9-8174493f2aab|6632f43b-489f-416b-9990-adf00bf93504",
+          ""
+        ],
+        [
+          "courtyards_overlap|164695000|102856817|6632f43b-489f-416b-9990-adf00bf93504|a2fa5e3b-83bd-4ffb-8f3c-9be34ce53306",
+          ""
+        ],
+        [
+          "courtyards_overlap|177195000|102555000|6083b4d4-f728-4d4a-afa9-8174493f2aab|a2fa5e3b-83bd-4ffb-8f3c-9be34ce53306",
+          ""
+        ],
+        [
+          "courtyards_overlap|177195000|94555000|74d7bf5b-bc98-440b-8c25-e372f8221e64|a2fa5e3b-83bd-4ffb-8f3c-9be34ce53306",
+          ""
+        ],
+        [
+          "courtyards_overlap|179695000|102555000|55b9f82a-ed42-4e34-9de4-9906fc3bc7b3|bbab12c8-fc68-4ac3-854e-593de6324188",
+          ""
+        ],
+        [
+          "courtyards_overlap|179695000|94555000|76313d17-785e-4bc5-9035-e80c363c0b47|bbab12c8-fc68-4ac3-854e-593de6324188",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|162230000|85225000|76153281-c295-4752-b3e1-75a7fe40f2d5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|162230000|93325000|854d2f4d-1c1e-49e9-a9e0-86b2e88ba19a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +115,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -100,8 +149,8 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -123,20 +172,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -190,8 +239,8 @@
         0.0,
         0.25,
         0.3,
-        0.5,
-        1.0
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -468,7 +517,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SDM26_Wheelboard_V1.2.kicad_pro",
+    "filename": "SDM26_Wheelboard_V2.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -503,11 +552,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "SDM26_Wheelboard_V1.2.net",
+      "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../Downloads/SDM26_Wheelboard_V2fliped.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -532,14 +581,14 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -552,36 +601,24 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
           "show": true
         },
         {
@@ -589,68 +626,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Measure",
-          "name": "Measure",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -694,7 +677,7 @@
   },
   "sheets": [
     [
-      "a1e80598-4578-4684-9081-81af38982fbd",
+      "181bec86-b8da-4d38-900d-135d73efc041",
       "Root"
     ]
   ],
