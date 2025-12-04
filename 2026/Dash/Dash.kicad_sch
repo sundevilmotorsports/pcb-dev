@@ -5,6 +5,404 @@
 	(uuid "62a33168-30a6-4f86-a3d1-eb21634dd5a7")
 	(paper "A3")
 	(lib_symbols
+		(symbol "APFA3010_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED1"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal"
+				(at -1.016 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED RGB, Common Anode, SMD, 3.0x1.5mm, Horizontal"
+				(at -1.27 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB SMD Kingbright APFA3010 Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Kingbright*APFA3010*3x1.5mm*Horizontal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APFA3010_1_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "APFA3010_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -8.89)
+					(end 2.54 8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "APFA3010_1_1_1"
+				(pin input line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x40_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2912,6 +3310,1148 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SDM_48Ch_LED_Driver:TLC5955RTQT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 46.99 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TLC5955RTQT"
+				(at 46.99 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "QFN50P800X800X100-57N-D"
+				(at 46.99 -77.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc5955.pdf"
+				(at 46.99 -177.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection"
+				(at 23.622 -61.722 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 46.99 -377.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TLC5955RTQT"
+				(at 46.99 -477.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLC5955RTQT?qs=%2Fd%252BFzHvH4c1KVIdVo%2F%252Bgqg%3D%3D"
+				(at 46.99 -577.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 46.99 -677.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLC5955RTQT"
+				(at 46.99 -777.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TLC5955RTQT_1_1"
+				(rectangle
+					(start 5.08 20.32)
+					(end 45.72 -45.72)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUTB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "OUTR3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "OUTG3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "OUTB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "OUTR7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "OUTG7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "SOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "OUTG11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "OUTR11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "OUTB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "OUTG15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "OUTR15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "OUTB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 25.4 270)
+					(length 5.08)
+					(name "THERMAL_PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -50.8 90)
+					(length 5.08)
+					(name "OUTG10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 25.4 270)
+					(length 5.08)
+					(name "OUTG6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -50.8 90)
+					(length 5.08)
+					(name "OUTR10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 25.4 270)
+					(length 5.08)
+					(name "OUTR6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -50.8 90)
+					(length 5.08)
+					(name "OUTB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 270)
+					(length 5.08)
+					(name "OUTB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -50.8 90)
+					(length 5.08)
+					(name "OUTG14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 25.4 270)
+					(length 5.08)
+					(name "OUTG2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -50.8 90)
+					(length 5.08)
+					(name "OUTR14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 25.4 270)
+					(length 5.08)
+					(name "OUTR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -50.8 90)
+					(length 5.08)
+					(name "OUTB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 25.4 270)
+					(length 5.08)
+					(name "OUTB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -50.8 90)
+					(length 5.08)
+					(name "OUTG13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 25.4 270)
+					(length 5.08)
+					(name "OUTG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -50.8 90)
+					(length 5.08)
+					(name "OUTR13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 25.4 270)
+					(length 5.08)
+					(name "OUTR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -50.8 90)
+					(length 5.08)
+					(name "OUTB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 25.4 270)
+					(length 5.08)
+					(name "OUTB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -50.8 90)
+					(length 5.08)
+					(name "OUTG9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 25.4 270)
+					(length 5.08)
+					(name "OUTG5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -50.8 90)
+					(length 5.08)
+					(name "OUTR9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 25.4 270)
+					(length 5.08)
+					(name "OUTR5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -50.8 90)
+					(length 5.08)
+					(name "OUTB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 25.4 270)
+					(length 5.08)
+					(name "OUTB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -50.8 90)
+					(length 5.08)
+					(name "OUTG12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 25.4 270)
+					(length 5.08)
+					(name "OUTG0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -50.8 90)
+					(length 5.08)
+					(name "OUTR12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 25.4 270)
+					(length 5.08)
+					(name "OUTR0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 0 180)
+					(length 5.08)
+					(name "OUTB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -2.54 180)
+					(length 5.08)
+					(name "OUTG4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -5.08 180)
+					(length 5.08)
+					(name "OUTR4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -7.62 180)
+					(length 5.08)
+					(name "OUTB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -10.16 180)
+					(length 5.08)
+					(name "LAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -12.7 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -15.24 180)
+					(length 5.08)
+					(name "SIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -17.78 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -20.32 180)
+					(length 5.08)
+					(name "GSCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -22.86 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -25.4 180)
+					(length 5.08)
+					(name "OUTB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -27.94 180)
+					(length 5.08)
+					(name "OUTR8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -30.48 180)
+					(length 5.08)
+					(name "OUTG8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -33.02 180)
+					(length 5.08)
+					(name "OUTB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7407,6 +8947,18 @@
 		)
 	)
 	(rectangle
+		(start 109.22 225.552)
+		(end 231.394 275.082)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00f622af-9ded-438b-9e4a-d429d3e9a87a)
+	)
+	(rectangle
 		(start 99.568 11.938)
 		(end 154.178 46.736)
 		(stroke
@@ -7419,6 +8971,18 @@
 		(uuid 29de2bf6-1225-48e2-adb2-bcc879f93aeb)
 	)
 	(rectangle
+		(start 100.33 158.75)
+		(end 241.808 282.956)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 464085a9-f814-443f-b1a2-3bffda30ae9f)
+	)
+	(rectangle
 		(start 12.954 11.938)
 		(end 99.568 110.744)
 		(stroke
@@ -7429,6 +8993,18 @@
 			(type none)
 		)
 		(uuid 4fd0477e-e516-4e8c-bd47-2ec99072d4fc)
+	)
+	(rectangle
+		(start 109.728 168.656)
+		(end 231.902 218.186)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fda4c88-8be6-4503-966c-40c8091b8691)
 	)
 	(rectangle
 		(start 241.554 110.744)
@@ -7455,6 +9031,18 @@
 		(uuid 8e150165-f60b-4343-bc19-0fec897ea34f)
 	)
 	(rectangle
+		(start 99.822 111.252)
+		(end 241.3 159.004)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c1fdf5e-911f-410b-9439-b7d44334998f)
+	)
+	(rectangle
 		(start 241.3 11.938)
 		(end 407.67 54.102)
 		(stroke
@@ -7465,6 +9053,18 @@
 			(type none)
 		)
 		(uuid c4d59716-26bf-42a8-b402-f3a560771e6b)
+	)
+	(rectangle
+		(start 12.954 110.998)
+		(end 99.822 283.464)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cfbc5a25-a5b5-4807-90c7-be351bcb06b1)
 	)
 	(rectangle
 		(start 99.568 11.938)
@@ -7490,6 +9090,16 @@
 			(justify left bottom)
 		)
 		(uuid "0dd2abf9-76a9-43f0-8e12-ff2bb968a873")
+	)
+	(text "Controller B\n"
+		(exclude_from_sim no)
+		(at 209.55 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12644370-5f19-410a-b5ae-0716d376693c")
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
@@ -7542,7 +9152,7 @@
 	)
 	(text "Pinout for Display to ESP32 S3 was Derived from Adafruit ESP32 Display driver board"
 		(exclude_from_sim no)
-		(at 32.512 205.232 90)
+		(at 40.132 197.612 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7563,6 +9173,16 @@
 			(justify left bottom)
 		)
 		(uuid "547ccb41-070c-45fa-b6f7-c69378b14920")
+	)
+	(text "Conttroller A"
+		(exclude_from_sim no)
+		(at 207.518 209.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5eda0b31-50f7-422a-a931-bc11afaaa97c")
 	)
 	(text "5V Multiplexer"
 		(exclude_from_sim no)
@@ -7592,7 +9212,7 @@
 	)
 	(text "40 Pin Paralel RGB 16Bit\n"
 		(exclude_from_sim no)
-		(at 26.924 207.772 90)
+		(at 34.544 200.152 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7622,16 +9242,6 @@
 			(justify left bottom)
 		)
 		(uuid "a0605b99-3e6a-4d7a-9bf1-ac92ee64a268")
-	)
-	(text "Move anywhere u want ->\n\n"
-		(exclude_from_sim no)
-		(at 32.766 50.038 0)
-		(effects
-			(font
-				(size 0.6 0.6)
-			)
-		)
-		(uuid "b77aac49-416b-453b-a806-4c2debf9bdb2")
 	)
 	(text "TPS25925x Calculations\nTPS259250 = Latch on fault,\n TPS259251 = auto retry on fault\nResitor @ ILIM pin calc = (ILIM (max current) - 0.7) / (3 * (10 ^ -5))\n(LMC - 0.7) / (3 * (10 ^ -5)) = 60k Ohm\nUndervoltage Lockout Set = V_(UV) = ((R_1 + R_2) /R_2) * V_ENR (1.4 Given)\nLeft open so default value of V_(UV) is 4.3V\n"
 		(exclude_from_sim no)
@@ -7693,9 +9303,53 @@
 		)
 		(uuid "c9cc0caf-6715-4fc9-902b-4602787b1cfb")
 	)
+	(text "Controller B\n"
+		(exclude_from_sim no)
+		(at 370.078 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc4e4338-9f83-4e8c-a742-8dc7bd5c6771")
+	)
+	(text "Tons of LEDs\n"
+		(exclude_from_sim no)
+		(at 116.84 164.338 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "cdf4cfb1-e960-4b9a-a949-d3ddbdc43cf3")
+	)
+	(text "Conttroller A"
+		(exclude_from_sim no)
+		(at 283.718 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dee9d0de-4ac9-4294-ad8d-cad05d473ecf")
+	)
+	(text "Backlight Boost\n"
+		(exclude_from_sim no)
+		(at 121.158 117.348 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "e6fd299f-37c9-483e-86ca-f3b045c2c45c")
+	)
 	(text "R1-R5: 11,10,9,46,3\n\nG0-G5: 48,47,21,14,13,12\n\nB1-B5: 40,39,38,0,45\n\nHS: 41, VS: 42, DE: 3, PCK: 1"
 		(exclude_from_sim no)
-		(at 34.036 132.842 0)
+		(at 41.656 125.222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7705,7 +9359,7 @@
 		(uuid "e92bd67a-1a89-4f65-b8d3-bf1446a37e92")
 	)
 	(junction
-		(at 62.23 182.88)
+		(at 69.85 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "015dcc33-1a52-4c63-a753-ab1b4200921e")
@@ -7735,7 +9389,7 @@
 		(uuid "1effbeaf-9f11-4c0c-9dfb-df4729a411a4")
 	)
 	(junction
-		(at 62.23 200.66)
+		(at 69.85 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fb8feec-34da-43cc-b1e6-a9e123aed95f")
@@ -7771,7 +9425,7 @@
 		(uuid "35110006-67c8-4c64-b1ae-51c692d5aa57")
 	)
 	(junction
-		(at 62.23 203.2)
+		(at 69.85 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a79a0fe-a94a-4924-98c6-286fdabac287")
@@ -7795,7 +9449,7 @@
 		(uuid "496e8f9f-2893-418b-aa30-e8d9351128b9")
 	)
 	(junction
-		(at 62.23 220.98)
+		(at 69.85 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "497208ec-c126-4369-ade3-8990713435bf")
@@ -7813,13 +9467,13 @@
 		(uuid "4a7d6d12-ed76-47c3-9334-f362bdbc264d")
 	)
 	(junction
-		(at 62.23 177.8)
+		(at 69.85 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c92a485-042d-477b-88fc-06c65039013d")
 	)
 	(junction
-		(at 62.23 180.34)
+		(at 69.85 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56f55870-d074-486b-b056-cd061aafb24c")
@@ -7879,7 +9533,7 @@
 		(uuid "6f768a8c-7b78-4d8e-ba7f-3d5ecf1c535c")
 	)
 	(junction
-		(at 62.23 226.06)
+		(at 69.85 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7051b8af-0801-47c3-873a-4fe53de3f445")
@@ -7915,7 +9569,7 @@
 		(uuid "7e9d8b68-34ee-4ae6-9fb0-f407745a2736")
 	)
 	(junction
-		(at 62.23 243.84)
+		(at 69.85 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84e00dea-3755-4483-bccc-730caeace332")
@@ -7927,7 +9581,7 @@
 		(uuid "871e444b-b7dd-4448-9634-8ad02cccae52")
 	)
 	(junction
-		(at 62.23 218.44)
+		(at 69.85 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a34c763-4665-4bc3-9847-e9ac05d45b52")
@@ -7949,6 +9603,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1962d10-eeb5-4e81-b603-6e1f532c7122")
+	)
+	(junction
+		(at 323.85 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b69d8690-f86f-4a89-a622-2bfa19cb9ef7")
 	)
 	(junction
 		(at 24.13 33.02)
@@ -8023,7 +9683,7 @@
 		(uuid "f0621d4e-29a6-4625-8eb3-d9c54c593637")
 	)
 	(junction
-		(at 62.23 223.52)
+		(at 69.85 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f20b421a-97d1-47ed-893f-3a3c9f41697a")
@@ -8057,20 +9717,8 @@
 		(uuid "0596e6dd-e2cb-4926-82a1-040b85ccc971")
 	)
 	(no_connect
-		(at 50.8 58.42)
-		(uuid "0b72a7dc-5139-4b07-9a4a-b69f6386dd1a")
-	)
-	(no_connect
 		(at 204.47 91.44)
 		(uuid "0be120c2-ef97-4f37-a903-adfe0102dcde")
-	)
-	(no_connect
-		(at 50.8 40.64)
-		(uuid "17bb5a5f-0612-4337-af75-0d7cf548d0b2")
-	)
-	(no_connect
-		(at 50.8 48.26)
-		(uuid "187007f7-4dc3-4ee2-868a-da82b66a2929")
 	)
 	(no_connect
 		(at 201.93 91.44)
@@ -8089,7 +9737,7 @@
 		(uuid "2e0977ef-d30b-4cbe-bd2c-0e2904181b34")
 	)
 	(no_connect
-		(at 40.64 241.3)
+		(at 48.26 233.68)
 		(uuid "2fefc7e2-751f-460d-91a6-45e7afe86e19")
 	)
 	(no_connect
@@ -8105,10 +9753,6 @@
 		(uuid "40821f58-690d-49f6-925c-a25be611e452")
 	)
 	(no_connect
-		(at 50.8 45.72)
-		(uuid "41753883-6da9-468f-a617-851ef17a375c")
-	)
-	(no_connect
 		(at 222.25 74.93)
 		(uuid "465e2cb6-3427-4dbd-b2f1-e55a444184bd")
 	)
@@ -8119,10 +9763,6 @@
 	(no_connect
 		(at 222.25 64.77)
 		(uuid "52a0325f-6d39-4b61-9d52-ac86d7fd3fb5")
-	)
-	(no_connect
-		(at 50.8 60.96)
-		(uuid "6a83a830-6d82-47a6-a4c1-10fc3300d4c2")
 	)
 	(no_connect
 		(at 199.39 91.44)
@@ -8137,7 +9777,7 @@
 		(uuid "9d12e339-f22b-4945-b73f-2b2a18c32c5c")
 	)
 	(no_connect
-		(at 40.64 231.14)
+		(at 48.26 223.52)
 		(uuid "ac499318-5541-44c7-b872-458f532c6ce7")
 	)
 	(no_connect
@@ -8149,10 +9789,6 @@
 		(uuid "b7025d8d-71d1-4c93-8e2e-b756bc3383e1")
 	)
 	(no_connect
-		(at 50.8 35.56)
-		(uuid "c297ae11-fca6-411a-b904-b91a69023f04")
-	)
-	(no_connect
 		(at 207.01 91.44)
 		(uuid "d716b183-849b-4715-ac95-7a57d814c3a4")
 	)
@@ -8161,16 +9797,8 @@
 		(uuid "e5ea82fb-5e5c-41d0-9b54-ab8475f21f5d")
 	)
 	(no_connect
-		(at 50.8 38.1)
-		(uuid "ebdebaa7-a068-478a-83c9-d873bc66ea1c")
-	)
-	(no_connect
 		(at 360.68 34.29)
 		(uuid "ee1215db-bbbe-483c-a701-e81cb0b657a7")
-	)
-	(no_connect
-		(at 50.8 43.18)
-		(uuid "f4efb06a-b47f-4af4-96c0-ad77f35dc06f")
 	)
 	(wire
 		(pts
@@ -8234,7 +9862,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 238.76) (xy 49.53 238.76)
+			(xy 48.26 231.14) (xy 57.15 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8314,7 +9942,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 203.2) (xy 62.23 203.2)
+			(xy 48.26 195.58) (xy 69.85 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8334,7 +9962,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 187.96) (xy 49.53 187.96)
+			(xy 48.26 180.34) (xy 57.15 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8414,6 +10042,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 58.42) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd6eaef-5092-4f05-a842-732452f12eea")
+	)
+	(wire
+		(pts
 			(xy 372.11 43.18) (xy 372.11 44.45)
 		)
 		(stroke
@@ -8434,7 +10072,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 226.06) (xy 62.23 226.06)
+			(xy 48.26 218.44) (xy 69.85 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8494,7 +10132,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 53.34 154.94)
+			(xy 60.96 144.78) (xy 60.96 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8544,7 +10182,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 205.74) (xy 49.53 205.74)
+			(xy 48.26 198.12) (xy 57.15 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8554,7 +10192,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 226.06) (xy 62.23 243.84)
+			(xy 69.85 218.44) (xy 69.85 236.22)
 		)
 		(stroke
 			(width 0)
@@ -8574,7 +10212,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 213.36) (xy 49.53 213.36)
+			(xy 48.26 205.74) (xy 57.15 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8584,7 +10222,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 175.26) (xy 49.53 175.26)
+			(xy 48.26 167.64) (xy 57.15 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8604,7 +10242,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 243.84) (xy 62.23 256.54)
+			(xy 69.85 236.22) (xy 69.85 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8654,7 +10292,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 248.92) (xy 49.53 248.92)
+			(xy 48.26 241.3) (xy 57.15 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8724,6 +10362,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 60.96) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e13fe86-0021-43e8-8925-bee3c1e90b23")
+	)
+	(wire
+		(pts
 			(xy 83.82 45.72) (xy 93.98 45.72)
 		)
 		(stroke
@@ -8734,7 +10382,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 152.4) (xy 59.69 157.48)
+			(xy 67.31 144.78) (xy 67.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8754,7 +10402,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 200.66) (xy 62.23 203.2)
+			(xy 69.85 193.04) (xy 69.85 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8864,7 +10512,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 243.84) (xy 62.23 243.84)
+			(xy 48.26 236.22) (xy 69.85 236.22)
 		)
 		(stroke
 			(width 0)
@@ -8954,7 +10602,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 177.8) (xy 62.23 180.34)
+			(xy 69.85 170.18) (xy 69.85 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8964,7 +10612,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 228.6) (xy 49.53 228.6)
+			(xy 48.26 220.98) (xy 57.15 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8981,6 +10629,16 @@
 			(type default)
 		)
 		(uuid "47b7c9b9-fb42-4c12-9ffd-6f5e89f6ea68")
+	)
+	(wire
+		(pts
+			(xy 323.85 186.69) (xy 323.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f64a8f-6796-4ae3-84fa-0ff619b2c859")
 	)
 	(wire
 		(pts
@@ -9001,6 +10659,16 @@
 			(type default)
 		)
 		(uuid "48ae2865-7b53-415c-aae8-4590b5c64273")
+	)
+	(wire
+		(pts
+			(xy 247.65 175.26) (xy 259.08 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49297304-58d0-4a7c-8ea2-aa94b5b58a56")
 	)
 	(wire
 		(pts
@@ -9094,6 +10762,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 182.88) (xy 344.17 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8e3ea0-76cc-4e26-bede-b6a9d5f18518")
+	)
+	(wire
+		(pts
 			(xy 363.22 88.9) (xy 363.22 93.98)
 		)
 		(stroke
@@ -9144,7 +10822,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 154.94) (xy 40.64 154.94)
+			(xy 60.96 147.32) (xy 48.26 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9184,7 +10862,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 246.38) (xy 49.53 246.38)
+			(xy 48.26 238.76) (xy 57.15 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9244,7 +10922,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 190.5) (xy 49.53 190.5)
+			(xy 48.26 182.88) (xy 57.15 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9324,7 +11002,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 180.34) (xy 62.23 180.34)
+			(xy 48.26 172.72) (xy 69.85 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9354,7 +11032,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 182.88) (xy 62.23 200.66)
+			(xy 69.85 175.26) (xy 69.85 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9374,7 +11052,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 220.98) (xy 62.23 223.52)
+			(xy 39.37 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbb769c-a11d-49b7-9733-59a371c7e336")
+	)
+	(wire
+		(pts
+			(xy 332.74 185.42) (xy 344.17 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1d3fe2-34fa-4a80-bfc3-783f5ce4ea15")
+	)
+	(wire
+		(pts
+			(xy 69.85 213.36) (xy 69.85 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9404,7 +11102,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 167.64) (xy 49.53 167.64)
+			(xy 48.26 160.02) (xy 57.15 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9434,7 +11132,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 251.46) (xy 49.53 251.46)
+			(xy 48.26 243.84) (xy 57.15 243.84)
 		)
 		(stroke
 			(width 0)
@@ -9464,7 +11162,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 172.72) (xy 49.53 172.72)
+			(xy 48.26 165.1) (xy 57.15 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9504,6 +11202,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785231c2-c73a-465a-98b8-229410398265")
+	)
+	(wire
+		(pts
 			(xy 39.37 66.04) (xy 50.8 66.04)
 		)
 		(stroke
@@ -9514,7 +11222,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 193.04) (xy 49.53 193.04)
+			(xy 48.26 185.42) (xy 57.15 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9544,13 +11252,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 215.9) (xy 49.53 215.9)
+			(xy 48.26 208.28) (xy 57.15 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d2d1656-f3fe-448f-8130-4abe9e18b454")
+	)
+	(wire
+		(pts
+			(xy 309.88 182.88) (xy 323.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d74a217-4b86-496d-956f-ac57bc28514b")
 	)
 	(wire
 		(pts
@@ -9584,7 +11302,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 200.66) (xy 62.23 200.66)
+			(xy 48.26 193.04) (xy 69.85 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9594,7 +11312,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 236.22) (xy 49.53 236.22)
+			(xy 48.26 228.6) (xy 57.15 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9641,6 +11359,16 @@
 			(type default)
 		)
 		(uuid "83a66916-dd15-48dc-9031-1cb021d6e01a")
+	)
+	(wire
+		(pts
+			(xy 332.74 177.8) (xy 344.17 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8655768c-81d1-4945-8ce8-1981801f99d6")
 	)
 	(wire
 		(pts
@@ -9704,7 +11432,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 180.34) (xy 62.23 182.88)
+			(xy 69.85 172.72) (xy 69.85 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9754,7 +11482,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 220.98) (xy 62.23 220.98)
+			(xy 48.26 213.36) (xy 69.85 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9844,7 +11572,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 198.12) (xy 49.53 198.12)
+			(xy 309.88 180.34) (xy 344.17 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5ea16d-2dc1-4997-b3ed-f06382590947")
+	)
+	(wire
+		(pts
+			(xy 48.26 190.5) (xy 57.15 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9884,7 +11622,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 165.1) (xy 49.53 165.1)
+			(xy 48.26 157.48) (xy 57.15 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9931,6 +11669,16 @@
 			(type default)
 		)
 		(uuid "aa58ee23-a9c6-463e-b98b-643a1144d3d5")
+	)
+	(wire
+		(pts
+			(xy 39.37 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab19ed15-760e-4413-8461-829dc3341360")
 	)
 	(wire
 		(pts
@@ -9984,13 +11732,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 185.42) (xy 49.53 185.42)
+			(xy 48.26 177.8) (xy 57.15 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afad9081-7f2a-4f43-8266-f2e681488ceb")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01e5f6a-1d42-4a88-a844-fba81007e2d7")
 	)
 	(wire
 		(pts
@@ -10064,7 +11822,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 182.88) (xy 62.23 182.88)
+			(xy 48.26 175.26) (xy 69.85 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10094,7 +11852,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 203.2) (xy 62.23 218.44)
+			(xy 69.85 195.58) (xy 69.85 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10124,7 +11882,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 160.02) (xy 62.23 160.02)
+			(xy 48.26 152.4) (xy 69.85 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10144,7 +11902,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 233.68) (xy 49.53 233.68)
+			(xy 48.26 226.06) (xy 57.15 226.06)
 		)
 		(stroke
 			(width 0)
@@ -10224,7 +11982,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 218.44) (xy 62.23 218.44)
+			(xy 48.26 210.82) (xy 69.85 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10244,7 +12002,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 160.02) (xy 62.23 177.8)
+			(xy 69.85 152.4) (xy 69.85 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10254,7 +12012,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 223.52) (xy 62.23 223.52)
+			(xy 332.74 175.26) (xy 344.17 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c32117-8ec5-42f1-aaf6-998459fcf764")
+	)
+	(wire
+		(pts
+			(xy 48.26 215.9) (xy 69.85 215.9)
 		)
 		(stroke
 			(width 0)
@@ -10304,7 +12072,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 218.44) (xy 62.23 220.98)
+			(xy 69.85 210.82) (xy 69.85 213.36)
 		)
 		(stroke
 			(width 0)
@@ -10344,6 +12112,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 185.42) (xy 259.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce669d60-90aa-4c70-8fed-cb7cd12c70b0")
+	)
+	(wire
+		(pts
 			(xy 83.82 86.36) (xy 90.17 86.36)
 		)
 		(stroke
@@ -10354,7 +12132,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 170.18) (xy 49.53 170.18)
+			(xy 48.26 162.56) (xy 57.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10444,7 +12222,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 223.52) (xy 62.23 226.06)
+			(xy 69.85 215.9) (xy 69.85 218.44)
 		)
 		(stroke
 			(width 0)
@@ -10464,7 +12242,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 162.56) (xy 66.04 162.56)
+			(xy 48.26 154.94) (xy 73.66 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10494,7 +12272,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 210.82) (xy 49.53 210.82)
+			(xy 48.26 203.2) (xy 57.15 203.2)
 		)
 		(stroke
 			(width 0)
@@ -10584,6 +12362,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2747fad-4478-4618-b407-c04b7eb7bfd9")
+	)
+	(wire
+		(pts
 			(xy 39.37 86.36) (xy 50.8 86.36)
 		)
 		(stroke
@@ -10634,7 +12422,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 162.56) (xy 66.04 152.4)
+			(xy 73.66 154.94) (xy 73.66 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10704,6 +12492,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 177.8) (xy 259.08 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7e3e75-141f-4715-80ed-79c9b9b281f6")
+	)
+	(wire
+		(pts
 			(xy 90.17 71.12) (xy 90.17 73.66)
 		)
 		(stroke
@@ -10724,7 +12522,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 254) (xy 49.53 254)
+			(xy 48.26 246.38) (xy 57.15 246.38)
 		)
 		(stroke
 			(width 0)
@@ -10774,7 +12572,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 195.58) (xy 49.53 195.58)
+			(xy 48.26 187.96) (xy 57.15 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10824,6 +12622,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 180.34) (xy 259.08 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f796f41e-2b39-4056-b9e3-bae3aa224414")
+	)
+	(wire
+		(pts
 			(xy 394.97 73.66) (xy 394.97 72.39)
 		)
 		(stroke
@@ -10854,6 +12662,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 45.72) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb88d85-87db-4c3f-b890-5e7debe44516")
+	)
+	(wire
+		(pts
 			(xy 222.25 52.07) (xy 232.41 52.07)
 		)
 		(stroke
@@ -10864,7 +12682,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 177.8) (xy 62.23 177.8)
+			(xy 48.26 170.18) (xy 69.85 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10874,7 +12692,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 208.28) (xy 49.53 208.28)
+			(xy 328.93 187.96) (xy 344.17 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed4f510-a396-48d4-9617-20c8a50e9d25")
+	)
+	(wire
+		(pts
+			(xy 48.26 200.66) (xy 57.15 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10894,13 +12722,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 157.48) (xy 40.64 157.48)
+			(xy 67.31 149.86) (xy 48.26 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff66cdaa-980a-4a21-8342-b27e8d6070cd")
+	)
+	(label "LED_LAT"
+		(at 247.65 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "008144ab-de93-4db9-8743-788dc5e4eb90")
 	)
 	(label "GPIO0"
 		(at 93.98 30.48 180)
@@ -10942,8 +12780,48 @@
 		)
 		(uuid "0759cbdf-a89a-4c5b-9cb9-fd4fc33b3600")
 	)
+	(label "A5B"
+		(at 201.93 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f7e9ce8-5a78-4139-b3b6-9e58209f6139")
+	)
+	(label "LED_DATA"
+		(at 39.37 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fe3432a-76b1-4a10-92d8-8c943042c86a")
+	)
+	(label "SD_SCK"
+		(at 39.37 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10740104-bc57-4932-b70b-797524d08230")
+	)
+	(label "A2B"
+		(at 144.78 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11ce6f1d-299c-49e8-8816-59a91d5d4e72")
+	)
 	(label "R1"
-		(at 49.53 165.1 180)
+		(at 57.15 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10951,6 +12829,16 @@
 			(justify right bottom)
 		)
 		(uuid "11f6f48b-3ad2-4988-aca8-ed6fa67447e2")
+	)
+	(label "LED_SCLK"
+		(at 247.65 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12d24ffe-e0f2-4748-b475-fa03659c5f33")
 	)
 	(label "G1"
 		(at 39.37 86.36 0)
@@ -10972,6 +12860,16 @@
 		)
 		(uuid "1396402c-c021-451b-bccd-a6f26a326c05")
 	)
+	(label "A6B"
+		(at 220.98 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13be74e4-aac9-4036-bdbb-818f0713d65b")
+	)
 	(label "CAN_CTX"
 		(at 369.57 36.83 180)
 		(effects
@@ -10982,8 +12880,18 @@
 		)
 		(uuid "1a332ba6-32c4-490e-9671-5f42732f6164")
 	)
+	(label "A6R"
+		(at 210.82 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d4b226d-4db6-47d8-9191-fb5641699b64")
+	)
 	(label "B2"
-		(at 49.53 208.28 180)
+		(at 57.15 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11002,6 +12910,16 @@
 		)
 		(uuid "2595b1f6-a5a3-4862-bbbb-0e57626bd550")
 	)
+	(label "A4B"
+		(at 182.88 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28a40b64-8317-4014-bb62-efff36405058")
+	)
 	(label "R1"
 		(at 39.37 73.66 0)
 		(effects
@@ -11013,7 +12931,7 @@
 		(uuid "2cf226fe-8922-4168-af01-0da56b25429f")
 	)
 	(label "HSYNC"
-		(at 49.53 233.68 180)
+		(at 57.15 226.06 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11022,8 +12940,18 @@
 		)
 		(uuid "2d914894-2ac9-4319-9b23-298732daaf30")
 	)
+	(label "LED_SCLK"
+		(at 39.37 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "309f065d-92c8-42a9-96fa-2f3967344a8c")
+	)
 	(label "B3"
-		(at 49.53 210.82 180)
+		(at 57.15 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11031,6 +12959,16 @@
 			(justify right bottom)
 		)
 		(uuid "32571e2c-bc84-45e1-acf2-ce811f6aa056")
+	)
+	(label "LED_GSCLK"
+		(at 39.37 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35105bb6-1a90-45a9-a2fe-14a5e17f0e61")
 	)
 	(label "U0TXD"
 		(at 201.93 44.45 270)
@@ -11043,7 +12981,7 @@
 		(uuid "35df9ae9-298d-4cc4-aa89-d4508947cbd2")
 	)
 	(label "G0"
-		(at 49.53 185.42 180)
+		(at 57.15 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11061,6 +12999,16 @@
 			(justify left bottom)
 		)
 		(uuid "376a452c-1a4e-407b-a352-57dfa57d0e2d")
+	)
+	(label "LED_LAT"
+		(at 332.74 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c610ee5-148b-49a2-a1c3-21477a8d52e4")
 	)
 	(label "CHIP_PU"
 		(at 39.37 33.02 0)
@@ -11083,7 +13031,7 @@
 		(uuid "3fbaa939-471c-431a-ba0e-1d02b5284b0a")
 	)
 	(label "B1"
-		(at 49.53 205.74 180)
+		(at 57.15 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11093,7 +13041,7 @@
 		(uuid "3fe928df-8d0e-438f-b04c-ead2b071432c")
 	)
 	(label "G2"
-		(at 49.53 190.5 180)
+		(at 57.15 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11132,8 +13080,28 @@
 		)
 		(uuid "4545a6b3-8278-476d-976f-bce95e4f260a")
 	)
+	(label "SD_MOSI"
+		(at 39.37 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "456d656f-3595-4ed0-80ea-017194f2cb3d")
+	)
+	(label "A5G"
+		(at 196.85 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47d6f3b4-9d77-4a22-9685-9e50165d4fab")
+	)
 	(label "DE"
-		(at 49.53 238.76 180)
+		(at 57.15 231.14 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11152,6 +13120,26 @@
 		)
 		(uuid "49a6981c-f62c-418b-a7de-892638384e1b")
 	)
+	(label "LED_LAT"
+		(at 39.37 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b4c588f-32af-480f-9a6f-ac821c162d9b")
+	)
+	(label "A2B"
+		(at 279.4 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52d33efa-ad4d-44df-9164-42c3e8cc70d9")
+	)
 	(label "U0TXD"
 		(at 93.98 55.88 180)
 		(effects
@@ -11162,8 +13150,18 @@
 		)
 		(uuid "57f1f270-faed-4986-b770-86f3ee0d75a8")
 	)
+	(label "A3G"
+		(at 158.75 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58a7e74a-46ab-4f00-8af6-7cfe2cf2797c")
+	)
 	(label "G1"
-		(at 49.53 187.96 180)
+		(at 57.15 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11171,6 +13169,26 @@
 			(justify right bottom)
 		)
 		(uuid "5c96469d-7645-495e-8508-a552c51cd13f")
+	)
+	(label "A2G"
+		(at 284.48 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dce6865-5fdb-4fe4-8174-e317141a8d4b")
+	)
+	(label "LED_SCLK"
+		(at 332.74 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e6d9522-27e8-49ba-914c-afed87878896")
 	)
 	(label "B3"
 		(at 93.98 40.64 180)
@@ -11191,6 +13209,26 @@
 			(justify right bottom)
 		)
 		(uuid "6d272f9c-7f53-472f-8994-dbb8ef0bd4ac")
+	)
+	(label "A5R"
+		(at 191.77 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d6c3f90-f91f-4863-a702-42ca0acdc5e9")
+	)
+	(label "SD_CS"
+		(at 39.37 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f719924-796f-4e74-a758-71a03a465afa")
 	)
 	(label "USBM_D-"
 		(at 142.24 72.39 180)
@@ -11213,7 +13251,7 @@
 		(uuid "72ba4db3-22a0-4d51-9ae3-cb82b5f383ff")
 	)
 	(label "B4"
-		(at 49.53 213.36 180)
+		(at 57.15 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11232,8 +13270,38 @@
 		)
 		(uuid "744eccbd-a96d-4473-a799-93f90c8deac6")
 	)
+	(label "A1B"
+		(at 125.73 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7813ad4f-b779-4ecf-860c-7fe1f3ed560e")
+	)
+	(label "DaisyChain"
+		(at 332.74 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e7560a4-80e9-4fb9-b698-ea9859860c80")
+	)
+	(label "LED_DATA"
+		(at 247.65 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8102e716-1c1d-4ff8-9360-d159bef62688")
+	)
 	(label "G5"
-		(at 49.53 198.12 180)
+		(at 57.15 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11241,6 +13309,16 @@
 			(justify right bottom)
 		)
 		(uuid "82b14f7e-88fc-43bd-98d1-26383b874eee")
+	)
+	(label "LED_GSCLK"
+		(at 247.65 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82eaa8f3-071b-4125-b6b2-11447c95f6e7")
 	)
 	(label "B1"
 		(at 93.98 45.72 180)
@@ -11251,6 +13329,16 @@
 			(justify right bottom)
 		)
 		(uuid "8443ec77-add5-40dc-8f18-a4670c73f464")
+	)
+	(label "A3B"
+		(at 163.83 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8516ead3-5e50-4b4a-98f3-2f107334f40e")
 	)
 	(label "G0"
 		(at 39.37 88.9 0)
@@ -11263,7 +13351,7 @@
 		(uuid "8f879758-40b0-49e0-91a4-eba6d5617aa9")
 	)
 	(label "B5"
-		(at 49.53 175.26 180)
+		(at 57.15 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11272,8 +13360,18 @@
 		)
 		(uuid "91003aff-e55a-41f3-b48a-5bb556b244b7")
 	)
+	(label "A4R"
+		(at 172.72 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9103bc27-6540-4469-9225-c22d5e284682")
+	)
 	(label "G4"
-		(at 49.53 195.58 180)
+		(at 57.15 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11302,6 +13400,16 @@
 		)
 		(uuid "9871cc55-51f0-4b58-b89f-91b81e2b45dd")
 	)
+	(label "A1R"
+		(at 266.7 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99eb33dd-17a9-49ea-bd11-5a592b83c5f7")
+	)
 	(label "HSYNC"
 		(at 93.98 48.26 180)
 		(effects
@@ -11312,8 +13420,18 @@
 		)
 		(uuid "9b7b4855-148f-43a8-b88a-e9819cc861ee")
 	)
+	(label "A1R"
+		(at 115.57 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bbec10f-3b4a-4e9d-931b-1681f06d70b3")
+	)
 	(label "B5"
-		(at 49.53 215.9 180)
+		(at 57.15 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11332,8 +13450,18 @@
 		)
 		(uuid "9e7d1d10-7020-4969-b1a2-e1f0abed43a6")
 	)
+	(label "A4G"
+		(at 177.8 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa5ef203-bc19-475c-a01e-b71ecfe065f4")
+	)
 	(label "PIXCLK"
-		(at 49.53 228.6 180)
+		(at 57.15 220.98 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11341,6 +13469,36 @@
 			(justify right bottom)
 		)
 		(uuid "aae712e4-a88a-40c4-b168-e6ad8892b94f")
+	)
+	(label "A1G"
+		(at 120.65 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0a64892-c75e-42c1-b651-4d37a9f18799")
+	)
+	(label "A2R"
+		(at 134.62 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1daec2a-e91d-477f-acae-aab5b4dfeb1c")
+	)
+	(label "A3R"
+		(at 153.67 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba2a8479-bf23-49e4-9f77-1abb6059b403")
 	)
 	(label "CAN_RTX"
 		(at 39.37 55.88 0)
@@ -11362,6 +13520,16 @@
 		)
 		(uuid "bf22fbe0-4416-4002-adbb-de089b5a9936")
 	)
+	(label "A1G"
+		(at 269.24 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c456d716-b286-4459-8de3-1ca086bb4c51")
+	)
 	(label "PROG_D-"
 		(at 175.26 72.39 180)
 		(effects
@@ -11373,7 +13541,7 @@
 		(uuid "c498b321-d2f2-45d4-9a18-f9625a1073c8")
 	)
 	(label "VSYNC"
-		(at 49.53 236.22 180)
+		(at 57.15 228.6 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11382,8 +13550,18 @@
 		)
 		(uuid "c5681107-0562-4caf-8fa0-813d71c2a3b7")
 	)
+	(label "A6G"
+		(at 215.9 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb09c869-921a-4d4e-8d7e-7896affc8821")
+	)
 	(label "R3"
-		(at 49.53 170.18 180)
+		(at 57.15 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11413,7 +13591,7 @@
 		(uuid "d1c4a6e1-9a54-4038-9be6-4fe9bff9212c")
 	)
 	(label "R4"
-		(at 49.53 172.72 180)
+		(at 57.15 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11432,8 +13610,18 @@
 		)
 		(uuid "d7245592-a9c2-485e-a0c3-3ca16c4d4028")
 	)
+	(label "A2G"
+		(at 139.7 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dab26c27-9349-4908-b551-81c16c8e5523")
+	)
 	(label "Y+"
-		(at 49.53 246.38 180)
+		(at 57.15 238.76 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11473,7 +13661,7 @@
 		(uuid "df407dc2-167c-4a94-af6f-ae3ab3fc0b4c")
 	)
 	(label "X+"
-		(at 49.53 254 180)
+		(at 57.15 246.38 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11483,7 +13671,7 @@
 		(uuid "e4ec1fc7-5de9-4878-b8d7-3af1dc7942c3")
 	)
 	(label "R2"
-		(at 49.53 167.64 180)
+		(at 57.15 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11492,8 +13680,18 @@
 		)
 		(uuid "e68fd1e9-fa00-4c5e-885b-501fa08233e4")
 	)
+	(label "LED_GSCLK"
+		(at 332.74 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7d7a4ea-b1d6-4b21-883a-062e2f397a6d")
+	)
 	(label "Y-"
-		(at 49.53 251.46 180)
+		(at 57.15 243.84 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11523,7 +13721,7 @@
 		(uuid "ec4a2f02-6ab8-45be-aa7b-2a9308f2319f")
 	)
 	(label "G3"
-		(at 49.53 193.04 180)
+		(at 57.15 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11533,7 +13731,7 @@
 		(uuid "effa1664-8252-4dd5-9615-ce4b7803b2f9")
 	)
 	(label "X-"
-		(at 49.53 248.92 180)
+		(at 57.15 241.3 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -11552,6 +13750,16 @@
 		)
 		(uuid "f0f1e60e-663c-44cb-97ea-fdb7d2eaac36")
 	)
+	(label "A2R"
+		(at 281.94 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f16caffe-e987-4b7c-96d5-56deb5d29eaf")
+	)
 	(label "CAN+"
 		(at 276.86 21.59 0)
 		(effects
@@ -11561,6 +13769,26 @@
 			(justify left bottom)
 		)
 		(uuid "f16d6ada-f353-452f-b48c-f325593134de")
+	)
+	(label "A1B"
+		(at 259.08 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f20b288f-e918-4185-a20d-5c6392dd08fc")
+	)
+	(label "SD_MISO"
+		(at 39.37 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5e50e13-736a-41b6-80a8-a0b260834022")
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
@@ -11834,8 +14062,150 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 158.75 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d7cf14b-391d-47c0-bfab-f6c758e75949")
+		(property "Reference" "LED16"
+			(at 152.4 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 147.32 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 176.022 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 170.18 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 173.482 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "719266c2-314e-4f6f-b2c2-995cb06ae5dc")
+		)
+		(pin "3"
+			(uuid "8a4eace7-5505-4665-970c-67bb9cfc3143")
+		)
+		(pin "1"
+			(uuid "43ecf225-591f-44a2-b5b2-db05fcd9a850")
+		)
+		(pin "2"
+			(uuid "1d658c01-a60f-4414-8e54-e6ed3930ea74")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 186.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fed4ccb-660e-40c2-97f1-6bb6c24d1d9b")
+		(property "Reference" "#PWR03"
+			(at 323.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b9772d-660f-4bcb-b38b-a609d318d5f8")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x40_Pin")
-		(at 35.56 203.2 0)
+		(at 43.18 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11843,7 +14213,7 @@
 		(dnp no)
 		(uuid "1669e5f9-f3e9-4787-9b7a-72282b3b6a67")
 		(property "Reference" "J5"
-			(at 36.195 149.86 0)
+			(at 43.815 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11851,7 +14221,7 @@
 			)
 		)
 		(property "Value" "Conn_01x40_Pin"
-			(at 42.672 152.146 0)
+			(at 50.292 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +14229,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Omron_XF2M-4015-1A_1x40-1MP_P0.5mm_Horizontal"
-			(at 35.56 203.2 0)
+			(at 43.18 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,7 +14238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 203.2 0)
+			(at 43.18 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,7 +14247,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated"
-			(at 35.56 203.2 0)
+			(at 43.18 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,6 +14382,156 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 120.65 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "172cf14c-8aa1-4d9a-8d5d-40ba01ec80b5")
+		(property "Reference" "LED14"
+			(at 114.3 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 109.22 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 137.922 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 132.08 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 135.382 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0e02c1ce-85c5-4c20-ac2f-474cfcc3cb12")
+		)
+		(pin "3"
+			(uuid "b19d97c6-90e5-4358-a9d8-130b60c975c8")
+		)
+		(pin "1"
+			(uuid "dec35b9a-082c-4c7a-ab3d-d08d847b20d5")
+		)
+		(pin "2"
+			(uuid "595f329f-ea86-40a9-a58f-0e29ea628eb2")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 120.65 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1802b4ae-f899-44ab-85cb-b9c13def6ec6")
+		(property "Reference" "LED2"
+			(at 114.3 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 137.922 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 132.08 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 135.382 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ceb2c461-9f49-460c-9aa1-38e1ab201930")
+		)
+		(pin "3"
+			(uuid "959f6aa3-13f6-4cce-99d7-8d65849f18d8")
+		)
+		(pin "1"
+			(uuid "e3082d37-9181-4e10-8ab1-2876e175f40d")
+		)
+		(pin "2"
+			(uuid "2d1446cd-38ea-4017-a8df-22e80391ddc6")
+		)
+		(instances
+			(project ""
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -12345,6 +14865,156 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 177.8 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "243b267a-61de-4883-868a-e7ec0dfd149f")
+		(property "Reference" "LED21"
+			(at 171.45 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 166.37 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 195.072 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 189.23 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 192.532 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6b1e7587-d8b5-4d45-a8cd-81a742b2aaa4")
+		)
+		(pin "3"
+			(uuid "4a5c2e19-db75-460e-b3bf-c93bfc436d29")
+		)
+		(pin "1"
+			(uuid "4144f57e-c79b-44d8-806e-964b71973a6a")
+		)
+		(pin "2"
+			(uuid "daae9db2-b1e6-4248-aee7-036195dffb13")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 196.85 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25b9017c-90bc-4708-b2c8-dca93f6a85a6")
+		(property "Reference" "LED12"
+			(at 190.5 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 185.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 214.122 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 208.28 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 211.582 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ead6df0e-7906-418d-86b7-d1958a0936a4")
+		)
+		(pin "3"
+			(uuid "fc50a953-fed4-482e-b3b2-a1171965876c")
+		)
+		(pin "1"
+			(uuid "39b1ea37-f93a-4ff2-b499-00cb62cf6b4a")
+		)
+		(pin "2"
+			(uuid "cc287248-4459-4777-988e-36afd86be418")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 57.15 0)
 		(unit 1)
@@ -12474,6 +15144,156 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 177.8 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a715c00-c37f-4ec0-8e82-be6b9c42c5b6")
+		(property "Reference" "LED27"
+			(at 171.45 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 166.37 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 195.072 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 189.23 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 192.532 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f4b1a282-8f0e-4784-8e07-b6686a3bf0e4")
+		)
+		(pin "3"
+			(uuid "5294edf6-6c10-46f3-8796-64c0f7c14864")
+		)
+		(pin "1"
+			(uuid "a5583430-5cff-493a-8c33-2d37c492023b")
+		)
+		(pin "2"
+			(uuid "e7d5143d-042f-42e8-96ec-ca336e95d599")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 120.65 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c4a16fa-e89d-4258-b0d5-cb17392ecaad")
+		(property "Reference" "LED24"
+			(at 114.3 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 109.22 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 137.922 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 132.08 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 135.382 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7a8e46b7-89b6-4fda-9738-fc86304df22a")
+		)
+		(pin "3"
+			(uuid "53f7c58a-e8ae-4918-87bd-c14b3e1ca1c6")
+		)
+		(pin "1"
+			(uuid "20871036-58ef-47a4-a74a-24d532a3439e")
+		)
+		(pin "2"
+			(uuid "86ac304a-c6ed-4e93-8948-63738d0863d4")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -12734,6 +15554,293 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_48Ch_LED_Driver:TLC5955RTQT")
+		(at 309.88 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a8fddd-fec9-4803-92f6-60d84621308e")
+		(property "Reference" "IC6"
+			(at 314.452 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TLC5955RTQT"
+			(at 314.452 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM:QFN50P800X800X100-57N-D"
+			(at 262.89 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc5955.pdf"
+			(at 262.89 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection"
+			(at 286.258 226.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 262.89 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLC5955RTQT"
+			(at 262.89 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLC5955RTQT?qs=%2Fd%252BFzHvH4c1KVIdVo%2F%252Bgqg%3D%3D"
+			(at 262.89 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 262.89 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLC5955RTQT"
+			(at 262.89 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2c607200-a45b-4e54-88d9-492b4b0ea82e")
+		)
+		(pin "9"
+			(uuid "7369e2c9-289d-4087-a536-de425ea4a49e")
+		)
+		(pin "55"
+			(uuid "984e522b-4086-4873-9a1f-d84dee6bb16f")
+		)
+		(pin "15"
+			(uuid "96d54ce3-6540-4118-bc2c-e6b1dc70226d")
+		)
+		(pin "53"
+			(uuid "8c549e39-d114-42e8-afd9-ce784138100f")
+		)
+		(pin "52"
+			(uuid "217f718e-c521-44e6-969a-ef8f82542d34")
+		)
+		(pin "6"
+			(uuid "d5f8a8fd-a895-40ca-979d-889ecae79222")
+		)
+		(pin "14"
+			(uuid "0ade58b5-edcf-42e2-995e-6500e2ac585d")
+		)
+		(pin "1"
+			(uuid "62057895-3f81-489d-8d82-19b34f996a04")
+		)
+		(pin "8"
+			(uuid "6a1ad2fd-5098-42dd-82cd-7e52d88f2189")
+		)
+		(pin "16"
+			(uuid "1d342b8a-30a2-4d5b-8c3e-9a6df6bb67ef")
+		)
+		(pin "5"
+			(uuid "a050dcd6-def5-4a86-96b0-b354d3561faf")
+		)
+		(pin "10"
+			(uuid "0f7c3758-4a5c-43e4-9696-493ca62e3b03")
+		)
+		(pin "54"
+			(uuid "d31bbcbe-e016-441b-865e-965dd1e0a948")
+		)
+		(pin "18"
+			(uuid "759120c1-eb5c-4f48-ab45-a50a5991a17b")
+		)
+		(pin "21"
+			(uuid "bf172814-39ac-468a-bfbc-f15dec735b59")
+		)
+		(pin "17"
+			(uuid "dca5799f-f3f4-44ef-96fb-ac3fad64f1e7")
+		)
+		(pin "19"
+			(uuid "6acc4f29-6ec9-4c7b-a714-b5295692ee1e")
+		)
+		(pin "4"
+			(uuid "9e9fadd5-ceca-4051-bf9b-258b4d0de8a4")
+		)
+		(pin "50"
+			(uuid "b638d411-2ae0-4a80-b3be-a7b43fac89f1")
+		)
+		(pin "12"
+			(uuid "4cb4dd1d-9e9d-42c2-84e4-7f6b03ac78f9")
+		)
+		(pin "7"
+			(uuid "88457096-ee7c-4dfb-9a07-72cad6b661f8")
+		)
+		(pin "11"
+			(uuid "c7e59bfb-d979-402c-9dd1-5e59faf0ba5d")
+		)
+		(pin "13"
+			(uuid "a79a622c-cdae-482c-9cff-3fa6d3cada30")
+		)
+		(pin "2"
+			(uuid "583728e5-116a-4244-894e-06965ff6578e")
+		)
+		(pin "57"
+			(uuid "e43757c0-b0e1-4b5b-b389-c2acb2abc8fe")
+		)
+		(pin "56"
+			(uuid "5c2f5e42-2d5c-4338-998c-3a6bcd2ada0b")
+		)
+		(pin "20"
+			(uuid "2fd54c58-c19e-4a1d-87ef-519ce5af9724")
+		)
+		(pin "51"
+			(uuid "d41d7684-8165-4ad0-8251-05b3f4de64b0")
+		)
+		(pin "22"
+			(uuid "9266d1d3-2e92-4308-9670-2772ae466f07")
+		)
+		(pin "46"
+			(uuid "f49c2e95-d042-4fc8-9971-cee173d340b2")
+		)
+		(pin "47"
+			(uuid "2e8a846b-8811-4cf6-84c9-5c35bf65b4d1")
+		)
+		(pin "44"
+			(uuid "00c10425-2783-41d9-9ed6-17c44595c28d")
+		)
+		(pin "27"
+			(uuid "cc57e956-19c8-4d7b-aa87-7a9477b56081")
+		)
+		(pin "38"
+			(uuid "641deff6-ee40-44ba-8ecf-864514fe5fe7")
+		)
+		(pin "36"
+			(uuid "0a7fd5f1-d0ca-41ef-9b92-1982c7104b9e")
+		)
+		(pin "49"
+			(uuid "ad7584db-a1a9-42ea-8887-82ae72ea42c4")
+		)
+		(pin "23"
+			(uuid "74c9fda0-1168-412a-a27b-9d3cf689865d")
+		)
+		(pin "48"
+			(uuid "e9bc58e9-6609-4398-8ec7-95b8a78ae101")
+		)
+		(pin "25"
+			(uuid "c51a8526-9af8-4683-89c6-60735f7a93b3")
+		)
+		(pin "24"
+			(uuid "b6055688-8bc3-48b3-86f7-933a4fe6c863")
+		)
+		(pin "26"
+			(uuid "760c4195-4ae9-441c-996b-7f84b805b800")
+		)
+		(pin "45"
+			(uuid "2f9bf323-a99e-45f1-850f-bbe62d9cc109")
+		)
+		(pin "28"
+			(uuid "f1745748-ae09-48fb-9ee4-d9b833ad75c7")
+		)
+		(pin "43"
+			(uuid "63fac7fb-6867-4937-882c-ffedf38dae89")
+		)
+		(pin "42"
+			(uuid "378e3ed7-f82e-4974-8b86-97da143de6a7")
+		)
+		(pin "41"
+			(uuid "c8028806-1f5f-423c-93b2-5a313f9efb56")
+		)
+		(pin "40"
+			(uuid "51cfb4ba-2a9e-4bd6-833a-48ec9f71d7a4")
+		)
+		(pin "39"
+			(uuid "e11ca637-df4a-440b-b59c-ad10427117ec")
+		)
+		(pin "37"
+			(uuid "fcf037e2-9449-4223-b176-3153ef841cbe")
+		)
+		(pin "35"
+			(uuid "712f6bea-eb70-4848-9647-e4ed50ab1422")
+		)
+		(pin "32"
+			(uuid "2ff19680-5c71-4b90-aa7e-f256a75f3827")
+		)
+		(pin "29"
+			(uuid "5b740624-b9c3-4f59-93c3-d97e19823b34")
+		)
+		(pin "33"
+			(uuid "3c3c6b11-5f3a-4ca3-aa74-690dcc58dbf0")
+		)
+		(pin "30"
+			(uuid "bac8bc50-2858-4b14-9724-e8640c4b9b4b")
+		)
+		(pin "31"
+			(uuid "a7ac13a3-c4d4-4ee0-b8f7-fe6fa7fa6bcf")
+		)
+		(pin "34"
+			(uuid "884d8889-8467-4da4-bc4e-144c757e3cc3")
+		)
+		(instances
+			(project ""
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -13010,6 +16117,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 196.85 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34b52baf-f1c9-47f1-ac1a-a610e47b91c8")
+		(property "Reference" "LED6"
+			(at 190.5 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 185.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 214.122 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 208.28 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 211.582 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "73259d74-bac7-4362-b1b5-6f279d751d4c")
+		)
+		(pin "3"
+			(uuid "1efa1b8c-fa6e-40e0-b89d-5d360937f37e")
+		)
+		(pin "1"
+			(uuid "04021bdc-66ee-4e13-8ad3-620f41f4b879")
+		)
+		(pin "2"
+			(uuid "8e3f478b-273b-4ecf-ace8-46ecf738c591")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 321.31 63.5 270)
 		(unit 1)
@@ -13137,6 +16319,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 120.65 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40d0ee5a-02c8-4833-b049-b233cab41ecc")
+		(property "Reference" "LED18"
+			(at 114.3 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 109.22 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 137.922 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 132.08 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 135.382 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "72314c0b-18f8-4c35-94d9-754357429a97")
+		)
+		(pin "3"
+			(uuid "c38756d6-7738-4b09-b32b-0db44591c485")
+		)
+		(pin "1"
+			(uuid "99ca42b7-587f-44eb-802b-f587c51e26f6")
+		)
+		(pin "2"
+			(uuid "7eff7cf0-c8cf-4ed6-988e-be76e54dfdfe")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -13397,6 +16654,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 215.9 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51cceed0-dccd-40aa-b9dc-ef724d076bae")
+		(property "Reference" "LED29"
+			(at 209.55 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 204.47 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 233.172 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 227.33 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 230.632 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "056f026d-b810-4dd7-a511-e9cc1b069d4b")
+		)
+		(pin "3"
+			(uuid "96eaa4f4-3d83-4c0b-83dd-75109f7304a5")
+		)
+		(pin "1"
+			(uuid "0ac76f4f-0451-4601-aaea-26604224a68d")
+		)
+		(pin "2"
+			(uuid "c1cb8ee1-bcf9-4c3a-ae45-40cdcf8a8f41")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 394.97 72.39 0)
 		(unit 1)
@@ -13458,6 +16790,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 139.7 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55d55d73-7e06-43cd-b73b-302868c49c29")
+		(property "Reference" "LED25"
+			(at 133.35 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 128.27 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 156.972 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 151.13 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 154.432 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a37f9c68-f0cb-4b4d-b0f3-2a6e5ddb4b23")
+		)
+		(pin "3"
+			(uuid "5b89f47d-5db9-49f0-8988-cf50540655c7")
+		)
+		(pin "1"
+			(uuid "307643d3-7677-4e53-be5b-0cf30c17abe7")
+		)
+		(pin "2"
+			(uuid "16c7d9ca-936d-47ca-8021-ef94d9cc672f")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED25")
 					(unit 1)
 				)
 			)
@@ -13589,6 +16996,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 215.9 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64779d46-380c-4f60-a438-f868ea891729")
+		(property "Reference" "LED23"
+			(at 209.55 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 204.47 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 233.172 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 227.33 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 230.632 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "76f661a7-35b4-40ee-bf92-c8a2538ab2b3")
+		)
+		(pin "3"
+			(uuid "6c875fce-b2cb-47d3-be96-940ea1251bbe")
+		)
+		(pin "1"
+			(uuid "6b5fa7ad-2920-42ef-8cd3-58b284bbdbb1")
+		)
+		(pin "2"
+			(uuid "3aeb8af9-8908-4279-a685-ceaca459d805")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED23")
 					(unit 1)
 				)
 			)
@@ -13734,6 +17216,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 158.75 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6935bde6-9c2d-4446-a81d-7d64a8c8f740")
+		(property "Reference" "LED10"
+			(at 152.4 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 176.022 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 170.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 173.482 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a3402039-7b13-4668-a034-f3e4adfe8804")
+		)
+		(pin "3"
+			(uuid "5bc15529-a9f4-48da-9e49-1868d11e0698")
+		)
+		(pin "1"
+			(uuid "64260f5a-d15a-4a3d-9d04-dcc7738efc87")
+		)
+		(pin "2"
+			(uuid "f4f16850-8d07-458e-aaa2-696a23d74a73")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 224.79 85.09 0)
 		(unit 1)
@@ -13794,6 +17351,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 158.75 267.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7109b779-a8bf-4d30-8761-65bc8ef6495d")
+		(property "Reference" "LED32"
+			(at 152.4 263.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 147.32 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 176.022 268.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 170.18 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 173.482 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "32103e72-dfde-405f-9df6-ebc54259bb64")
+		)
+		(pin "3"
+			(uuid "e4a85c5e-2bef-447b-97c5-93602540905f")
+		)
+		(pin "1"
+			(uuid "aaa9ff89-6973-4bcc-bd09-7df2a8de4316")
+		)
+		(pin "2"
+			(uuid "fb7a1eac-2258-4421-aed0-86ab33e69503")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -13884,6 +17516,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 139.7 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72d055be-7642-495c-af8a-f078566b85e2")
+		(property "Reference" "LED19"
+			(at 133.35 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 128.27 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 156.972 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 154.432 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f7675d6a-1f03-4f84-b735-4438927c72a1")
+		)
+		(pin "3"
+			(uuid "283f9c75-4204-4823-9fc4-650fabf70eee")
+		)
+		(pin "1"
+			(uuid "58a85353-41a0-4330-baf1-dc8eddd20d91")
+		)
+		(pin "2"
+			(uuid "74a7f79f-5188-4a7c-b767-3766890408f0")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 342.9 77.47 0)
 		(unit 1)
@@ -13945,6 +17652,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 177.8 267.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73bc9bfc-a59b-49c0-9a98-4dbd1a057c47")
+		(property "Reference" "LED33"
+			(at 171.45 263.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 166.37 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 195.072 268.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 189.23 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 192.532 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f374aef4-e697-4fb3-a46a-f1ba9c7bf9d2")
+		)
+		(pin "3"
+			(uuid "7fbdec10-212f-4b8b-8898-9b98f5644b1a")
+		)
+		(pin "1"
+			(uuid "4097828e-d061-443f-a67f-e828f5e5db80")
+		)
+		(pin "2"
+			(uuid "4ad1d3f6-b905-4409-a414-26556c54bbe8")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED33")
 					(unit 1)
 				)
 			)
@@ -14257,6 +18039,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 215.9 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "786a9c1c-6889-4925-9ff8-ba9c55e8de36")
+		(property "Reference" "LED7"
+			(at 209.55 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 204.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 233.172 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 227.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 230.632 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4fdae2f4-e94b-409e-84ea-c5e165cb8ac5")
+		)
+		(pin "3"
+			(uuid "5457d0c6-c8e1-4b21-b372-8b540209bc08")
+		)
+		(pin "1"
+			(uuid "f8006534-d70b-45d5-b3f6-3bf8f5c7a0f9")
+		)
+		(pin "2"
+			(uuid "91cb65ad-1bfc-4cfb-9793-baf876f6e3ff")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 218.44 93.98 90)
 		(unit 1)
@@ -14521,8 +18378,83 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 158.75 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80af63e7-3566-440c-a698-c49189e9cfde")
+		(property "Reference" "LED4"
+			(at 152.4 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 176.022 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 170.18 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 173.482 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "25e872bc-13c3-4a62-8e05-aef72903bc05")
+		)
+		(pin "3"
+			(uuid "72f035be-af2a-440b-81f1-067b89a0cd11")
+		)
+		(pin "1"
+			(uuid "6d8c1e57-df0d-4106-aaef-eeb4fb8591d1")
+		)
+		(pin "2"
+			(uuid "adc99f8a-4f27-42d6-8ffd-4c5d223caa5b")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 152.4 0)
+		(at 73.66 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14530,7 +18462,7 @@
 		(dnp no)
 		(uuid "80bbd3de-6044-472c-9866-7419ce4fd81a")
 		(property "Reference" "#PWR072"
-			(at 66.04 156.21 0)
+			(at 73.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14539,7 +18471,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 148.336 0)
+			(at 73.66 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +18479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 152.4 0)
+			(at 73.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14556,7 +18488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 152.4 0)
+			(at 73.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +18497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 152.4 0)
+			(at 73.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,6 +18724,156 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 139.7 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83c7196c-149b-4296-a549-de0b34eabd8b")
+		(property "Reference" "LED3"
+			(at 133.35 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 156.972 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 154.432 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed7b0fb6-5c71-4c91-8416-9773256368fe")
+		)
+		(pin "3"
+			(uuid "02a28874-17d8-4eff-98ac-659b28250dd1")
+		)
+		(pin "1"
+			(uuid "ffb73f25-3daf-44e4-9ca5-8a57ba55497a")
+		)
+		(pin "2"
+			(uuid "b037ec05-39d5-4320-b7df-d021f92205f8")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 158.75 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e36693-fe7c-4180-9408-b6cc5d9cd1a8")
+		(property "Reference" "LED26"
+			(at 152.4 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 147.32 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 176.022 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 170.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 173.482 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8a5979e8-c7d0-4c4f-93fb-6ac706025fe3")
+		)
+		(pin "3"
+			(uuid "4274e145-7ec6-4340-a05f-8f318503392c")
+		)
+		(pin "1"
+			(uuid "6e5e5b32-4317-46ae-b451-e51891a0bd6a")
+		)
+		(pin "2"
+			(uuid "b94691a6-7e3e-43ac-b134-7fd2c8c0cdf0")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 300.99 68.58 180)
 		(unit 1)
@@ -14992,6 +19074,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 120.65 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a6c4326-95be-4baa-8d8e-93a68602b7a5")
+		(property "Reference" "LED8"
+			(at 114.3 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 109.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 137.922 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 132.08 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 135.382 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "91c8bd46-348e-4a87-bc1d-e8754617d3ea")
+		)
+		(pin "3"
+			(uuid "ddf8c568-dc6b-4d07-8793-fa4241e5606d")
+		)
+		(pin "1"
+			(uuid "51bed8d2-61f5-4f4a-b73f-85efb37e1316")
+		)
+		(pin "2"
+			(uuid "c812f1e0-43cc-4d31-b10d-720ea171e6c4")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 300.99 85.09 180)
 		(unit 1)
@@ -15055,6 +19212,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 196.85 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fcbe8e5-3f2d-4657-890d-ffd0f2132d03")
+		(property "Reference" "LED28"
+			(at 190.5 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 185.42 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 214.122 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 208.28 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 211.582 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1dfd8dfb-6520-42c6-b66e-29d8cdfadffe")
+		)
+		(pin "3"
+			(uuid "467886d8-e5fd-4e45-9e6e-f2e293c184b2")
+		)
+		(pin "1"
+			(uuid "73fc0140-ebff-43c2-86de-047883eaf32b")
+		)
+		(pin "2"
+			(uuid "ce290933-ec89-4c51-987d-257e381e10d2")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED28")
 					(unit 1)
 				)
 			)
@@ -15137,7 +19369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91154310-87f2-4f91-b479-590561c95355")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 369.824 87.63 90)
 			(effects
 				(font
@@ -15252,7 +19484,7 @@
 		(instances
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -15260,7 +19492,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 256.54 0)
+		(at 69.85 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15269,7 +19501,7 @@
 		(fields_autoplaced yes)
 		(uuid "91f57f9c-9a64-4015-a49b-5bbf6f7f91a2")
 		(property "Reference" "#PWR0102"
-			(at 62.23 262.89 0)
+			(at 69.85 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15278,7 +19510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 261.62 0)
+			(at 69.85 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,7 +19518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 256.54 0)
+			(at 69.85 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15295,7 +19527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 256.54 0)
+			(at 69.85 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15304,7 +19536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 256.54 0)
+			(at 69.85 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,6 +20146,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 215.9 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2caa2ff-f89c-43b2-834f-8ed4aa09e0b3")
+		(property "Reference" "LED13"
+			(at 209.55 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 204.47 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 233.172 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 227.33 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 230.632 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8c44a84d-246c-4116-836e-7093c4fab229")
+		)
+		(pin "3"
+			(uuid "0023eff4-412e-437f-9f2f-1b75bce35540")
+		)
+		(pin "1"
+			(uuid "01af3675-3476-4613-adda-61cf7e584f9d")
+		)
+		(pin "2"
+			(uuid "1fa4a602-8636-43bb-9ca2-527309b9222e")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 137.16 54.61 0)
 		(unit 1)
@@ -16107,6 +20414,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 158.75 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b28a0e3b-4cdf-4072-99fd-46a5dbcf0644")
+		(property "Reference" "LED20"
+			(at 152.4 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 147.32 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 176.022 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 170.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 173.482 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56906cfa-1e66-4d96-9c07-6b51890d6586")
+		)
+		(pin "3"
+			(uuid "a17051e3-6caf-4eec-a9f7-c268177b5aa2")
+		)
+		(pin "1"
+			(uuid "f96e9463-29a7-490e-ac2d-5e539a0e2985")
+		)
+		(pin "2"
+			(uuid "75c439a4-55c0-4621-90dc-23b00c545eba")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -16450,6 +20832,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 177.8 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d427e3-f7e1-41c5-baa0-33f922620bc3")
+		(property "Reference" "LED5"
+			(at 171.45 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 166.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 195.072 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 189.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 192.532 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e10c8a37-98f6-4ee1-a4df-bd8c0f6587cc")
+		)
+		(pin "3"
+			(uuid "7f3e4055-7605-4ce5-9159-ba7db56ceb6c")
+		)
+		(pin "1"
+			(uuid "394d1684-d9fd-427d-83fa-1d304691907b")
+		)
+		(pin "2"
+			(uuid "ad6490bd-daf9-4692-81cf-c88d5945d85f")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 372.11 45.72 0)
 		(unit 1)
@@ -16714,7 +21171,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 59.69 152.4 0)
+		(at 67.31 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16723,7 +21180,7 @@
 		(fields_autoplaced yes)
 		(uuid "d06c8842-8262-4fc9-8119-46be5999859f")
 		(property "Reference" "#PWR071"
-			(at 59.69 154.94 0)
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16732,7 +21189,7 @@
 			)
 		)
 		(property "Value" "VLED+"
-			(at 59.69 144.78 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,7 +21197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 152.4 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16749,7 +21206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 152.4 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16758,7 +21215,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 59.69 152.4 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16840,6 +21297,366 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_48Ch_LED_Driver:TLC5955RTQT")
+		(at 394.97 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7dcf0a5-1af0-4ba7-bb8b-02cdabed2490")
+		(property "Reference" "IC7"
+			(at 340.614 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLC5955RTQT"
+			(at 340.614 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM:QFN50P800X800X100-57N-D"
+			(at 347.98 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc5955.pdf"
+			(at 347.98 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection"
+			(at 371.348 226.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 347.98 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLC5955RTQT"
+			(at 347.98 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLC5955RTQT?qs=%2Fd%252BFzHvH4c1KVIdVo%2F%252Bgqg%3D%3D"
+			(at 347.98 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 347.98 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLC5955RTQT"
+			(at 347.98 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ddcdd6c6-6d22-45fa-b8ba-647c3165dd64")
+		)
+		(pin "9"
+			(uuid "a1bc9417-fc3a-4335-9ca4-b54f2c5f2f38")
+		)
+		(pin "55"
+			(uuid "802de31e-73e1-4295-b93b-2b5875b315de")
+		)
+		(pin "15"
+			(uuid "f38474d7-eba6-4a16-8112-97f789453dd1")
+		)
+		(pin "53"
+			(uuid "70e430e2-9ca2-42f6-9024-2aefa2d0d6ff")
+		)
+		(pin "52"
+			(uuid "f17f7d17-43fe-4f7c-8d19-988c0eff0f65")
+		)
+		(pin "6"
+			(uuid "b8d0d99f-ed61-45f4-9bf8-dffb9d5170e2")
+		)
+		(pin "14"
+			(uuid "aa52160f-db86-4f84-8cfe-07d20af2c3cd")
+		)
+		(pin "1"
+			(uuid "dcbf5a3b-8d13-4c6d-b8db-02a15c75142d")
+		)
+		(pin "8"
+			(uuid "45b0cb86-69ba-4298-8713-c5f42f50fe15")
+		)
+		(pin "16"
+			(uuid "36bff29f-04e6-4fdc-8a78-6ab7cad4f18f")
+		)
+		(pin "5"
+			(uuid "3cd9b30e-b195-4558-ac73-4430a028c694")
+		)
+		(pin "10"
+			(uuid "9c9b52c9-475a-443d-959e-04108e665fff")
+		)
+		(pin "54"
+			(uuid "18048f4d-52bd-4d9e-8e2c-9e0bcb80aec5")
+		)
+		(pin "18"
+			(uuid "9ee3650b-106c-4df3-a166-af1c995a6cf9")
+		)
+		(pin "21"
+			(uuid "59b1e3f3-f265-419c-b00b-e003a82381a1")
+		)
+		(pin "17"
+			(uuid "a0675849-c4ff-44b3-bcf8-24f3513cbf5b")
+		)
+		(pin "19"
+			(uuid "3a0a7dbd-55ab-4e56-8bf5-909bb394f207")
+		)
+		(pin "4"
+			(uuid "31142897-dda5-4752-b7be-f2d6a26593db")
+		)
+		(pin "50"
+			(uuid "f6f425d4-0932-48f4-a586-f7de63d6253c")
+		)
+		(pin "12"
+			(uuid "a53377ff-6b4e-4cfc-be3b-f97a1813bf9b")
+		)
+		(pin "7"
+			(uuid "08c9752c-d2b8-4231-bf17-441d81af697e")
+		)
+		(pin "11"
+			(uuid "c81b3dca-81b6-4297-a92b-f4997992946f")
+		)
+		(pin "13"
+			(uuid "9fb483ab-40f0-4fd6-a0f3-1bdf55825717")
+		)
+		(pin "2"
+			(uuid "10a7ab15-9f23-4c31-b2d6-674bdc860402")
+		)
+		(pin "57"
+			(uuid "d6d723fc-0c4e-4a79-b583-0c83af0d0a8a")
+		)
+		(pin "56"
+			(uuid "2022f223-fe5e-4750-8a4a-5ad8f99ae7c3")
+		)
+		(pin "20"
+			(uuid "7253b6ab-562c-4947-81ee-1461d7aacb41")
+		)
+		(pin "51"
+			(uuid "4a5c7a3b-2510-4c12-9bbc-32ea3e3c1db6")
+		)
+		(pin "22"
+			(uuid "3ac38ba7-a317-48fb-b202-2c3a93c0574a")
+		)
+		(pin "46"
+			(uuid "20cb3f33-06a5-4188-91bb-d8a9f7d9dd47")
+		)
+		(pin "47"
+			(uuid "e7b3a6ac-95c6-4d1b-ae09-cd39f53d4a36")
+		)
+		(pin "44"
+			(uuid "8a644bdc-24ac-4c14-9d6b-e8c7c74bb8a6")
+		)
+		(pin "27"
+			(uuid "6a8ce576-9151-48c9-88de-6bbc655d01b7")
+		)
+		(pin "38"
+			(uuid "db2397bb-e9fd-451e-83c7-4236fa472b9f")
+		)
+		(pin "36"
+			(uuid "26e4bc77-f0ed-42f7-bc5b-3a9b1e4ea56c")
+		)
+		(pin "49"
+			(uuid "53a0208f-606f-4755-b2bb-bbf113128bbf")
+		)
+		(pin "23"
+			(uuid "ef133dcc-06c9-46ee-bdad-0d1a8f893f25")
+		)
+		(pin "48"
+			(uuid "6815b660-caee-440b-b964-50ee00d8c06b")
+		)
+		(pin "25"
+			(uuid "1cd19d51-51db-4664-95b8-e3b4bf14082a")
+		)
+		(pin "24"
+			(uuid "f3ef3ce2-ea3a-4694-ac89-fdbcabe075d5")
+		)
+		(pin "26"
+			(uuid "70acc419-4f06-49c5-8788-4b5a7028c966")
+		)
+		(pin "45"
+			(uuid "7afa71f3-5084-4df6-aee8-54a5ba1f47f7")
+		)
+		(pin "28"
+			(uuid "82503cfd-57d9-4efa-9a26-638e9995b1b0")
+		)
+		(pin "43"
+			(uuid "2959ae7c-a93d-4319-99ae-bf8272ee1047")
+		)
+		(pin "42"
+			(uuid "3220bf56-3f58-4751-b93a-d834ac2e3109")
+		)
+		(pin "41"
+			(uuid "8d9648a8-e978-49a8-81d4-6dd04419f577")
+		)
+		(pin "40"
+			(uuid "264171f6-5ffe-4175-95df-1321f38d89b0")
+		)
+		(pin "39"
+			(uuid "f99be8c7-e142-43a7-9bbd-23ca510a0d9d")
+		)
+		(pin "37"
+			(uuid "3839a709-b353-4057-8ebf-c8c18966be58")
+		)
+		(pin "35"
+			(uuid "366f5964-55dd-4ed2-a441-0b41ccc61c25")
+		)
+		(pin "32"
+			(uuid "12f12577-22d9-44d0-bc12-0520d248cd44")
+		)
+		(pin "29"
+			(uuid "5eac8194-3956-4495-9b07-e488ade65e79")
+		)
+		(pin "33"
+			(uuid "4edc310c-3689-4419-9398-fa7a29eb978f")
+		)
+		(pin "30"
+			(uuid "c10f05f1-5973-4cf5-8ba6-9a08603258d1")
+		)
+		(pin "31"
+			(uuid "18c16529-f371-40c2-962d-ae7337f067a2")
+		)
+		(pin "34"
+			(uuid "83a608f3-3a57-4a50-bcaa-e4916df6735d")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 139.7 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df9dadab-af61-4b7c-80ee-dbdcb5ad92ca")
+		(property "Reference" "LED15"
+			(at 133.35 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 128.27 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 156.972 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 151.13 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 154.432 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "282de227-dafe-4d18-8635-c58e2a708c7f")
+		)
+		(pin "3"
+			(uuid "7afe9cf3-22c0-4ae7-b245-127b75d026d0")
+		)
+		(pin "1"
+			(uuid "3422ffb1-d3d9-47d0-ae89-e93bdaa656d3")
+		)
+		(pin "2"
+			(uuid "2a0ac6fd-2f1c-4448-9c75-96c8d190fda1")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -17111,6 +21928,81 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 139.7 267.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8e751a9-4fa0-46f2-8ee9-7e95c3e76575")
+		(property "Reference" "LED31"
+			(at 133.35 263.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 128.27 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 156.972 268.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 151.13 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 154.432 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bd59b374-9dd8-41e0-b887-2a660284f1c2")
+		)
+		(pin "3"
+			(uuid "e149ecf9-90e0-4180-b19b-3416c855b802")
+		)
+		(pin "1"
+			(uuid "a71f7137-0e1b-43f7-897d-eb3a8d76bd81")
+		)
+		(pin "2"
+			(uuid "44da4684-4450-421f-9aec-4b8c7dacaa7a")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SDM_TRANSISTOR:MMBT2222LT1G")
 		(at 219.71 33.02 0)
 		(unit 1)
@@ -17204,6 +22096,81 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 120.65 267.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebe40877-977e-4726-8348-7e61642d1818")
+		(property "Reference" "LED30"
+			(at 114.3 263.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 109.22 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 137.922 268.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 132.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 135.382 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0956adfb-27ee-4aae-bda6-86cc00564f90")
+		)
+		(pin "3"
+			(uuid "cb1b3e12-c7a1-41ee-99bf-49f78fbf0270")
+		)
+		(pin "1"
+			(uuid "dad3c42c-b902-4e64-ba5b-2d030d9747c8")
+		)
+		(pin "2"
+			(uuid "56d5e7f7-fa82-41ad-a684-887119d516f5")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -17344,8 +22311,158 @@
 		)
 	)
 	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 177.8 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed8ece87-4823-4196-806b-a393355fd01e")
+		(property "Reference" "LED17"
+			(at 171.45 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 166.37 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 195.072 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 189.23 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 192.532 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "58eeeaaf-0d84-4592-abcb-37c4e31653ba")
+		)
+		(pin "3"
+			(uuid "ac9c66c5-1196-4e14-b963-e252c335ccd1")
+		)
+		(pin "1"
+			(uuid "f77d9350-0db9-421c-81f0-82aa22b70909")
+		)
+		(pin "2"
+			(uuid "183880b1-694d-4e67-ab78-705668d18d0a")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 196.85 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeaf5a14-1fef-4edb-9057-29bb03d8009e")
+		(property "Reference" "LED22"
+			(at 190.5 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 185.42 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 214.122 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 208.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 211.582 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e144558f-1084-4892-891f-148e4876a66b")
+		)
+		(pin "3"
+			(uuid "4546f138-dfed-4852-8e12-4a4d1b39b1e6")
+		)
+		(pin "1"
+			(uuid "bbca89db-2976-4ee7-990e-8a507267304d")
+		)
+		(pin "2"
+			(uuid "4d3df4de-c815-40d3-b100-eba59d0b03db")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-VDC")
-		(at 53.34 152.4 0)
+		(at 60.96 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17354,7 +22471,7 @@
 		(fields_autoplaced yes)
 		(uuid "f10d3484-041f-4814-85bc-c60e54df0474")
 		(property "Reference" "#PWR070"
-			(at 53.34 154.94 0)
+			(at 60.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +22480,7 @@
 			)
 		)
 		(property "Value" "VLED-"
-			(at 53.34 144.78 0)
+			(at 60.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17371,7 +22488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 152.4 0)
+			(at 60.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17380,7 +22497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 152.4 0)
+			(at 60.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17389,7 +22506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 53.34 152.4 0)
+			(at 60.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17492,6 +22609,156 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 177.8 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3ba7765-92aa-492a-814d-7ace670ea060")
+		(property "Reference" "LED11"
+			(at 171.45 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 166.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 195.072 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 192.532 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d98e4139-3dda-48fc-a884-70a667face9b")
+		)
+		(pin "3"
+			(uuid "ffcefde0-acc1-422c-b131-baa57f954519")
+		)
+		(pin "1"
+			(uuid "65437a0d-251e-4054-80b8-54a3d203e198")
+		)
+		(pin "2"
+			(uuid "a1ade3d2-2777-4903-baab-dc37b8364de0")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "APFA3010_1")
+		(lib_id "LED:APFA3010")
+		(at 139.7 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5a8cc17-6ccf-4e87-bd8f-bb72e93afc31")
+		(property "Reference" "LED9"
+			(at 133.35 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 128.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:PLCC4_CLMUD-FKC_CRW"
+			(at 156.972 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CLMUD-FKC-CHJNPM569ABB845343"
+			(at 151.13 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RGB, Common Anode, SMD, 1.5x1.5mm"
+			(at 154.432 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "64e25202-204c-4e72-b4cb-32a9561fcb79")
+		)
+		(pin "3"
+			(uuid "3ffde970-1401-4a62-ba1a-0cb3c4fe8a57")
+		)
+		(pin "1"
+			(uuid "57e045f0-1f8f-4ffc-ba09-752365fc8697")
+		)
+		(pin "2"
+			(uuid "41184507-886a-41bd-b8b5-0e5c7a4c1d29")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "LED9")
 					(unit 1)
 				)
 			)
