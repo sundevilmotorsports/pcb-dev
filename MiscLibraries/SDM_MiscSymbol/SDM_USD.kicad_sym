@@ -219,35 +219,17 @@
 			)
 		)
 		(symbol "104031-0811_1_1"
-			(pin bidirectional line
-				(at -20.32 8.89 0)
-				(length 3.81)
-				(name "DAT2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -20.32 6.35 0)
 				(length 3.81)
-				(name "DAT3/CD"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -273,26 +255,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -20.32 1.27 0)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -20.32 -1.27 0)
+				(at -20.32 1.27 0)
 				(length 3.81)
 				(name "CLK"
 					(effects
@@ -309,26 +273,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -20.32 -3.81 0)
-				(length 3.81)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -20.32 -6.35 0)
+				(at -20.32 -1.27 0)
 				(length 3.81)
 				(name "DAT0"
 					(effects
@@ -346,7 +292,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -8.89 0)
+				(at -20.32 -3.81 0)
 				(length 3.81)
 				(name "DAT1"
 					(effects
@@ -356,6 +302,42 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -6.35 0)
+				(length 3.81)
+				(name "DAT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -8.89 0)
+				(length 3.81)
+				(name "DAT3/CD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -399,8 +381,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
-				(at 22.86 -13.97 180)
+				(at 22.86 -15.24 180)
 				(length 3.81)
 				(name "SHIELD"
 					(effects
