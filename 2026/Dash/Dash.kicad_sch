@@ -2746,6 +2746,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 2.032)
+					(mid 0.5058 1.524)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -4452,6 +4616,246 @@
 						)
 					)
 					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SDM_DIODES:MBR0540T1G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MBR0540T1G"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM_MiscFootprint:SOD3716X135N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Guardring for Stress Protection; Very Low Forward Voltage; Epoxy Meets UL94, VO at 1/8\"; Package Designed for Optimal Automated Board Assembly Mechanical Characteristics:; Reel Options: 3,000 per 7 inch reel / 8 mm tape; Reel Options: 10,000 per 13 inch reel / 8 mm tape; Device Marking: B4; Polarity Designator: Cathode Band; Weight: 11.7 mg (approximately); Case: Epoxy Molded; Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Lead and Mounting Surface Temperature f"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.35"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-MBR0540T1G"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBR0540T1G?qs=3JMERSakebqeY0cO5%252BUPCQ%3D%3D"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MBR0540T1G"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MBR0540T1G_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.556 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 1.524) (xy 3.556 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7853,6 +8257,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SDM_VOLTAGE_REGULATORS:TPS61169DCKR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TPS61169DCKR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM_MiscFootprint:SOT65P210X110-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/tps61169"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TPS61169 38-V High-Current Boost WLED Driver"
+				(at 6.858 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TPS61169DCKR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61169DCKR?qs=pqSajtDZXRUDQbMtko%2F5HQ%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPS61169DCKR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TPS61169DCKR_1_1"
+				(rectangle
+					(start 0 0)
+					(end 11.43 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -1.27 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SN65HVD230_1"
 			(pin_names
 				(offset 1.016)
@@ -9190,6 +9800,17 @@
 		)
 		(uuid "605f42c4-3494-464d-8c61-e6abae2486a1")
 	)
+	(text "5V to 16v-19v LED boost converter"
+		(exclude_from_sim no)
+		(at 195.072 155.448 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "80f07d18-9b8c-4a35-9ae6-b84fe8d80f31")
+	)
 	(text "ESP32 S3 WROOM 1 N8R8"
 		(exclude_from_sim no)
 		(at 98.044 18.034 0)
@@ -9341,6 +9962,18 @@
 		(uuid "1808baa6-59b3-4606-a042-855e929d6b0e")
 	)
 	(junction
+		(at 124.46 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "187e6420-c4a2-4005-81d7-e563ac069c78")
+	)
+	(junction
+		(at 194.31 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a74ea40-981b-47d5-93c6-1b70fa8092b1")
+	)
+	(junction
 		(at 173.99 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9381,6 +10014,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35110006-67c8-4c64-b1ae-51c692d5aa57")
+	)
+	(junction
+		(at 144.78 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351f30fc-a9cb-466d-8b85-414ed120fafb")
 	)
 	(junction
 		(at 69.85 195.58)
@@ -9429,6 +10068,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c92a485-042d-477b-88fc-06c65039013d")
+	)
+	(junction
+		(at 179.07 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d96349-7df2-4319-a0f2-f4df662687e3")
 	)
 	(junction
 		(at 69.85 172.72)
@@ -9503,6 +10148,12 @@
 		(uuid "719ab9ed-f98c-45b9-a7e6-6d500779719e")
 	)
 	(junction
+		(at 130.81 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71cc28db-a114-43bd-b1e7-c1c13444fbb1")
+	)
+	(junction
 		(at 176.53 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9551,10 +10202,34 @@
 		(uuid "8bcf0380-7c28-40f1-9a3c-8b1c29634d4f")
 	)
 	(junction
+		(at 189.23 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e360df-87af-48ea-852f-a731ae7b0b27")
+	)
+	(junction
 		(at 370.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ddd6b72-26e6-4418-9e38-b0088d9fdb2e")
+	)
+	(junction
+		(at 201.93 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b589b8-96e0-4f8d-9ba9-0ce7d23cbcf4")
+	)
+	(junction
+		(at 153.67 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af676ab5-7278-4c6d-840b-b0c158d260d9")
+	)
+	(junction
+		(at 153.67 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1184809-5eb4-4736-8327-692b85e8d0b9")
 	)
 	(junction
 		(at 364.49 21.59)
@@ -9567,6 +10242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b69d8690-f86f-4a89-a622-2bfa19cb9ef7")
+	)
+	(junction
+		(at 179.07 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8307278-fc61-447c-9c61-b3a02dfb6a65")
 	)
 	(junction
 		(at 24.13 33.02)
@@ -9774,6 +10455,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 129.54) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d2b5a5-e36c-4f20-965a-1b192eadd646")
+	)
+	(wire
+		(pts
 			(xy 168.91 77.47) (xy 168.91 78.74)
 		)
 		(stroke
@@ -9864,6 +10555,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 143.51) (xy 179.07 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "070a639a-76c2-4b7c-99f4-d028400ecee8")
+	)
+	(wire
+		(pts
 			(xy 331.47 35.56) (xy 331.47 45.72)
 		)
 		(stroke
@@ -9871,6 +10572,16 @@
 			(type default)
 		)
 		(uuid "07d49dbe-5e03-4795-8eb2-8c5b54f95ee1")
+	)
+	(wire
+		(pts
+			(xy 173.99 140.97) (xy 175.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084289c9-d6a0-42cb-9364-522fe0d5f5b4")
 	)
 	(wire
 		(pts
@@ -10024,6 +10735,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 148.59) (xy 153.67 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "111478e3-f2e9-4528-b4c7-d54bac46ff5e")
+	)
+	(wire
+		(pts
 			(xy 222.25 39.37) (xy 207.01 39.37)
 		)
 		(stroke
@@ -10094,6 +10815,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 148.59) (xy 144.78 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18af7475-d8ce-4a1a-8414-c643e8769afb")
+	)
+	(wire
+		(pts
 			(xy 60.96 144.78) (xy 60.96 147.32)
 		)
 		(stroke
@@ -10101,6 +10832,16 @@
 			(type default)
 		)
 		(uuid "1b88ed51-97d8-4cfa-a728-dd0f0dfebbf3")
+	)
+	(wire
+		(pts
+			(xy 194.31 123.19) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1bf96f6b-b0fa-4d5a-8a19-1d892a67cb37")
 	)
 	(wire
 		(pts
@@ -10194,6 +10935,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "221aa07e-4417-4c7c-8d17-80721456d2b2")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23093e07-ad9e-4d16-a18b-247f3734a1fa")
+	)
+	(wire
+		(pts
 			(xy 336.55 73.66) (xy 342.9 73.66)
 		)
 		(stroke
@@ -10281,6 +11042,26 @@
 			(type default)
 		)
 		(uuid "28feb944-78fb-4f83-b4cd-9d69765667e5")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a8bd969-422f-453a-be21-81f9302d871a")
+	)
+	(wire
+		(pts
+			(xy 168.91 123.19) (xy 179.07 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a9992f8-4a1c-41cc-a6b4-9751f99c722e")
 	)
 	(wire
 		(pts
@@ -10411,6 +11192,16 @@
 			(type default)
 		)
 		(uuid "37018694-2030-4a67-a243-93948644c569")
+	)
+	(wire
+		(pts
+			(xy 130.81 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38044384-6a1b-479a-ab56-69afe978f1c1")
 	)
 	(wire
 		(pts
@@ -10644,6 +11435,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 140.97) (xy 144.78 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a7b9eaf-dc2e-40f9-aff1-9b97e6323f13")
+	)
+	(wire
+		(pts
 			(xy 31.75 20.32) (xy 30.48 20.32)
 		)
 		(stroke
@@ -10834,6 +11635,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 149.86) (xy 179.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58676c05-2793-4e7b-9f01-a327592aa511")
+	)
+	(wire
+		(pts
 			(xy 204.47 46.99) (xy 207.01 46.99)
 		)
 		(stroke
@@ -10991,6 +11802,16 @@
 			(type default)
 		)
 		(uuid "68bdba67-957a-464e-b3a6-416a268b9097")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ae3d70a-4508-4c0e-babb-cdd244e90a24")
 	)
 	(wire
 		(pts
@@ -11154,6 +11975,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7726826d-c74c-425e-887f-fbff8b4ef193")
+	)
+	(wire
+		(pts
 			(xy 181.61 93.98) (xy 186.69 93.98)
 		)
 		(stroke
@@ -11171,6 +12002,16 @@
 			(type default)
 		)
 		(uuid "785231c2-c73a-465a-98b8-229410398265")
+	)
+	(wire
+		(pts
+			(xy 179.07 143.51) (xy 189.23 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "79ea227a-b776-4c0c-b1d3-0feb6ce68fcd")
 	)
 	(wire
 		(pts
@@ -11374,6 +12215,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c32ae38-e948-429c-97e5-4832c5fbf79c")
+	)
+	(wire
+		(pts
 			(xy 346.71 73.66) (xy 346.71 74.93)
 		)
 		(stroke
@@ -11391,6 +12242,16 @@
 			(type default)
 		)
 		(uuid "8e022dda-812e-4ad0-b596-18264255cda8")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4608b8-19d5-4ac9-a875-5814e6232b1b")
 	)
 	(wire
 		(pts
@@ -11444,6 +12305,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 149.86) (xy 189.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934c2f3f-f824-4e8d-ad52-12d2a2c0ac6d")
+	)
+	(wire
+		(pts
 			(xy 48.26 213.36) (xy 69.85 213.36)
 		)
 		(stroke
@@ -11474,6 +12345,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 140.97) (xy 175.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c9e6ea-4abb-47b6-bd89-3a118cb1f14f")
+	)
+	(wire
+		(pts
 			(xy 350.52 20.32) (xy 350.52 21.59)
 		)
 		(stroke
@@ -11481,6 +12362,16 @@
 			(type default)
 		)
 		(uuid "992dd840-15bc-48ba-8377-33bac0b03739")
+	)
+	(wire
+		(pts
+			(xy 179.07 137.16) (xy 173.99 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99315d94-2c9e-448f-820f-b254e1697f8e")
 	)
 	(wire
 		(pts
@@ -11624,6 +12515,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 140.97) (xy 135.89 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b752bc-e988-4182-9c35-862b6173f788")
+	)
+	(wire
+		(pts
 			(xy 168.91 77.47) (xy 168.91 76.2)
 		)
 		(stroke
@@ -11641,6 +12542,16 @@
 			(type default)
 		)
 		(uuid "aa58ee23-a9c6-463e-b98b-643a1144d3d5")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 130.81 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aaf7f8e8-0765-43fb-b33e-3ef7418af475")
 	)
 	(wire
 		(pts
@@ -11744,6 +12655,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 140.97) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b254864a-3f2d-4979-bd2e-165324077ae9")
+	)
+	(wire
+		(pts
 			(xy 83.82 83.82) (xy 90.17 83.82)
 		)
 		(stroke
@@ -11844,6 +12765,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 140.97) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8510735-cee9-46fa-bf4a-eb9cef684660")
+	)
+	(wire
+		(pts
 			(xy 39.37 78.74) (xy 50.8 78.74)
 		)
 		(stroke
@@ -11874,6 +12805,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 123.19) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9fcaee1-1cb2-47ba-845c-a092bee4219c")
+	)
+	(wire
+		(pts
 			(xy 48.26 226.06) (xy 57.15 226.06)
 		)
 		(stroke
@@ -11881,6 +12822,16 @@
 			(type default)
 		)
 		(uuid "bbf4aba5-7012-4f6a-90e9-79929812d0d1")
+	)
+	(wire
+		(pts
+			(xy 130.81 134.62) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bdc3f091-42a8-42d8-8e00-62951bca771e")
 	)
 	(wire
 		(pts
@@ -12044,6 +12995,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 124.46) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c9c98884-76d8-47e2-b78a-6cfe1374cca6")
+	)
+	(wire
+		(pts
 			(xy 69.85 210.82) (xy 69.85 213.36)
 		)
 		(stroke
@@ -12061,6 +13022,16 @@
 			(type default)
 		)
 		(uuid "ccb07011-5cb0-4845-86be-f61efb2a1cc6")
+	)
+	(wire
+		(pts
+			(xy 124.46 133.35) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cce7c5d2-89a2-4c21-ad79-b24aeda50877")
 	)
 	(wire
 		(pts
@@ -12184,6 +13155,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 123.19) (xy 182.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d751382d-cd94-4a0c-babc-a2cdb98a4ae5")
+	)
+	(wire
+		(pts
 			(xy 39.37 50.8) (xy 50.8 50.8)
 		)
 		(stroke
@@ -12211,6 +13192,16 @@
 			(type default)
 		)
 		(uuid "d8adfdee-e70a-4a31-9522-87df549105d7")
+	)
+	(wire
+		(pts
+			(xy 179.07 137.16) (xy 179.07 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8fe61f2-f282-4f4f-8c19-02b19e39dfa6")
 	)
 	(wire
 		(pts
@@ -12384,6 +13375,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 129.54) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49ae500-f1b4-4f84-86e9-ae6dcce6673a")
+	)
+	(wire
+		(pts
 			(xy 83.82 53.34) (xy 93.98 53.34)
 		)
 		(stroke
@@ -12391,6 +13392,16 @@
 			(type default)
 		)
 		(uuid "e571b913-f404-4a66-9c86-850ee69c671b")
+	)
+	(wire
+		(pts
+			(xy 124.46 133.35) (xy 124.46 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e640e057-85ed-44ef-ab20-8706f5e2e860")
 	)
 	(wire
 		(pts
@@ -12564,6 +13575,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 120.65) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4ead85f-a768-452f-93c3-7f05464b0391")
+	)
+	(wire
+		(pts
 			(xy 24.13 25.4) (xy 24.13 26.67)
 		)
 		(stroke
@@ -12581,6 +13602,16 @@
 			(type default)
 		)
 		(uuid "f619b396-4908-461b-a16f-e0aff3e1bb89")
+	)
+	(wire
+		(pts
+			(xy 194.31 124.46) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f6e6c0ac-d454-4f86-bdc0-2b386853ae18")
 	)
 	(wire
 		(pts
@@ -12621,6 +13652,16 @@
 			(type default)
 		)
 		(uuid "f8ca3f9d-1d1e-4ae5-88d1-8992e49f809e")
+	)
+	(wire
+		(pts
+			(xy 190.5 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1bb3a4-e818-468f-87b3-f52f69e7a22c")
 	)
 	(wire
 		(pts
@@ -12701,6 +13742,16 @@
 			(type default)
 		)
 		(uuid "ff66cdaa-980a-4a21-8342-b27e8d6070cd")
+	)
+	(wire
+		(pts
+			(xy 189.23 143.51) (xy 189.23 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff97549f-8f72-4cb4-9ebe-38371681587b")
 	)
 	(label "LED_LAT"
 		(at 247.65 175.26 0)
@@ -12981,6 +14032,16 @@
 			(justify right bottom)
 		)
 		(uuid "26481c54-3254-4967-9f70-c82b2dcdf45b")
+	)
+	(label "PWM0"
+		(at 144.78 153.67 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "272a910b-eb9a-4cc8-880a-af4c9e1b0a99")
 	)
 	(label "B3R"
 		(at 153.67 240.03 270)
@@ -13651,6 +14712,16 @@
 			(justify right bottom)
 		)
 		(uuid "7813ad4f-b779-4ecf-860c-7fe1f3ed560e")
+	)
+	(label "BACKLITE_PWM"
+		(at 153.67 157.48 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "79f1974d-068b-4d97-846d-ae1b074601ea")
 	)
 	(label "DaisyChain"
 		(at 332.74 180.34 0)
@@ -14703,6 +15774,128 @@
 		(uuid "fffab0df-d180-438c-bb47-e24657dae5e5")
 	)
 	(symbol
+		(lib_id "SDM_DIODES:MBR0540T1G")
+		(at 153.67 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "029e86a9-2c70-43f8-b89a-76da51f8a2c4")
+		(property "Reference" "D4"
+			(at 157.48 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MBR0540T1G"
+			(at 157.48 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOD3716X135N"
+			(at 251.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF"
+			(at 351.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Guardring for Stress Protection; Very Low Forward Voltage; Epoxy Meets UL94, VO at 1/8\"; Package Designed for Optimal Automated Board Assembly Mechanical Characteristics:; Reel Options: 3,000 per 7 inch reel / 8 mm tape; Reel Options: 10,000 per 13 inch reel / 8 mm tape; Device Marking: B4; Polarity Designator: Cathode Band; Weight: 11.7 mg (approximately); Case: Epoxy Molded; Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Lead and Mounting Surface Temperature f"
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 551.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MBR0540T1G"
+			(at 651.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBR0540T1G?qs=3JMERSakebqeY0cO5%252BUPCQ%3D%3D"
+			(at 751.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 851.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBR0540T1G"
+			(at 951.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86d907da-d75d-42ec-a0cb-6e6318d82df1")
+		)
+		(pin "2"
+			(uuid "7e504f70-da50-4d7d-b0b9-76903adf5f2a")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 125.73 69.85 0)
 		(unit 1)
@@ -14776,6 +15969,75 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a8961eb-efb6-4f0a-863d-2a2f4e770c8f")
+		(property "Reference" "C20"
+			(at 203.708 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 203.962 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2d89547-b675-4b2a-8ce6-fb38544393cf")
+		)
+		(pin "2"
+			(uuid "e5687402-9ba8-4edf-8ee3-2fc9bb438ddd")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15110,6 +16372,262 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_DIODES:MBR0540T1G")
+		(at 144.78 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "103c71b2-d8e9-473f-9e80-bf97867e8f42")
+		(property "Reference" "D3"
+			(at 139.7 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MBR0540T1G"
+			(at 129.794 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOD3716X135N"
+			(at 242.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF"
+			(at 342.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Guardring for Stress Protection; Very Low Forward Voltage; Epoxy Meets UL94, VO at 1/8\"; Package Designed for Optimal Automated Board Assembly Mechanical Characteristics:; Reel Options: 3,000 per 7 inch reel / 8 mm tape; Reel Options: 10,000 per 13 inch reel / 8 mm tape; Device Marking: B4; Polarity Designator: Cathode Band; Weight: 11.7 mg (approximately); Case: Epoxy Molded; Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Lead and Mounting Surface Temperature f"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 542.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MBR0540T1G"
+			(at 642.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBR0540T1G?qs=3JMERSakebqeY0cO5%252BUPCQ%3D%3D"
+			(at 742.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 842.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBR0540T1G"
+			(at 942.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "630c37ec-83ef-47e1-8831-5ed505bea66b")
+		)
+		(pin "2"
+			(uuid "27d96835-069d-4521-b249-10f74ab24bb7")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 138.43 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14cb516c-9902-47e1-9735-2b22a26b6977")
+		(property "Reference" "C21"
+			(at 118.618 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 118.872 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eab667b4-fd60-455a-9a51-c6e25580a446")
+		)
+		(pin "2"
+			(uuid "f8bd6dd9-3568-49ab-bf71-13a18c7f222d")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 201.93 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "160886b2-e340-49ee-8cec-bc4dcca3ee1f")
+		(property "Reference" "#PWR053"
+			(at 201.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED+"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14a9145-d161-417a-b681-b5ac65bad3ff")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15574,6 +17092,72 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 124.46 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bbb606a-e4e5-4701-8cb8-29b894c8d16e")
+		(property "Reference" "#PWR056"
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54189191-4462-4489-bee7-03e715fa7ec7")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17639,6 +19223,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 194.31 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522efff1-4659-46e4-9f7c-fc70ec73788a")
+		(property "Reference" "#PWR057"
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ab0438-e1c4-4a19-8abf-a3979e934845")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 394.97 72.39 0)
 		(unit 1)
@@ -17782,6 +19432,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 124.46 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "573cbc5d-c2cf-4840-bf63-8cf2a95e2c8a")
+		(property "Reference" "#PWR059"
+			(at 124.46 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9216245-f1bd-464e-bfe0-45fa81f2b63b")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 30.48 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17840,6 +19556,73 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 189.23 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd8d676-df9d-4b43-8335-276ea719df3a")
+		(property "Reference" "R34"
+			(at 192.024 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.05"
+			(at 192.278 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8bfc402-7464-4bb0-978e-2e72fbe25a34")
+		)
+		(pin "2"
+			(uuid "a02aa98a-6d3a-439a-a760-2f6351bab738")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -17981,6 +19764,72 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f6f9d7-f563-4356-9b40-93ec2873903b")
+		(property "Reference" "#PWR058"
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98ed0cc8-401d-481a-b6be-b3e41caefe5b")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18195,6 +20044,74 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 130.81 137.16 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b873fbb-6e5c-42cf-9f9d-4adbc2a2361a")
+		(property "Reference" "R31"
+			(at 133.858 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 133.858 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "819ed214-d14f-4fa0-bd48-67729fff0e52")
+		)
+		(pin "2"
+			(uuid "6e63e645-4842-4d21-9b47-daed5c014fe7")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -20060,6 +21977,75 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 179.07 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ddfe4ea-ff4c-4b18-8fe5-8973482749f8")
+		(property "Reference" "C22"
+			(at 181.356 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 181.356 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ffa9a9-19c1-4667-b3dd-2722cf856f81")
+		)
+		(pin "2"
+			(uuid "a975b252-0a31-43d7-9f6a-297e6a631dff")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 300.99 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20197,6 +22183,72 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 189.23 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e7eb1e-fd5e-4561-8c16-c5e0dfefdd5d")
+		(property "Reference" "#PWR061"
+			(at 189.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED-"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 189.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c26dffb-531f-4377-ad28-ec02d89b97d1")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -21056,6 +23108,200 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 179.07 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f452013-77e4-49b7-bff4-114eb0c543f3")
+		(property "Reference" "#PWR062"
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e89f42a5-cc78-4340-84f1-b3327db814fd")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_VOLTAGE_REGULATORS:TPS61169DCKR")
+		(at 160.02 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0802d87-9b3c-434c-b683-c5c683465709")
+		(property "Reference" "PS1"
+			(at 165.735 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61169DCKR"
+			(at 165.735 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOT65P210X110-5N"
+			(at 184.15 227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tps61169"
+			(at 184.15 327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TPS61169 38-V High-Current Boost WLED Driver"
+			(at 166.878 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 184.15 527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS61169DCKR"
+			(at 184.15 627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61169DCKR?qs=pqSajtDZXRUDQbMtko%2F5HQ%3D%3D"
+			(at 184.15 727 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 184.15 827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS61169DCKR"
+			(at 184.15 927 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42e1f64-921c-41f2-b6ad-2ed8f478f470")
+		)
+		(pin "4"
+			(uuid "1631cb16-981e-4997-8c5c-27ba15b9f8f9")
+		)
+		(pin "3"
+			(uuid "e34e9204-63d7-4f08-9422-28949111ae1e")
+		)
+		(pin "5"
+			(uuid "ef89ec1f-cd66-44bd-8da3-8bd290eb0d6b")
+		)
+		(pin "2"
+			(uuid "71d47c3a-9c3f-4e06-acff-48d2e0cc4bf8")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "APFA3010_1")
 		(lib_id "LED:APFA3010")
 		(at 215.9 193.04 90)
@@ -21541,6 +23787,75 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 194.31 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba2bc52f-0544-482e-9cfa-afe5307179bc")
+		(property "Reference" "C19"
+			(at 196.088 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 196.342 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be356ca1-0048-4616-93ae-c5593d2dfb91")
+		)
+		(pin "2"
+			(uuid "47e516a1-c1bf-469f-82c2-373375bd3fc8")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 190.5 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21877,6 +24192,126 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_DIODES:MBR0540T1G")
+		(at 190.5 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc435fa8-c03d-407a-bc7a-71e91c381b56")
+		(property "Reference" "D2"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0540T1G"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOD3716X135N"
+			(at 179.07 25.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF"
+			(at 179.07 -74.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Guardring for Stress Protection; Very Low Forward Voltage; Epoxy Meets UL94, VO at 1/8\"; Package Designed for Optimal Automated Board Assembly Mechanical Characteristics:; Reel Options: 3,000 per 7 inch reel / 8 mm tape; Reel Options: 10,000 per 13 inch reel / 8 mm tape; Device Marking: B4; Polarity Designator: Cathode Band; Weight: 11.7 mg (approximately); Case: Epoxy Molded; Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Lead and Mounting Surface Temperature f"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 179.07 -274.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MBR0540T1G"
+			(at 179.07 -374.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBR0540T1G?qs=3JMERSakebqeY0cO5%252BUPCQ%3D%3D"
+			(at 179.07 -474.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 179.07 -574.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBR0540T1G"
+			(at 179.07 -674.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdfca5e8-a46d-4438-bebb-4f095e3efd55")
+		)
+		(pin "2"
+			(uuid "64dd68a0-8778-40fc-ad7e-5e4cf8f0673d")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22573,6 +25008,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd0e79b-f36f-4ba6-9666-e0e3503316c2")
+		(property "Reference" "#PWR063"
+			(at 189.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be193ddc-0ac6-4451-8cd0-00cf56f80780")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 342.9 85.09 180)
 		(unit 1)
@@ -22633,6 +25134,72 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e47ce36c-face-48d3-a1c9-0a885dd9d185")
+		(property "Reference" "#PWR060"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6df9854-5a50-4896-b8f5-d7d7e9a59a0d")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -23736,6 +26303,74 @@
 			(project "Dash"
 				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 166.37 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff7c7470-8391-4c0a-aeeb-09d38d41caaa")
+		(property "Reference" "L1"
+			(at 166.37 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 166.37 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:BWVS006060454R7ML1"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e21699b6-f0a5-49f4-a0e3-e36691213621")
+		)
+		(pin "2"
+			(uuid "635a92a1-d514-4ad0-ae08-1f446505bf51")
+		)
+		(instances
+			(project "Dash"
+				(path "/62a33168-30a6-4f86-a3d1-eb21634dd5a7"
+					(reference "L1")
 					(unit 1)
 				)
 			)
