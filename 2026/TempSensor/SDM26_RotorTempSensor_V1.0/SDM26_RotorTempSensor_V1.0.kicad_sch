@@ -590,26 +590,8 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 2.54 0)
-					(length 5.08)
-					(name "SCL/VZ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 0 0 0)
+					(at 0 2.54 0)
 					(length 5.08)
 					(name "PWM/SDA"
 						(effects
@@ -619,6 +601,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SCL/VZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -922,6 +922,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c945b27-eda7-43d6-96ae-caa1315b8154")
+	)
+	(wire
+		(pts
 			(xy 158.75 86.36) (xy 160.02 86.36)
 		)
 		(stroke
@@ -939,16 +949,6 @@
 			(type default)
 		)
 		(uuid "110c0ed2-1cee-4f93-a458-44816ce62d9e")
-	)
-	(wire
-		(pts
-			(xy 115.57 90.17) (xy 124.46 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244ca8dc-46b7-4e8b-bde7-1c68980e7b1d")
 	)
 	(wire
 		(pts
@@ -979,16 +979,6 @@
 			(type default)
 		)
 		(uuid "3bd37ccd-811f-4e98-81f3-011ce155909e")
-	)
-	(wire
-		(pts
-			(xy 115.57 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce62304-4664-4315-8356-45dfcb32b80b")
 	)
 	(wire
 		(pts
@@ -1069,6 +1059,16 @@
 			(type default)
 		)
 		(uuid "ac286eac-1db4-43bf-b4d5-391f23a4c2fe")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03c7517-001b-42ac-b8c2-1cd44ca2f40f")
 	)
 	(wire
 		(pts
@@ -1224,7 +1224,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 77.47 0)
+		(at 132.08 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1232,7 +1232,7 @@
 		(dnp no)
 		(uuid "42a02e27-a658-4884-bf4d-10eb49057d7e")
 		(property "Reference" "H1"
-			(at 125.73 76.2 0)
+			(at 134.62 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1241,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 125.73 78.74 0)
+			(at 134.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 123.19 77.47 0)
+			(at 132.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 77.47 0)
+			(at 132.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 77.47 0)
+			(at 132.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 110.49 90.17 0)
 			(effects
 				(font
@@ -1816,69 +1816,6 @@
 			(project ""
 				(path "/4273708f-eb52-4e90-bfba-158be17fca51"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 132.08 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df336c5b-7ceb-4b1c-85fe-4aad18a587ba")
-		(property "Reference" "H2"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 132.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SDM26_TempSensor_V1.0"
-				(path "/4273708f-eb52-4e90-bfba-158be17fca51"
-					(reference "H2")
 					(unit 1)
 				)
 			)
