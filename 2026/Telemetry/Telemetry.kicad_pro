@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|130500000|86670000|02f4dec5-aa7b-4f0e-8251-e420242fe845|2e0372d9-890d-47be-ba7e-2e96e8659a5f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|130500000|95830000|02f4dec5-aa7b-4f0e-8251-e420242fe845|fdac0729-9c32-40ba-84ce-aa7a3ddf8cc4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|84940000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|dad17855-87a0-4c4e-99b5-4a03e2ee60d1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|87250000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|68bd3d09-5ddb-404b-8401-59ef3460f220",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|87750000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|ed0054d3-bf3d-4d98-b418-58291dd10bd3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|89750000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|884f0052-ccb7-4130-98f0-cfef31e6934a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|90250000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|4d2960d3-3db5-45cb-84a5-e529c5638fa3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|92250000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|7db8c218-afb2-44e2-98ab-bfe024b093fa",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|92750000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|f1336694-36ff-4ae4-8d1c-a08f38dc4484",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|94750000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|9bdbcc1f-f4bf-4ea4-a952-5caecdd241d3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|95250000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|1db37025-d116-40bd-80c4-3d4b84eb9cc9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69000000|97560000|5e1e5da4-9bb5-4613-82d5-fc899e06a539|652d611e-1a5c-49aa-817a-777770f3384e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -133,7 +182,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -189,7 +238,8 @@
       "track_widths": [
         0.0,
         0.3,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -502,7 +552,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../PCB_Exports/Gerber/Telemetry/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Telemetry.glb",
