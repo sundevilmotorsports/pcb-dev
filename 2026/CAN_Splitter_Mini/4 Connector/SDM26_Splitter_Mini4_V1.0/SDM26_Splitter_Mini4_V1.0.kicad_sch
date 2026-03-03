@@ -950,16 +950,28 @@
 		(uuid "68bb29a4-9ec1-4bf7-8ede-54d2d3879c73")
 	)
 	(junction
+		(at 64.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b732ba-4a8d-477d-a97b-fcabdf57ef86")
+	)
+	(junction
 		(at 62.23 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a50f9791-4653-4256-a86c-6e45be8fdc73")
 	)
 	(junction
+		(at 62.23 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6241848-ef0f-43d8-959a-47674aa4cce9")
+	)
+	(junction
 		(at 64.77 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f11f7504-7f5f-4869-8b96-77653d9a63a1")
+		(uuid "d674303e-8ada-44c6-8038-633a71da7670")
 	)
 	(wire
 		(pts
@@ -980,6 +992,16 @@
 			(type default)
 		)
 		(uuid "0fb070be-61b6-4e46-9511-e9a4584d2e39")
+	)
+	(wire
+		(pts
+			(xy 64.77 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1180aeb0-8d13-4b3a-b73e-3df06b8c4cda")
 	)
 	(wire
 		(pts
@@ -1023,13 +1045,43 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 90.17) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621e2621-a465-401f-82ab-094cf5350205")
+	)
+	(wire
+		(pts
 			(xy 64.77 71.12) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f105141-0574-4086-b186-e646c5932654")
+		(uuid "6bcb8709-fdaa-428a-a872-90b00509b758")
+	)
+	(wire
+		(pts
+			(xy 64.77 82.55) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841546e1-cecf-4ea4-8652-d852f6e1a20a")
+	)
+	(wire
+		(pts
+			(xy 71.12 85.09) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885aba5b-088e-49b3-b5bf-02458d6ae081")
 	)
 	(wire
 		(pts
@@ -1103,6 +1155,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 87.63) (xy 77.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4efab3f-5165-456e-bd7b-948d66d72332")
+	)
+	(wire
+		(pts
 			(xy 71.12 73.66) (xy 77.47 73.66)
 		)
 		(stroke
@@ -1133,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 62.23 78.74)
+			(xy 62.23 78.74) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1191,6 +1253,26 @@
 		)
 		(uuid "e712bf79-2fad-455d-8f73-4bd219915233")
 	)
+	(wire
+		(pts
+			(xy 62.23 90.17) (xy 62.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faecfab8-6ccd-4baf-94b5-629a0bdfa4ce")
+	)
+	(label "CANL"
+		(at 71.12 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31f930b9-9dd3-499b-8170-27ae356699a1")
+	)
 	(label "CANH"
 		(at 71.12 62.23 0)
 		(effects
@@ -1200,6 +1282,16 @@
 			(justify left bottom)
 		)
 		(uuid "70601429-da08-467f-a2a0-3308f32c223a")
+	)
+	(label "CANH"
+		(at 71.12 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "737a6b27-f750-4496-9ccf-df9ecbd9e31e")
 	)
 	(label "CANL"
 		(at 71.12 64.77 0)
@@ -1263,7 +1355,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 82.55 0)
+		(at 64.77 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1272,7 +1364,7 @@
 		(fields_autoplaced yes)
 		(uuid "01652c49-d1a9-45fd-86ea-885b09051262")
 		(property "Reference" "#PWR02"
-			(at 64.77 88.9 0)
+			(at 64.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 87.63 0)
+			(at 64.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 82.55 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 82.55 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 82.55 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,9 +1411,85 @@
 			(uuid "1282ed86-ca69-4268-ad2b-c631e40ec58d")
 		)
 		(instances
-			(project ""
+			(project "SDM26_Splitter_Mini4_V1.0"
 				(path "/6e35073e-5682-4b75-b4d2-cc1e866f2d05"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 82.55 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "187e329f-e3ca-4dbd-836b-58a52f9e6c54")
+		(property "Reference" "J4"
+			(at 83.82 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 83.82 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal_1"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e582f2a8-6da0-4cea-99a9-a077d11d669a")
+		)
+		(pin "4"
+			(uuid "4bcebebd-e04f-41d2-9475-974cf3b266cd")
+		)
+		(pin "3"
+			(uuid "8da637b8-821d-4cc7-8363-872d32687fd9")
+		)
+		(pin "1"
+			(uuid "a867a51b-736a-48ab-9df7-e35bbf4469f2")
+		)
+		(instances
+			(project "SDM26_Splitter_Mini4_V1.0"
+				(path "/6e35073e-5682-4b75-b4d2-cc1e866f2d05"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1725,7 +1893,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100"
 			(at 92.71 38.1 90)
 			(effects
 				(font
@@ -1802,7 +1970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "SDM_MiscFootprint:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal_1"
 			(at 82.55 73.66 0)
 			(effects
 				(font
@@ -1875,7 +2043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "SDM_MiscFootprint:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal_1"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -2017,7 +2185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "SDM_MiscFootprint:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal_1"
 			(at 82.55 50.8 0)
 			(effects
 				(font
