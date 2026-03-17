@@ -195,44 +195,6 @@
 			)
 		)
 	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "2f2e76c6-ab15-4edd-9a18-4d6e7d643617")
-		(pts
-			(xy 4.47 2.905) (xy 4.47 -3.595)
-		)
-		(height 2.63)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "6.5"
-			(at 5.95 -0.345 90)
-			(layer "Dwgs.User")
-			(uuid "2f2e76c6-ab15-4edd-9a18-4d6e7d643617")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
 	(pad "A1" smd rect
 		(at -3.2 -3.725)
 		(size 0.6 1.24)
@@ -329,7 +291,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ff3638ab-f24f-4337-9e29-4cb413c5f8d4")
 	)
-	(pad "S1" thru_hole oval
+	(pad "MH1" thru_hole oval
 		(at -4.32 -3.195)
 		(size 1 1.8)
 		(drill oval 0.6 1.4)
@@ -338,16 +300,7 @@
 		(remove_unused_layers no)
 		(uuid "349b922c-4b57-4a5a-b9e9-fbd2200ecc79")
 	)
-	(pad "S1" thru_hole oval
-		(at -4.32 0.805)
-		(size 1 2.2)
-		(drill oval 0.6 1.8)
-		(property pad_prop_heatsink)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "30e55750-5283-490a-8687-4be74b145ce7")
-	)
-	(pad "S1" thru_hole oval
+	(pad "MH2" thru_hole oval
 		(at 4.32 -3.195)
 		(size 1 1.8)
 		(drill oval 0.6 1.4)
@@ -356,7 +309,16 @@
 		(remove_unused_layers no)
 		(uuid "86ef7f00-b092-47ac-8a4a-9d36df529db6")
 	)
-	(pad "S1" thru_hole oval
+	(pad "MH3" thru_hole oval
+		(at -4.32 0.805)
+		(size 1 2.2)
+		(drill oval 0.6 1.8)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30e55750-5283-490a-8687-4be74b145ce7")
+	)
+	(pad "MH4" thru_hole oval
 		(at 4.32 0.805)
 		(size 1 2.2)
 		(drill oval 0.6 1.8)
