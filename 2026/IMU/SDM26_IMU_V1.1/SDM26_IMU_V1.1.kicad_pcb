@@ -139,7 +139,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../../PCB_Exports/Gerber/IMU_V1.0")
+			(outputdirectory "../../../../PCB_Exports/Gerber/IMU_V1.1")
 		)
 	)
 	(net 0 "")
@@ -2599,7 +2599,7 @@
 			(uuid "00b93f43-d234-43a4-a7cd-59527737b098")
 		)
 		(embedded_fonts no)
-		(model "${MISC_3D}/Transistors/MMBT2222LT1G.step"
+		(model "${SDM_MISC_3D}/MMBT2222LT1G.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7142,15 +7142,15 @@
 			(uuid "99ce2a5a-39c1-4487-9587-1111dd075cf5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105017-0001.step"
+		(model "${SDM_MISC_3D}/Micro_USB_Type_B_3D.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1 1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11067,7 +11067,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ecf6f2ac-e876-49fc-8b60-bcc1d171134d")
+			(uuid "d4bf35e9-e916-47bb-9db6-d16bafc9aa7a")
 		)
 		(fp_line
 			(start -1.3 -0.75)
@@ -11077,7 +11077,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "20270893-6d9f-4bf2-a0d7-abb9e154c3ae")
+			(uuid "ba13adb1-5bcd-44a8-bc40-50bf5fc1e930")
 		)
 		(fp_arc
 			(start -1.4 -0.75)
@@ -11088,7 +11088,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da0f539c-9539-4c0e-a640-2cf3e4cf60e9")
+			(uuid "0a4c60b6-4019-47cc-a2a7-8cf6cabf7e0c")
 		)
 		(fp_arc
 			(start -1.3 -0.75)
@@ -11099,7 +11099,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8ad1acee-82d9-4d6b-a7aa-a7010bce20af")
+			(uuid "363f7ca3-e191-4e2b-9edf-c4db9182fc12")
 		)
 		(fp_line
 			(start -1.6 -1.6)
@@ -11109,7 +11109,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b83434f-9dcd-44c1-af83-1ebfb1d7c065")
+			(uuid "a5d2a54f-d967-4f28-9c99-72eb85bac559")
 		)
 		(fp_line
 			(start -1.6 1.6)
@@ -11119,7 +11119,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cf730fbc-985b-4ebc-aa5b-3bd9c0fc5124")
+			(uuid "ba6db574-9f92-4f8e-8d7e-f615a5a1babf")
 		)
 		(fp_line
 			(start 1.6 -1.6)
@@ -11129,7 +11129,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "69db3745-5e71-4e9a-a2d6-dd70f543f3eb")
+			(uuid "57316d20-c845-482e-800c-4457e9043a3a")
 		)
 		(fp_line
 			(start 1.6 1.6)
@@ -11139,7 +11139,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d6e8f648-76d1-47f1-bb2e-3f8b30bcd593")
+			(uuid "2a08ba71-6343-43c3-af5e-ecc14c0f5f75")
 		)
 		(fp_line
 			(start -1 -1)
@@ -11149,7 +11149,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "eaa8ca1d-016c-468b-921f-bf784838709f")
+			(uuid "b3b78815-641a-42ff-a12c-580256fa4541")
 		)
 		(fp_line
 			(start -1 1)
@@ -11159,7 +11159,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2003b89a-3a40-4571-a9d9-29e4f5a40ec8")
+			(uuid "d65cf87f-dc8e-4afb-acec-21decccd3e20")
 		)
 		(fp_line
 			(start 1 -1)
@@ -11169,7 +11169,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "adc94031-30d1-4a60-94e6-1ff9a66d35fd")
+			(uuid "3e49bcc4-9c7e-4c21-a081-31cfe9a63dee")
 		)
 		(fp_line
 			(start 1 1)
@@ -11179,7 +11179,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "508bbd3f-c9c4-4668-98e6-e59c3243cf65")
+			(uuid "f71f0d6b-37a9-4489-80ac-525eecf4a3dc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -3 0)
@@ -11301,7 +11301,7 @@
 			(uuid "80202c0d-5952-4434-a117-ce1194596e59")
 		)
 		(embedded_fonts no)
-		(model "IIS2MDCTR.stp"
+		(model "${SDM_MISC_3D}/IIS2MDCTR.stp"
 			(offset
 				(xyz 0 0 0.6999999776)
 			)
@@ -15151,7 +15151,7 @@
 			(uuid "b3e61282-63a8-4a80-b9db-19be9ea6a6fe")
 		)
 		(embedded_fonts no)
-		(model "${MISC_3D}/Transistors/MMBT2222LT1G.step"
+		(model "${SDM_MISC_3D}/MMBT2222LT1G.step"
 			(offset
 				(xyz 0 0 0)
 			)
