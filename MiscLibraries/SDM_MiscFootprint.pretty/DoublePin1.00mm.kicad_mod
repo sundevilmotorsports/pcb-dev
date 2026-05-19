@@ -1,0 +1,112 @@
+(footprint "PinHeader_1x02_P1.00mm_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 1.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 1.00mm single row")
+	(property "Reference" "J1"
+		(at 0 -1.61 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa3568af-b891-4620-a95b-aa9db0f75d3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5V"
+		(at 0 2.61 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c3171f5-5d55-45a3-94c1-81ea6c56cb9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acac347c-2d9a-44e1-a254-c38783d60f3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e39be4-d7fb-4784-bb1a-e06dd9eed7ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/pin_header_socket"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "10b6fb25-77a6-4a47-8c7d-1f6c9c389a3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "SDM27_WheelBoard_v1.0.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "11321488-8822-46cf-8671-571afc8a3765")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 0.84999 1.424986)
+		(drill 0.5
+			(offset 0.000005 0.287507)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8068d711-4be2-44fb-af91-95977a67082a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 1)
+		(size 0.85 0.85)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "729b9889-4839-4559-8a4d-ec0bafeccae6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x02_P1.00mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
