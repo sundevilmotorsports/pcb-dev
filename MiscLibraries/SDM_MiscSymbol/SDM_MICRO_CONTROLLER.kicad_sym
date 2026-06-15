@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ESP32-P4NRW32"
+	(symbol "ESP32-P4NRW32V1.3"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-P4NRW32"
+		(property "Value" "ESP32-P4NRW32V1.3"
 			(at 0.254 5.842 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KGD_Footprints:ESP32-P4NRW32"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_datasheet_en.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,7 +49,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "ESP32-P4NRW32_1_1"
+		(property "Max Current (mA)" "150"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-P4NRW32V1.3_1_1"
 			(rectangle
 				(start 5.08 2.54)
 				(end 95.25 -66.04)
@@ -78,6 +87,8 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO1" input line)
+				(alternate "XTAL_32K_P" input line)
 			)
 			(pin input line
 				(at 0 -2.54 0)
@@ -96,6 +107,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO2" input line)
+				(alternate "MTCK" input line)
+				(alternate "TOUCH_CHANNEL1" input line)
 			)
 			(pin input line
 				(at 0 -5.08 0)
@@ -114,6 +128,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO3" input line)
+				(alternate "MTDI" input line)
+				(alternate "TOUCH_CHANNEL2" input line)
 			)
 			(pin input line
 				(at 0 -7.62 0)
@@ -132,6 +149,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO4" input line)
+				(alternate "MTMS" input line)
+				(alternate "TOUCH_CHANNEL3" input line)
 			)
 			(pin input line
 				(at 0 -10.16 0)
@@ -150,6 +170,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO5" input line)
+				(alternate "MTDO" input line)
+				(alternate "TOUCH_CHANNEL4" input line)
 			)
 			(pin input line
 				(at 0 -12.7 0)
@@ -168,6 +191,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO6" input line)
+				(alternate "SPI2_HOLD" input line)
+				(alternate "TOUCH_CHANNEL5" input line)
 			)
 			(pin input line
 				(at 0 -15.24 0)
@@ -186,6 +212,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO7" input line)
+				(alternate "SPI2_CS" input line)
+				(alternate "TOUCH_CHANNEL6" input line)
 			)
 			(pin input line
 				(at 0 -17.78 0)
@@ -204,6 +233,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO8" input line)
+				(alternate "SPI2_MOSI" input line)
+				(alternate "TOUCH_CHANNEL7" input line)
 			)
 			(pin input line
 				(at 0 -20.32 0)
@@ -240,6 +272,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO9" input line)
+				(alternate "SPI2_CK" input line)
+				(alternate "TOUCH_CHANNEL8" input line)
 			)
 			(pin input line
 				(at 0 -25.4 0)
@@ -258,6 +293,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO10" input line)
+				(alternate "SPI2_MISO" input line)
+				(alternate "TOUCH_CHANNEL9" input line)
 			)
 			(pin input line
 				(at 0 -27.94 0)
@@ -276,6 +314,9 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO11" input line)
+				(alternate "SPI2_WP" input line)
+				(alternate "TOUCH_CHANNEL10" input line)
 			)
 			(pin input line
 				(at 0 -30.48 0)
@@ -294,6 +335,8 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO12" input line)
+				(alternate "TOUCH_CHANNEL11" input line)
 			)
 			(pin input line
 				(at 0 -33.02 0)
@@ -312,6 +355,8 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO13" input line)
+				(alternate "TOUCH_CHANNEL12" input line)
 			)
 			(pin input line
 				(at 0 -35.56 0)
@@ -330,6 +375,8 @@
 						)
 					)
 				)
+				(alternate "LP_UART_TXD" input line)
+				(alternate "TOUCH_CHANNEL13" input line)
 			)
 			(pin input line
 				(at 0 -38.1 0)
@@ -348,6 +395,8 @@
 						)
 					)
 				)
+				(alternate "LP_UART_RXD" input line)
+				(alternate "TOUCH_CHANNEL14" input line)
 			)
 			(pin input line
 				(at 0 -40.64 0)
@@ -366,6 +415,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL0" input line)
 			)
 			(pin input line
 				(at 0 -43.18 0)
@@ -384,6 +434,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL1" input line)
 			)
 			(pin input line
 				(at 0 -45.72 0)
@@ -402,6 +453,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL2" input line)
 			)
 			(pin input line
 				(at 0 -48.26 0)
@@ -420,6 +472,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL3" input line)
 			)
 			(pin input line
 				(at 0 -50.8 0)
@@ -456,6 +509,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL4" input line)
 			)
 			(pin input line
 				(at 0 -55.88 0)
@@ -474,6 +528,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL5" input line)
 			)
 			(pin input line
 				(at 0 -58.42 0)
@@ -492,6 +547,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL6" input line)
 			)
 			(pin input line
 				(at 0 -60.96 0)
@@ -510,6 +566,8 @@
 						)
 					)
 				)
+				(alternate "ADC1_CHANNEL7" input line)
+				(alternate "REF_50M_CLK" input line)
 			)
 			(pin input line
 				(at 0 -63.5 0)
@@ -546,6 +604,8 @@
 						)
 					)
 				)
+				(alternate "LP_GPIO0" input line)
+				(alternate "XTAL_32K_N" input line)
 			)
 			(pin input line
 				(at 17.78 -71.12 90)
@@ -762,6 +822,9 @@
 						)
 					)
 				)
+				(alternate "ADC2_CHANNEL5" input line)
+				(alternate "ANA_COMP1" input line)
+				(alternate "GMAC_PHY_RXER" input line)
 			)
 			(pin input line
 				(at 33.02 -71.12 90)
@@ -798,6 +861,9 @@
 						)
 					)
 				)
+				(alternate "ADC2_CHANNEL4" input line)
+				(alternate "ANA_COMP1" input line)
+				(alternate "GMAC_PHY_RXD" input line)
 			)
 			(pin input line
 				(at 35.56 -71.12 90)
@@ -870,6 +936,9 @@
 						)
 					)
 				)
+				(alternate "ADC2_CHANNEL3" input line)
+				(alternate "ANA_COMP0" input line)
+				(alternate "GMAC_PHY_RXD0" input line)
 			)
 			(pin input line
 				(at 40.64 -71.12 90)
@@ -906,6 +975,9 @@
 						)
 					)
 				)
+				(alternate "ADC2_CHANNEL2" input line)
+				(alternate "ANA_COMP0" input line)
+				(alternate "GMAC_PHY_RXDV" input line)
 			)
 			(pin input line
 				(at 43.18 -71.12 90)
@@ -942,6 +1014,8 @@
 						)
 					)
 				)
+				(alternate "ADC2_CHANNEL1" input line)
+				(alternate "GMAC_RMII_CLK" input line)
 			)
 			(pin input line
 				(at 45.72 -71.12 90)
@@ -978,6 +1052,8 @@
 						)
 					)
 				)
+				(alternate "ADC2_CHANNEL0" input line)
+				(alternate "GMAC_PHY_TXEN" input line)
 			)
 			(pin input line
 				(at 48.26 -71.12 90)
@@ -1050,6 +1126,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXER" input line)
+				(alternate "SD1_CDATA7" input line)
 			)
 			(pin input line
 				(at 53.34 -71.12 90)
@@ -1086,6 +1164,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXD1" input line)
+				(alternate "SD1_CDATA6" input line)
 			)
 			(pin input line
 				(at 55.88 -71.12 90)
@@ -1122,6 +1202,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXD0" input line)
+				(alternate "SD1_CDATA5" input line)
 			)
 			(pin input line
 				(at 58.42 -71.12 90)
@@ -1158,6 +1240,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXDV" input line)
+				(alternate "SD1_CDATA4" input line)
 			)
 			(pin input line
 				(at 60.96 -71.12 90)
@@ -1194,6 +1278,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_RMII_CLK" input line)
+				(alternate "SD1_CCMD" input line)
 			)
 			(pin input line
 				(at 63.5 -71.12 90)
@@ -1266,6 +1352,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXER" input line)
+				(alternate "SD1_CCLK" input line)
 			)
 			(pin input line
 				(at 68.58 -71.12 90)
@@ -1302,6 +1390,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXD1" input line)
+				(alternate "SD1_CDATA3" input line)
 			)
 			(pin input line
 				(at 71.12 -71.12 90)
@@ -1338,6 +1428,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXD0" input line)
+				(alternate "SD1_CDATA2" input line)
 			)
 			(pin input line
 				(at 73.66 -71.12 90)
@@ -1374,6 +1466,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXEN" input line)
+				(alternate "SD1_CDATA1" input line)
 			)
 			(pin input line
 				(at 76.2 -71.12 90)
@@ -1410,6 +1504,8 @@
 						)
 					)
 				)
+				(alternate "REF_50M_CLK" input line)
+				(alternate "SD1_CDATA0" input line)
 			)
 			(pin input line
 				(at 78.74 -71.12 90)
@@ -1450,14 +1546,32 @@
 			(pin input line
 				(at 81.28 -71.12 90)
 				(length 5.08)
-				(name "GPIO24"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "52"
+				(number "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 83.82 -71.12 90)
+				(length 5.08)
+				(name "VDD_HP_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1626,6 +1740,8 @@
 						)
 					)
 				)
+				(alternate "SPI2_DQS" input line)
+				(alternate "UART0_RXD" input line)
 			)
 			(pin input line
 				(at 100.33 -22.86 180)
@@ -1644,6 +1760,8 @@
 						)
 					)
 				)
+				(alternate "SPI2_IO7" input line)
+				(alternate "UART0_TXD" input line)
 			)
 			(pin input line
 				(at 100.33 -25.4 180)
@@ -1662,6 +1780,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXER" input line)
+				(alternate "SPI2_IO6" input line)
 			)
 			(pin input line
 				(at 100.33 -27.94 180)
@@ -1698,6 +1818,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXD1" input line)
+				(alternate "SPI2_IO5" input line)
 			)
 			(pin input line
 				(at 100.33 -33.02 180)
@@ -1716,6 +1838,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXD0" input line)
+				(alternate "SPI2_IO4" input line)
 			)
 			(pin input line
 				(at 100.33 -35.56 180)
@@ -1734,6 +1858,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_TXEN" input line)
+				(alternate "SPI2_WP" input line)
 			)
 			(pin input line
 				(at 100.33 -38.1 180)
@@ -1752,6 +1878,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_RMII_CLK" input line)
+				(alternate "SPI2_HOLD" input line)
 			)
 			(pin input line
 				(at 100.33 -40.64 180)
@@ -1788,6 +1916,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXER" input line)
+				(alternate "SPI2_MISO" input line)
 			)
 			(pin input line
 				(at 100.33 -45.72 180)
@@ -1806,6 +1936,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXD1_PAD" input line)
+				(alternate "SPI2_CK" input line)
 			)
 			(pin input line
 				(at 100.33 -48.26 180)
@@ -1842,6 +1974,8 @@
 						)
 					)
 				)
+				(alternate "MAC_PHY_RXD0" input line)
+				(alternate "SPI2_MOSI" input line)
 			)
 			(pin input line
 				(at 100.33 -53.34 180)
@@ -1860,6 +1994,8 @@
 						)
 					)
 				)
+				(alternate "GMAC_PHY_RXDV" input line)
+				(alternate "SPI2_CS" input line)
 			)
 			(pin input line
 				(at 100.33 -55.88 180)
@@ -1878,6 +2014,7 @@
 						)
 					)
 				)
+				(alternate "USB1P1_P1" input line)
 			)
 			(pin input line
 				(at 100.33 -58.42 180)
@@ -1896,27 +2033,10 @@
 						)
 					)
 				)
+				(alternate "USB1P1_N1" input line)
 			)
 			(pin input line
 				(at 100.33 -60.96 180)
-				(length 5.08)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "105"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 100.33 -63.5 180)
 				(length 5.08)
 				(name "GPIO25"
 					(effects
@@ -1932,25 +2052,26 @@
 						)
 					)
 				)
+				(alternate " USB1P1_P0" input line)
 			)
-			(pin no_connect line
-				(at 111.76 -60.96 180)
+			(pin input line
+				(at 100.33 -63.5 180)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "GPIO24"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "54"
+				(number "52"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+				(alternate "USB1P1_N0" input line)
 			)
 		)
 		(embedded_fonts no)

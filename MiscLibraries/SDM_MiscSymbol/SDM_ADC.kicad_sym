@@ -103,6 +103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Max Current (mA)" "3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ADS7953SRHBR_1_1"
 			(rectangle
 				(start 5.08 12.7)
@@ -734,7 +743,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5L"
+		(property "Footprint" "SDM_MiscFootprint:SOT95P280X145-5L"
 			(at 21.59 -94.92 0)
 			(effects
 				(font
@@ -810,6 +819,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Max Current (mA)" "2.3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
