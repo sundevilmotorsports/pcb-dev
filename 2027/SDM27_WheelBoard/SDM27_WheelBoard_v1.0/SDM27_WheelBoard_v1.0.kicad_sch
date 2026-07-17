@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SDM27 Wheel Board ESP32 C5HF4")
-		(date "5/18/2026")
+		(date "2026-07-17")
 		(rev "1.0")
 		(company "SUN DEVIL MOTERSPROTS DAQ")
 	)
@@ -6691,6 +6691,17 @@
 		)
 		(uuid "6d097cf5-12ef-4f20-8743-6428487c4aac")
 	)
+	(text "4 MB 	QSPI Flash\n484 KB 	high-performance SRAM\n16 KB 	low-power SRAM\n\n"
+		(exclude_from_sim no)
+		(at 145.034 19.558 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "7d819e39-f7fc-487d-aa5e-f1aec947986e")
+	)
 	(text "SECONDARY MUX"
 		(exclude_from_sim no)
 		(at 21.336 66.802 0)
@@ -6956,6 +6967,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41645b4e-1fa5-40da-9b91-e6bba10cee57")
+	)
+	(junction
+		(at 270.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47966ee7-dca8-46b1-a1e3-8c0dcc1f4807")
 	)
 	(junction
 		(at 124.46 76.2)
@@ -7246,12 +7263,6 @@
 		(uuid "ce67b3ce-02ca-406e-8d8e-36b50d95e3ff")
 	)
 	(junction
-		(at 267.97 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d157cde5-2b34-4206-8491-f1267b38c90d")
-	)
-	(junction
 		(at 81.28 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7409,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 267.97 88.9)
+			(xy 246.38 88.9) (xy 270.51 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7579,16 +7590,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 77.47) (xy 270.51 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec6e3f6-1d49-43ab-8aa7-7c2fffa10c1c")
-	)
-	(wire
-		(pts
 			(xy 175.26 124.46) (xy 180.34 124.46)
 		)
 		(stroke
@@ -7619,7 +7620,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 77.47) (xy 266.7 77.47)
+			(xy 266.7 77.47) (xy 270.51 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8519,7 +8520,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 77.47) (xy 267.97 88.9)
+			(xy 270.51 77.47) (xy 270.51 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13273,7 +13274,7 @@
 		(dnp no)
 		(uuid "3b9aeb3c-f331-468f-b3f7-7d2a2c0a957e")
 		(property "Reference" "Y1"
-			(at 267.208 78.994 0)
+			(at 259.08 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13283,7 +13284,7 @@
 			)
 		)
 		(property "Value" "Crystal_GND24"
-			(at 273.05 81.026 0)
+			(at 253.238 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23820,7 +23821,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -23831,7 +23832,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
