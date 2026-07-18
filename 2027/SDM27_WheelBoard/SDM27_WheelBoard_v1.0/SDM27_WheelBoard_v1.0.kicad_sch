@@ -3931,7 +3931,7 @@
 				)
 				(circle
 					(center 0 -5.08)
-					(radius 4.572)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -3942,7 +3942,7 @@
 				)
 				(circle
 					(center 0 -5.08)
-					(radius 0.254)
+					(radius 4.572)
 					(stroke
 						(width 0)
 						(type default)
@@ -6581,9 +6581,29 @@
 		)
 		(uuid "e85dd6a9-511f-469d-9912-1d3da692b246")
 	)
+	(text "Do math on dividers for Primary and 2ndary mux\n"
+		(exclude_from_sim no)
+		(at 29.464 177.546 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "02c6355d-fdf9-42ab-81fe-b8cde72d5bbf")
+	)
+	(text "check on usb part\n"
+		(exclude_from_sim no)
+		(at 107.696 154.686 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "07797fcb-ca52-4ccb-b711-a2a35b975d37")
+	)
 	(text "WSP_PWM, SDA, SCL, CANTX, and, CANRX can move to almost any gpio if layout requiers"
 		(exclude_from_sim no)
-		(at 57.658 178.816 0)
+		(at 106.426 169.672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6591,17 +6611,7 @@
 		)
 		(uuid "1c7c37c5-6f8a-45ff-90e4-4462c03ec256")
 	)
-	(text "Must go through and fix anotation"
-		(exclude_from_sim no)
-		(at 30.734 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "222b81dc-9050-42b7-aef5-b35aaacfbc71")
-	)
-	(text "Bradly said he wants up to 500C.\nI dont know how much of an exaderationb that is.\n"
+	(text "Bradly said he wants up to 500C.\nI dont know how much of an exaggeration that is.\n"
 		(exclude_from_sim no)
 		(at 110.744 88.138 0)
 		(effects
@@ -6813,7 +6823,7 @@
 		)
 		(uuid "ddf526bb-1fa8-415a-adee-18e134755e89")
 	)
-	(text "CAN TRANSCIEVER"
+	(text "CAN TRANSCEIVER"
 		(exclude_from_sim no)
 		(at 88.646 15.494 0)
 		(effects
@@ -6833,6 +6843,16 @@
 			)
 		)
 		(uuid "eb50c55b-9737-4037-a02f-1b857a641f6d")
+	)
+	(text "add pads for pull donw\n"
+		(exclude_from_sim no)
+		(at 251.46 108.712 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "f3a5c948-5a1a-4461-b30b-a8eac9f9bf41")
 	)
 	(text "PRIMARY MUX"
 		(exclude_from_sim no)
@@ -6957,12 +6977,6 @@
 		(uuid "3ed7650b-276e-41d1-b375-db5762a56fe7")
 	)
 	(junction
-		(at 34.29 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4062f4d0-6a2a-4500-a3f0-63453a81a8eb")
-	)
-	(junction
 		(at 180.34 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7045,12 +7059,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "630e54f5-a0d2-40ed-896b-9991090d62e4")
-	)
-	(junction
-		(at 34.29 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6367d377-dfce-4980-8c9d-3ef024ff920a")
 	)
 	(junction
 		(at 205.74 105.41)
@@ -7173,6 +7181,12 @@
 		(uuid "a1bf9135-9567-4fcd-9423-30e6dede7165")
 	)
 	(junction
+		(at 34.29 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ce9503-11e8-467d-9054-b11a7f29bfc0")
+	)
+	(junction
 		(at 139.7 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7239,16 +7253,16 @@
 		(uuid "c2006a8d-82b6-4a45-8b9d-3aed9f2f4e5d")
 	)
 	(junction
+		(at 156.21 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ecb7fe-e003-4414-b033-1b5cbb187f47")
+	)
+	(junction
 		(at 182.88 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe8c605-325f-4234-b417-01cf26484686")
-	)
-	(junction
-		(at 156.21 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc608a47-2732-4fac-a2ef-1de5174e2c68")
 	)
 	(junction
 		(at 185.42 102.87)
@@ -7321,6 +7335,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8597878-f355-4b3d-8005-6aeddedc710e")
+	)
+	(junction
+		(at 34.29 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f99136d4-fd2d-48d7-ba0d-ad1986919b5e")
 	)
 	(junction
 		(at 175.26 144.78)
@@ -7427,6 +7447,16 @@
 			(type default)
 		)
 		(uuid "05c78b37-4dfe-4796-8809-bf9951de681c")
+	)
+	(wire
+		(pts
+			(xy 247.65 105.41) (xy 247.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d3823d-c756-4e43-a974-efe403e35b2b")
 	)
 	(wire
 		(pts
@@ -7627,6 +7657,16 @@
 			(type default)
 		)
 		(uuid "22fb43e7-0ca4-4f4d-9e72-d836b8b44bf3")
+	)
+	(wire
+		(pts
+			(xy 256.54 105.41) (xy 256.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2600cc1f-4ec3-448c-965a-ac3116174f04")
 	)
 	(wire
 		(pts
@@ -8117,16 +8157,6 @@
 			(type default)
 		)
 		(uuid "51d05a98-0df0-4007-bab6-f25f73925f14")
-	)
-	(wire
-		(pts
-			(xy 34.29 71.12) (xy 38.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52e48feb-424a-44ab-b032-c2bfded68669")
 	)
 	(wire
 		(pts
@@ -9700,6 +9730,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 71.12) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a038d7-3db3-4476-887d-72b5dc416a85")
+	)
+	(wire
+		(pts
 			(xy 27.94 31.75) (xy 38.1 31.75)
 		)
 		(stroke
@@ -9879,7 +9919,7 @@
 		(uuid "5693f14c-59f3-4a4b-a07d-b97766b36e7d")
 	)
 	(label "CHIP_EN"
-		(at 256.54 101.6 270)
+		(at 256.54 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10069,7 +10109,7 @@
 		(uuid "d1f0f3a5-e9b1-48e1-b31b-f059efa87919")
 	)
 	(label "GPIO0"
-		(at 247.65 101.6 270)
+		(at 247.65 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10170,7 +10210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical"
 			(at 130.81 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10539,6 +10579,83 @@
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 93.98 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0df1a173-0ee9-415a-ba0e-1ce6c993af08")
+		(property "Reference" "#PWR060"
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 91.186 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 93.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4fcb2fd-420d-4430-b015-e52c27325f39")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11508,83 +11625,6 @@
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 93.98 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2649ce00-d8e5-444a-9c7a-493fe641abf8")
-		(property "Reference" "#PWR070"
-			(at 93.98 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 96.012 118.872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 93.98 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fad2d6a-581f-43e2-9373-338e0f3d26f0")
-		)
-		(instances
-			(project "SDM27_WheelBoard_v1.0"
-				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -13121,7 +13161,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10.2k"
+		(property "Value" "4.7k"
 			(at 33.02 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
