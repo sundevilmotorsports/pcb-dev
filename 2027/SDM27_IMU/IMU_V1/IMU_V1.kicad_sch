@@ -300,6 +300,392 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x07_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J2"
+				(at 0.635 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07_Pin"
+				(at 0.635 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x07_Pin_1_1"
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2943,393 +3329,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SDM_MISC:WAIPU_SA12_7PIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J1"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "WEIPU SA12 7PIN"
-				(at 0 0.762 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WAIPU_SA12_7PIN_0_1"
-				(rectangle
-					(start -5.08 0)
-					(end 5.08 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 43 112 135 0.7411764706)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -1.524 -3.048)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -2.794 -5.08)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy -3.81 -7.62) (xy -1.524 -7.112)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -3.048)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -7.112)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 4.572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.334) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 -1.397) (xy -0.762 -1.397) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -3.048)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -7.112)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.81 -2.54) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 3.81 -7.62) (xy 1.524 -7.112)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "WAIPU_SA12_7PIN_1_1"
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9527,7 +9526,7 @@
 		)
 		(uuid "37392e8b-7317-4273-bd1e-06ac28f9d2b0")
 	)
-	(text "FLASH MEM 8MB"
+	(text "FLASH MEM 4MB"
 		(exclude_from_sim no)
 		(at 128.27 41.91 0)
 		(effects
@@ -9739,7 +9738,7 @@
 		(uuid "1d27da23-1f54-467e-bad9-6feaa3100208")
 	)
 	(junction
-		(at 242.57 41.91)
+		(at 243.84 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290cf1fb-dfe9-440d-85cc-722ae3aa9f38")
@@ -9931,7 +9930,7 @@
 		(uuid "8f452289-237d-4d1f-af12-b5cffb53029f")
 	)
 	(junction
-		(at 242.57 36.83)
+		(at 243.84 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4ed842-9c85-4a77-bf6e-621f2aa2f0f9")
@@ -10506,7 +10505,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 71.12) (xy 270.51 71.12)
+			(xy 265.43 71.12) (xy 274.32 71.12)
 		)
 		(stroke
 			(width 0)
@@ -10666,7 +10665,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 73.66) (xy 270.51 73.66)
+			(xy 265.43 73.66) (xy 274.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10876,7 +10875,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 36.83) (xy 252.73 36.83)
+			(xy 243.84 36.83) (xy 254 36.83)
 		)
 		(stroke
 			(width 0)
@@ -10926,16 +10925,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 24.13) (xy 252.73 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385e63d5-1ae2-40c0-9e49-05a1fb01d4e2")
-	)
-	(wire
-		(pts
 			(xy 309.88 92.71) (xy 309.88 105.41)
 		)
 		(stroke
@@ -10953,6 +10942,16 @@
 			(type default)
 		)
 		(uuid "3b45e697-7aa7-49ec-9d0e-80942d33339f")
+	)
+	(wire
+		(pts
+			(xy 220.98 39.37) (xy 232.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d011da0-b73b-4520-883a-ac4f976a5a5f")
 	)
 	(wire
 		(pts
@@ -11053,16 +11052,6 @@
 			(type default)
 		)
 		(uuid "4c8cd401-8e51-45df-8efe-deee954a1050")
-	)
-	(wire
-		(pts
-			(xy 215.9 24.13) (xy 224.79 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1e3c9b-adcc-48a5-988d-76d24aae2d64")
 	)
 	(wire
 		(pts
@@ -11176,7 +11165,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 34.29) (xy 242.57 36.83)
+			(xy 243.84 34.29) (xy 243.84 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11336,6 +11325,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 26.67) (xy 229.87 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d45998-7fca-4b95-a3eb-db8ddcf3a795")
+	)
+	(wire
+		(pts
 			(xy 180.34 44.45) (xy 170.18 44.45)
 		)
 		(stroke
@@ -11353,16 +11352,6 @@
 			(type default)
 		)
 		(uuid "694efb0f-028d-4377-9fb7-63484789e9d8")
-	)
-	(wire
-		(pts
-			(xy 215.9 26.67) (xy 224.79 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697e5050-94a7-4fe4-91b3-9b003931b45c")
 	)
 	(wire
 		(pts
@@ -11426,13 +11415,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 29.21) (xy 250.19 29.21)
+			(xy 220.98 36.83) (xy 232.41 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73fc5bd3-1711-4b15-8409-efe757bfc828")
+		(uuid "752043d8-e215-4e20-b2bd-3ac69b6fcd57")
 	)
 	(wire
 		(pts
@@ -11543,6 +11532,16 @@
 			(type default)
 		)
 		(uuid "7ac26879-ebac-43d6-b763-fd7029542760")
+	)
+	(wire
+		(pts
+			(xy 220.98 41.91) (xy 228.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd65cdd-7149-4a01-8bda-e894b317934d")
 	)
 	(wire
 		(pts
@@ -11786,16 +11785,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 29.21) (xy 224.79 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93843234-ab13-406f-a09a-44efd8e228a1")
-	)
-	(wire
-		(pts
 			(xy 389.89 30.48) (xy 389.89 31.75)
 		)
 		(stroke
@@ -11906,7 +11895,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 39.37) (xy 242.57 41.91)
+			(xy 243.84 39.37) (xy 243.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -12003,16 +11992,6 @@
 			(type default)
 		)
 		(uuid "a630bc28-af4c-497c-81a3-4497753c4448")
-	)
-	(wire
-		(pts
-			(xy 240.03 26.67) (xy 252.73 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a699d0d2-1884-4145-b514-b633905be08c")
 	)
 	(wire
 		(pts
@@ -12206,6 +12185,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 34.29) (xy 229.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9beac5-3590-4a03-ac30-08e98964c18d")
+	)
+	(wire
+		(pts
+			(xy 220.98 29.21) (xy 229.87 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb870188-039e-4dd5-ae66-8bfb3dac5d9a")
+	)
+	(wire
+		(pts
 			(xy 360.68 102.87) (xy 361.95 102.87)
 		)
 		(stroke
@@ -12226,7 +12225,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 34.29) (xy 242.57 34.29)
+			(xy 254 34.29) (xy 243.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12266,16 +12265,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 73.66) (xy 285.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c553002b-f617-4b2c-a424-2552a9046d00")
-	)
-	(wire
-		(pts
 			(xy 218.44 123.19) (xy 218.44 120.65)
 		)
 		(stroke
@@ -12306,7 +12295,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 39.37) (xy 242.57 39.37)
+			(xy 254 39.37) (xy 243.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12536,7 +12525,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 41.91) (xy 242.57 41.91)
+			(xy 237.49 41.91) (xy 243.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -12576,7 +12565,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 41.91) (xy 252.73 41.91)
+			(xy 243.84 41.91) (xy 254 41.91)
 		)
 		(stroke
 			(width 0)
@@ -12596,16 +12585,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 71.12) (xy 285.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee56e881-bfeb-4a2a-a7a9-dce0fac0df5c")
-	)
-	(wire
-		(pts
 			(xy 165.1 153.67) (xy 165.1 156.21)
 		)
 		(stroke
@@ -12616,7 +12595,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 36.83) (xy 242.57 36.83)
+			(xy 237.49 36.83) (xy 243.84 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12746,6 +12725,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 31.75) (xy 229.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa93dc55-c5d3-45c5-a230-e2d411e1afcb")
+	)
+	(wire
+		(pts
 			(xy 365.76 22.86) (xy 365.76 24.13)
 		)
 		(stroke
@@ -12845,17 +12834,27 @@
 		(uuid "ffd9be81-863f-4499-838a-f26fec86f7ef")
 	)
 	(label "CAN-IN"
-		(at 215.9 24.13 0)
+		(at 229.87 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1481fba3-6609-4c31-9f68-4437cb862565")
+		(uuid "08d6dd74-f9f8-4b6c-b674-3cf37971b6f6")
+	)
+	(label "CAN-OUT"
+		(at 229.87 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a665133-d81a-4b94-beb3-87879385ec47")
 	)
 	(label "USB_D-"
-		(at 285.75 73.66 180)
+		(at 274.32 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12945,7 +12944,7 @@
 		(uuid "438ad40b-9636-408e-8ba1-1523d7bacb03")
 	)
 	(label "CAN-"
-		(at 236.22 41.91 0)
+		(at 237.49 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13014,8 +13013,18 @@
 		)
 		(uuid "7cab592e-ea23-4c3a-b6b2-03be63bed959")
 	)
+	(label "CAN+OUT"
+		(at 229.87 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f97c316-bf63-4fac-bf24-9a80730a1fb2")
+	)
 	(label "CAN-IN"
-		(at 252.73 39.37 180)
+		(at 254 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13035,7 +13044,7 @@
 		(uuid "82bafa7b-b7fb-43c9-b9f1-3257bf37ad8f")
 	)
 	(label "USB_D+"
-		(at 285.75 71.12 180)
+		(at 274.32 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13084,16 +13093,6 @@
 		)
 		(uuid "8c6b08d1-c231-4854-8fe3-8604476780ff")
 	)
-	(label "CAN-OUT"
-		(at 215.9 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91b5f4f7-85a8-4b66-a47f-6498c307b870")
-	)
 	(label "M_CS"
 		(at 297.18 102.87 0)
 		(effects
@@ -13105,7 +13104,7 @@
 		(uuid "94316a2e-db79-4c75-999d-e2ef3d58107f")
 	)
 	(label "CAN-OUT"
-		(at 252.73 41.91 180)
+		(at 254 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13113,16 +13112,6 @@
 			(justify right bottom)
 		)
 		(uuid "9b366771-86e9-41e2-93ef-738f710643f0")
-	)
-	(label "CAN+OUT"
-		(at 250.19 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1e12b00-42ee-4ec0-92f6-e81a2b70f54a")
 	)
 	(label "I_CS"
 		(at 185.42 46.99 0)
@@ -13235,7 +13224,7 @@
 		(uuid "c9c45cf8-9f24-49b8-a2ec-44700a98142b")
 	)
 	(label "CAN+OUT"
-		(at 252.73 36.83 180)
+		(at 254 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13264,18 +13253,8 @@
 		)
 		(uuid "cfd9b604-aa13-499b-9d73-54c8a1ff0cd7")
 	)
-	(label "CAN+IN"
-		(at 215.9 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6f07d5e-bfb9-4a0d-bada-dec852f24112")
-	)
 	(label "CAN+"
-		(at 236.22 36.83 0)
+		(at 237.49 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13295,7 +13274,7 @@
 		(uuid "e6bca889-8cd4-4d63-bb6b-48f53bf318b7")
 	)
 	(label "CAN+IN"
-		(at 252.73 34.29 180)
+		(at 254 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13303,6 +13282,16 @@
 			(justify right bottom)
 		)
 		(uuid "e9b475c6-c5ab-4cd7-98d4-d1f72df3b426")
+	)
+	(label "CAN+IN"
+		(at 229.87 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eadccfa8-7a22-4d3d-b356-267023c116ba")
 	)
 	(label "CAN_TERM"
 		(at 69.85 34.29 270)
@@ -13509,7 +13498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0316e75f-41cf-40cc-9e39-d34f6689656d")
-		(property "Reference" "R28"
+		(property "Reference" "R19"
 			(at 201.93 155.448 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13573,7 +13562,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13591,7 +13580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03c51170-143a-4e8b-9af7-72a30b19d55c")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 24.892 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13613,7 +13602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 22.86 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13655,7 +13644,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13750,7 +13739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04f2dd97-7dc9-4b45-af54-73541b89cca1")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 24.13 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,7 +13761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 22.86 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13803,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14164,83 +14153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 252.73 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07d44d22-0768-4ce9-b829-16c9412cd659")
-		(property "Reference" "#PWR072"
-			(at 252.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 252.73 20.828 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 252.73 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "602c4714-c2a1-4c86-8606-b54c9240f83c")
-		)
-		(instances
-			(project "IMU_V1"
-				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 189.23 100.33 0)
 		(unit 1)
@@ -14408,7 +14320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e87895a-49f9-414a-b759-4ca264df690a")
-		(property "Reference" "C22"
+		(property "Reference" "C27"
 			(at 213.868 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14472,88 +14384,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 273.05 73.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "121cc92e-737c-4ca5-b0f9-e8278d707472")
-		(property "Reference" "R11"
-			(at 271.018 75.692 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27"
-			(at 271.018 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 273.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2284ed95-8078-4461-8760-fbb7569a47e8")
-		)
-		(pin "2"
-			(uuid "7970bf5c-25ed-4a95-8dab-0d49c34dbfd5")
-		)
-		(instances
-			(project "IMU_V1"
-				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R11")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -14653,7 +14484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15b9beec-aa41-42a6-b40e-82fa2376413f")
-		(property "Reference" "R27"
+		(property "Reference" "R16"
 			(at 170.18 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14717,7 +14548,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R27")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14965,8 +14796,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22b42c9e-0f24-4e2e-a21c-1d618dc321c2")
-		(property "Reference" "C9"
-			(at 209.296 72.39 0)
+		(property "Reference" "C20"
+			(at 210.566 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15029,7 +14860,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C9")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15184,101 +15015,6 @@
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MISC:WAIPU_SA12_7PIN")
-		(at 232.41 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22ffe876-7bc8-4375-aff0-4ae0a393ce2a")
-		(property "Reference" "J1"
-			(at 232.41 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "WEIPU SA12 7PIN"
-			(at 232.41 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical"
-			(at 232.41 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ee39396d-b77d-4c65-9594-920a0af66585")
-		)
-		(pin "4"
-			(uuid "37264831-1ae9-4c68-9db1-9b1c63c1299e")
-		)
-		(pin "6"
-			(uuid "c46bf4f1-750e-4459-a0e3-8134c03d7baf")
-		)
-		(pin "5"
-			(uuid "b402115f-6513-42b7-adef-5f2d4b1facb7")
-		)
-		(pin "7"
-			(uuid "34de6029-f8db-48ce-b7b0-8494ae6e958e")
-		)
-		(pin "1"
-			(uuid "0a8e4552-23ca-41e0-a7c6-af324b380657")
-		)
-		(pin "2"
-			(uuid "1bc2a0c8-c035-42f4-a950-29ec1638351e")
-		)
-		(instances
-			(project "IMU_V1"
-				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15604,7 +15340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26e265be-8a1e-47a7-8360-826e2c99648f")
-		(property "Reference" "C23"
+		(property "Reference" "C28"
 			(at 262.382 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15668,7 +15404,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C23")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -15686,7 +15422,7 @@
 		(dnp no)
 		(uuid "274e6400-9e48-4daa-bf8f-9a0b45061826")
 		(property "Reference" "R3"
-			(at 27.94 48.006 90)
+			(at 28.448 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15767,7 +15503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29111583-f013-447c-b5e6-2d187e8c448d")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 163.83 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15831,7 +15567,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16011,8 +15747,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b82f7fd-d043-4010-9a23-b18f22d231bc")
-		(property "Reference" "R33"
-			(at 59.436 29.972 0)
+		(property "Reference" "R5"
+			(at 60.706 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16075,7 +15811,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R33")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16093,7 +15829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3121581d-9357-4d52-96ed-e1f5925cdc59")
-		(property "Reference" "C27"
+		(property "Reference" "C6"
 			(at 69.596 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16157,7 +15893,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C27")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16175,7 +15911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35c3440a-bcf5-41b4-b10a-1cd5d0aab681")
-		(property "Reference" "C24"
+		(property "Reference" "C15"
 			(at 37.592 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16239,7 +15975,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C24")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16257,7 +15993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36338b34-d9cd-440c-8d99-854ad4830151")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 14.224 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16279,7 +16015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 17.78 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16321,7 +16057,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -16588,7 +16324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b675966-8e99-46c8-bcb2-18c4e997842e")
-		(property "Reference" "C30"
+		(property "Reference" "C16"
 			(at 82.296 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16652,7 +16388,84 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C30")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d610b8a-4d90-49d4-97e0-856ec71e942d")
+		(property "Reference" "#PWR075"
+			(at 232.41 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8e831f3-8ee6-4dfa-9925-aa15ed2b6aaf")
+		)
+		(instances
+			(project "IMU_V1"
+				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -16670,7 +16483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "411f7a4d-9fcf-40be-bb4f-4b0c4c8060f6")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 175.26 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16734,7 +16547,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -16830,7 +16643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4566a7b2-8191-48e6-bc4d-a791274b6a78")
-		(property "Reference" "R26"
+		(property "Reference" "R12"
 			(at 170.18 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16894,7 +16707,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R26")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -16912,8 +16725,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45be1943-7094-4bec-9a4e-fe78e9572a4c")
-		(property "Reference" "C7"
-			(at 112.268 70.104 0)
+		(property "Reference" "C10"
+			(at 111.506 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16934,7 +16747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.57 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16976,7 +16789,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17071,7 +16884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49b8b810-7a88-4f17-8037-73db7d0289bf")
-		(property "Reference" "R29"
+		(property "Reference" "R20"
 			(at 251.968 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17135,7 +16948,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R29")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -17230,7 +17043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d2443c8-d738-425e-b9d9-322b0fc00883")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 51.562 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17294,7 +17107,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -17784,7 +17597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58e89aaa-fef2-46cd-993e-d205138b7052")
-		(property "Reference" "R34"
+		(property "Reference" "R10"
 			(at 345.44 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17848,7 +17661,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R34")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17865,7 +17678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5abbb4de-a4b4-4bb3-b603-24c6f741b2d2")
-		(property "Reference" "C16"
+		(property "Reference" "C30"
 			(at 371.348 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17929,7 +17742,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C16")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17946,8 +17759,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e158e64-70aa-4c0c-b32d-58f56e173d24")
-		(property "Reference" "C6"
-			(at 181.61 95.504 0)
+		(property "Reference" "C21"
+			(at 182.626 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18010,7 +17823,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C6")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -18028,7 +17841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e4c79ac-4155-40a3-9d35-e79cdda9313d")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 45.212 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18092,7 +17905,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -18110,7 +17923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e7a8777-45a2-4db9-b3c4-06db5b38f69c")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 106.426 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18132,7 +17945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 110.49 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18174,7 +17987,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18269,7 +18082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60ee567a-bffd-46f7-a14b-f3c286814128")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 175.26 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18333,7 +18146,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18428,7 +18241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65b76bc3-8fdb-4da7-8aca-ab1a24064ce1")
-		(property "Reference" "C8"
+		(property "Reference" "C19"
 			(at 122.428 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18450,7 +18263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 120.65 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18492,84 +18305,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6641da4b-ec2e-4477-beba-28e06ffbd075")
-		(property "Reference" "#PWR071"
-			(at 252.73 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 30.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfbb81bc-137f-4ee4-aa27-70180620daed")
-		)
-		(instances
-			(project "IMU_V1"
-				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "#PWR071")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -18663,7 +18399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ca6eab7-cd12-4c95-b890-9c0f8101fe76")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 168.91 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18727,7 +18463,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18882,6 +18618,83 @@
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70e19df9-9c09-4ef1-a393-c96727aa1926")
+		(property "Reference" "#PWR076"
+			(at 228.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ea6f33c-cb7e-49b1-b437-eca692a486e9")
+		)
+		(instances
+			(project "IMU_V1"
+				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -19349,7 +19162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b9ff20b-43d6-4e4f-9ec8-38981d018a29")
-		(property "Reference" "C29"
+		(property "Reference" "C7"
 			(at 74.676 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19413,7 +19226,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C29")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -19430,7 +19243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cd02c3d-f2a5-4cf0-bf57-025459426b60")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 308.102 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19494,7 +19307,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19830,7 +19643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fb68b1b-fc4f-4dee-879e-16b5760295c2")
-		(property "Reference" "R22"
+		(property "Reference" "R4"
 			(at 30.226 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19894,7 +19707,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R22")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19912,7 +19725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "846f7a5a-90f2-4d70-a649-2318f9a9d59a")
-		(property "Reference" "C36"
+		(property "Reference" "C23"
 			(at 385.318 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19976,7 +19789,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C36")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -20070,7 +19883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "879b64c4-61e6-4ee9-9104-a904d5d9bcc3")
-		(property "Reference" "C32"
+		(property "Reference" "C13"
 			(at 95.504 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20134,7 +19947,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C32")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -20228,7 +20041,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "88d5321c-c6f0-4927-8254-8db73c2277ff")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 298.958 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20292,7 +20105,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R18")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -20694,7 +20507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9063de62-08d9-4b30-97fa-5cdb2f5c4013")
-		(property "Reference" "C26"
+		(property "Reference" "C8"
 			(at 64.516 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20758,7 +20571,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C26")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -20900,7 +20713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9728c025-4cb2-47b0-ae0b-634bf12f06fb")
-		(property "Reference" "R31"
+		(property "Reference" "R22"
 			(at 270.129 123.317 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20962,7 +20775,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R31")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -20979,7 +20792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a65c2c2-ae97-4dc6-892b-23659bfd5973")
-		(property "Reference" "C18"
+		(property "Reference" "C32"
 			(at 392.43 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21043,7 +20856,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C18")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -21138,7 +20951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f2cf46f-8b3c-4fdc-9f86-0566ed28539e")
-		(property "Reference" "C20"
+		(property "Reference" "C25"
 			(at 202.692 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21202,7 +21015,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -21546,7 +21359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad824030-b242-40cb-a86f-cb0862fa1d06")
-		(property "Reference" "C19"
+		(property "Reference" "C22"
 			(at 268.224 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21608,84 +21421,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae2a21ab-5ffe-408e-8332-425bd03e29ef")
-		(property "Reference" "#PWR073"
-			(at 232.41 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 37.846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b496c6b-ec78-4090-8d81-e7389c958ffb")
-		)
-		(instances
-			(project "IMU_V1"
-				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "#PWR073")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -21781,7 +21517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3336030-0efd-4089-853e-c914260deae3")
-		(property "Reference" "R25"
+		(property "Reference" "R18"
 			(at 168.91 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21845,7 +21581,101 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R25")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 215.9 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b39ba557-9907-4f65-b39f-41bb2e7e86b9")
+		(property "Reference" "J2"
+			(at 223.266 20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07_Pin"
+			(at 223.266 22.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal"
+			(at 215.9 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 215.9 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5b420a8-bda6-4109-a635-cb5e19b2fa5e")
+		)
+		(pin "5"
+			(uuid "31e30588-a793-4aa8-89f5-4c5add5568f8")
+		)
+		(pin "7"
+			(uuid "795acfc0-ceb2-4009-bd5a-8a486c56af25")
+		)
+		(pin "1"
+			(uuid "110f48c5-e3d2-416a-a38a-8c1e043b6a54")
+		)
+		(pin "6"
+			(uuid "9514b1f4-c32a-4b92-aa9f-de763118cc42")
+		)
+		(pin "3"
+			(uuid "3137540d-3ff5-49bb-9289-3fcef3358699")
+		)
+		(pin "4"
+			(uuid "32b37493-8607-4075-811b-0c9546f74c92")
+		)
+		(instances
+			(project "IMU_V1"
+				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -22017,7 +21847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc00aa21-c4d1-4844-bd90-a8843c57b8ab")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 19.05 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22039,7 +21869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 17.78 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -22081,7 +21911,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -22098,7 +21928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "beaa25a5-33fc-4b84-814f-fbb5f1ca659f")
-		(property "Reference" "C31"
+		(property "Reference" "C9"
 			(at 90.424 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22162,7 +21992,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C31")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -22333,8 +22163,8 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c3c556e5-a78b-42cd-9edd-fcd039ef9f61")
-		(property "Reference" "R6"
-			(at 188.976 40.386 90)
+		(property "Reference" "R7"
+			(at 188.976 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22397,7 +22227,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -22558,87 +22388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 273.05 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cddfec91-04c1-4008-8d01-8082a4d38ac4")
-		(property "Reference" "R10"
-			(at 271.018 67.564 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27"
-			(at 271.018 69.342 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 273.05 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40a73242-4187-415c-9207-ec0a5a1dbbc8")
-		)
-		(pin "2"
-			(uuid "4d17a303-ecb3-4027-9fe6-aa6c5d028e4a")
-		)
-		(instances
-			(project "IMU_V1"
-				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 59.69 119.38 0)
 		(mirror y)
@@ -22650,7 +22399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfbfec7f-a1c4-4e28-b332-3be9892ac36a")
-		(property "Reference" "C25"
+		(property "Reference" "C12"
 			(at 59.436 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22714,7 +22463,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C25")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -22808,7 +22557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5be79f5-421b-4472-ba2c-9c33d10cafcc")
-		(property "Reference" "R32"
+		(property "Reference" "R6"
 			(at 68.834 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22872,7 +22621,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R32")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -22967,7 +22716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d71f7157-c844-4c56-880b-c4f436719618")
-		(property "Reference" "C15"
+		(property "Reference" "C29"
 			(at 307.34 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23031,7 +22780,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C15")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -23202,7 +22951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc1c0da8-9e41-4d52-af27-aceebb6338c6")
-		(property "Reference" "R30"
+		(property "Reference" "R21"
 			(at 251.968 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23266,7 +23015,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R30")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -23343,6 +23092,83 @@
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 232.41 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de696fa2-c930-4181-ae22-14b19ca5259a")
+		(property "Reference" "#PWR074"
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 232.41 33.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 232.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "988e616e-d312-4420-adba-8e8c541b5111")
+		)
+		(instances
+			(project "IMU_V1"
+				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -23615,7 +23441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e42f0fae-e50e-48bc-9fd9-cdb273ac9c32")
-		(property "Reference" "C17"
+		(property "Reference" "C31"
 			(at 381.254 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23679,7 +23505,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C17")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -23979,7 +23805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e51f10e1-3ba2-4d06-8ff9-8f48931f050b")
-		(property "Reference" "R24"
+		(property "Reference" "R15"
 			(at 163.83 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24043,7 +23869,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R24")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -24061,7 +23887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e67c6e3b-9e38-49df-bf60-2f1c282c41f4")
-		(property "Reference" "C28"
+		(property "Reference" "C17"
 			(at 69.596 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24125,7 +23951,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C28")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24142,7 +23968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e885e420-51d4-4f11-88d4-eb76bcee84fa")
-		(property "Reference" "R21"
+		(property "Reference" "R8"
 			(at 248.92 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24204,7 +24030,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -24221,7 +24047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e928f1c3-fc04-49ff-9832-ac004839c1bc")
-		(property "Reference" "R20"
+		(property "Reference" "R25"
 			(at 316.738 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24285,7 +24111,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -24303,7 +24129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec8e5eb8-e419-4f1f-b80a-1cc4283b9d3e")
-		(property "Reference" "C37"
+		(property "Reference" "C24"
 			(at 395.478 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24367,7 +24193,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C37")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -24461,7 +24287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f02e4d42-c239-41c3-9722-1a9d5e1cada3")
-		(property "Reference" "R23"
+		(property "Reference" "R9"
 			(at 248.92 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24523,7 +24349,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "R23")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -24848,7 +24674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f22af317-fcbe-4fb5-89f1-a65126622be2")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 213.868 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24912,7 +24738,7 @@
 		(instances
 			(project "IMU_V1"
 				(path "/74516b9d-19c7-4674-a697-9d768e97088e"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
