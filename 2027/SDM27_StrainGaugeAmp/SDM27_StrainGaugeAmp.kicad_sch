@@ -2837,6 +2837,575 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SDM_Lib:WEIPU_SA6_4Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Value" "WEIPU SA6 4Pin"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WEIPU_SA6_4Pin_0_1"
+				(rectangle
+					(start -3.81 2.794)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 43 112 135 0.7411764706)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 0) (xy -1.524 0.508)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 -2.54) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.2192 0.4318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.8382 -1.1684)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.3962)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.286) (xy 0.508 2.032) (xy -0.508 2.032) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.8382 -1.1684)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.2192 0.4318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 0) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -2.54) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WEIPU_SA6_4Pin_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SDM_Lib:WEIPU_SA6_5Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Value" "WEIPU SA6 5Pin"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WEIPU_SA6_5Pin_0_1"
+				(rectangle
+					(start -3.81 2.794)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 43 112 135 0.7411764706)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 0) (xy -1.524 0.508)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 -2.54) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.2192 0.4318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.8382 -1.1684)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.2446)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.3962)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 1.016)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.286) (xy 0.508 2.032) (xy -0.508 2.032) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.8382 -1.1684)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.2192 0.4318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 0) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -2.54) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.0762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WEIPU_SA6_5Pin_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SDM_MISC:F1C1-201612-2R2M"
 			(pin_names
 				(hide yes)
@@ -3465,392 +4034,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SDM_MISC:WAIPU_SA12_7PIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J1"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "WEIPU SA12 7PIN"
-				(at 0 0.762 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WAIPU_SA12_7PIN_0_1"
-				(rectangle
-					(start -5.08 0)
-					(end 5.08 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -1.524 -3.048)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -2.794 -5.08)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy -3.81 -7.62) (xy -1.524 -7.112)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -3.048)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -7.112)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 4.572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.334) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 -1.397) (xy -0.762 -1.397) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -3.048)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -7.112)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.81 -2.54) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 3.81 -7.62) (xy 1.524 -7.112)
-					)
-					(stroke
-						(width 0.0762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "WAIPU_SA12_7PIN_1_1"
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9563,17 +9746,6 @@
 		)
 		(uuid "0a91cc5a-132f-4c32-84c1-4eeb19d40cdd")
 	)
-	(text "Need da 5 pin"
-		(exclude_from_sim no)
-		(at 260.35 124.46 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(bold yes)
-			)
-		)
-		(uuid "0f81ae39-c126-4ebe-97dc-eb7bfe7e5492")
-	)
 	(text "3V3 REG"
 		(exclude_from_sim no)
 		(at 108.204 68.453 0)
@@ -9584,6 +9756,18 @@
 			)
 		)
 		(uuid "26135496-b29f-4cca-a2d9-6766250ea5aa")
+	)
+	(text "R23:\nTension\n(Along Linkage)\n"
+		(exclude_from_sim no)
+		(at 43.18 159.385 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "289f1e72-4534-4bfa-8f4d-2a5bec014c7c")
 	)
 	(text "SS Slew rate\n12V 88 V/s\n5V 	92 V/s"
 		(exclude_from_sim no)
@@ -9615,6 +9799,18 @@
 			)
 		)
 		(uuid "430f4d1f-6e9a-47a6-8b2a-95343a822e0a")
+	)
+	(text "Connector to strain gauge\nbreakout"
+		(exclude_from_sim no)
+		(at 240.03 137.16 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "473e3130-8a29-422a-ad64-4898b967209e")
 	)
 	(text "C15 needs Ground Stub\n"
 		(exclude_from_sim no)
@@ -9705,7 +9901,7 @@
 	)
 	(text "HALF-BRIDGE \nWHEATSTONE\n"
 		(exclude_from_sim no)
-		(at 20.828 185.166 0)
+		(at 18.288 188.722 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9714,6 +9910,18 @@
 			(justify left)
 		)
 		(uuid "9c248b12-a435-4361-a940-5a072e01cd63")
+	)
+	(text "R26:\nCompression\n(Perpindicular to \nLinkage)"
+		(exclude_from_sim no)
+		(at 36.322 176.022 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a6adb5ae-0576-4c0f-b730-835b4310f712")
 	)
 	(text "CAPs\nC1-18 for MCU\n	C1-5	1uF\n	C6-9	100nF\n	C10-12	10uF\n	C13-16	Misc\n	C17-18	12pF\n"
 		(exclude_from_sim no)
@@ -9770,6 +9978,17 @@
 		)
 		(uuid "e28e08ac-3300-4a9e-9aac-85bf662417c7")
 	)
+	(text "Strain Gauges (Off Board)\nSG1 is oriented Longitudinally \nSG2 is oriented Laterally\nA is left, B is right\nB of SG1 and SG2 are connected"
+		(exclude_from_sim no)
+		(at 240.665 158.115 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e4a389dc-42de-496a-9917-6fbd4d1c7ccc")
+	)
 	(text "USB_C Power/PROG"
 		(exclude_from_sim no)
 		(at 187.96 114.3 0)
@@ -9820,12 +10039,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08d167a8-2179-479e-9718-83ce439b81a9")
-	)
-	(junction
-		(at 269.24 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "136d9eb7-8c91-4376-8fc8-a03212353a8d")
 	)
 	(junction
 		(at 222.504 152.908)
@@ -10254,12 +10467,6 @@
 		(uuid "c65d1e61-cc5a-4e96-8c96-0c6f625a385c")
 	)
 	(junction
-		(at 269.24 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7a8e16f-7bca-4430-a2a8-b0eeade15d0a")
-	)
-	(junction
 		(at 125.095 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10270,6 +10477,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2192fa-132a-477e-ad54-485960b2d8a0")
+	)
+	(junction
+		(at 249.555 147.955)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5993b80-b71d-464a-ae9e-76f0146e0699")
 	)
 	(junction
 		(at 116.84 81.915)
@@ -10501,7 +10714,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 251.46 137.16)
+			(xy 245.745 125.095) (xy 254.635 125.095)
 		)
 		(stroke
 			(width 0)
@@ -10761,13 +10974,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 147.32) (xy 279.4 147.32)
+			(xy 268.605 146.685) (xy 277.495 146.685)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f0d0a68-eeb6-47f1-b675-dd9e04e65521")
+		(uuid "1e9d149a-d4bb-413c-ab61-839efc1b57ee")
 	)
 	(wire
 		(pts
@@ -10858,16 +11071,6 @@
 			(type default)
 		)
 		(uuid "287a7445-f302-4e83-8163-613ec495b00e")
-	)
-	(wire
-		(pts
-			(xy 269.24 149.86) (xy 269.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28a4b78c-aa53-492f-ba60-6c7fd9d1adfb")
 	)
 	(wire
 		(pts
@@ -11241,6 +11444,16 @@
 	)
 	(wire
 		(pts
+			(xy 249.555 146.685) (xy 255.905 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c755f99-0031-419a-ad0a-04cc09d067ff")
+	)
+	(wire
+		(pts
 			(xy 232.41 78.74) (xy 232.41 85.09)
 		)
 		(stroke
@@ -11431,7 +11644,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 155.448) (xy 34.29 157.988)
+			(xy 34.29 151.13) (xy 34.29 157.988)
 		)
 		(stroke
 			(width 0)
@@ -11541,6 +11754,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.335 125.095) (xy 276.225 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6483bde9-2af2-4d9c-a135-e220016bf804")
+	)
+	(wire
+		(pts
 			(xy 116.84 104.775) (xy 116.84 102.235)
 		)
 		(stroke
@@ -11608,16 +11831,6 @@
 			(type default)
 		)
 		(uuid "6ac3122d-c13d-4a3c-9b72-83fbd90e82a2")
-	)
-	(wire
-		(pts
-			(xy 279.4 149.86) (xy 269.24 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae6af25-0dd1-4950-87d5-b00a64c13929")
 	)
 	(wire
 		(pts
@@ -11711,16 +11924,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 137.16) (xy 279.4 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7155e23d-b9ec-4da9-92ff-dd4b51537b8b")
-	)
-	(wire
-		(pts
 			(xy 237.49 43.18) (xy 252.73 43.18)
 		)
 		(stroke
@@ -11771,6 +11974,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.935 147.955) (xy 249.555 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760630bd-adf5-4e37-9b03-5cb4b63bbcfb")
+	)
+	(wire
+		(pts
 			(xy 222.504 126.238) (xy 223.774 126.238)
 		)
 		(stroke
@@ -11798,16 +12011,6 @@
 			(type default)
 		)
 		(uuid "792b4c9b-ea9d-4116-897c-25690086f8c3")
-	)
-	(wire
-		(pts
-			(xy 262.89 152.4) (xy 269.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a607e44-4a7e-488b-b3c1-a10578834e07")
 	)
 	(wire
 		(pts
@@ -11978,16 +12181,6 @@
 			(type default)
 		)
 		(uuid "836685aa-6420-4495-90bb-84a277d9e535")
-	)
-	(wire
-		(pts
-			(xy 269.24 152.4) (xy 279.4 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "851e4948-d0f2-46ec-adb5-422300cfd497")
 	)
 	(wire
 		(pts
@@ -12181,6 +12374,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 173.228) (xy 34.29 179.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f6790d-66c2-47cb-99be-9d24ecb1a346")
+	)
+	(wire
+		(pts
 			(xy 25.4 99.695) (xy 25.4 107.315)
 		)
 		(stroke
@@ -12241,6 +12444,26 @@
 	)
 	(wire
 		(pts
+			(xy 249.555 146.685) (xy 249.555 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e2e48b-7c25-45b9-8689-99c81c38b642")
+	)
+	(wire
+		(pts
+			(xy 249.555 147.955) (xy 249.555 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fa2917-9828-457c-8400-20c4aa9cc4b6")
+	)
+	(wire
+		(pts
 			(xy 33.655 30.48) (xy 45.085 30.48)
 		)
 		(stroke
@@ -12291,16 +12514,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 147.32) (xy 269.24 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b443be0-dc79-4664-9c37-05413ed9d38a")
-	)
-	(wire
-		(pts
 			(xy 79.375 44.45) (xy 79.375 53.34)
 		)
 		(stroke
@@ -12308,6 +12521,16 @@
 			(type default)
 		)
 		(uuid "9c04447b-faf8-46ab-8426-4e8ea01ca0cb")
+	)
+	(wire
+		(pts
+			(xy 268.605 149.225) (xy 277.495 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d98a13e-8428-4a6c-9c2b-7f9d5ae10664")
 	)
 	(wire
 		(pts
@@ -12411,23 +12634,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 139.7) (xy 251.46 139.7)
+			(xy 249.555 149.225) (xy 255.905 149.225)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5b0d7a8-d224-4482-b606-1c0e72f2194e")
-	)
-	(wire
-		(pts
-			(xy 34.29 173.228) (xy 34.29 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5e4c4e4-a435-4154-8552-ad65cdbe0bda")
+		(uuid "a7923330-a39e-4de8-8dba-05d7aaa4a9b6")
 	)
 	(wire
 		(pts
@@ -12491,7 +12704,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 134.62) (xy 251.46 134.62)
+			(xy 245.745 122.555) (xy 254.635 122.555)
 		)
 		(stroke
 			(width 0)
@@ -12671,16 +12884,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 134.62) (xy 279.4 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beeaaed3-af91-41df-ad4f-627acf7bdd5e")
-	)
-	(wire
-		(pts
 			(xy 99.695 53.34) (xy 102.235 53.34)
 		)
 		(stroke
@@ -12688,6 +12891,16 @@
 			(type default)
 		)
 		(uuid "bf278ec6-4e23-4405-a4ca-e75753589444")
+	)
+	(wire
+		(pts
+			(xy 267.335 122.555) (xy 276.225 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2c02b8-743f-489b-bbda-a6c7a16b0dea")
 	)
 	(wire
 		(pts
@@ -12738,16 +12951,6 @@
 			(type default)
 		)
 		(uuid "c6181f70-3b92-4d4a-9b5a-9ff8a6a3b1c8")
-	)
-	(wire
-		(pts
-			(xy 266.7 139.7) (xy 276.86 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6549e01-edc1-40a4-9c5f-096d6f6b2059")
 	)
 	(wire
 		(pts
@@ -13091,26 +13294,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 144.78) (xy 269.24 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea48fd53-c2ff-4907-b2e5-d01daa85b88c")
-	)
-	(wire
-		(pts
-			(xy 269.24 144.78) (xy 269.24 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea774a94-5529-4bff-b354-484991166b0e")
-	)
-	(wire
-		(pts
 			(xy 148.59 158.75) (xy 154.94 158.75)
 		)
 		(stroke
@@ -13329,6 +13512,26 @@
 		)
 		(uuid "08ff1433-b0f0-41e1-b887-fdce44f7d585")
 	)
+	(label "SG2A"
+		(at 275.717 149.225 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "095c98ce-ba70-483b-9b87-c664bc277a88")
+	)
+	(label "SG1B"
+		(at 250.825 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "145a8aa0-ef50-4b1c-af3e-4e3d43c12588")
+	)
 	(label "MAINCLK"
 		(at 168.91 156.21 180)
 		(effects
@@ -13348,16 +13551,6 @@
 			(justify left bottom)
 		)
 		(uuid "24d73037-87bc-4c43-9cfb-649cd84044b8")
-	)
-	(label "CAN-OUT"
-		(at 242.57 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2502df7d-4e90-420a-aefa-a0caddb203d1")
 	)
 	(label "USBM_D+"
 		(at 207.264 136.398 0)
@@ -13409,6 +13602,16 @@
 		)
 		(uuid "318b1fd6-7e7f-4158-ba17-7e39ec5de237")
 	)
+	(label "SG1A"
+		(at 275.717 146.685 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e1e6e97-e8ee-4999-993d-9a3a797b816c")
+	)
 	(label "USB_D+"
 		(at 154.94 33.02 0)
 		(effects
@@ -13428,16 +13631,6 @@
 			(justify right bottom)
 		)
 		(uuid "46b35035-5d89-4af9-b5e4-15de30948f23")
-	)
-	(label "CAN-OUT"
-		(at 279.4 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "482b8f6a-c6fe-4eb1-8b84-96c7bdcc5c43")
 	)
 	(label "CAN_TERM"
 		(at 186.69 17.78 270)
@@ -13490,16 +13683,6 @@
 		(uuid "55a88a78-c0f8-4143-911c-d226f84f6bb3")
 	)
 	(label "CAN+"
-		(at 262.89 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c87280c-56ae-4d01-b198-29be4066f507")
-	)
-	(label "CAN+"
 		(at 33.655 30.48 0)
 		(effects
 			(font
@@ -13518,16 +13701,6 @@
 			(justify right bottom)
 		)
 		(uuid "619628b2-cd94-4411-939b-1f847d2e3af7")
-	)
-	(label "CAN-IN"
-		(at 279.4 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6867c6cb-9cf1-4fe2-99bb-b3bc7055eef2")
 	)
 	(label "SPICLK"
 		(at 245.11 38.1 180)
@@ -13558,16 +13731,6 @@
 			(justify right bottom)
 		)
 		(uuid "6e214e73-5a9f-4b26-8379-1616be6e0309")
-	)
-	(label "CAN+OUT"
-		(at 276.86 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71a955fc-e3f3-4046-a90c-65e468c5ecb1")
 	)
 	(label "USBM_D-"
 		(at 207.264 138.938 0)
@@ -13609,16 +13772,6 @@
 		)
 		(uuid "837105e1-2e75-425b-b1cd-cc7a855935ce")
 	)
-	(label "CAN+OUT"
-		(at 279.4 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86f67bbb-6f5f-4413-916b-9943dd2ec0ef")
-	)
 	(label "SPID"
 		(at 245.11 40.64 180)
 		(effects
@@ -13649,8 +13802,38 @@
 		)
 		(uuid "931afc32-206e-46dc-8ffe-aa37a990ad6e")
 	)
-	(label "CAN+IN"
-		(at 242.57 137.16 0)
+	(label "SG2B"
+		(at 34.29 178.054 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "969cb4d5-6a1a-4165-b921-7e14e77892e7")
+	)
+	(label "SG2B"
+		(at 250.825 149.225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98737dda-f23d-451a-a974-3ed0f2143f17")
+	)
+	(label "SG1A"
+		(at 34.29 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9af1b6d5-863b-4f85-95cd-70bde695804d")
+	)
+	(label "CAN+"
+		(at 245.745 125.095 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13669,8 +13852,8 @@
 		)
 		(uuid "b151a48b-2808-42da-aaf5-69ac2b666845")
 	)
-	(label "CAN-IN"
-		(at 242.57 134.62 0)
+	(label "CAN-"
+		(at 245.745 122.555 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13688,26 +13871,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba18243b-d1cc-42fd-9642-4c73f636abe5")
-	)
-	(label "CAN+IN"
-		(at 279.4 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bcfec8ab-f2c0-4538-881c-6e2efe62e8e3")
-	)
-	(label "CAN-"
-		(at 262.89 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf4a3296-72c6-4851-b8c8-4f946012019a")
 	)
 	(label "Vout-"
 		(at 109.22 158.75 0)
@@ -13738,6 +13901,16 @@
 			(justify right bottom)
 		)
 		(uuid "d1ef2646-ff30-4111-9f0f-913205f5640c")
+	)
+	(label "SGCOM"
+		(at 41.91 165.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d355a27c-3e78-4646-899c-54190de3be9b")
 	)
 	(label "CAN_RTX"
 		(at 184.15 17.78 270)
@@ -13808,6 +13981,16 @@
 			(justify right bottom)
 		)
 		(uuid "f93dcd0b-4b79-4e2a-979b-edc79315a794")
+	)
+	(label "SGCOM"
+		(at 241.935 147.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc7a23e2-1da3-450d-b850-c1567bec5e9b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13888,7 +14071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 137.16 0)
+		(at 276.225 125.095 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13898,7 +14081,7 @@
 		(dnp no)
 		(uuid "037b3749-d4eb-4fd2-bcdc-1bd8b4f81752")
 		(property "Reference" "#PWR071"
-			(at 279.4 143.51 0)
+			(at 276.225 131.445 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13909,7 +14092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 140.716 0)
+			(at 276.225 128.651 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13919,7 +14102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 137.16 0)
+			(at 276.225 125.095 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13930,7 +14113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 137.16 0)
+			(at 276.225 125.095 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +14124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 137.16 0)
+			(at 276.225 125.095 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16698,7 +16881,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2dd3322b-d919-4bed-b7ef-9a9be1ee9e2d")
 		(property "Reference" "R26"
 			(at 40.64 171.196 0)
@@ -16852,7 +17035,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 144.78 0)
+		(at 260.985 128.905 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16862,7 +17045,7 @@
 		(dnp no)
 		(uuid "3092b231-7f2e-47b8-a0ad-15cbe9a53545")
 		(property "Reference" "#PWR073"
-			(at 259.08 151.13 0)
+			(at 260.985 135.255 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16873,7 +17056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 148.336 0)
+			(at 260.985 132.461 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16883,7 +17066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 144.78 0)
+			(at 260.985 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16894,7 +17077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 144.78 0)
+			(at 260.985 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16905,7 +17088,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 144.78 0)
+			(at 260.985 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17013,7 +17196,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3508795d-9d61-4d20-9994-80f3a959678d")
 		(property "Reference" "R23"
 			(at 40.9194 158.7754 0)
@@ -17235,101 +17418,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MISC:WAIPU_SA12_7PIN")
-		(at 259.08 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39ff5c55-a82b-4e55-acbc-54c83322c6c4")
-		(property "Reference" "J1"
-			(at 259.08 130.048 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "WEIPU SA12 7PIN"
-			(at 259.08 131.318 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 259.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "03b4ca3e-f01c-4f4d-8567-4b9a30a03f32")
-		)
-		(pin "4"
-			(uuid "c6356a54-5813-40e3-bb91-ff3089b909de")
-		)
-		(pin "6"
-			(uuid "3b06fa8c-54ac-441d-a7d1-7727eabc73ad")
-		)
-		(pin "5"
-			(uuid "5eca7050-0ef8-457b-a75d-b1654c0ca9a5")
-		)
-		(pin "7"
-			(uuid "165142f9-117b-4d11-8297-2565b94e9fc0")
-		)
-		(pin "1"
-			(uuid "f03fa95e-fc01-4b90-a55a-67be9431f8a1")
-		)
-		(pin "2"
-			(uuid "1516e0dd-3513-4e95-ac30-d4fc1ae965cd")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -20245,6 +20333,95 @@
 		)
 	)
 	(symbol
+		(lib_id "SDM_Lib:WEIPU_SA6_5Pin")
+		(at 260.985 122.555 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e7fae0c-638f-4b16-bef4-ddc791dfb401")
+		(property "Reference" "J3"
+			(at 260.985 117.475 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "WEIPU SA6 5Pin"
+			(at 260.985 118.745 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOT95P230X110-3N"
+			(at 260.985 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.985 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.985 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "db4a9ac1-6ed3-4f6e-a743-758948884131")
+		)
+		(pin ""
+			(uuid "630bf801-9348-422e-874a-4ddcef50b362")
+		)
+		(pin ""
+			(uuid "4afcbdb0-e702-4212-924f-b91decf343b2")
+		)
+		(pin ""
+			(uuid "a7f06c5e-79a3-428c-aadb-3fb91a35a048")
+		)
+		(pin ""
+			(uuid "381f6d2c-3127-4989-94aa-5b77eb95b180")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 211.074 144.018 90)
 		(unit 1)
@@ -21746,6 +21923,92 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_Lib:WEIPU_SA6_4Pin")
+		(at 262.255 146.685 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ebdf58-35e1-4f0a-8f05-ddb0cf15d549")
+		(property "Reference" "J1"
+			(at 262.255 141.605 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "WEIPU SA6 4Pin"
+			(at 262.255 142.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOT95P230X110-3N"
+			(at 262.255 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.255 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.255 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "61e504dd-ddbb-47d1-aa98-b154aa05cd47")
+		)
+		(pin ""
+			(uuid "18f8c4a7-f4ba-4bd2-b4c3-f5e607aefb4d")
+		)
+		(pin ""
+			(uuid "40da4664-c483-4f9c-a905-efa95ab9b21b")
+		)
+		(pin ""
+			(uuid "77e55416-9fb4-43dc-8959-f856636dd2cf")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -23901,6 +24164,83 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 277.495 149.225 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad7daf9e-33b4-4852-b3da-24a446cfc811")
+		(property "Reference" "#PWR017"
+			(at 277.495 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 277.495 152.527 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.495 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.495 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 277.495 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b70931f-0631-4df8-aa42-911c584ff35f")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -26096,7 +26436,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 34.29 155.448 0)
+		(at 34.29 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26106,7 +26446,7 @@
 		(dnp no)
 		(uuid "da37f965-3e88-4fa7-abae-7a7ace6b430d")
 		(property "Reference" "#PWR0110"
-			(at 34.29 159.258 0)
+			(at 34.29 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26117,7 +26457,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 34.29 151.892 0)
+			(at 34.29 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26127,7 +26467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 155.448 0)
+			(at 34.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26138,7 +26478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 155.448 0)
+			(at 34.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26149,7 +26489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 34.29 155.448 0)
+			(at 34.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26651,6 +26991,84 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 277.495 146.685 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e81daf1b-5c8c-428d-aa3f-2bdb8dc3366e")
+		(property "Reference" "#PWR0113"
+			(at 277.495 150.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 277.495 143.129 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.495 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.495 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 277.495 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a160f815-98be-4e43-b2d7-15bfe375669b")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.935 26.67 0)
 		(mirror y)
@@ -27123,7 +27541,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 279.4 134.62 0)
+		(at 276.225 122.555 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27133,7 +27551,7 @@
 		(dnp no)
 		(uuid "ee794c1f-7cbb-41cb-afaf-cc1df89cfd8c")
 		(property "Reference" "#PWR072"
-			(at 279.4 138.43 0)
+			(at 276.225 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27144,7 +27562,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 279.4 131.318 0)
+			(at 276.225 119.253 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27154,7 +27572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 134.62 0)
+			(at 276.225 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27165,7 +27583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 134.62 0)
+			(at 276.225 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27176,7 +27594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 279.4 134.62 0)
+			(at 276.225 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27601,7 +28019,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 34.29 175.26 0)
+		(at 34.29 179.324 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27611,7 +28029,7 @@
 		(dnp no)
 		(uuid "f2752095-9a28-4299-a858-553bf99db5f1")
 		(property "Reference" "#PWR016"
-			(at 34.29 181.61 0)
+			(at 34.29 185.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27622,7 +28040,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 34.29 178.562 0)
+			(at 34.29 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27632,7 +28050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 175.26 0)
+			(at 34.29 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27643,7 +28061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 175.26 0)
+			(at 34.29 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27654,7 +28072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 34.29 175.26 0)
+			(at 34.29 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
