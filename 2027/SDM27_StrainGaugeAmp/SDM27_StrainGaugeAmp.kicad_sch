@@ -11401,7 +11401,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 17.78) (xy 184.15 27.94)
+			(xy 199.39 17.78) (xy 199.39 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12511,7 +12511,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 17.78) (xy 181.61 27.94)
+			(xy 196.85 17.78) (xy 196.85 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12751,7 +12751,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 39.37) (xy 62.865 39.37)
+			(xy 56.515 39.37) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -13711,6 +13711,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 39.37) (xy 62.865 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf271e1-9cb1-466b-a7c9-21b502915e04")
+	)
+	(wire
+		(pts
 			(xy 31.75 79.375) (xy 31.75 81.915)
 		)
 		(stroke
@@ -13771,7 +13781,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 17.78) (xy 186.69 27.94)
+			(xy 201.93 17.78) (xy 201.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13920,7 +13930,7 @@
 		(uuid "46b35035-5d89-4af9-b5e4-15de30948f23")
 	)
 	(label "CAN_TERM"
-		(at 186.69 17.78 270)
+		(at 201.93 17.78 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13970,12 +13980,12 @@
 		(uuid "536da358-dfaa-40d9-ae6e-6948e78f6135")
 	)
 	(label "CAN_TERM"
-		(at 52.705 39.37 0)
+		(at 56.515 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "55a88a78-c0f8-4143-911c-d226f84f6bb3")
 	)
@@ -14100,7 +14110,7 @@
 		(uuid "8a8b2ed7-5787-45aa-9a56-efc9a368d9b3")
 	)
 	(label "CAN_CTX"
-		(at 181.61 17.78 270)
+		(at 196.85 17.78 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14200,7 +14210,7 @@
 		(uuid "d355a27c-3e78-4646-899c-54190de3be9b")
 	)
 	(label "CAN_RTX"
-		(at 184.15 17.78 270)
+		(at 199.39 17.78 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17635,6 +17645,88 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 59.69 39.37 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37ff6162-ec02-4b4a-a587-d72ab97f7bf3")
+		(property "Reference" "R40"
+			(at 61.595 35.687 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 61.595 37.465 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.69 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "968dcb90-da0a-4db2-9a95-c5466a0e5a60")
+		)
+		(pin "2"
+			(uuid "15bd9412-44db-480c-97ce-e60a103d899e")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -25103,7 +25195,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 166.37 33.02 270)
+		(at 166.37 33.02 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25113,7 +25206,7 @@
 		(dnp no)
 		(uuid "b5c7e448-53bd-4296-b64f-a145f164d79b")
 		(property "Reference" "R3"
-			(at 165.1 31.496 90)
+			(at 167.64 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25124,7 +25217,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 165.608 33.02 90)
+			(at 167.132 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
