@@ -1680,6 +1680,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -10195,7 +10362,7 @@
 		)
 		(uuid "7bea1061-068e-4d8c-80e0-49ada485102c")
 	)
-	(text "3V3A REG"
+	(text "3V3A FILTER\n"
 		(exclude_from_sim no)
 		(at 108.458 95.885 0)
 		(effects
@@ -10342,22 +10509,10 @@
 		(uuid "03f9d93c-bc0b-42bb-a118-bea5a100a273")
 	)
 	(junction
-		(at 80.01 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08d167a8-2179-479e-9718-83ce439b81a9")
-	)
-	(junction
 		(at 222.504 152.908)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "148907aa-da93-47ff-b3c9-55f2fa0c226a")
-	)
-	(junction
-		(at 116.84 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d977f8-61cf-4eef-bf71-39ffa6c59096")
 	)
 	(junction
 		(at 160.02 46.99)
@@ -10570,6 +10725,12 @@
 		(uuid "6bee38ef-3270-428b-b648-c7d6432cd421")
 	)
 	(junction
+		(at 112.395 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "737adf39-cbf7-440f-a242-aac592e74d0d")
+	)
+	(junction
 		(at 116.84 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10594,10 +10755,10 @@
 		(uuid "861fba62-f4a8-46f3-b69a-aa6d4a0c340d")
 	)
 	(junction
-		(at 77.47 117.475)
+		(at 108.585 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92d7a572-daa9-4f65-ac66-9050c0877492")
+		(uuid "95f8bbfd-4253-4e7f-b1b1-71b750dc9bcd")
 	)
 	(junction
 		(at 31.75 94.615)
@@ -10654,22 +10815,10 @@
 		(uuid "9fe8ef6e-b487-4f7e-9d0f-8b2ec3c9d05d")
 	)
 	(junction
-		(at 121.92 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a15b9904-3dca-4128-9abd-670f194f2096")
-	)
-	(junction
 		(at 232.41 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5266b0d-fbc0-40ad-b49b-bc934669d085")
-	)
-	(junction
-		(at 116.84 104.775)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a99af9c3-39e8-4968-a69a-9b9648d18a52")
 	)
 	(junction
 		(at 196.85 82.55)
@@ -10780,12 +10929,6 @@
 		(uuid "cb776715-d2d5-4b28-b5ae-db78d1acafda")
 	)
 	(junction
-		(at 121.92 114.935)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd2192fa-132a-477e-ad54-485960b2d8a0")
-	)
-	(junction
 		(at 116.84 81.915)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10828,12 +10971,6 @@
 		(uuid "eb520263-2d8c-4ba5-8568-399fd4915ef4")
 	)
 	(junction
-		(at 116.84 114.935)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb52f91d-5373-4987-b5de-09b4f442bfdd")
-	)
-	(junction
 		(at 227.33 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10844,18 +10981,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb9ae45-e3f3-4fcc-b3f2-0f5bf56184fa")
-	)
-	(junction
-		(at 129.54 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0123ec2-9ee0-47f8-8195-26e2ee71c609")
-	)
-	(junction
-		(at 77.47 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f056e4a8-a750-4595-8557-4f43cfe4628b")
 	)
 	(junction
 		(at 107.95 139.192)
@@ -10874,12 +10999,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f71a55d0-17d6-4bf7-9473-c3174ffb41b9")
-	)
-	(junction
-		(at 116.84 109.855)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f99fbee3-03ff-4e97-ba41-f28e8fe9ee48")
 	)
 	(junction
 		(at 76.2 166.37)
@@ -10914,10 +11033,6 @@
 	(no_connect
 		(at 207.264 128.778)
 		(uuid "927324d9-d03a-4b1b-8b20-7072646dd5dd")
-	)
-	(no_connect
-		(at 81.28 108.585)
-		(uuid "9f82416e-4619-4dc6-97ba-693603d3a0ea")
 	)
 	(wire
 		(pts
@@ -10968,16 +11083,6 @@
 			(type default)
 		)
 		(uuid "03692f38-529a-4540-bf46-1d13f709aba6")
-	)
-	(wire
-		(pts
-			(xy 113.03 137.922) (xy 113.03 148.082)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bef0fe-7529-418c-ba3d-6d9f78c3765c")
 	)
 	(wire
 		(pts
@@ -11128,16 +11233,6 @@
 			(type default)
 		)
 		(uuid "0d14b723-01ec-4204-864c-eb0ecae91193")
-	)
-	(wire
-		(pts
-			(xy 121.92 114.935) (xy 121.92 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e48a73a-a74e-4855-85b4-50420ba14e0f")
 	)
 	(wire
 		(pts
@@ -11331,16 +11426,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 103.505) (xy 129.54 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e13adf-fb6c-4e16-98fa-bb1a5013c125")
-	)
-	(wire
-		(pts
 			(xy 184.15 85.09) (xy 190.5 85.09)
 		)
 		(stroke
@@ -11358,16 +11443,6 @@
 			(type default)
 		)
 		(uuid "241cf25c-322b-4406-8681-d08d4ebfdffb")
-	)
-	(wire
-		(pts
-			(xy 153.67 137.922) (xy 153.67 148.082)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24cf1a18-9c94-48f1-a30a-241c03267378")
 	)
 	(wire
 		(pts
@@ -11441,16 +11516,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 117.475) (xy 80.01 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce7fd16-a5fc-436b-94a8-ffe956c3176e")
-	)
-	(wire
-		(pts
 			(xy 129.54 80.645) (xy 129.54 81.915)
 		)
 		(stroke
@@ -11481,6 +11546,16 @@
 	)
 	(wire
 		(pts
+			(xy 108.585 105.41) (xy 116.205 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f629736-3922-4be6-854b-0e36d45fc4f5")
+	)
+	(wire
+		(pts
 			(xy 201.93 105.41) (xy 207.01 105.41)
 		)
 		(stroke
@@ -11498,26 +11573,6 @@
 			(type default)
 		)
 		(uuid "31415c65-581d-42b0-b5c2-4d220d8426c5")
-	)
-	(wire
-		(pts
-			(xy 106.68 104.775) (xy 116.84 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31716916-f242-49e9-8f89-5dd61f4df3ba")
-	)
-	(wire
-		(pts
-			(xy 80.01 114.935) (xy 81.28 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "334646b8-d5a2-4f5e-95b0-de88125af3a2")
 	)
 	(wire
 		(pts
@@ -11558,16 +11613,6 @@
 			(type default)
 		)
 		(uuid "393b349a-48e5-46a6-899f-06e4eb8e4de9")
-	)
-	(wire
-		(pts
-			(xy 129.54 116.205) (xy 129.54 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39bb2ddc-0fe7-428c-902a-26e42898b39d")
 	)
 	(wire
 		(pts
@@ -11688,16 +11733,6 @@
 			(type default)
 		)
 		(uuid "41d9c3f1-931c-4950-bbd4-923455cd1be2")
-	)
-	(wire
-		(pts
-			(xy 106.68 109.855) (xy 116.84 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d9f4c0-8bbd-49b8-bbd2-7c5c7309daab")
 	)
 	(wire
 		(pts
@@ -11851,6 +11886,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.395 114.3) (xy 108.585 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514cbc74-d034-47a5-89ec-403a29ff97b3")
+	)
+	(wire
+		(pts
 			(xy 77.47 89.535) (xy 80.01 89.535)
 		)
 		(stroke
@@ -11871,6 +11916,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.205 110.49) (xy 116.205 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52923872-e5bf-4481-9afa-89e903aecd8e")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.295) (xy 77.47 74.295)
 		)
 		(stroke
@@ -11888,6 +11943,16 @@
 			(type default)
 		)
 		(uuid "53b49093-546b-4a1c-b38f-4e440fc39e71")
+	)
+	(wire
+		(pts
+			(xy 112.395 114.3) (xy 112.395 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d8a572-a8d6-4557-9c0e-3075568094dd")
 	)
 	(wire
 		(pts
@@ -11948,6 +12013,16 @@
 			(type default)
 		)
 		(uuid "5976dc20-156b-4359-8ae5-bb452bf60860")
+	)
+	(wire
+		(pts
+			(xy 108.585 114.3) (xy 108.585 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e99b54-12d8-4a86-80f2-4f7ea024e0f3")
 	)
 	(wire
 		(pts
@@ -12041,26 +12116,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 102.235) (xy 116.84 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6257ec47-c120-4c86-89cf-f8dded430b32")
-	)
-	(wire
-		(pts
-			(xy 80.01 114.935) (xy 80.01 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62bf2836-58ea-4f19-9cce-531b6d21e0ae")
-	)
-	(wire
-		(pts
 			(xy 237.49 66.04) (xy 238.76 66.04)
 		)
 		(stroke
@@ -12101,16 +12156,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.775) (xy 116.84 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "660f2ab0-49bd-42ca-bdf8-9f1da28ff128")
-	)
-	(wire
-		(pts
 			(xy 237.49 50.8) (xy 252.73 50.8)
 		)
 		(stroke
@@ -12118,16 +12163,6 @@
 			(type default)
 		)
 		(uuid "66d8b1e3-00f7-442a-96a6-3b46b6fae9e7")
-	)
-	(wire
-		(pts
-			(xy 81.28 104.775) (xy 80.01 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c2fff9-2da9-42cb-9bfd-8f9a26105a68")
 	)
 	(wire
 		(pts
@@ -12321,16 +12356,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.775) (xy 80.01 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77929459-1980-4bae-917f-614f92d9b157")
-	)
-	(wire
-		(pts
 			(xy 25.4 86.995) (xy 35.56 86.995)
 		)
 		(stroke
@@ -12418,16 +12443,6 @@
 			(type default)
 		)
 		(uuid "7fe3d59e-15e9-4618-b6af-237e47dbe82c")
-	)
-	(wire
-		(pts
-			(xy 129.54 108.585) (xy 129.54 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802b455d-ff56-4c90-a4c7-91cd6ea3332f")
 	)
 	(wire
 		(pts
@@ -12551,16 +12566,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 112.395) (xy 81.28 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a038b06-70ac-49a9-ad57-5b73795f95b9")
-	)
-	(wire
-		(pts
 			(xy 212.09 82.55) (xy 212.09 85.09)
 		)
 		(stroke
@@ -12638,6 +12643,16 @@
 			(type default)
 		)
 		(uuid "8e1bfb4b-ea2a-4b8f-96b4-1a5ce963ebb7")
+	)
+	(wire
+		(pts
+			(xy 93.345 105.41) (xy 99.695 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea4cb17-433f-4edd-acb3-8582b90d7447")
 	)
 	(wire
 		(pts
@@ -12778,16 +12793,6 @@
 			(type default)
 		)
 		(uuid "977d8128-edf5-43b6-ba62-5ef3cf46aa3d")
-	)
-	(wire
-		(pts
-			(xy 116.84 114.935) (xy 121.92 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98aa2aa6-8076-4f5a-88eb-93f607f84000")
 	)
 	(wire
 		(pts
@@ -13131,16 +13136,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 114.935) (xy 116.84 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd255a2-1cda-4701-b443-d8d41605bb1f")
-	)
-	(wire
-		(pts
 			(xy 118.11 170.942) (xy 115.57 170.942)
 		)
 		(stroke
@@ -13161,7 +13156,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 131.572) (xy 113.03 132.842)
+			(xy 113.03 137.795) (xy 113.03 148.082)
 		)
 		(stroke
 			(width 0)
@@ -13281,16 +13276,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.235) (xy 129.54 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8dbb251-d38e-4bd8-b55a-55e6222e9ecb")
-	)
-	(wire
-		(pts
 			(xy 107.95 139.192) (xy 107.95 140.462)
 		)
 		(stroke
@@ -13308,16 +13293,6 @@
 			(type default)
 		)
 		(uuid "cc943e3b-c52f-4151-8fde-7a4837412acc")
-	)
-	(wire
-		(pts
-			(xy 80.01 102.235) (xy 81.28 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1455fdd-53cd-4fe0-8f1c-3077dcb595b4")
 	)
 	(wire
 		(pts
@@ -13471,7 +13446,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 131.572) (xy 153.67 132.842)
+			(xy 153.67 137.795) (xy 153.67 148.082)
 		)
 		(stroke
 			(width 0)
@@ -13528,6 +13503,16 @@
 			(type default)
 		)
 		(uuid "e445800f-ad48-4ae5-80fb-d009110cb553")
+	)
+	(wire
+		(pts
+			(xy 116.205 114.3) (xy 112.395 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e519c863-0cf5-49bd-9baf-049844a4863e")
 	)
 	(wire
 		(pts
@@ -13611,6 +13596,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.775 105.41) (xy 108.585 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee04df23-5cf4-4fee-8131-a28f5d58b2cd")
+	)
+	(wire
+		(pts
 			(xy 125.095 53.34) (xy 125.095 55.88)
 		)
 		(stroke
@@ -13638,16 +13633,6 @@
 			(type default)
 		)
 		(uuid "f324db55-2aea-437d-ba91-994a780b1628")
-	)
-	(wire
-		(pts
-			(xy 77.47 102.235) (xy 80.01 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4d08575-3533-4ab8-891d-d6ca22eb62f4")
 	)
 	(wire
 		(pts
@@ -13731,16 +13716,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 107.315) (xy 121.92 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb042cad-c4eb-49ff-8ca8-2e31a2ceb842")
-	)
-	(wire
-		(pts
 			(xy 184.15 90.17) (xy 190.5 90.17)
 		)
 		(stroke
@@ -13748,16 +13723,6 @@
 			(type default)
 		)
 		(uuid "fba6b599-952f-4c42-ae65-dc4df776ddae")
-	)
-	(wire
-		(pts
-			(xy 116.84 102.235) (xy 121.92 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc406af5-e599-4c12-b4b1-3a2a60968b9a")
 	)
 	(wire
 		(pts
@@ -14058,16 +14023,6 @@
 			(justify left bottom)
 		)
 		(uuid "76929812-924b-4e8f-a6a1-211bf2282758")
-	)
-	(label "PWR_LED"
-		(at 129.54 109.855 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "7fbc566a-057a-4094-a3c0-386b2ec3d5a1")
 	)
 	(label "MAINCLK"
 		(at 222.25 17.78 270)
@@ -14579,84 +14534,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_1")
-		(lib_id "power:+3.3V")
-		(at 129.54 102.235 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "04aaeff8-d38c-4adf-9db9-e724049aa4ad")
-		(property "Reference" "#PWR0107"
-			(at 129.54 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 129.54 98.679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f7e2bab-27f3-415f-842e-35d907f803fb")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom:MCP3561")
 		(at 133.35 160.782 0)
 		(unit 1)
@@ -15157,85 +15034,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 129.54 106.045 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d22e55e-e4da-4ee0-ae7a-0005e0135e91")
-		(property "Reference" "R29"
-			(at 131.699 104.902 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 131.826 106.553 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fc43d7a-b3af-4f95-951f-54589502cb3f")
-		)
-		(pin "2"
-			(uuid "94b122ea-14b3-42d8-a14a-51e2d70eeec2")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 66.04 166.37 270)
 		(mirror x)
 		(unit 1)
@@ -15717,7 +15515,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 153.67 131.572 0)
+		(at 153.67 137.795 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15727,7 +15525,7 @@
 		(dnp no)
 		(uuid "1be218b3-0bca-4f54-ad51-95e9c01ccaf0")
 		(property "Reference" "#PWR0106"
-			(at 153.67 135.382 0)
+			(at 153.67 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15738,7 +15536,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 153.67 128.016 0)
+			(at 153.67 134.239 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15748,7 +15546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 131.572 0)
+			(at 153.67 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15759,7 +15557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 131.572 0)
+			(at 153.67 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15770,7 +15568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 153.67 131.572 0)
+			(at 153.67 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16135,83 +15933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 77.47 107.315 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "233d7ac6-fdb4-437e-aa0f-4645c0ef3170")
-		(property "Reference" "#PWR08"
-			(at 77.47 113.665 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 77.47 110.617 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 77.47 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "531d6e4f-29fb-40e0-8e55-ae0b8880d0ab")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 204.47 82.55 0)
 		(mirror y)
@@ -16430,160 +16151,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_LED:150060RS75000")
-		(at 129.54 116.205 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25d10ddc-a909-4416-a0a6-7f566664409f")
-		(property "Reference" "LED3"
-			(at 134.366 111.633 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 143.256 113.157 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
-			(at 223.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 323.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 132.588 115.443 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Measure" "PWR"
-			(at 133.858 114.935 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "0.8"
-			(at 523.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 623.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 723.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 823.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 923.19 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "45164925-bfa6-4c37-be1e-3a5eef3163ea")
-		)
-		(pin "1"
-			(uuid "5ce694e4-cbf8-4543-b588-a4a3cbb58008")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -17493,6 +17060,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 108.585 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3161fda5-f0d2-401d-8177-7259086698cf")
+		(property "Reference" "C29"
+			(at 106.553 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 106.553 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 108.585 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 108.585 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "51f39677-52da-4a6c-851f-087c7479adf5")
+		)
+		(pin "1"
+			(uuid "5d2fae5b-ba32-4972-9e53-f0d78da1dccd")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.205 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31bc715a-413c-4153-9bfb-df5a79538549")
+		(property "Reference" "C30"
+			(at 114.173 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 114.173 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.205 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.205 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a02263e-7a6e-4ba4-8151-af108dc68d83")
+		)
+		(pin "1"
+			(uuid "690ea739-2207-4958-b5db-5cfcc3d55d72")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom:R_Variable_Small_45deg")
 		(at 38.1 160.02 0)
 		(unit 1)
@@ -17960,87 +17691,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 116.84 112.395 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3deb5386-f401-44fc-9b23-96ccb9a4e74d")
-		(property "Reference" "R28"
-			(at 113.538 111.887 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "24.9k"
-			(at 112.014 113.157 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 116.84 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b1772871-016f-4812-b5e5-837c4c5c0c5a")
-		)
-		(pin "1"
-			(uuid "05c03b48-edb6-405e-8cd4-c88636219113")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -18754,88 +18404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 113.03 135.382 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43e7d886-63c1-442f-8e9d-170eaa9fb3dd")
-		(property "Reference" "R30"
-			(at 111.506 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10"
-			(at 111.506 136.144 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.03 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 113.03 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "21049bd9-12e6-426d-ad4b-df746288749d")
-		)
-		(pin "1"
-			(uuid "2d37edbc-a7a9-4022-8078-e880b928e3f1")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 90.17 0)
 		(unit 1)
@@ -19067,6 +18635,84 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 93.345 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c56b5b4-9e51-4b3d-b5d7-a46481ff2e98")
+		(property "Reference" "#PWR0107"
+			(at 93.345 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.345 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.345 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.345 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.345 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "109647b8-4c4e-4e71-a501-33a04d671004")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -20193,169 +19839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 153.67 135.382 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58282cf2-4211-4176-9f37-25823ad828ae")
-		(property "Reference" "R31"
-			(at 154.94 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10"
-			(at 154.94 136.144 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.67 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 153.67 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a32d7f7-49dd-4c1a-bf0e-cab9cce3455e")
-		)
-		(pin "1"
-			(uuid "162cf6d0-7536-4c53-a29d-fb46b0e19825")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 77.47 114.935 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5873de4f-3c46-474f-a099-d8f15acd22ec")
-		(property "Reference" "C30"
-			(at 75.438 114.427 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 75.438 115.951 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.47 114.935 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 114.935 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 114.935 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5884a2e3-5070-45b3-be1f-f33b74cafbd1")
-		)
-		(pin "1"
-			(uuid "5ba4abf4-3062-48c3-bfb0-751ff9d11f63")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SDM_USB:USB_C_Receptacle_USB2.0_16P")
 		(at 181.864 123.698 0)
 		(unit 1)
@@ -20671,7 +20154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -21205,87 +20688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 121.92 104.775 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63dcc120-e058-43db-b5ce-cb56c1d48050")
-		(property "Reference" "C31"
-			(at 123.952 103.759 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 123.952 105.283 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43b5422e-5b75-4a0b-8a4f-335473846a07")
-		)
-		(pin "1"
-			(uuid "6c10c6eb-1625-4cd5-a53c-6e2ab51aa023")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 115.57 177.292 0)
 		(unit 1)
@@ -21447,7 +20849,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 113.03 131.572 0)
+		(at 113.03 137.795 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21458,7 +20860,7 @@
 		(dnp no)
 		(uuid "694f3b4b-4cf8-4af6-a53d-a2ebceed4c2a")
 		(property "Reference" "#PWR0112"
-			(at 113.03 135.382 0)
+			(at 113.03 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21469,7 +20871,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 113.03 128.016 0)
+			(at 113.03 134.239 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21479,7 +20881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 131.572 0)
+			(at 113.03 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21490,7 +20892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 131.572 0)
+			(at 113.03 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21501,7 +20903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 131.572 0)
+			(at 113.03 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22239,83 +21641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 121.92 117.475 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87a6a9c2-999a-42f5-ace6-3bd2219f584a")
-		(property "Reference" "#PWR06"
-			(at 121.92 123.825 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 121.92 120.777 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 121.92 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed2bd6c6-30e5-4398-be2b-879377db01f4")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SDM_Lib:WEIPU_SA6_4Pin")
 		(at 261.62 147.32 0)
 		(unit 1)
@@ -22513,7 +21838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -23196,169 +22521,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TPS62901RPJR_1")
-		(lib_id "SDM_MISC:TPS62901RPJR")
-		(at 78.74 102.235 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a8f3d63-930a-479a-8b0b-315192f55ea9")
-		(property "Reference" "U10"
-			(at 93.98 96.393 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "TPS62901RPJR"
-			(at 93.98 98.171 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:TPS62901RPJR"
-			(at 113.03 197.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62901.pdf?ts=1622532312813&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fstep-down-buck%252Fbuck-converter-integrated-switch%252Fproducts.html"
-			(at 113.03 297.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Conv DC-DC 3V to 17V Synchronous Step Down Single-Out 0.4V to 5.5V 1A T/R"
-			(at 91.948 88.011 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 113.03 497.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS62901RPJR"
-			(at 113.03 597.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62901RPJR?qs=DRkmTr78QATDXNNljpwn1Q%3D%3D"
-			(at 113.03 697.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 113.03 797.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS62901RPJR"
-			(at 113.03 897.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "e6e11565-9e96-49fc-b33e-acf2c1ea0ffb")
-		)
-		(pin "3"
-			(uuid "9cdb8b37-81c0-4cf7-bfac-c4699b935abc")
-		)
-		(pin "8"
-			(uuid "c6776043-df4f-410d-8f4d-cd0e490678f0")
-		)
-		(pin "9"
-			(uuid "d2531b6e-5555-40f1-9b22-5fb07d950a22")
-		)
-		(pin "1"
-			(uuid "ed6383b0-309e-462f-9ee5-a2054efb4f33")
-		)
-		(pin "2"
-			(uuid "4c07a5b0-a681-4b10-9c33-0866dad22b2c")
-		)
-		(pin "5"
-			(uuid "7c2396b1-26af-42a5-aafe-21425b738445")
-		)
-		(pin "7"
-			(uuid "bf3404e5-2fe5-4094-ab73-cc4da82b4f4c")
-		)
-		(pin "6"
-			(uuid "c4cd2b6b-d484-4ab0-a7e0-359c35f4973b")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -25892,147 +25054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM_MISC:F1C1-201612-2R2M")
-		(at 106.68 102.235 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c82995a3-df48-43ca-ac84-5e752ced22ce")
-		(property "Reference" "L4"
-			(at 107.95 98.425 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "F1C1-201612-2R2M"
-			(at 112.268 99.949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:F1C12016122R2M"
-			(at 123.19 198.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/191/1/ds_ST_F1C1_2016_series.pdf"
-			(at 123.19 298.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Shielded SMD High Power Inductor | 2.2u | 2.9A | 1LN | 2.00 x 1.60mm Footprint | 1.2mm Height Profile"
-			(at 110.744 94.869 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.2"
-			(at 123.19 498.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "530-F1C1-201612-2R2M"
-			(at 123.19 598.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bel-Signal-Transformer/F1C1-201612-2R2M?qs=ZcfC38r4PouPzePVpGtkew%3D%3D"
-			(at 123.19 698.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bel"
-			(at 123.19 798.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "F1C1-201612-2R2M"
-			(at 123.19 898.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "202b4a56-b618-4190-978f-e7cdd1bfa49a")
-		)
-		(pin "2"
-			(uuid "f09002bb-aeba-49cd-bcaf-354b98c2234a")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 88.9 152.4 0)
 		(unit 1)
@@ -26427,6 +25448,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 112.395 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2e09601-4bac-4de1-b327-a491455d7031")
+		(property "Reference" "#PWR024"
+			(at 112.395 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 112.395 120.142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.395 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 112.395 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19f0b939-b594-4e1a-b697-ddd95955ebe9")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 100.965 21.59 0)
 		(unit 1)
@@ -26740,83 +25838,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 77.47 117.475 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9a0c2dc-9857-4cd2-bb98-f264e6cd0523")
-		(property "Reference" "#PWR07"
-			(at 77.47 123.825 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 77.47 120.777 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 77.47 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fe93fe8-7e66-4425-9482-cb4f98fee3c8")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -27852,83 +26873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 129.54 117.475 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed94945e-0050-424e-a684-bf115055e2c3")
-		(property "Reference" "#PWR05"
-			(at 129.54 123.825 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 129.54 121.285 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 129.54 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b969526c-16e8-433a-8f89-e53dbf4c0f98")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 275.59 123.19 0)
 		(unit 1)
@@ -28000,6 +26944,85 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 102.235 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef9fab7e-6e19-440c-825e-784a0e8b38d9")
+		(property "Reference" "FB1"
+			(at 102.489 101.346 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "60Ohm 1MHZ"
+			(at 102.235 102.616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 102.235 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.235 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 102.235 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0e53288-31d0-4747-98e5-74092dc65a08")
+		)
+		(pin "2"
+			(uuid "e4a193bc-ea6e-4305-8a54-7ba3f710993a")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -28326,87 +27349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 116.84 107.315 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f16a8ed8-77bd-4d48-9807-c4cfa0ec0fac")
-		(property "Reference" "R27"
-			(at 113.538 106.807 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "113k"
-			(at 112.522 108.077 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 116.84 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "35ab4988-d30a-4d7d-b724-f5bbc336582d")
-		)
-		(pin "1"
-			(uuid "46f9c72a-b154-45ef-8144-71a10a8b02bd")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 34.29 177.546 0)
 		(unit 1)
@@ -28640,83 +27582,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 77.47 102.235 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4993c93-609c-484b-beaa-14725f59e773")
-		(property "Reference" "#PWR04"
-			(at 77.47 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 77.47 98.933 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 77.47 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65f86353-a798-4948-8723-7ac2a877a037")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -29190,88 +28055,6 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 77.47 104.775 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc37d072-a172-45ea-8c3e-970756e0b1c2")
-		(property "Reference" "C29"
-			(at 75.438 104.013 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF 25V"
-			(at 75.438 105.537 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.47 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5348f7c8-146a-4110-82a1-ccc0d1246804")
-		)
-		(pin "1"
-			(uuid "ca8782f9-abde-4f1b-bfbc-beed6584c669")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "C29")
 					(unit 1)
 				)
 			)
