@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|125934999|94949998|464a2895-8bb0-403b-858e-91d739eb09c9|ee78c4e6-d548-4e5d-bd28-d6730bfa878f",
+          ""
+        ],
+        [
+          "courtyards_overlap|125196667|98344999|a6305f38-ee16-428f-9203-3c1fb52a4402|edd4879d-e2cb-4887-a8b8-3c01c9f31989",
+          ""
+        ],
+        [
+          "courtyards_overlap|127850135|95174930|a0e9c3da-10ce-4e8c-bdd9-392420bf0b35|a6305f38-ee16-428f-9203-3c1fb52a4402",
+          ""
+        ],
+        [
+          "courtyards_overlap|131255000|94641319|a6305f38-ee16-428f-9203-3c1fb52a4402|a760fe09-957e-4bfe-a4c4-b7783065d122",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|132350000|103250001|f0a79f62-6868-421a-8851-c2bedd5b58b7|a6305f38-ee16-428f-9203-3c1fb52a4402",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|132350001|96750000|9f51c8f6-ee10-4e7c-844b-324860ad18c5|a6305f38-ee16-428f-9203-3c1fb52a4402",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|132096051|101796051|bd7ef578-8df7-4b47-bef6-d88683894cda|c3592dc3-cfce-4517-9147-5ee7c8877539",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|132096052|98203947|00908e28-09e6-4c39-ad4a-f5fa506f085a|c3592dc3-cfce-4517-9147-5ee7c8877539",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|132249998|104894999|6fc89d54-f9dc-4120-80d5-00f3b09b02d8|a6305f38-ee16-428f-9203-3c1fb52a4402",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|132249999|95105001|411529b9-e1f5-41de-a2cd-c66988a0e1cc|a6305f38-ee16-428f-9203-3c1fb52a4402",
+          ""
+        ],
+        [
+          "starved_thermal|111000000|100000000|2165f7d9-c006-49fe-b0e9-2000f09198c3|24cceb1c-ebf1-429c-b44a-58a39394e10d|In2.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|111000000|100000000|5dad4988-ecfc-4a4e-9ae8-fc2d85dac60a|24cceb1c-ebf1-429c-b44a-58a39394e10d|In1.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -148,7 +197,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -160,8 +209,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -178,7 +227,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +238,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +249,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -215,10 +261,10 @@
       "track_widths": [
         0.0,
         0.1,
-        0.175,
         0.2,
         0.25,
         0.3,
+        0.3586,
         0.4,
         0.5,
         0.6,
@@ -254,6 +300,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         },
         {
           "diameter": 0.5,
@@ -550,8 +600,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -694,7 +744,7 @@
         "uuid": "46b3128a-9e57-4096-b62d-40a0bbe3d93f"
       }
     ],
-    "used_designators": "R55-56,#PWR61",
+    "used_designators": "R55-56,#PWR61,H1-2",
     "variants": []
   },
   "sheets": [
