@@ -7871,6 +7871,12 @@
 		(uuid "bcd68ad2-b921-4b7a-b573-b015e883e0b4")
 	)
 	(junction
+		(at 111.76 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befc9b3b-af33-4fba-b806-a3432d328cd9")
+	)
+	(junction
 		(at 198.12 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8394,6 +8400,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 158.75) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2833c759-46ce-4069-9d87-a7aefbbc09f6")
+	)
+	(wire
+		(pts
 			(xy 27.94 24.13) (xy 27.94 31.75)
 		)
 		(stroke
@@ -8801,6 +8817,16 @@
 			(type default)
 		)
 		(uuid "59beb6a8-d60e-4aab-b0e4-64abc446ece5")
+	)
+	(wire
+		(pts
+			(xy 109.22 158.75) (xy 109.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a11244c-dea0-41f1-936c-1edfd99c4cce")
 	)
 	(wire
 		(pts
@@ -9794,26 +9820,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 158.75) (xy 124.46 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6f53e1-12f6-40b2-85b0-9072cc10dbcc")
-	)
-	(wire
-		(pts
-			(xy 118.11 156.21) (xy 124.46 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce29723c-ac8f-4aa3-b9d6-24e273edb3a7")
-	)
-	(wire
-		(pts
 			(xy 27.94 76.2) (xy 27.94 83.82)
 		)
 		(stroke
@@ -9841,6 +9847,26 @@
 			(type default)
 		)
 		(uuid "d3c966b0-d7d8-45c1-bcd3-9b695f7b6071")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 124.46 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d424a1ae-b1dd-4f11-b0da-f4ca35de1673")
+	)
+	(wire
+		(pts
+			(xy 109.22 151.13) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46bb948-f80f-4357-8a61-79b975ac1891")
 	)
 	(wire
 		(pts
@@ -9891,6 +9917,16 @@
 			(type default)
 		)
 		(uuid "dc1ea1b2-c8fd-4571-8768-ad2eb6c11169")
+	)
+	(wire
+		(pts
+			(xy 111.76 151.13) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc58d29c-c755-4ccd-9188-068c8c88293b")
 	)
 	(wire
 		(pts
@@ -12113,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22eb583b-cadf-4bdf-804d-7580c9989483")
-		(property "Reference" "IC3"
+		(property "Reference" "U4"
 			(at 50.8 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12267,7 +12303,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14085,6 +14121,87 @@
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 114.3 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44584beb-7025-40a4-adde-9ea5dcd51c42")
+		(property "Reference" "R2"
+			(at 115.57 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 114.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd2259bc-15e8-4983-9970-c62ecbb9318a")
+		)
+		(pin "1"
+			(uuid "d3bd6b35-200e-4fc5-92aa-d9dc85464a04")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16305,7 +16422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc46249-55cd-4b14-bee7-b3101a63d7e2")
-		(property "Reference" "IC8"
+		(property "Reference" "U5"
 			(at 117.7133 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16476,7 +16593,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16493,7 +16610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705e972f-5bfa-48f6-ad10-ee659c57ef3a")
-		(property "Reference" "IC2"
+		(property "Reference" "U2"
 			(at 52.324 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16662,7 +16779,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC2")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16679,7 +16796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70a089c9-cbc9-4aed-8e50-e2797487851a")
-		(property "Reference" "IC4"
+		(property "Reference" "U6"
 			(at 109.22 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16809,7 +16926,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -18170,7 +18287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8599ad23-7a95-4433-b025-38d6db1eb502")
-		(property "Reference" "IC6"
+		(property "Reference" "U1"
 			(at 178.054 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18435,7 +18552,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -21000,6 +21117,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 109.22 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba71599c-0f27-478e-9b36-be304fb95ce2")
+		(property "Reference" "R1"
+			(at 110.49 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac782a3e-562f-46d1-9643-3a7bc2f7dfd1")
+		)
+		(pin "1"
+			(uuid "13f19f52-158b-4e49-99cb-c9e3deef0917")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 152.4 0)
 		(mirror y)
@@ -21171,7 +21369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2b6d72f-59d7-464e-b839-996143e72017")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 264.414 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21301,7 +21499,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -21399,7 +21597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c38d3148-76a7-42d8-8438-77153b1962bd")
-		(property "Reference" "IC1"
+		(property "Reference" "U3"
 			(at 50.8 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21553,7 +21751,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -22434,7 +22632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc95e55-c3b2-4656-b818-8810952548b8")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 256.54 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22597,7 +22795,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -24245,6 +24443,84 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_2")
+		(lib_id "power:+3.3V")
+		(at 111.76 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee4c049f-f930-487a-b34b-15b2b72de24d")
+		(property "Reference" "#PWR080"
+			(at 111.76 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "391c3053-3606-4832-a448-5c88eedef5d3")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 166.37 55.88 0)
 		(unit 1)
@@ -24741,7 +25017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2a1ea87-0064-4bb8-940c-12c0e7bb140d")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 155.194 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24820,7 +25096,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
