@@ -2025,6 +2025,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -11018,12 +11160,6 @@
 		(color 0 0 0 0)
 		(uuid "fb6e076f-9e93-40b4-83ce-c2f97fb6911f")
 	)
-	(junction
-		(at 252.73 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffa3d52c-b07a-4a76-a782-42b5f3352d32")
-	)
 	(no_connect
 		(at 81.28 80.645)
 		(uuid "208e5a81-511f-4689-b454-1a43fc104c1e")
@@ -11059,16 +11195,6 @@
 			(type default)
 		)
 		(uuid "0050e3f1-80d4-4180-bf7a-978795f9340b")
-	)
-	(wire
-		(pts
-			(xy 255.27 147.32) (xy 252.73 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "017d468c-c522-48f0-a9f6-88b549aa372e")
 	)
 	(wire
 		(pts
@@ -11682,16 +11808,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 147.32) (xy 252.73 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1eb851-0cd1-4adc-8db9-f995de62de9b")
-	)
-	(wire
-		(pts
 			(xy 201.93 99.06) (xy 201.93 100.33)
 		)
 		(stroke
@@ -11729,16 +11845,6 @@
 			(type default)
 		)
 		(uuid "4153bc07-38eb-4e08-a5e0-86e86a5ff837")
-	)
-	(wire
-		(pts
-			(xy 245.11 148.59) (xy 252.73 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d9c3f1-931c-4950-bbd4-923455cd1be2")
 	)
 	(wire
 		(pts
@@ -12522,13 +12628,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 148.59) (xy 252.73 149.86)
+			(xy 267.97 149.86) (xy 276.86 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8562c682-b537-4833-a437-bdc558885c16")
+		(uuid "85e68a15-13da-441a-bf4d-4f2d7aa75f4d")
 	)
 	(wire
 		(pts
@@ -12842,16 +12948,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 149.86) (xy 276.86 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d98a13e-8428-4a6c-9c2b-7f9d5ae10664")
-	)
-	(wire
-		(pts
 			(xy 216.154 152.908) (xy 222.504 152.908)
 		)
 		(stroke
@@ -12859,6 +12955,16 @@
 			(type default)
 		)
 		(uuid "9df14838-21a3-47b0-94d7-12ff9d6ac43c")
+	)
+	(wire
+		(pts
+			(xy 245.11 149.86) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f07d66f-fd64-4450-b5db-2006c942905a")
 	)
 	(wire
 		(pts
@@ -13292,7 +13398,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 168.91 115.57)
+			(xy 157.48 115.57) (xy 160.655 115.57)
 		)
 		(stroke
 			(width 0)
@@ -13359,16 +13465,6 @@
 			(type default)
 		)
 		(uuid "d8151bfb-f1be-4396-9938-1077ced33597")
-	)
-	(wire
-		(pts
-			(xy 252.73 149.86) (xy 255.27 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cd58ba-3cf1-47f3-98c1-a11407bd9f65")
 	)
 	(wire
 		(pts
@@ -13442,6 +13538,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.735 115.57) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd955d44-6f0d-475c-bda7-ca51fec98011")
+	)
+	(wire
+		(pts
 			(xy 79.375 53.34) (xy 85.725 53.34)
 		)
 		(stroke
@@ -13499,6 +13605,16 @@
 			(type default)
 		)
 		(uuid "e240be2d-944d-4e37-9ef1-94847baaca96")
+	)
+	(wire
+		(pts
+			(xy 242.57 147.32) (xy 255.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32caa24-71ef-461f-828a-93c6e120e4c0")
 	)
 	(wire
 		(pts
@@ -13791,7 +13907,7 @@
 		(uuid "08ff1433-b0f0-41e1-b887-fdce44f7d585")
 	)
 	(label "SG2A"
-		(at 275.082 149.86 180)
+		(at 251.46 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14011,7 +14127,7 @@
 		(uuid "6e214e73-5a9f-4b26-8379-1616be6e0309")
 	)
 	(label "SGCOM"
-		(at 245.11 148.59 0)
+		(at 245.11 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14209,6 +14325,16 @@
 			(justify left bottom)
 		)
 		(uuid "e51567d7-62a8-46b3-90a9-417b698679a5")
+	)
+	(label "SGCOM"
+		(at 276.86 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e78d13a6-78ae-4fbd-a9fc-84af38b8f6b3")
 	)
 	(label "CP"
 		(at 162.56 90.17 0)
@@ -18477,6 +18603,86 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 163.195 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4872164c-e280-4a65-99a6-80fa3f55d359")
+		(property "Reference" "NT1"
+			(at 163.195 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 163.195 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 163.195 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.195 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 163.195 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33e102a8-e567-413b-abe9-c36a1a8f2870")
+		)
+		(pin "2"
+			(uuid "145030dd-b180-47e2-954f-8b8812f7dbac")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -23644,83 +23850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 276.86 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad7daf9e-33b4-4852-b3da-24a446cfc811")
-		(property "Reference" "#PWR017"
-			(at 276.86 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 276.86 153.162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 276.86 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b70931f-0631-4df8-aa42-911c584ff35f")
-		)
-		(instances
-			(project "SDM27_StrainGaugeAmp"
-				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 63.5 137.16 0)
@@ -26239,6 +26368,83 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 242.57 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0ab9991-11c3-4be1-8a9a-067d09821fa1")
+		(property "Reference" "#PWR025"
+			(at 242.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 242.57 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 242.57 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53f040c6-40fd-4b51-af0a-db636c023a88")
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
