@@ -2450,6 +2450,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -11388,6 +11487,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 74.93) (xy 247.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff4d45f-c306-4d1a-9451-632e6ff5dfbb")
+	)
+	(wire
+		(pts
 			(xy 48.26 182.88) (xy 58.42 182.88)
 		)
 		(stroke
@@ -11478,7 +11587,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 63.5) (xy 237.49 63.5)
+			(xy 259.08 63.5) (xy 237.49 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12068,16 +12177,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 66.04) (xy 247.65 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56daff76-e5be-4661-8d13-defb36972e5a")
-	)
-	(wire
-		(pts
 			(xy 196.85 99.06) (xy 196.85 100.33)
 		)
 		(stroke
@@ -12538,7 +12637,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 66.04) (xy 247.65 69.85)
+			(xy 246.38 66.04) (xy 246.38 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12658,7 +12757,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 63.5) (xy 257.81 69.85)
+			(xy 259.08 63.5) (xy 259.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12715,6 +12814,16 @@
 			(type default)
 		)
 		(uuid "8b2f0ac6-1a2c-40aa-be5b-0532f6b98a61")
+	)
+	(wire
+		(pts
+			(xy 259.08 74.93) (xy 257.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9c172c-2d7a-449e-98f4-5ea736ea69a2")
 	)
 	(wire
 		(pts
@@ -15480,6 +15589,82 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "150db67c-74df-4028-8517-da3b8a601de3")
+		(property "Reference" "MH1"
+			(at 270.51 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 267.97 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "MH1")
 					(unit 1)
 				)
 			)
@@ -25734,7 +25919,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 72.39 0)
+		(at 259.08 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25744,7 +25929,7 @@
 		(dnp no)
 		(uuid "d5e7ac95-0bbd-4c1f-9c43-ce746d816142")
 		(property "Reference" "C26"
-			(at 259.842 71.628 0)
+			(at 261.112 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25755,7 +25940,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 259.842 73.152 0)
+			(at 261.112 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25765,8 +25950,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 257.81 72.39 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25777,7 +25962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 72.39 0)
+			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25788,7 +25973,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 72.39 0)
+			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25975,6 +26160,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9918880-1f07-4340-9113-1832b99f1675")
+		(property "Reference" "MH2"
+			(at 270.51 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 267.97 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 34.29 149.352 0)
@@ -26054,7 +26315,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 247.65 72.39 0)
+		(at 246.38 72.39 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26065,7 +26326,7 @@
 		(dnp no)
 		(uuid "dab65cb9-8452-486a-8784-9d4a4529997a")
 		(property "Reference" "C17"
-			(at 245.618 71.628 0)
+			(at 244.348 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26076,7 +26337,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 245.618 73.152 0)
+			(at 244.348 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26086,8 +26347,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 247.65 72.39 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26098,7 +26359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 72.39 0)
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26109,7 +26370,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 247.65 72.39 0)
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26603,6 +26864,82 @@
 			(project "SDM27_StrainGaugeAmp"
 				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f16821-fe57-4c16-b165-1643677fbc5a")
+		(property "Reference" "MH3"
+			(at 270.51 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SDM27_StrainGaugeAmp"
+				(path "/cc0a25e2-f962-4a3b-8bf2-fd93b256b93d"
+					(reference "MH3")
 					(unit 1)
 				)
 			)
