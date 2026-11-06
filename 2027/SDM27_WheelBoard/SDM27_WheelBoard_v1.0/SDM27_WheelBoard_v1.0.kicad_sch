@@ -922,6 +922,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -1385,275 +1484,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM_ESD:ESDCAN03-2BWY"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 19.05 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ESDCAN03-2BWY"
-				(at 19.05 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SDM_MiscFootprint:SOT65P210X110-3N"
-				(at 19.05 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.de/datasheet/2/389/esdcan02-2bwy-954689.pdf"
-				(at 19.05 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.1"
-				(at 19.05 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "511-ESDCAN03-2BWY"
-				(at 19.05 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN03-2BWY?qs=FqY30PPN9V2iiokjuqa22Q%3D%3D"
-				(at 19.05 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 19.05 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDCAN03-2BWY"
-				(at 19.05 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDCAN03-2BWY_0_0"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDCAN03-2BWY_0_1"
-				(polyline
-					(pts
-						(xy -6.35 1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -6.35 -1.27) (xy -6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDCAN03-2BWY_1_1"
-				(pin passive line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SDM_MISC:CONUFL001-SMD-T"
+		(symbol "SDM:CONUFL001-SMD-T"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1687,7 +1518,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SDM_MiscFootprint:CONUFL001SMDT"
+			(property "Footprint" "SDM:CONUFL001SMDT"
 				(at 24.13 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1920,6 +1751,274 @@
 					(at 2.54 0 90)
 					(length 2.54)
 					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SDM:ESDCAN03-2BWY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ESDCAN03-2BWY"
+				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM:SOT65P210X110-3N"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/389/esdcan02-2bwy-954689.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "511-ESDCAN03-2BWY"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN03-2BWY?qs=FqY30PPN9V2iiokjuqa22Q%3D%3D"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDCAN03-2BWY"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ESDCAN03-2BWY_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDCAN03-2BWY_0_1"
+				(polyline
+					(pts
+						(xy -6.35 1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -6.35 -1.27) (xy -6.35 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDCAN03-2BWY_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3178,7 +3277,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SDM_Misc:GCT_USB4730-GF-A_REVA"
+			(property "Footprint" "SDM:GCT_USB4730-GF-A_REVA"
 				(at 29.21 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4297,7 +4396,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4566,6 +4665,25 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -6.35 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7459,12 +7577,6 @@
 		(uuid "3f623ba6-aac0-452f-a31a-9871781d46e4")
 	)
 	(junction
-		(at 124.46 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47bdba48-f21f-4ab2-9d55-ab0697288b86")
-	)
-	(junction
 		(at 203.2 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7741,12 +7853,6 @@
 		(uuid "b1ecba5f-db92-4d50-88a5-936b25df0188")
 	)
 	(junction
-		(at 124.46 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4e1027b-1572-4063-b082-673fb3a01769")
-	)
-	(junction
 		(at 38.1 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7763,6 +7869,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcd68ad2-b921-4b7a-b573-b015e883e0b4")
+	)
+	(junction
+		(at 111.76 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befc9b3b-af33-4fba-b806-a3432d328cd9")
 	)
 	(junction
 		(at 198.12 90.17)
@@ -8288,6 +8400,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 158.75) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2833c759-46ce-4069-9d87-a7aefbbc09f6")
+	)
+	(wire
+		(pts
 			(xy 27.94 24.13) (xy 27.94 31.75)
 		)
 		(stroke
@@ -8695,6 +8817,16 @@
 			(type default)
 		)
 		(uuid "59beb6a8-d60e-4aab-b0e4-64abc446ece5")
+	)
+	(wire
+		(pts
+			(xy 109.22 158.75) (xy 109.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a11244c-dea0-41f1-936c-1edfd99c4cce")
 	)
 	(wire
 		(pts
@@ -9688,26 +9820,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 158.75) (xy 124.46 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6f53e1-12f6-40b2-85b0-9072cc10dbcc")
-	)
-	(wire
-		(pts
-			(xy 118.11 156.21) (xy 124.46 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce29723c-ac8f-4aa3-b9d6-24e273edb3a7")
-	)
-	(wire
-		(pts
 			(xy 27.94 76.2) (xy 27.94 83.82)
 		)
 		(stroke
@@ -9735,6 +9847,26 @@
 			(type default)
 		)
 		(uuid "d3c966b0-d7d8-45c1-bcd3-9b695f7b6071")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 124.46 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d424a1ae-b1dd-4f11-b0da-f4ca35de1673")
+	)
+	(wire
+		(pts
+			(xy 109.22 151.13) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46bb948-f80f-4357-8a61-79b975ac1891")
 	)
 	(wire
 		(pts
@@ -9785,6 +9917,16 @@
 			(type default)
 		)
 		(uuid "dc1ea1b2-c8fd-4571-8768-ad2eb6c11169")
+	)
+	(wire
+		(pts
+			(xy 111.76 151.13) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc58d29c-c755-4ccd-9188-068c8c88293b")
 	)
 	(wire
 		(pts
@@ -10406,6 +10548,9 @@
 		(pin "5"
 			(uuid "1a77de0c-bb89-41d9-a0f2-d47c1dfd50b6")
 		)
+		(pin "MP"
+			(uuid "32e7cd98-7eb7-4e62-b9c3-81d6cba12190")
+		)
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
@@ -11004,7 +11149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:SKTHBAE010"
+		(property "Footprint" "SDM:SKTHBAE010"
 			(at 82.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12004,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22eb583b-cadf-4bdf-804d-7580c9989483")
-		(property "Reference" "IC3"
+		(property "Reference" "U4"
 			(at 50.8 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12158,7 +12303,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12592,7 +12737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12874,6 +13019,82 @@
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f66a716-a62e-4e98-acb2-e014283a1d60")
+		(property "Reference" "H2"
+			(at 152.4 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 152.4 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole_2.2mm_M2"
+			(at 149.86 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13472,7 +13693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:SKTHBAE010"
+		(property "Footprint" "SDM:SKTHBAE010"
 			(at 72.72 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13906,6 +14127,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 114.3 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44584beb-7025-40a4-adde-9ea5dcd51c42")
+		(property "Reference" "R2"
+			(at 115.57 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 114.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd2259bc-15e8-4983-9970-c62ecbb9318a")
+		)
+		(pin "1"
+			(uuid "d3bd6b35-200e-4fc5-92aa-d9dc85464a04")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 22.86 123.19 0)
 		(mirror y)
@@ -14310,7 +14612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM_ESD:ESDCAN03-2BWY")
+		(lib_id "SDM:ESDCAN03-2BWY")
 		(at 93.98 40.64 270)
 		(mirror x)
 		(unit 1)
@@ -14961,7 +15263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 255.27 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16120,7 +16422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc46249-55cd-4b14-bee7-b3101a63d7e2")
-		(property "Reference" "IC8"
+		(property "Reference" "U5"
 			(at 117.7133 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16291,7 +16593,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16308,7 +16610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705e972f-5bfa-48f6-ad10-ee659c57ef3a")
-		(property "Reference" "IC2"
+		(property "Reference" "U2"
 			(at 52.324 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16328,7 +16630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:QFN65P400X400X100-17N-D"
+		(property "Footprint" "SDM:QFN65P400X400X100-17N-D"
 			(at 64.77 221.92 0)
 			(hide yes)
 			(show_name no)
@@ -16477,7 +16779,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC2")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16494,7 +16796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70a089c9-cbc9-4aed-8e50-e2797487851a")
-		(property "Reference" "IC4"
+		(property "Reference" "U6"
 			(at 109.22 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16514,7 +16816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:MLX90614ESFBAA000SP"
+		(property "Footprint" "SDM:MLX90614ESFBAA000SP"
 			(at 123.19 166.04 0)
 			(hide yes)
 			(show_name no)
@@ -16624,7 +16926,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -16712,7 +17014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM_MISC:CONUFL001-SMD-T")
+		(lib_id "SDM:CONUFL001-SMD-T")
 		(at 215.9 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -16745,7 +17047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SDM_Misc:CONUFL001SMDT"
+		(property "Footprint" "SDM:CONUFL001SMDT"
 			(at 240.03 242.24 0)
 			(hide yes)
 			(show_name no)
@@ -17089,6 +17391,82 @@
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72c5e77e-6011-44fe-90e2-f218f2dfce78")
+		(property "Reference" "H1"
+			(at 152.4 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 152.4 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole_2.2mm_M2"
+			(at 149.86 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17445,7 +17823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:SA12 7Pin"
+		(property "Footprint" "SDM:SA12 7Pin"
 			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +18287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8599ad23-7a95-4433-b025-38d6db1eb502")
-		(property "Reference" "IC6"
+		(property "Reference" "U1"
 			(at 178.054 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17929,7 +18307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:QFN40P600X600X90-49N-D"
+		(property "Footprint" "SDM:QFN40P600X600X90-49N-D"
 			(at 199.644 105.664 0)
 			(hide yes)
 			(show_name no)
@@ -18174,7 +18552,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20739,6 +21117,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 109.22 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba71599c-0f27-478e-9b36-be304fb95ce2")
+		(property "Reference" "R1"
+			(at 110.49 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac782a3e-562f-46d1-9643-3a7bc2f7dfd1")
+		)
+		(pin "1"
+			(uuid "13f19f52-158b-4e49-99cb-c9e3deef0917")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 152.4 0)
 		(mirror y)
@@ -20910,7 +21369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2b6d72f-59d7-464e-b839-996143e72017")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 264.414 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21040,7 +21499,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -21138,7 +21597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c38d3148-76a7-42d8-8438-77153b1962bd")
-		(property "Reference" "IC1"
+		(property "Reference" "U3"
 			(at 50.8 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21158,7 +21617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:TPS2121RUXR"
+		(property "Footprint" "SDM:TPS2121RUXR"
 			(at 64.77 113.97 0)
 			(hide yes)
 			(show_name no)
@@ -21292,7 +21751,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "IC1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -22173,7 +22632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc95e55-c3b2-4656-b818-8810952548b8")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 256.54 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22193,7 +22652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_Misc:GCT_USB4730-GF-A_REVA"
+		(property "Footprint" "SDM:GCT_USB4730-GF-A_REVA"
 			(at 275.59 228.27 0)
 			(hide yes)
 			(show_name no)
@@ -22336,7 +22795,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -23984,6 +24443,84 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_2")
+		(lib_id "power:+3.3V")
+		(at 111.76 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee4c049f-f930-487a-b34b-15b2b72de24d")
+		(property "Reference" "#PWR080"
+			(at 111.76 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "391c3053-3606-4832-a448-5c88eedef5d3")
+		)
+		(instances
+			(project "SDM27_WheelBoard_v1.0"
+				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 166.37 55.88 0)
 		(unit 1)
@@ -24480,7 +25017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2a1ea87-0064-4bb8-940c-12c0e7bb140d")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 155.194 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24559,7 +25096,7 @@
 		(instances
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -24875,88 +25412,6 @@
 			(project "SDM27_WheelBoard_v1.0"
 				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe26b887-44a0-408e-91da-ad37467ee9c4")
-		(property "Reference" "C22"
-			(at 129.54 77.978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 130.81 79.502 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9f633717-9eb8-42ea-8f49-5f60f5095fdf")
-		)
-		(pin "1"
-			(uuid "ecd5a73b-7d44-4671-9df5-6d61353029f2")
-		)
-		(instances
-			(project "SDM27_WheelBoard_v1.0"
-				(path "/46b3128a-9e57-4096-b62d-40a0bbe3d93f"
-					(reference "C22")
 					(unit 1)
 				)
 			)

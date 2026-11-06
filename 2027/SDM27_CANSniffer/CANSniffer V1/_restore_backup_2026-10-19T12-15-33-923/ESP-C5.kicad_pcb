@@ -122,7 +122,7 @@
 	(net 42 "unconnected-(IC1-GPIO9-Pad18)")
 	(net 43 "unconnected-(IC1-MTDO-Pad14)")
 	(net 44 "unconnected-(IC1-GPIO25-Pad35)")
-	(footprint "FLASH:SOIC127P794X203-8N"
+	(footprint "SDM:SOIC127P794X203-8N"
 		(layer "F.Cu")
 		(uuid "02479bab-dd03-4f25-83f5-66e1c2c9a480")
 		(at 146.8275 90.88)
@@ -3496,7 +3496,7 @@
 			)
 		)
 	)
-	(footprint "C5:QFN40P600X600X90-49N-D"
+	(footprint "SDM:QFN40P600X600X90-49N-D"
 		(layer "F.Cu")
 		(uuid "c2c3f8ea-5461-44b8-891f-fb35bb716af9")
 		(at 161.7925 80.58)
@@ -4172,7 +4172,7 @@
 			(uuid "a89832c4-60e1-48e5-ac4e-7ca14382ce40")
 		)
 		(embedded_fonts no)
-		(model "ESP32-C5HR8.stp"
+		(model "${SDM_MISC_3D}/ESP32-C5HR8.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4184,7 +4184,7 @@
 			)
 		)
 	)
-	(footprint "PSRAM:SOIC127P600X175-8N"
+	(footprint "SDM:SOIC127P600X175-8N"
 		(layer "F.Cu")
 		(uuid "c8d86de9-ef72-46aa-8894-e4f055c4d0f7")
 		(at 161.9175 73.18)
@@ -4965,7 +4965,7 @@
 			)
 		)
 	)
-	(footprint "OSC:CX3225FB48000F0FZZH1"
+	(footprint "SDM:CX3225FB48000F0FZZH1"
 		(layer "F.Cu")
 		(uuid "d78cb9cd-ea04-452a-8659-7e61506e0790")
 		(at 161.0175 87.705)
@@ -5257,7 +5257,7 @@
 			(uuid "fe343c4d-c1bb-4999-99ea-4a5f7271afe9")
 		)
 		(embedded_fonts no)
-		(model "CX3225FB48000F0FZZH1.stp"
+		(model "${SDM_MISC_3D}/CX3225FB48000F0FZZH1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
