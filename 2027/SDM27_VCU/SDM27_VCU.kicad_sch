@@ -6290,6 +6290,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -6653,18 +6768,6 @@
 		)
 		(uuid "d963f432-ee1f-42c8-b1c3-3d0575e5c176")
 	)
-	(rectangle
-		(start 316.23 22.86)
-		(end 328.93 34.29)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "ee2ec5e3-696a-4174-b328-af1f1fb41861")
-	)
 	(text "3V3 REG"
 		(exclude_from_sim no)
 		(at 105.918 68.58 0)
@@ -6696,16 +6799,6 @@
 			)
 		)
 		(uuid "23023811-f22f-4bdd-903f-58fc6468e3cf")
-	)
-	(text "TO PLACE:"
-		(exclude_from_sim no)
-		(at 322.58 24.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "33e2153d-5ed2-4537-9d28-8df371326cf1")
 	)
 	(text "SS Slew rate\n12V 88 V/s\n5V 	92 V/s"
 		(exclude_from_sim no)
@@ -7127,6 +7220,12 @@
 		(uuid "abf8bf8f-8be5-4870-b2ab-a0657d77446f")
 	)
 	(junction
+		(at 115.57 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c5ebfc-8029-41a9-92b0-b2aedd5a71a0")
+	)
+	(junction
 		(at 179.07 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7490,7 +7589,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 91.44) (xy 323.85 91.44)
+			(xy 314.96 91.44) (xy 335.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7807,6 +7906,16 @@
 			(type default)
 		)
 		(uuid "37baa84e-8c02-40ca-8597-acc81034cd48")
+	)
+	(wire
+		(pts
+			(xy 115.57 22.86) (xy 132.08 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381fd11d-c412-4e40-b9d1-1849c065e182")
 	)
 	(wire
 		(pts
@@ -8320,7 +8429,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 22.86) (xy 132.08 22.86)
+			(xy 107.95 22.86) (xy 115.57 22.86)
 		)
 		(stroke
 			(width 0)
@@ -9818,16 +9927,6 @@
 		)
 		(uuid "1d28feb9-5bf7-4327-b980-80261197d588")
 	)
-	(label "APPS2"
-		(at 347.98 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ddb4fd3-0e86-475a-9608-d4bfbd855952")
-	)
 	(label "PWR_LED"
 		(at 127 82.55 180)
 		(effects
@@ -9868,16 +9967,6 @@
 		)
 		(uuid "2e51ffd4-2fe3-4439-ab6b-040463f7dd0e")
 	)
-	(label "SPARE_AN6"
-		(at 369.57 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30c61ea8-d15a-494e-971c-8a2f37806967")
-	)
 	(label "CAN2_RX"
 		(at 341.63 88.9 0)
 		(effects
@@ -9907,16 +9996,6 @@
 			(justify left bottom)
 		)
 		(uuid "344576c1-f855-428d-8743-467a789eafbe")
-	)
-	(label "BPS1"
-		(at 323.85 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bcaf149-a2eb-42b2-9180-a17a69a457dc")
 	)
 	(label "+3V3_NUCLEO"
 		(at 318.77 71.12 0)
@@ -10018,16 +10097,6 @@
 		)
 		(uuid "599cc9e3-ab2a-4d35-acb4-befd96994c64")
 	)
-	(label "CAN_CTX"
-		(at 326.39 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61865ff3-ed2b-4fea-b067-3aee29b7ae31")
-	)
 	(label "CAN3_TX"
 		(at 294.64 73.66 0)
 		(effects
@@ -10108,7 +10177,7 @@
 		)
 		(uuid "78ade910-b4cd-48e8-96c9-59914b143499")
 	)
-	(label "CAN+IN"
+	(label "CAN1_H"
 		(at 97.79 157.48 0)
 		(effects
 			(font
@@ -10137,16 +10206,6 @@
 			(justify left bottom)
 		)
 		(uuid "8ac395a2-10b2-444f-9d1b-cbc1e557436f")
-	)
-	(label "E5V"
-		(at 318.77 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9464048a-6c3a-4af8-b0f4-cabbc030dfa6")
 	)
 	(label "PUMP_PWM"
 		(at 369.57 55.88 0)
@@ -10219,7 +10278,7 @@
 		(uuid "a2871b39-eb50-4387-8d6d-2de9cf733cf7")
 	)
 	(label "SENS_EN6"
-		(at 323.85 91.44 0)
+		(at 332.74 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10268,16 +10327,6 @@
 		)
 		(uuid "b1b9cd52-ec28-4d60-b58d-5a115c3936ec")
 	)
-	(label "CAN_RTX"
-		(at 326.39 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b219e323-9144-464f-9947-2c9aab92b3fe")
-	)
 	(label "SPI3_MISO"
 		(at 321.31 53.34 0)
 		(effects
@@ -10298,7 +10347,7 @@
 		)
 		(uuid "b6cd0013-7fe5-44eb-a4ea-d83621488716")
 	)
-	(label "CAN-IN"
+	(label "CAN1_L"
 		(at 97.79 154.94 0)
 		(effects
 			(font
@@ -10307,16 +10356,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb08f15f-23ad-4f05-8528-6e1a5bdf2c52")
-	)
-	(label "CAN_TERM"
-		(at 326.39 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf71353e-eeb7-4198-9e83-a635bd9dc841")
 	)
 	(label "CAN+OUT"
 		(at 134.62 167.64 180)
@@ -10358,16 +10397,6 @@
 		)
 		(uuid "ca180315-cdc5-467c-88d0-352709ffa720")
 	)
-	(label "APPS1"
-		(at 323.85 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb4792bd-d438-45d3-918b-7b7987bd7428")
-	)
 	(label "USB_D+"
 		(at 76.2 163.83 180)
 		(effects
@@ -10377,16 +10406,6 @@
 			(justify right bottom)
 		)
 		(uuid "d61c269c-402f-445f-990f-f59ed3aba291")
-	)
-	(label "BPS2_SPARE"
-		(at 369.57 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e07e8d9d-0b63-4830-bab2-5abfa070259d")
 	)
 	(label "CAN2_RX"
 		(at 251.46 41.91 180)
@@ -10457,6 +10476,150 @@
 			(justify left bottom)
 		)
 		(uuid "f9b6ae4f-ce48-42e1-96fd-e601f18c5f17")
+	)
+	(global_label "APPS2"
+		(shape input)
+		(at 347.98 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07dc7576-e446-4111-8c8d-99ea4cb16d11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 338.9472 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "E5V"
+		(shape input)
+		(at 318.7592 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09558a72-878b-4244-9e38-4869f169dc17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.1915 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BPS2_SPARE"
+		(shape input)
+		(at 369.57 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0be09d6a-6cac-4359-b056-e0337a53b91b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 384.4689 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "APPS1"
+		(shape input)
+		(at 323.85 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8178961b-1adb-480e-8d31-56d3099938bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.8828 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BPS1"
+		(shape input)
+		(at 323.85 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c44c5dbc-ebaa-4dca-b0b7-75e3a90a4a54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.7942 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPARE_AN6"
+		(shape input)
+		(at 369.57 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec2fcdeb-fdce-4d24-8c7f-1d2df713a49f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.1385 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11475,6 +11638,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ad52d5-09f6-43be-922f-1c9b8cbcfdd3")
+		(property "Reference" "#FLG02"
+			(at 133.985 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7697712f-e7eb-4d0c-868e-c6d5baf83f53")
+		)
+		(instances
+			(project "SDM27_VCU"
+				(path "/d441a572-91af-4340-8857-bf48db1d2fcc"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 62.23 153.67 0)
 		(unit 1)
@@ -11794,7 +12036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24298659-018f-4b61-be6d-672605b5c877")
-		(property "Reference" "C19"
+		(property "Reference" "C40"
 			(at 70.104 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11856,7 +12098,7 @@
 		(instances
 			(project "SDM27_VCU"
 				(path "/d441a572-91af-4340-8857-bf48db1d2fcc"
-					(reference "C19")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -16193,6 +16435,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65a8be6-c5cc-4d35-93a9-e3b0909db722")
+		(property "Reference" "#FLG01"
+			(at 115.57 20.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ff606d3-1b86-41b5-94d6-03868f83cecb")
+		)
+		(instances
+			(project "SDM27_VCU"
+				(path "/d441a572-91af-4340-8857-bf48db1d2fcc"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 181.61 0)
 		(unit 1)
@@ -18897,6 +19217,52 @@
 				(path "/d441a572-91af-4340-8857-bf48db1d2fcc"
 					(reference "#PWR046")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 124.46)
+		(size 123.19 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cd2662a3-622d-45f3-9b99-4c7bb4b56c70")
+		(property "Sheetname" "Analog Front-End"
+			(at 144.78 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_frontend.kicad_sch"
+			(at 144.78 197.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SDM27_VCU"
+				(path "/d441a572-91af-4340-8857-bf48db1d2fcc"
+					(page "2")
 				)
 			)
 		)
